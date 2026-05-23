@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+        <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+        <OutputType>WinExe</OutputType>
+        <ApplicationTitle>TarkovMapLocator</ApplicationTitle>
+        <AssemblyName>TarkovMapLocator</AssemblyName>
+
+        <!-- WinUI 3 -->
+        <UseWinUI>true</UseWinUI>
+        <EnableMsixTooling>true</EnableMsixTooling>
+        <WindowsPackageType>None</WindowsPackageType>
+        <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+
+        <!-- Project Options -->
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>TarkovMapLocator.App</RootNamespace>
+
+        <!-- App Options -->
+        <UseRidGraph>true</UseRidGraph>
+        <Platforms>x86;x64;ARM64</Platforms>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <PublishProfile>win-$(Platform).pubxml</PublishProfile>
+        <RuntimeIdentifiers Condition="$([MSBuild]::GetTargetFrameworkVersion('$(TargetFramework)')) &gt;= 8">win-x86;win-x64;win-arm64</RuntimeIdentifiers>
+        <RuntimeIdentifiers Condition="$([MSBuild]::GetTargetFrameworkVersion('$(TargetFramework)')) &lt; 8">win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="Assets\SplashScreen.scale-200.png" />
+        <Content Include="Assets\LockScreenLogo.scale-200.png" />
+        <Content Include="Assets\Square150x150Logo.scale-200.png" />
+        <Content Include="Assets\Square44x44Logo.scale-200.png" />
+        <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+        <Content Include="Assets\StoreLogo.png" />
+        <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="..\..\backend\python\launcher.py" Link="launcher.py" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="..\..\data\maps_detail.json" Link="maps_detail.json" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="..\..\data\maps_list.json" Link="maps_list.json" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="..\..\assets\maps\**\*" LinkBase="assets\maps" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="..\..\assets\map-icons\**\*" LinkBase="assets\map-icons" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="..\..\runtime\python\**\*" LinkBase="runtime\python" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260508005" />
+        <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.1839" />
+
+        <Manifest Include="$(ApplicationManifest)" />
+    </ItemGroup>
+
+    <!-- 
+        Defining the "Msix" ProjectCapability here allows the Single-project MSIX Packaging
+        Tools extension to be activated for this project even if the Windows App SDK Nuget
+        package has not yet been restored.
+    -->
+    <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
+        <ProjectCapability Include="Msix" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\TarkovMapLocator.Core\TarkovMapLocator.Core.csproj" />
+    </ItemGroup>
+
+    <Target Name="RemoveUnusedBrowserRuntimeAssets" AfterTargets="Build;Publish">
+        <ItemGroup>
+            <UnusedBrowserRuntimeAsset Include="$(OutDir)Microsoft.Web.WebView2*.dll" />
+            <UnusedBrowserRuntimeAsset Include="$(OutDir)WebView2Loader.dll" />
+            <UnusedBrowserRuntimeAsset Include="$(PublishDir)Microsoft.Web.WebView2*.dll" Condition="'$(PublishDir)' != ''" />
+            <UnusedBrowserRuntimeAsset Include="$(PublishDir)WebView2Loader.dll" Condition="'$(PublishDir)' != ''" />
+        </ItemGroup>
+        <Delete Files="@(UnusedBrowserRuntimeAsset)" TreatErrorsAsWarnings="true" />
+    </Target>
+
+    <!-- 
+        Defining the "HasPackageAndPublishMenuAddedByProject" property here allows the Solution 
+        Explorer "Package and Publish" context menu entry to be enabled for this project even if 
+        the Windows App SDK Nuget package has not yet been restored.
+    -->
+    <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
+        <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
+    </PropertyGroup>
+</Project>

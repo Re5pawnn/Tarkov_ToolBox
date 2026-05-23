@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window
+    x:Class="TarkovMapLocator.App.Pip.NativeMapPipWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid
+        x:Name="Root"
+        Background="#050B10"
+        PointerPressed="OnRootPointerPressed"
+        PointerMoved="OnRootPointerMoved"
+        PointerReleased="OnRootPointerReleased"
+        PointerCanceled="OnRootPointerReleased"
+        PointerWheelChanged="OnRootPointerWheelChanged"
+        SizeChanged="OnRootSizeChanged">
+        <Grid
+            x:Name="MapSurface"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            RenderTransformOrigin="0,0">
+            <Grid.RenderTransform>
+                <CompositeTransform x:Name="MapTransform" />
+            </Grid.RenderTransform>
+            <Image
+                x:Name="MapImage"
+                Stretch="Fill" />
+            <Canvas x:Name="MarkerLayer" />
+        </Grid>
+        <Border
+            x:Name="DragBar"
+            Width="76"
+            Height="18"
+            Margin="0,8,10,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Background="#8A0E1F2D"
+            CornerRadius="9"
+            PointerPressed="OnDragBarPointerPressed"
+            PointerMoved="OnDragBarPointerMoved"
+            PointerReleased="OnDragBarPointerReleased"
+            PointerCanceled="OnDragBarPointerReleased">
+            <Border
+                Width="42"
+                Height="4"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="#8FB7C9D8"
+                CornerRadius="2" />
+        </Border>
+    </Grid>
+</Window>

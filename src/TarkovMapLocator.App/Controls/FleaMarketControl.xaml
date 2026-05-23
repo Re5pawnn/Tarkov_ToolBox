@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UserControl
+    x:Class="TarkovMapLocator.App.Controls.FleaMarketControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    RequestedTheme="Dark"
+    Loaded="OnLoaded"
+    SizeChanged="OnSizeChanged"
+    Unloaded="OnUnloaded">
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="MarketTextBrush" Color="#D6E3ED" />
+        <SolidColorBrush x:Key="MarketMutedBrush" Color="#94ACBA" />
+        <SolidColorBrush x:Key="MarketLineBrush" Color="#2B4A5D" />
+        <SolidColorBrush x:Key="MarketAccentBrush" Color="#7DFF73" />
+        <SolidColorBrush x:Key="MarketAccent2Brush" Color="#2AD9FF" />
+        <SolidColorBrush x:Key="MarketWarnBrush" Color="#FFD166" />
+        <SolidColorBrush x:Key="MarketDangerBrush" Color="#FF6B6B" />
+        <SolidColorBrush x:Key="MarketCardBrush" Color="#C208121B" />
+        <SolidColorBrush x:Key="MarketCardLineBrush" Color="#E634505F" />
+        <SolidColorBrush x:Key="MarketChipBrush" Color="#B8102838" />
+        <SolidColorBrush x:Key="MarketChipLineBrush" Color="#C6466A7E" />
+        <SolidColorBrush x:Key="MarketInputBrush" Color="#102838" />
+        <SolidColorBrush x:Key="MarketPriceBrush" Color="#C70B1822" />
+
+        <DataTemplate x:Key="WideMarketItemTemplate">
+            <Border
+                Padding="10"
+                Background="{StaticResource MarketCardBrush}"
+                BorderBrush="{StaticResource MarketCardLineBrush}"
+                BorderThickness="1"
+                CornerRadius="10">
+                <Grid
+                    ColumnSpacing="12"
+                    RowSpacing="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="64" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition MinWidth="420" Width="0.9*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Border
+                        Grid.Column="0"
+                        Width="64"
+                        Height="64"
+                        Background="#D1040A0F"
+                        BorderBrush="#C3436274"
+                        BorderThickness="1"
+                        CornerRadius="8">
+                        <Image
+                            Margin="3"
+                            Source="{Binding IconSource}"
+                            Stretch="Uniform" />
+                    </Border>
+
+                    <Grid
+                        Grid.Column="1"
+                        MinWidth="0"
+                        RowSpacing="5"
+                        VerticalAlignment="Center">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock
+                            Grid.Row="0"
+                            FontSize="16"
+                            FontWeight="Bold"
+                            Foreground="#F2F8FC"
+                            LineHeight="20"
+                            Text="{Binding DisplayName}"
+                            TextTrimming="CharacterEllipsis"
+                            TextWrapping="NoWrap" />
+                        <TextBlock
+                            Grid.Row="1"
+                            FontSize="13"
+                            Foreground="{StaticResource MarketMutedBrush}"
+                            Text="{Binding Subtitle}"
+                            TextWrapping="WrapWholeWords" />
+                        <StackPanel
+                            Grid.Row="2"
+                            Orientation="Horizontal"
+                            Spacing="6">
+                            <Border
+                                Padding="7,3"
+                                Background="{StaticResource MarketChipBrush}"
+                                BorderBrush="{StaticResource MarketChipLineBrush}"
+                                BorderThickness="1"
+                                CornerRadius="999">
+                                <TextBlock
+                                    FontSize="12"
+                                    Foreground="#BCD0DC"
+                                    Text="{Binding TypeText}" />
+                            </Border>
+                            <Border
+                                Padding="7,3"
+                                Background="{StaticResource MarketChipBrush}"
+                                BorderBrush="{StaticResource MarketChipLineBrush}"
+                                BorderThickness="1"
+                                CornerRadius="999">
+                                <TextBlock
+                                    FontSize="12"
+                                    Foreground="#BCD0DC"
+                                    Text="{Binding SizeText}" />
+                            </Border>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid
+                        Grid.Column="2"
+                        ColumnSpacing="8"
+                        VerticalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Border
+                            Grid.Column="0"
+                            Padding="8"
+                            Background="{StaticResource MarketPriceBrush}"
+                            BorderBrush="#D23A596A"
+                            BorderThickness="1"
+                            CornerRadius="8">
+                            <StackPanel>
+                                <TextBlock FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="跳蚤" />
+                                <TextBlock FontSize="14" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding FleaPriceText}" TextWrapping="WrapWholeWords" />
+                            </StackPanel>
+                        </Border>
+                        <Border
+                            Grid.Column="1"
+                            Padding="8"
+                            Background="{StaticResource MarketPriceBrush}"
+                            BorderBrush="#D23A596A"
+                            BorderThickness="1"
+                            CornerRadius="8">
+                            <StackPanel>
+                                <TextBlock FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="24h均价" />
+                                <TextBlock FontSize="14" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding Avg24hPriceText}" TextWrapping="WrapWholeWords" />
+                            </StackPanel>
+                        </Border>
+                        <Border
+                            Grid.Column="2"
+                            Padding="8"
+                            Background="{StaticResource MarketPriceBrush}"
+                            BorderBrush="#D23A596A"
+                            BorderThickness="1"
+                            CornerRadius="8">
+                            <StackPanel>
+                                <TextBlock FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="最低/最高" />
+                                <TextBlock FontSize="14" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding LowHighPriceText}" TextWrapping="WrapWholeWords" />
+                            </StackPanel>
+                        </Border>
+                        <Border
+                            Grid.Column="3"
+                            Padding="8"
+                            Background="{StaticResource MarketPriceBrush}"
+                            BorderBrush="#D23A596A"
+                            BorderThickness="1"
+                            CornerRadius="8">
+                            <StackPanel>
+                                <TextBlock FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="商人最高回收价" TextWrapping="WrapWholeWords" />
+                                <TextBlock FontSize="14" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding BestTraderText}" TextWrapping="WrapWholeWords" />
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Key="MediumMarketItemTemplate">
+            <Border
+                Padding="10"
+                Background="{StaticResource MarketCardBrush}"
+                BorderBrush="{StaticResource MarketCardLineBrush}"
+                BorderThickness="1"
+                CornerRadius="10">
+                <Grid
+                    ColumnSpacing="12"
+                    RowSpacing="8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="58" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Border
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Width="58"
+                        Height="58"
+                        Background="#D1040A0F"
+                        BorderBrush="#C3436274"
+                        BorderThickness="1"
+                        CornerRadius="8">
+                        <Image Margin="3" Source="{Binding IconSource}" Stretch="Uniform" />
+                    </Border>
+                    <Grid
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        RowSpacing="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" FontSize="16" FontWeight="Bold" Foreground="#F2F8FC" Text="{Binding DisplayName}" TextWrapping="WrapWholeWords" />
+                        <TextBlock Grid.Row="1" FontSize="13" Foreground="{StaticResource MarketMutedBrush}" Text="{Binding Subtitle}" TextWrapping="WrapWholeWords" />
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="6">
+                            <Border Padding="7,3" Background="{StaticResource MarketChipBrush}" BorderBrush="{StaticResource MarketChipLineBrush}" BorderThickness="1" CornerRadius="999">
+                                <TextBlock FontSize="12" Foreground="#BCD0DC" Text="{Binding TypeText}" />
+                            </Border>
+                            <Border Padding="7,3" Background="{StaticResource MarketChipBrush}" BorderBrush="{StaticResource MarketChipLineBrush}" BorderThickness="1" CornerRadius="999">
+                                <TextBlock FontSize="12" Foreground="#BCD0DC" Text="{Binding SizeText}" />
+                            </Border>
+                        </StackPanel>
+                    </Grid>
+                    <Grid
+                        Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        ColumnSpacing="8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Padding="8" Background="{StaticResource MarketPriceBrush}" BorderBrush="#D23A596A" BorderThickness="1" CornerRadius="8">
+                            <StackPanel><TextBlock FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="跳蚤" /><TextBlock FontSize="14" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding FleaPriceText}" TextWrapping="WrapWholeWords" /></StackPanel>
+                        </Border>
+                        <Border Grid.Column="1" Padding="8" Background="{StaticResource MarketPriceBrush}" BorderBrush="#D23A596A" BorderThickness="1" CornerRadius="8">
+                            <StackPanel><TextBlock FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="24h均价" /><TextBlock FontSize="14" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding Avg24hPriceText}" TextWrapping="WrapWholeWords" /></StackPanel>
+                        </Border>
+                        <Border Grid.Column="2" Padding="8" Background="{StaticResource MarketPriceBrush}" BorderBrush="#D23A596A" BorderThickness="1" CornerRadius="8">
+                            <StackPanel><TextBlock FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="最低/最高" /><TextBlock FontSize="14" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding LowHighPriceText}" TextWrapping="WrapWholeWords" /></StackPanel>
+                        </Border>
+                        <Border Grid.Column="3" Padding="8" Background="{StaticResource MarketPriceBrush}" BorderBrush="#D23A596A" BorderThickness="1" CornerRadius="8">
+                            <StackPanel><TextBlock FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="商人最高回收价" TextWrapping="WrapWholeWords" /><TextBlock FontSize="14" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding BestTraderText}" TextWrapping="WrapWholeWords" /></StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Key="CompactMarketItemTemplate">
+            <Border
+                Padding="9"
+                Background="{StaticResource MarketCardBrush}"
+                BorderBrush="{StaticResource MarketCardLineBrush}"
+                BorderThickness="1"
+                CornerRadius="10">
+                <Grid
+                    ColumnSpacing="9"
+                    RowSpacing="8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="52" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Row="0" Grid.Column="0" Width="52" Height="52" Background="#D1040A0F" BorderBrush="#C3436274" BorderThickness="1" CornerRadius="8">
+                        <Image Margin="3" Source="{Binding IconSource}" Stretch="Uniform" />
+                    </Border>
+                    <Grid Grid.Row="0" Grid.Column="1" RowSpacing="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" FontSize="15" FontWeight="Bold" Foreground="#F2F8FC" Text="{Binding DisplayName}" TextWrapping="WrapWholeWords" />
+                        <TextBlock Grid.Row="1" FontSize="12" Foreground="{StaticResource MarketMutedBrush}" Text="{Binding Subtitle}" TextWrapping="WrapWholeWords" />
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="6">
+                            <Border Padding="7,3" Background="{StaticResource MarketChipBrush}" BorderBrush="{StaticResource MarketChipLineBrush}" BorderThickness="1" CornerRadius="999">
+                                <TextBlock FontSize="11" Foreground="#BCD0DC" Text="{Binding TypeText}" />
+                            </Border>
+                            <Border Padding="7,3" Background="{StaticResource MarketChipBrush}" BorderBrush="{StaticResource MarketChipLineBrush}" BorderThickness="1" CornerRadius="999">
+                                <TextBlock FontSize="11" Foreground="#BCD0DC" Text="{Binding SizeText}" />
+                            </Border>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.ColumnSpan="2" ColumnSpacing="7" RowSpacing="7">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Row="0" Grid.Column="0" Padding="7" Background="{StaticResource MarketPriceBrush}" BorderBrush="#D23A596A" BorderThickness="1" CornerRadius="8">
+                            <StackPanel><TextBlock FontSize="11" Foreground="{StaticResource MarketMutedBrush}" Text="跳蚤" /><TextBlock FontSize="13" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding FleaPriceText}" TextWrapping="WrapWholeWords" /></StackPanel>
+                        </Border>
+                        <Border Grid.Row="0" Grid.Column="1" Padding="7" Background="{StaticResource MarketPriceBrush}" BorderBrush="#D23A596A" BorderThickness="1" CornerRadius="8">
+                            <StackPanel><TextBlock FontSize="11" Foreground="{StaticResource MarketMutedBrush}" Text="24h均价" /><TextBlock FontSize="13" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding Avg24hPriceText}" TextWrapping="WrapWholeWords" /></StackPanel>
+                        </Border>
+                        <Border Grid.Row="1" Grid.Column="0" Padding="7" Background="{StaticResource MarketPriceBrush}" BorderBrush="#D23A596A" BorderThickness="1" CornerRadius="8">
+                            <StackPanel><TextBlock FontSize="11" Foreground="{StaticResource MarketMutedBrush}" Text="最低/最高" /><TextBlock FontSize="13" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding LowHighPriceText}" TextWrapping="WrapWholeWords" /></StackPanel>
+                        </Border>
+                        <Border Grid.Row="1" Grid.Column="1" Padding="7" Background="{StaticResource MarketPriceBrush}" BorderBrush="#D23A596A" BorderThickness="1" CornerRadius="8">
+                            <StackPanel><TextBlock FontSize="11" Foreground="{StaticResource MarketMutedBrush}" Text="商人最高回收价" TextWrapping="WrapWholeWords" /><TextBlock FontSize="13" FontWeight="Bold" Foreground="#F4FBFF" Text="{Binding BestTraderText}" TextWrapping="WrapWholeWords" /></StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Border>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <ScrollViewer
+        x:Name="RootScrollViewer"
+        Background="#071018"
+        HorizontalScrollBarVisibility="Disabled"
+        HorizontalScrollMode="Disabled"
+        VerticalScrollBarVisibility="Auto"
+        VerticalScrollMode="Auto">
+        <Grid
+            x:Name="AppRoot"
+            Padding="12,12,12,14"
+            HorizontalAlignment="Left">
+            <Border
+                x:Name="MarketPanel"
+                Padding="12"
+                BorderBrush="{StaticResource MarketLineBrush}"
+                BorderThickness="1"
+                CornerRadius="12">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#EB172632" Offset="0" />
+                        <GradientStop Color="#F20F1C25" Offset="1" />
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <Grid RowSpacing="12">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid
+                        x:Name="MarketToolbar"
+                        Grid.Row="0"
+                        ColumnSpacing="10"
+                        RowSpacing="8">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel
+                            x:Name="SearchField"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Spacing="6">
+                            <TextBlock
+                                FontSize="13"
+                                Foreground="{StaticResource MarketMutedBrush}"
+                                Text="物品搜索" />
+                            <TextBox
+                                x:Name="SearchBox"
+                                MinWidth="260"
+                                Padding="10,8"
+                                AutomationProperties.Name="物品搜索"
+                                Background="{StaticResource MarketInputBrush}"
+                                BorderBrush="{StaticResource MarketLineBrush}"
+                                BorderThickness="1"
+                                CornerRadius="8"
+                                FontSize="15"
+                                Foreground="{StaticResource MarketTextBrush}"
+                                PlaceholderText="输入中文、英文、简称或物品ID"
+                                TextChanged="OnSearchTextChanged" />
+                        </StackPanel>
+
+                        <Border
+                            x:Name="ModeToggle"
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Padding="4"
+                            VerticalAlignment="Bottom"
+                            Background="#B808121A"
+                            BorderBrush="#E6334F5E"
+                            BorderThickness="1"
+                            CornerRadius="10">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Button
+                                    x:Name="PvpButton"
+                                    Grid.Column="0"
+                                    MinWidth="64"
+                                    Padding="12,8"
+                                    AutomationProperties.Name="PVP 价格模式"
+                                    BorderThickness="1"
+                                    Click="OnPvpClicked"
+                                    Content="PVP"
+                                    FontWeight="Bold" />
+                                <Button
+                                    x:Name="PveButton"
+                                    Grid.Column="1"
+                                    MinWidth="64"
+                                    Padding="12,8"
+                                    AutomationProperties.Name="PVE 价格模式"
+                                    BorderThickness="1"
+                                    Click="OnPveClicked"
+                                    Content="PVE"
+                                    FontWeight="Bold" />
+                            </Grid>
+                        </Border>
+
+                        <Button
+                            x:Name="RefreshButton"
+                            Grid.Row="0"
+                            Grid.Column="2"
+                            MinWidth="96"
+                            Padding="13,8"
+                            VerticalAlignment="Bottom"
+                            AutomationProperties.Name="刷新价格"
+                            Background="#1D4A33"
+                            BorderBrush="#5F856F"
+                            BorderThickness="1"
+                            Click="OnRefreshClicked"
+                            Content="刷新价格"
+                            Foreground="{StaticResource MarketTextBrush}" />
+                    </Grid>
+
+                    <StackPanel
+                        Grid.Row="1"
+                        Orientation="Horizontal"
+                        Spacing="12">
+                        <TextBlock
+                            x:Name="StatusText"
+                            FontFamily="Cascadia Mono, Consolas"
+                            Foreground="{StaticResource MarketMutedBrush}"
+                            Text="市场状态: 未加载" />
+                        <TextBlock
+                            x:Name="CountText"
+                            FontFamily="Cascadia Mono, Consolas"
+                            Foreground="{StaticResource MarketMutedBrush}"
+                            Text="0 个结果" />
+                    </StackPanel>
+
+                    <Grid Grid.Row="2">
+                        <Border
+                            x:Name="EmptyView"
+                            MinHeight="120"
+                            Background="#7008121A"
+                            BorderBrush="#D04C6F82"
+                            BorderThickness="1"
+                            CornerRadius="10">
+                            <TextBlock
+                                x:Name="EmptyText"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Foreground="{StaticResource MarketMutedBrush}"
+                                Text="输入物品名称开始查询。"
+                                TextAlignment="Center"
+                                TextWrapping="WrapWholeWords" />
+                        </Border>
+
+                        <ItemsRepeater
+                            x:Name="MarketResultsRepeater"
+                            ItemsSource="{x:Bind Items, Mode=OneWay}"
+                            Visibility="Collapsed">
+                            <ItemsRepeater.Layout>
+                                <StackLayout Spacing="8" />
+                            </ItemsRepeater.Layout>
+                        </ItemsRepeater>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

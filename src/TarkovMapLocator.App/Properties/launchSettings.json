@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TarkovMapLocator.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "TarkovMapLocator.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
