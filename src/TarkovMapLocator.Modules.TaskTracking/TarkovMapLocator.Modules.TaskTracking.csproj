@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>TarkovMapLocator.Modules.TaskTracking</AssemblyName>
+    <RootNamespace>TarkovMapLocator.Modules.TaskTracking</RootNamespace>
+    <Version>1.0.0</Version>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Release'">false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TarkovMapLocator.ModuleContracts\TarkovMapLocator.ModuleContracts.csproj" />
+    <None Include="module.json" />
+    <InternalsVisibleTo Include="TarkovMapLocatorDesktop.RegressionTests" />
+  </ItemGroup>
+  <Target Name="CopyTaskTrackingDataAfterBuild" AfterTargets="Build">
+    <ItemGroup>
+      <TaskTrackingDataFiles Include="$(MSBuildProjectDirectory)\task-data\**\*" />
+    </ItemGroup>
+    <RemoveDir Directories="$(TargetDir)task-data" />
+    <MakeDir Directories="$(TargetDir)task-data" />
+    <Copy SourceFiles="@(TaskTrackingDataFiles)"
+          DestinationFiles="@(TaskTrackingDataFiles->'$(TargetDir)task-data\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+  </Target>
+  <Target Name="CopyTaskTrackingDataAfterPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <TaskTrackingPublishDataFiles Include="$(MSBuildProjectDirectory)\task-data\**\*" />
+    </ItemGroup>
+    <RemoveDir Directories="$(PublishDir)task-data" />
+    <MakeDir Directories="$(PublishDir)task-data" />
+    <Copy SourceFiles="@(TaskTrackingPublishDataFiles)"
+          DestinationFiles="@(TaskTrackingPublishDataFiles->'$(PublishDir)task-data\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+  </Target>
+</Project>

@@ -1,0 +1,10 @@
+卫星地图资源说明
+
+本目录中的 8 张卫星底图和 30 个卫星楼层由 Tarkov Helper 地图页公开使用的瓦片资源离线拼接生成，
+并按该网页的 CRS.Simple transform、coordinateRotation、bounds 与 zoom 规则投影。
+
+参考页面：https://www.tarkov-helper.cn/maps
+瓦片来源：https://assets.tarkov.dev/maps
+
+本项目不依赖或嵌入 Tarkov Helper 网页运行时代码；地图图片仅供本地地图定位显示。
+实验室沿用工具原有底图与楼层逻辑，不在本目录的卫星地图模式覆盖范围内。

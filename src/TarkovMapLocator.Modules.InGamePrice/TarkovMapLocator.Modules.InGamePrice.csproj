@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseSystemDrawing>true</UseSystemDrawing>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>TarkovMapLocator.Modules.InGamePrice</AssemblyName>
+    <RootNamespace>TarkovMapLocator.Modules.InGamePrice</RootNamespace>
+    <Version>1.0.0</Version>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Release'">false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TarkovMapLocator.ModuleContracts\TarkovMapLocator.ModuleContracts.csproj" />
+    <Reference Include="OpenCvSharp"><HintPath>vendor\OpenCvSharp.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="System.Drawing.Common"><HintPath>vendor\System.Drawing.Common.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="Microsoft.ML.OnnxRuntime"><HintPath>vendor\Microsoft.ML.OnnxRuntime.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="System.Numerics.Tensors"><HintPath>vendor\System.Numerics.Tensors.dll</HintPath><Private>true</Private></Reference>
+    <InGamePriceNative Include="vendor\onnxruntime.dll;vendor\onnxruntime_providers_shared.dll;vendor\OpenCvSharpExtern.dll;vendor\opencv_videoio_ffmpeg4130_64.dll" />
+    <InGamePriceModel Include="assets\in-game-price\ppocr\**\*" />
+    <None Include="module.json" />
+    <InternalsVisibleTo Include="TarkovMapLocatorDesktop.RegressionTests" />
+  </ItemGroup>
+  <Target Name="CopyInGamePriceRuntimeAssets" AfterTargets="Build">
+    <Copy SourceFiles="@(InGamePriceNative)" DestinationFolder="$(TargetDir)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(InGamePriceModel)"
+          DestinationFiles="@(InGamePriceModel->'$(TargetDir)assets\in-game-price\ppocr\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+  </Target>
+</Project>

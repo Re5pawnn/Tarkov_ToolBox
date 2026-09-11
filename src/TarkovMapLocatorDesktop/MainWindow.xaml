@@ -1,0 +1,510 @@
+<Window x:Class="TarkovMapLocatorDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:models="clr-namespace:TarkovMapLocatorDesktop.Models"
+        xmlns:primitives="clr-namespace:System.Windows.Controls.Primitives;assembly=PresentationFramework"
+        Title="塔科夫工具箱"
+        Icon="assets/branding/app-icon.ico"
+        Width="1440" Height="800" MinWidth="760" MinHeight="620"
+        WindowStartupLocation="Manual" Background="{StaticResource CanvasBrush}"
+        FontFamily="Microsoft YaHei UI" Foreground="{StaticResource TextBrush}"
+        UseLayoutRounding="True" SnapsToDevicePixels="True"
+        TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType">
+  <Window.Resources>
+    <Style x:Key="PageTitle" TargetType="TextBlock">
+      <Setter Property="FontSize" Value="28" />
+      <Setter Property="FontWeight" Value="Bold" />
+      <Setter Property="Margin" Value="0,3,0,0" />
+      <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+    </Style>
+
+    <Style x:Key="PageToolbarButton" TargetType="Button" BasedOn="{StaticResource TacticalButton}">
+      <Setter Property="Height" Value="36" />
+      <Setter Property="MinWidth" Value="54" />
+      <Setter Property="Padding" Value="12,0" />
+      <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="MapUtilityButton" TargetType="Button" BasedOn="{StaticResource TacticalButton}">
+      <Setter Property="Height" Value="34" />
+      <Setter Property="Padding" Value="10,0" />
+      <Setter Property="Background" Value="{StaticResource RaisedBrush}" />
+      <Setter Property="BorderBrush" Value="{StaticResource LineBrightBrush}" />
+      <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="PageFilterButton" TargetType="Button" BasedOn="{StaticResource TacticalButton}">
+      <Setter Property="Height" Value="32" />
+      <Setter Property="MinWidth" Value="62" />
+      <Setter Property="Padding" Value="11,0" />
+      <Setter Property="FontSize" Value="11" />
+      <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="PageActionButton" TargetType="Button" BasedOn="{StaticResource TacticalButton}">
+      <Setter Property="Height" Value="34" />
+      <Setter Property="MinWidth" Value="76" />
+      <Setter Property="Padding" Value="12,0" />
+      <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="WorkbenchPaneSplitter" TargetType="{x:Type primitives:Thumb}">
+      <Setter Property="Width" Value="8" />
+      <Setter Property="HorizontalAlignment" Value="Center" />
+      <Setter Property="VerticalAlignment" Value="Stretch" />
+      <Setter Property="Cursor" Value="SizeWE" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type primitives:Thumb}">
+            <Border x:Name="SplitterHost" Background="Transparent" Padding="3,0">
+              <Border x:Name="SplitterGrip" Width="2" CornerRadius="1" Background="{StaticResource LineBrush}" Opacity=".72" />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="SplitterGrip" Property="Background" Value="{StaticResource AmberBrush}" /><Setter TargetName="SplitterGrip" Property="Opacity" Value="1" /></Trigger>
+              <Trigger Property="IsDragging" Value="True"><Setter TargetName="SplitterGrip" Property="Background" Value="{StaticResource GreenBrush}" /><Setter TargetName="SplitterGrip" Property="Opacity" Value="1" /></Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+    <Style x:Key="WorkbenchRowSplitter" TargetType="{x:Type primitives:Thumb}">
+      <Setter Property="Height" Value="8" />
+      <Setter Property="HorizontalAlignment" Value="Stretch" />
+      <Setter Property="VerticalAlignment" Value="Center" />
+      <Setter Property="Cursor" Value="SizeNS" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type primitives:Thumb}">
+            <Border x:Name="SplitterHost" Background="Transparent" Padding="0,3">
+              <Border x:Name="SplitterGrip" Height="2" CornerRadius="1" Background="{StaticResource LineBrush}" Opacity=".72" />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="SplitterGrip" Property="Background" Value="{StaticResource AmberBrush}" /><Setter TargetName="SplitterGrip" Property="Opacity" Value="1" /></Trigger>
+              <Trigger Property="IsDragging" Value="True"><Setter TargetName="SplitterGrip" Property="Background" Value="{StaticResource GreenBrush}" /><Setter TargetName="SplitterGrip" Property="Opacity" Value="1" /></Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+    <Style x:Key="WeaponTreeExpanderToggle" TargetType="{x:Type ToggleButton}">
+      <Setter Property="Width" Value="24" />
+      <Setter Property="MinHeight" Value="24" />
+      <Setter Property="Padding" Value="0" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="BorderThickness" Value="0" />
+      <Setter Property="Focusable" Value="False" />
+      <Setter Property="HorizontalContentAlignment" Value="Center" />
+      <Setter Property="VerticalContentAlignment" Value="Center" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="{x:Type ToggleButton}">
+            <Border x:Name="ArrowHost" Width="22" Height="22" Background="Transparent" CornerRadius="4">
+              <Path x:Name="ArrowPath" Data="M 2,1 L 8,6 L 2,11" Width="10" Height="12" Stretch="Uniform" Stroke="#AFC6BC" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsChecked" Value="True"><Setter TargetName="ArrowPath" Property="Data" Value="M 1,2 L 6,8 L 11,2" /></Trigger>
+              <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="ArrowHost" Property="Background" Value="#1C2823" /><Setter TargetName="ArrowPath" Property="Stroke" Value="{StaticResource AmberBrush}" /></Trigger>
+              <Trigger Property="IsPressed" Value="True"><Setter TargetName="ArrowHost" Property="Background" Value="#26372F" /></Trigger>
+              <Trigger Property="IsEnabled" Value="False"><Setter TargetName="ArrowPath" Property="Opacity" Value=".4" /></Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+    <Style x:Key="FormTextBox" TargetType="TextBox">
+      <Setter Property="Height" Value="36" />
+      <Setter Property="Padding" Value="10,0" />
+      <Setter Property="Background" Value="{StaticResource RaisedBrush}" />
+      <Setter Property="BorderBrush" Value="{StaticResource LineBrightBrush}" />
+      <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+      <Setter Property="CaretBrush" Value="{StaticResource AmberBrush}" />
+      <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="FormComboBox" TargetType="ComboBox" BasedOn="{StaticResource DarkComboBox}">
+      <Setter Property="Height" Value="36" />
+      <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="CurveValueBox" TargetType="TextBox">
+      <Setter Property="Width" Value="56" />
+      <Setter Property="Height" Value="28" />
+      <Setter Property="HorizontalContentAlignment" Value="Center" />
+      <Setter Property="VerticalContentAlignment" Value="Center" />
+      <Setter Property="Padding" Value="4,0" />
+      <Setter Property="Background" Value="{StaticResource RaisedBrush}" />
+      <Setter Property="BorderBrush" Value="{StaticResource LineBrightBrush}" />
+      <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+      <Setter Property="CaretBrush" Value="{StaticResource AmberBrush}" />
+      <Setter Property="FontFamily" Value="Cascadia Mono" />
+      <Setter Property="FontSize" Value="10" />
+    </Style>
+
+    <Style x:Key="MapListItem" TargetType="ListBoxItem">
+      <Setter Property="Margin" Value="0,0,0,3" />
+      <Setter Property="Padding" Value="0" />
+      <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="BorderBrush" Value="Transparent" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="ListBoxItem">
+            <Border x:Name="ItemBorder" Padding="7" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" CornerRadius="8" RenderTransformOrigin=".5,.5">
+              <Border.RenderTransform>
+                <TranslateTransform x:Name="ItemSlide" X="0" />
+              </Border.RenderTransform>
+              <ContentPresenter />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsSelected" Value="True"><Setter TargetName="ItemBorder" Property="Background" Value="{StaticResource RaisedBrush}" /><Setter TargetName="ItemBorder" Property="BorderBrush" Value="{StaticResource LineBrightBrush}" /></Trigger>
+              <EventTrigger RoutedEvent="MouseEnter">
+                <BeginStoryboard>
+                  <Storyboard>
+                    <DoubleAnimation Storyboard.TargetName="ItemSlide" Storyboard.TargetProperty="X" To="3" Duration="0:0:0.16">
+                      <DoubleAnimation.EasingFunction><CubicEase EasingMode="EaseOut" /></DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                  </Storyboard>
+                </BeginStoryboard>
+              </EventTrigger>
+              <EventTrigger RoutedEvent="MouseLeave">
+                <BeginStoryboard>
+                  <Storyboard>
+                    <DoubleAnimation Storyboard.TargetName="ItemSlide" Storyboard.TargetProperty="X" To="0" Duration="0:0:0.18">
+                      <DoubleAnimation.EasingFunction><CubicEase EasingMode="EaseOut" /></DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                  </Storyboard>
+                </BeginStoryboard>
+              </EventTrigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+    <DataTemplate x:Key="MapTemplate" DataType="{x:Type models:MapDefinition}">
+      <Grid>
+        <Grid.ColumnDefinitions><ColumnDefinition Width="38" /><ColumnDefinition Width="*" /><ColumnDefinition Width="12" /></Grid.ColumnDefinitions>
+        <Border Width="38" Height="38" CornerRadius="6" ClipToBounds="True" Background="#1E2824">
+          <Image Source="{Binding ThumbnailSource}" Stretch="UniformToFill" Opacity=".82" />
+        </Border>
+        <StackPanel Grid.Column="1" Margin="10,0,4,0" VerticalAlignment="Center">
+          <TextBlock Text="{Binding Name}" Foreground="{StaticResource TextBrush}" FontSize="13" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+          <TextBlock Text="{Binding Subtitle}" Foreground="{StaticResource TextBrush}" Opacity=".82" FontSize="10" Margin="0,2,0,0" TextTrimming="CharacterEllipsis" />
+        </StackPanel>
+        <Ellipse Grid.Column="2" Width="6" Height="6" Fill="{StaticResource AmberBrush}" VerticalAlignment="Center" Opacity=".65" />
+      </Grid>
+    </DataTemplate>
+
+  </Window.Resources>
+
+  <Grid x:Name="RootLayout">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition x:Name="RailColumn" Width="72" />
+      <ColumnDefinition x:Name="LibraryColumn" Width="270" />
+      <ColumnDefinition x:Name="ContentColumn" Width="*" />
+      <ColumnDefinition x:Name="InspectorColumn" Width="310" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition x:Name="HeaderRow" Height="62" />
+      <RowDefinition x:Name="MainRow" Height="*" />
+    </Grid.RowDefinitions>
+
+    <Border x:Name="RailPane" Grid.RowSpan="2" Grid.Column="0" Background="#111615" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,0,1,0">
+      <Grid Margin="10,14,10,12">
+        <Grid.RowDefinitions><RowDefinition Height="42" /><RowDefinition Height="*" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+        <Button Grid.Row="0" Style="{StaticResource TacticalButton}" Width="42" Height="42" Padding="4" HorizontalAlignment="Center" Focusable="False" ToolTip="塔科夫工具箱">
+          <Image Source="assets/branding/app-icon.png" Width="32" Height="32" Stretch="Uniform" SnapsToDevicePixels="True" />
+        </Button>
+        <ScrollViewer Grid.Row="1" Margin="0,18,0,0"
+                      VerticalScrollBarVisibility="Hidden"
+                      HorizontalScrollBarVisibility="Disabled"
+                      PanningMode="VerticalOnly">
+        <StackPanel VerticalAlignment="Top" Margin="0,1,0,0">
+          <Button x:Name="MapRailButton" Style="{StaticResource RailButton}" Background="{StaticResource RaisedBrush}" BorderBrush="{StaticResource LineBrightBrush}" Foreground="{StaticResource AmberBrush}" Click="MapNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Path Data="M3,6 L9,3 L15,6 L21,3 V18 L15,21 L9,18 L3,21 Z" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" /><Path Data="M9,3 V18 M15,6 V21" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" /></Canvas></Viewbox><TextBlock Text="地图" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="MarketRailButton" Style="{StaticResource RailButton}" Click="MarketNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Path Data="M3,6 H21" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" /><Path Data="M4,6 L6,3 H18 L20,6 V21 H4 Z" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" /><Path Data="M8,10 A4,4 0 0 0 16,10" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" /></Canvas></Viewbox><TextBlock Text="市场" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="InGamePriceRailButton" Style="{StaticResource RailButton}" Click="InGamePriceNavigation_Click" ToolTip="游戏内 OCR 识图查价"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Ellipse Width="16" Height="16" Canvas.Left="4" Canvas.Top="4" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" /><Path Data="M12,1 V5 M12,19 V23 M1,12 H5 M19,12 H23 M9,12 H15 M12,9 V15" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" /></Canvas></Viewbox><TextBlock Text="识价" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="TaskItemsRailButton" Style="{StaticResource RailButton}" Click="TaskItemsNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Path Data="M13,5 H21 M13,12 H21 M13,19 H21" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" /><Path Data="M3,7 L5,9 L9,5 M3,17 L5,19 L9,15" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" /></Canvas></Viewbox><TextBlock Text="清单" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="MemoRailButton" Style="{StaticResource RailButton}" Click="MemoNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Path Data="M5,3 H19 V21 H5 Z M8,8 H16 M8,12 H16 M8,16 H13" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="1.8" StrokeStartLineCap="Round" StrokeLineJoin="Round" /></Canvas></Viewbox><TextBlock Text="备忘" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="TaskTrackingRailButton" Style="{StaticResource RailButton}" Click="TaskTrackingNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Path Data="M5,5 H11 V10 H5 Z M13,14 H19 V19 H13 Z" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="1.8" StrokeLineJoin="Round" /><Path Data="M11,7.5 H15 V12 M15,12 H8 V16.5 H13" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="1.8" StrokeStartLineCap="Round" StrokeLineJoin="Round" /></Canvas></Viewbox><TextBlock Text="任务" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="ScreenFilterRailButton" Style="{StaticResource RailButton}" Click="ScreenFilterNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Path Data="M4,6 H20 M4,12 H20 M4,18 H20" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" /><Ellipse Width="5" Height="5" Canvas.Left="8" Canvas.Top="3.5" Fill="{StaticResource CanvasBrush}" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" /><Ellipse Width="5" Height="5" Canvas.Left="14" Canvas.Top="9.5" Fill="{StaticResource CanvasBrush}" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" /><Ellipse Width="5" Height="5" Canvas.Left="6" Canvas.Top="15.5" Fill="{StaticResource CanvasBrush}" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" /></Canvas></Viewbox><TextBlock Text="调色" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="TeamSyncRailButton" Style="{StaticResource RailButton}" Click="TeamSyncNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Path Data="M5,21 V18.5 A5.5,5.5 0 0 1 10.5,13 H13.5 A5.5,5.5 0 0 1 19,18.5 V21 M18,7 A2.5,2.5 0 0 1 21,9.5 M20,20 V18.5 A4.5,4.5 0 0 0 17.3,14.4" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" /><Ellipse Width="6" Height="6" Canvas.Left="9" Canvas.Top="3.5" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" /></Canvas></Viewbox><TextBlock Text="队友" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="MobileMapRailButton" Style="{StaticResource RailButton}" Click="MobileMapNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Rectangle Width="13" Height="21" Canvas.Left="5.5" Canvas.Top="1.5" RadiusX="2.5" RadiusY="2.5" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="1.8" /><Ellipse Width="2" Height="2" Canvas.Left="11" Canvas.Top="18.5" Fill="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" /><Path Data="M8.5,6 L11,4.7 L13.5,6 L16,4.7 V13 L13.5,14.3 L11,13 L8.5,14.3 Z M11,4.7 V13 M13.5,6 V14.3" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="1.2" StrokeLineJoin="Round" /></Canvas></Viewbox><TextBlock Text="手机" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+          <Button x:Name="UtilitiesRailButton" Style="{StaticResource RailButton}" Click="UtilitiesNavigation_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Path Data="M4,7 H20 V20 H4 Z M8,7 V4 H16 V7 M8,12 H16 M12,9 V15" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="1.8" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" /></Canvas></Viewbox><TextBlock Text="小工具" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+        </StackPanel>
+        </ScrollViewer>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center">
+          <Button x:Name="SettingsRailButton" Style="{StaticResource RailButton}" Click="Settings_Click"><StackPanel><Viewbox Width="20" Height="20" HorizontalAlignment="Center" Margin="0,0,0,2"><Canvas Width="24" Height="24"><Ellipse Width="7" Height="7" Canvas.Left="8.5" Canvas.Top="8.5" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" /><Path Data="M12,2 V5 M12,19 V22 M2,12 H5 M19,12 H22 M4.9,4.9 L7,7 M17,17 L19.1,19.1 M19.1,4.9 L17,7 M7,17 L4.9,19.1" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" /></Canvas></Viewbox><TextBlock Text="设置" HorizontalAlignment="Center" Margin="0,1,0,0" /></StackPanel></Button>
+        </StackPanel>
+      </Grid>
+    </Border>
+
+    <Border x:Name="TopBar" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Background="#121716" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,0,0,1">
+      <Grid Margin="22,0">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" MaxWidth="460"><Ellipse Width="7" Height="7" Fill="{StaticResource GreenBrush}" Margin="0,0,8,0" VerticalAlignment="Center" /><TextBlock Text="{Binding AssetStatus}" FontSize="12" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" /></StackPanel>
+      </Grid>
+    </Border>
+
+    <Grid x:Name="LibraryPaneHost" Grid.Row="1" Grid.Column="1" ClipToBounds="True">
+      <Border x:Name="LibraryPane" HorizontalAlignment="Left" Background="#121716" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,0,1,0" Padding="16,22,14,15">
+        <Grid>
+          <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="*" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+          <StackPanel><TextBlock Text="MAP LIBRARY" Style="{StaticResource SectionLabel}" /><TextBlock Text="地图" FontSize="20" FontWeight="SemiBold" Margin="0,3,0,0" /></StackPanel>
+          <ListBox Grid.Row="1" Margin="0,14,0,0" x:Name="MapList" ItemsSource="{Binding Maps}" SelectionChanged="MapList_SelectionChanged" ItemTemplate="{StaticResource MapTemplate}" ItemContainerStyle="{StaticResource MapListItem}" Background="Transparent" Foreground="{StaticResource TextBrush}" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.IsDeferredScrollingEnabled="False" VirtualizingPanel.ScrollUnit="Pixel" />
+          <Border Grid.Row="2" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="0,13,0,0"><StackPanel Orientation="Horizontal"><Ellipse Width="6" Height="6" Fill="{StaticResource GreenBrush}" Margin="0,0,8,0" VerticalAlignment="Center" /><TextBlock Text="{Binding AssetStatus}" Foreground="{StaticResource TextFaintBrush}" FontSize="10" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" /></StackPanel></Border>
+        </Grid>
+      </Border>
+    </Grid>
+
+    <Grid x:Name="MapPage" Grid.Row="1" Grid.Column="2" Background="#101514" Margin="0">
+      <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+      <Grid Margin="24,20,24,14">
+        <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Bottom"><TextBlock Text="{Binding CurrentMapSubtitle}" Style="{StaticResource SectionLabel}" /><TextBlock Text="{Binding CurrentMapName}" Style="{StaticResource PageTitle}" /></StackPanel>
+        <Border Grid.Column="1" Background="#131917" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="8" Padding="0" VerticalAlignment="Bottom">
+          <Border.ToolTip><TextBlock Text="{Binding CurrentMapRaidStatsNote}" MaxWidth="380" TextWrapping="Wrap" /></Border.ToolTip>
+          <StackPanel Orientation="Horizontal">
+            <StackPanel Margin="10,7"><TextBlock Text="PMC" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /><TextBlock Text="{Binding CurrentMapPlayers}" FontSize="12" FontWeight="SemiBold" /></StackPanel>
+            <Border Width="1" Background="{StaticResource LineBrush}" />
+            <StackPanel Margin="10,7"><TextBlock Text="撤离 / 转移" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /><TextBlock Text="{Binding CurrentMapExtracts}" FontSize="12" FontWeight="SemiBold" /></StackPanel>
+            <Border Width="1" Background="{StaticResource LineBrush}" />
+            <StackPanel Margin="10,7"><TextBlock Text="时长" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /><TextBlock Text="{Binding CurrentMapDuration}" FontSize="12" FontWeight="SemiBold" /></StackPanel>
+          </StackPanel>
+        </Border>
+      </Grid>
+
+      <Border Grid.Row="1" Background="#121716" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,1" Padding="24,8,24,8">
+        <Grid>
+          <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+          <WrapPanel x:Name="MapToolbarPanel" Orientation="Horizontal">
+              <Button Style="{StaticResource MapUtilityButton}" Margin="0,2,8,2" Click="PointDisplayButton_Click"><StackPanel Orientation="Horizontal"><TextBlock Text="▱" FontSize="14" Margin="0,0,6,0" /><TextBlock Text="点位显示" /><Border Background="#29332E" CornerRadius="8" Margin="6,0,0,0" Padding="4,1"><TextBlock x:Name="PointDisplayCountText" Text="3" Foreground="{StaticResource GreenBrush}" FontSize="10" /></Border></StackPanel></Button>
+              <Button Style="{StaticResource MapUtilityButton}" Margin="0,2,8,2" ToolTip="打开或关闭原生悬浮地图" Click="MiniMapToggle_Click"><StackPanel Orientation="Horizontal"><TextBlock Text="▣" FontSize="12" Margin="0,0,6,0" /><TextBlock Text="悬浮地图" /></StackPanel></Button>
+              <Button x:Name="AirdropLocatorButton" Style="{StaticResource MapUtilityButton}" Margin="0,2,8,2" ToolTip="单独轻按 Ctrl：开启或关闭空投定位；Ctrl 组合键不会触发" Click="AirdropLocatorButton_Click"><StackPanel Orientation="Horizontal"><TextBlock Text="⌖" FontSize="14" Margin="0,0,6,0" /><TextBlock Text="空投定位" /><Border Background="#29332E" CornerRadius="8" Margin="7,0,0,0" Padding="5,1"><TextBlock x:Name="AirdropShortcutText" Text="Ctrl" Foreground="{StaticResource TextFaintBrush}" FontSize="9" /></Border></StackPanel></Button>
+              <Border x:Name="MapStyleControls" Margin="0,2,8,2" Padding="5,2,3,2" Height="34" Background="#151C19" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="7" Visibility="Collapsed">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                  <TextBlock Text="底图" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="6,0,8,0" VerticalAlignment="Center" />
+                  <ComboBox x:Name="MapStyleComboBox" Width="128" Height="28" Style="{StaticResource DarkComboBox}" Padding="8,0,25,0" SelectedIndex="0" SelectionChanged="MapStyleComboBox_SelectionChanged" ToolTip="切换内置 2D 地图与卫星地图">
+                    <ComboBoxItem Tag="2d">2D 地图</ComboBoxItem>
+                    <ComboBoxItem Tag="satellite-map">卫星地图</ComboBoxItem>
+                  </ComboBox>
+                </StackPanel>
+              </Border>
+              <Border x:Name="MapLayerControls" Margin="0,2,0,2" Padding="5,2,3,2" Height="34" Background="#151C19" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="7" Visibility="Collapsed">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                  <TextBlock Text="楼层" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="6,0,8,0" VerticalAlignment="Center" />
+                  <ComboBox x:Name="MapLayerComboBox" Width="116" Height="28" Style="{StaticResource DarkComboBox}" Padding="8,0,25,0" DisplayMemberPath="Name" SelectionChanged="MapLayerComboBox_SelectionChanged" ToolTip="手动选择楼层；手动选择会关闭自动切层" />
+                  <Button x:Name="MapLayerAutoButton" Style="{StaticResource MapUtilityButton}" Height="28" MinWidth="82" Margin="6,0,0,0" Padding="8,0" Click="MapLayerAutoButton_Click" ToolTip="根据截图坐标中的高度和所在建筑自动切换楼层">
+                    <StackPanel Orientation="Horizontal"><Ellipse x:Name="MapLayerAutoDot" Width="6" Height="6" Margin="0,0,6,0" VerticalAlignment="Center" /><TextBlock Text="自动切层" FontSize="10" VerticalAlignment="Center" /></StackPanel>
+                  </Button>
+                </StackPanel>
+              </Border>
+          </WrapPanel>
+
+          <Grid x:Name="PointDisplayPanelHost" Grid.Row="1" Height="0" Visibility="Collapsed" ClipToBounds="True">
+            <Border x:Name="PointDisplayPanel" Margin="0,8,0,0" Padding="10,8" Background="#17201D" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="9" Opacity="0" IsHitTestVisible="False">
+              <Border.RenderTransform><TranslateTransform Y="-5" /></Border.RenderTransform>
+              <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                <TextBlock Text="显示内容" Foreground="{StaticResource TextDimBrush}" FontSize="11" FontWeight="SemiBold" VerticalAlignment="Center" Margin="2,0,16,0" />
+                <WrapPanel Grid.Column="1" VerticalAlignment="Center">
+                  <CheckBox x:Name="ExtractPointDisplayCheck" Content="撤离点 / 转移点" IsChecked="True" Checked="PointDisplayCheckChanged" Unchecked="PointDisplayCheckChanged" Foreground="{StaticResource TextDimBrush}" FontSize="12" Margin="0,3,20,3" />
+                  <CheckBox x:Name="TaskPointDisplayCheck" Content="已选任务点" IsChecked="True" Checked="PointDisplayCheckChanged" Unchecked="PointDisplayCheckChanged" Foreground="{StaticResource TextDimBrush}" FontSize="12" Margin="0,3,20,3" />
+                  <CheckBox x:Name="KeyRoomPointDisplayCheck" Content="钥匙房 / 上锁点" IsChecked="False" Checked="PointDisplayCheckChanged" Unchecked="PointDisplayCheckChanged" Foreground="{StaticResource TextDimBrush}" FontSize="12" Margin="0,3,20,3" ToolTip="显示上锁房门、载具后备箱、上锁容器与机关；悬停可查看所需钥匙" />
+                  <CheckBox x:Name="SwitchPointDisplayCheck" Content="拉闸点" IsChecked="False" Checked="PointDisplayCheckChanged" Unchecked="PointDisplayCheckChanged" Foreground="{StaticResource TextDimBrush}" FontSize="12" Margin="0,3,20,3" />
+                  <CheckBox x:Name="SeasonDocumentPointDisplayCheck" Content="赛季文件" IsChecked="False" Checked="PointDisplayCheckChanged" Unchecked="PointDisplayCheckChanged" Foreground="{StaticResource TextDimBrush}" FontSize="12" Margin="0,3,20,3" />
+                  <CheckBox x:Name="BtrPointDisplayCheck" Content="BTR 位置预测" IsChecked="True" Checked="PointDisplayCheckChanged" Unchecked="PointDisplayCheckChanged" Foreground="{StaticResource TextDimBrush}" FontSize="12" Margin="0,3,20,3" ToolTip="森林与街区：依据游戏日志中的战局开始时间显示所有可能路线" />
+                </WrapPanel>
+                <Button Grid.Column="2" Content="重置" Style="{StaticResource TacticalButton}" Height="27" Padding="9,0" Foreground="{StaticResource AmberBrush}" Background="#1B2220" FontSize="10" VerticalAlignment="Center" Click="ResetPointDisplay_Click" />
+              </Grid>
+            </Border>
+          </Grid>
+        </Grid>
+      </Border>
+
+      <Grid Grid.Row="2" Margin="24,12,24,24" x:Name="MapStage">
+        <Border Background="#151B19" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="12" ClipToBounds="True">
+          <Grid x:Name="MapViewport" Background="#17201D" MouseWheel="MapViewport_MouseWheel" MouseLeftButtonDown="MapViewport_MouseLeftButtonDown" MouseMove="MapViewport_MouseMove" MouseLeftButtonUp="MapViewport_MouseLeftButtonUp" LostMouseCapture="MapViewport_LostMouseCapture">
+            <Grid x:Name="MapTransformHost" RenderTransformOrigin=".5,.5" SizeChanged="MapTransformHost_SizeChanged">
+              <Grid.RenderTransform><TransformGroup><ScaleTransform x:Name="MapScaleTransform" ScaleX="1" ScaleY="1" /><TranslateTransform x:Name="MapTranslateTransform" X="0" Y="0" /></TransformGroup></Grid.RenderTransform>
+              <Image x:Name="MapBaseVariantImage" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="{Binding Opacity, ElementName=MapImage}" Visibility="Collapsed" IsHitTestVisible="False" SnapsToDevicePixels="True" />
+              <Image x:Name="MapImage" Source="{Binding CurrentMapImage}" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity=".9" SnapsToDevicePixels="True" />
+              <Image x:Name="MapLayerImage" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0" Visibility="Collapsed" IsHitTestVisible="False" SnapsToDevicePixels="True" />
+              <Image x:Name="MapLayerTransitionImage" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0" Visibility="Collapsed" IsHitTestVisible="False" SnapsToDevicePixels="True" />
+              <Canvas x:Name="AirdropRayCanvas" IsHitTestVisible="False" />
+              <Canvas x:Name="MarkerCanvas" IsHitTestVisible="True" />
+              <Canvas x:Name="DynamicMarkerCanvas" IsHitTestVisible="True" />
+              <Image x:Name="MapTransitionImage" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0" Visibility="Collapsed" IsHitTestVisible="False" SnapsToDevicePixels="True" />
+            </Grid>
+          </Grid>
+        </Border>
+
+        <Border x:Name="AirdropLocatorPanel" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="16,0,0,92" Width="324" Padding="12,10" Background="#EC121816" BorderBrush="{StaticResource AirdropABrush}" BorderThickness="1" CornerRadius="9" Visibility="Collapsed" Panel.ZIndex="18">
+          <Grid>
+            <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+            <Grid>
+              <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+              <StackPanel Orientation="Horizontal" VerticalAlignment="Center"><Ellipse x:Name="AirdropStateDot" Width="6" Height="6" Fill="{StaticResource AirdropABrush}" Margin="0,0,7,0" /><TextBlock x:Name="AirdropStatusTitleText" Text="等待 A 点截图" Foreground="{StaticResource TextBrush}" FontSize="12" FontWeight="SemiBold" /></StackPanel>
+              <StackPanel Grid.Column="1" Orientation="Horizontal"><Button Style="{StaticResource TacticalButton}" Content="重置" Height="27" Padding="8,0" FontSize="10" Click="AirdropResetButton_Click" /><Button Style="{StaticResource TacticalButton}" Content="退出" Height="27" Padding="8,0" FontSize="10" Margin="6,0,0,0" Click="AirdropExitButton_Click" /></StackPanel>
+            </Grid>
+            <TextBlock Grid.Row="1" x:Name="AirdropStatusDetailText" Text="瞄准空投后按 · 截取第一张坐标图" Foreground="{StaticResource TextDimBrush}" FontSize="10" TextWrapping="Wrap" Margin="0,8,0,0" />
+            <TextBlock Grid.Row="2" x:Name="AirdropSampleText" Text="A —  B —" Foreground="{StaticResource TextFaintBrush}" FontFamily="Cascadia Mono" FontSize="9" TextWrapping="Wrap" Margin="0,7,0,0" />
+          </Grid>
+        </Border>
+
+        <Border HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="16" Padding="11,9" MinWidth="188" Background="#141B18" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="8" Panel.ZIndex="10"><StackPanel><StackPanel Orientation="Horizontal"><Ellipse Width="5" Height="5" Fill="{StaticResource AmberBrush}" Margin="0,0,6,0" VerticalAlignment="Center" /><TextBlock Text="最近坐标" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /></StackPanel><TextBlock Text="{Binding CurrentMapCoordinate}" FontFamily="Cascadia Mono" FontSize="12" FontWeight="SemiBold" Margin="0,4,0,0" /><TextBlock Text="{Binding CurrentCoordinateStatus}" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,4,0,0" /></StackPanel></Border>
+
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="16" Panel.ZIndex="10"><Border Background="#141B18" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="8"><StackPanel><Button Style="{StaticResource IconButton}" BorderThickness="0,0,0,1" BorderBrush="{StaticResource LineBrush}" Content="+" Click="ZoomIn_Click" /><Button Style="{StaticResource IconButton}" BorderThickness="0,0,0,1" BorderBrush="{StaticResource LineBrush}" Content="⟳" FontSize="14" Click="ResetMap_Click" /><Button Style="{StaticResource IconButton}" BorderThickness="0" Content="−" Click="ZoomOut_Click" /></StackPanel></Border></StackPanel>
+
+        <Border HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="220,0,57,16" Padding="9,4" Background="#141B18" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="8" Panel.ZIndex="10"><WrapPanel><TextBlock Text="● 当前位置" Foreground="{StaticResource PlayerBrush}" FontSize="10" Margin="0,2" /><TextBlock Text="● 过期位置" Foreground="{StaticResource StalePlayerBrush}" FontSize="10" Margin="10,2,0,2" /><TextBlock Text="● 队友" Foreground="{StaticResource AmberBrush}" FontSize="10" Margin="10,2,0,2" /><TextBlock Text="● 撤离点" Foreground="{StaticResource GreenBrush}" FontSize="10" Margin="10,2,0,2" /><TextBlock Text="● 转移点" Foreground="{StaticResource AmberBrush}" FontSize="10" Margin="10,2,0,2" /><TextBlock Text="● 钥匙房" Foreground="{StaticResource KeyRoomBrush}" FontSize="10" Margin="10,2,0,2" /><TextBlock Text="● 拉闸点" Foreground="{StaticResource SwitchBrush}" FontSize="10" Margin="10,2,0,2" /><TextBlock Text="● BTR 预测" Foreground="#EAB308" FontSize="10" Margin="10,2,0,2" /><TextBlock Text="● 任务点" Foreground="{StaticResource TaskBrush}" FontSize="10" Margin="10,2,0,2" /></WrapPanel></Border>
+      </Grid>
+    </Grid>
+
+    <Grid x:Name="MarketPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="MarketModuleHost" />
+    </Grid>
+
+    <Grid x:Name="InGamePricePage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="InGamePriceModuleHost" />
+    </Grid>
+
+    <Grid x:Name="TaskItemsPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="TaskItemsModuleHost" />
+    </Grid>
+
+    <Grid x:Name="MemoPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="MemoModuleHost" />
+    </Grid>
+
+    <Grid x:Name="TaskTrackingPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="TaskTrackingModuleHost" />
+    </Grid>
+
+    <Grid x:Name="ScreenFilterPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="ScreenFilterModuleHost" />
+    </Grid>
+
+    <Grid x:Name="TeamSyncPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="TeamSyncModuleHost" />
+    </Grid>
+
+    <Grid x:Name="MobileMapPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="MobileMapModuleHost" />
+    </Grid>
+
+    <Grid x:Name="UtilitiesPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ContentControl x:Name="UtilitiesModuleHost" />
+    </Grid>
+
+    <Grid x:Name="SettingsPage" Grid.Row="1" Grid.Column="2" Background="#101514" Visibility="Collapsed">
+      <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <Grid Margin="24,22,24,24">
+          <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+          <StackPanel><TextBlock Text="LOCAL SETTINGS" Style="{StaticResource SectionLabel}" /><TextBlock Text="本机设置" Style="{StaticResource PageTitle}" /></StackPanel>
+          <Border Grid.Row="1" x:Name="FirstRunSetupBorder" Margin="0,20,0,0" Padding="16" Background="#1E2118" BorderBrush="{StaticResource AmberBrush}" BorderThickness="1" CornerRadius="10" Visibility="Collapsed"><StackPanel><TextBlock Text="首次启动需要完成路径选择" Foreground="{StaticResource AmberBrush}" FontSize="12" FontWeight="SemiBold" /><TextBlock Text="请先选择截图目录和 Escape from Tarkov 的 Logs 目录。完成后地图监听会立即使用这些路径。" Foreground="{StaticResource TextDimBrush}" FontSize="10" TextWrapping="Wrap" Margin="0,6,0,0" /></StackPanel></Border>
+          <Border Grid.Row="2" Margin="0,12,0,0" Padding="16" Background="{StaticResource SurfaceBrush}" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="10"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><TextBlock Text="坐标截图目录" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /><TextBlock x:Name="SettingsScreenshotPathText" Text="尚未选择" FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap" /><TextBlock x:Name="SettingsScreenshotStateText" Foreground="{StaticResource TextDimBrush}" FontSize="10" Margin="0,5,0,0" /><TextBlock Text="参考路径为 C:\Users\Administrator\Documents\Escape from Tarkov\Screenshots" Foreground="{StaticResource TextFaintBrush}" FontFamily="Cascadia Mono" FontSize="9" Margin="0,5,0,0" TextWrapping="Wrap" /></StackPanel><Button Grid.Column="1" Style="{StaticResource PageActionButton}" Content="选择目录" Margin="18,0,0,0" Click="ChooseScreenshotPath_Click" /></Grid></Border>
+          <Border Grid.Row="3" Margin="0,10,0,0" Padding="16" Background="{StaticResource SurfaceBrush}" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="10"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><TextBlock Text="游戏日志目录" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /><TextBlock x:Name="SettingsGameLogPathText" Text="尚未选择" FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap" /><TextBlock x:Name="SettingsGameLogStateText" Foreground="{StaticResource TextDimBrush}" FontSize="10" Margin="0,5,0,0" /><TextBlock Text="参考路径为 D:\SteamLibrary\steamapps\common\Escape from Tarkov\build\Logs" Foreground="{StaticResource TextFaintBrush}" FontFamily="Cascadia Mono" FontSize="9" Margin="0,5,0,0" TextWrapping="Wrap" /></StackPanel><Button Grid.Column="1" Style="{StaticResource PageActionButton}" Content="选择目录" Margin="18,0,0,0" Click="ChooseGameLogPath_Click" /></Grid></Border>
+          <Border Grid.Row="4" Margin="0,10,0,0" Padding="16" Background="{StaticResource SurfaceBrush}" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="10">
+            <Grid>
+              <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="210" /></Grid.ColumnDefinitions>
+              <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="关闭行为" Foreground="{StaticResource TextBrush}" FontSize="14" FontWeight="SemiBold" />
+                <TextBlock Text="标题栏 × 和任务栏右键“关闭”都会遵循此选项；可随时在这里改回。" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,5,0,0" TextWrapping="Wrap" />
+                <TextBlock x:Name="CloseBehaviorStatusText" Foreground="{StaticResource TextDimBrush}" FontSize="10" Margin="0,7,0,0" />
+              </StackPanel>
+              <ComboBox Grid.Column="1" x:Name="CloseBehaviorComboBox" Height="32" Style="{StaticResource DarkComboBox}" SelectionChanged="CloseBehaviorComboBox_SelectionChanged" VerticalAlignment="Center" ToolTip="选择点击关闭时的默认行为">
+                <ComboBoxItem Tag="ask">每次询问</ComboBoxItem>
+                <ComboBoxItem Tag="minimize">关闭时最小化</ComboBoxItem>
+                <ComboBoxItem Tag="exit">关闭时退出工具</ComboBoxItem>
+              </ComboBox>
+            </Grid>
+          </Border>
+          <Border Grid.Row="5" Margin="0,10,0,0" Padding="16" Background="#111715" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="10">
+            <Grid>
+              <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+              <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                <StackPanel VerticalAlignment="Center"><TextBlock Text="运行日志" Foreground="{StaticResource TextBrush}" FontSize="14" FontWeight="SemiBold" /><TextBlock Text="记录地图监听、识别证据、坐标、行情、清单、屏幕调色与队友共享状态" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,4,0,0" /></StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center"><Button Style="{StaticResource TacticalButton}" Height="29" Padding="9,0" FontSize="10" Content="复制显示" Click="CopyRuntimeLog_Click" /><Button Style="{StaticResource TacticalButton}" Height="29" Padding="9,0" FontSize="10" Margin="7,0,0,0" Content="导出" Click="ExportRuntimeLog_Click" /><Button Style="{StaticResource TacticalButton}" Height="29" Padding="9,0" FontSize="10" Margin="7,0,0,0" Content="清空显示" Click="ClearRuntimeLog_Click" /><Button Style="{StaticResource TacticalButton}" Height="29" Padding="9,0" FontSize="10" Margin="7,0,0,0" Content="打开目录" Click="OpenRuntimeLogDirectory_Click" /></StackPanel>
+              </Grid>
+              <Grid Grid.Row="1" Margin="0,12,0,0">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="132" /><ColumnDefinition Width="188" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                <ComboBox x:Name="RuntimeLogLevelFilterComboBox" Height="32" Style="{StaticResource DarkComboBox}" SelectedIndex="0" SelectionChanged="RuntimeLogFilter_Changed" ToolTip="按日志级别筛选"><ComboBoxItem Tag="all">全部级别</ComboBoxItem><ComboBoxItem Tag="trace">跟踪</ComboBoxItem><ComboBoxItem Tag="info">信息</ComboBoxItem><ComboBoxItem Tag="warning">警告</ComboBoxItem><ComboBoxItem Tag="error">错误</ComboBoxItem></ComboBox>
+                <ComboBox Grid.Column="1" x:Name="RuntimeLogCategoryFilterComboBox" Height="32" Margin="8,0,0,0" Style="{StaticResource DarkComboBox}" SelectionChanged="RuntimeLogFilter_Changed" ToolTip="按功能模块筛选" />
+                <Border Grid.Column="2" Height="32" Margin="8,0,0,0" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" Background="#0D1211" CornerRadius="6"><Grid Margin="9,0"><Grid.ColumnDefinitions><ColumnDefinition Width="18" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><TextBlock Text="⌕" Foreground="{StaticResource TextFaintBrush}" FontSize="15" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="RuntimeLogSearchBox" TextChanged="RuntimeLogFilter_Changed" Background="Transparent" BorderThickness="0" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontSize="11" Padding="0" VerticalContentAlignment="Center" ToolTip="搜索模块、消息或详细信息；多个关键词需同时匹配" /></Grid></Border>
+                <Button Grid.Column="3" x:Name="RuntimeLogAutoScrollButton" Style="{StaticResource TacticalButton}" Height="32" Padding="10,0" Margin="8,0,0,0" FontSize="10" Content="自动滚动：开" Click="ToggleRuntimeLogAutoScroll_Click" />
+              </Grid>
+              <Grid Grid.Row="2" Margin="0,10,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><TextBlock x:Name="RuntimeLogSummaryText" Foreground="{StaticResource GreenBrush}" FontSize="10" /><TextBlock Grid.Column="1" x:Name="RuntimeLogRetentionText" Text="完整日志按天保存 · 保留 14 天" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /></Grid>
+              <TextBox Grid.Row="3" x:Name="RuntimeLogTextBox" Height="320" Margin="0,9,0,0" Padding="11,9" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="#0D1211" Foreground="{StaticResource TextBrush}" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" FontFamily="Cascadia Mono" FontSize="10" SelectionBrush="{StaticResource AmberBrush}" />
+              <TextBlock Grid.Row="4" x:Name="RuntimeLogPathText" Margin="0,8,0,0" Foreground="{StaticResource TextFaintBrush}" FontFamily="Cascadia Mono" FontSize="9" TextTrimming="CharacterEllipsis" />
+            </Grid>
+          </Border>
+          <Border Grid.Row="6" Margin="0,10,0,0" Padding="16" Background="{StaticResource SurfaceBrush}" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="10">
+            <StackPanel>
+              <TextBlock Text="ABOUT" Style="{StaticResource SectionLabel}" />
+              <TextBlock Text="关于作者" Foreground="{StaticResource TextBrush}" FontSize="14" FontWeight="SemiBold" Margin="0,4,0,0" />
+              <TextBlock Text="qq交流群：975750836" Foreground="{StaticResource TextDimBrush}" FontSize="11" Margin="0,10,0,0" />
+              <TextBlock Text="作者（小黑盒）：大狼吃药了 丨呆呆猫猫丨" Foreground="{StaticResource TextDimBrush}" FontSize="11" Margin="0,5,0,0" TextWrapping="Wrap" />
+            </StackPanel>
+          </Border>
+        </Grid>
+      </ScrollViewer>
+    </Grid>
+
+    <Grid x:Name="InspectorPaneHost" Grid.Row="1" Grid.Column="3" ClipToBounds="True">
+      <Border x:Name="InspectorPane" HorizontalAlignment="Right" Background="#121716" BorderBrush="{StaticResource LineBrush}" BorderThickness="1,0,0,0" Padding="16,22,16,15">
+        <Grid>
+          <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+          <Grid>
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+            <StackPanel><TextBlock Text="RAID STATUS" Style="{StaticResource SectionLabel}" /><TextBlock Text="本局状态" FontSize="20" FontWeight="SemiBold" Margin="0,3,0,0" /></StackPanel>
+            <Button Grid.Column="1" x:Name="RaidStatusCollapseButton" Style="{StaticResource IconButton}" Width="30" Height="30" Padding="0" Content="‹" ToolTip="向左收起本局状态" Click="RaidStatusCollapseButton_Click" />
+          </Grid>
+          <Border x:Name="RaidStatusCardHost" Grid.Row="1" Margin="0,20,0,0" Padding="14" Background="{StaticResource SurfaceBrush}" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="10">
+            <Border.RenderTransform><TranslateTransform x:Name="RaidStatusCardTranslateTransform" /></Border.RenderTransform>
+            <StackPanel>
+              <Grid Margin="0,0,0,13">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center"><Ellipse x:Name="ListeningStateDot" Width="6" Height="6" Fill="{StaticResource TextFaintBrush}" Margin="0,0,6,0" VerticalAlignment="Center" /><TextBlock x:Name="ListeningStateText" Text="未监听" Foreground="{StaticResource TextFaintBrush}" FontSize="10" FontWeight="SemiBold" VerticalAlignment="Center" /></StackPanel>
+                <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center"><Button x:Name="ListeningButton" Style="{StaticResource TacticalButton}" Width="72" Height="30" Padding="4,0" FontSize="10" Click="ListeningButton_Click">开始监听</Button><Button x:Name="AutoRefreshButton" Style="{StaticResource TacticalButton}" Width="66" Height="30" Padding="4,0" FontSize="10" Margin="7,0,0,0" Click="AutoRefreshButton_Click">自动刷新</Button></StackPanel>
+              </Grid>
+              <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><StackPanel><TextBlock Text="当前地图" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /><TextBlock Text="{Binding CurrentMapName}" FontSize="11" Margin="0,4,0,0" /></StackPanel><StackPanel Grid.Column="1"><TextBlock Text="刷新间隔" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /><TextBlock Text="2 秒" FontSize="11" Margin="0,4,0,0" /></StackPanel></Grid>
+              <Border Height="1" Background="{StaticResource LineBrush}" Margin="0,11,0,10" />
+              <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><TextBlock Text="最近更新" Foreground="{StaticResource TextFaintBrush}" FontSize="10" /><TextBlock Grid.Column="1" Text="{Binding LastUpdate}" FontSize="10" Margin="12,0,0,0" /></Grid>
+            </StackPanel>
+          </Border>
+          <Border x:Name="TaskConfigPanel" Grid.Row="2" Margin="0,16,0,0" Padding="14" Background="#141A18" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="10">
+            <Grid>
+              <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="42" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+              <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><TextBlock Text="TASK POINTS" Style="{StaticResource SectionLabel}" /><TextBlock x:Name="TaskMapNameText" Text="当前地图任务" FontSize="13" FontWeight="SemiBold" Margin="0,3,0,0" /></StackPanel><Button Grid.Column="1" Style="{StaticResource TacticalButton}" Height="30" Padding="9,0" Foreground="{StaticResource TextDimBrush}" FontSize="10" VerticalAlignment="Center" Click="ClearTaskSelection_Click"><StackPanel Orientation="Horizontal" VerticalAlignment="Center"><Viewbox Width="12" Height="12" Margin="0,0,5,0"><Canvas Width="24" Height="24"><Path Data="M4,6 H20 M9,6 V4 H15 V6 M6,6 L7,20 H17 L18,6 M10,10 V17 M14,10 V17" Fill="Transparent" Stroke="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" StrokeThickness="1.8" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" /></Canvas></Viewbox><TextBlock Text="清空" VerticalAlignment="Center" /></StackPanel></Button></Grid>
+              <TextBlock Grid.Row="1" x:Name="TaskSelectionSummaryText" Text="默认不显示任务点位" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,9,0,8" TextWrapping="Wrap" />
+              <Border Grid.Row="2" Height="34" Margin="0,0,0,8" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" Background="#111715" CornerRadius="7"><Grid Margin="9,0"><Grid.ColumnDefinitions><ColumnDefinition Width="18" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><TextBlock Text="⌕" Foreground="{StaticResource TextFaintBrush}" FontSize="15" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="TaskSearchBox" TextChanged="TaskSearchBox_TextChanged" Background="Transparent" BorderThickness="0" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontSize="11" Padding="0" VerticalContentAlignment="Center" ToolTip="搜索任务名称或目标说明" /></Grid></Border>
+              <ScrollViewer Grid.Row="3" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"><StackPanel x:Name="TaskListPanel"><TextBlock x:Name="TaskEmptyText" Text="未找到当前地图的任务点数据" Foreground="{StaticResource TextFaintBrush}" FontSize="11" Margin="0,8" TextWrapping="Wrap" /></StackPanel></ScrollViewer>
+            </Grid>
+          </Border>
+          <Border Grid.Row="3" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="0,13,0,0"><StackPanel Orientation="Horizontal" VerticalAlignment="Center"><Ellipse Width="5" Height="5" Fill="{StaticResource GreenBrush}" Margin="0,0,7,0" VerticalAlignment="Center" /><TextBlock x:Name="MonitorStatusText" Text="运行状态：只读取本机文件" Foreground="{StaticResource TextFaintBrush}" FontSize="10" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" /></StackPanel></Border>
+        </Grid>
+      </Border>
+    </Grid>
+
+    <primitives:Thumb x:Name="MapTaskWidthSplitter" Grid.Row="1" Grid.Column="2"
+                      Style="{StaticResource WorkbenchPaneSplitter}"
+                      HorizontalAlignment="Right" Panel.ZIndex="70"
+                      DragDelta="MapTaskWidthSplitter_DragDelta"
+                      DragCompleted="MapTaskSplitter_DragCompleted"
+                      ToolTip="拖动：调整地图与任务面板宽度" />
+    <primitives:Thumb x:Name="MapTaskHeightSplitter" Grid.Row="1" Grid.Column="2"
+                      Style="{StaticResource WorkbenchRowSplitter}"
+                      VerticalAlignment="Bottom" Panel.ZIndex="70" Visibility="Collapsed"
+                      DragDelta="MapTaskHeightSplitter_DragDelta"
+                      DragCompleted="MapTaskSplitter_DragCompleted"
+                      ToolTip="拖动：调整地图与任务面板高度" />
+
+    <Button x:Name="LibraryPaneToggleButton" Grid.Row="1" Grid.Column="2" Style="{StaticResource IconButton}" Width="26" Height="48" Padding="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="8,0,0,0" Content="‹" ToolTip="收起地图列表" Click="LibraryPaneToggleButton_Click" Panel.ZIndex="80" />
+    <Button x:Name="InspectorPaneToggleButton" Grid.Row="1" Grid.Column="2" Style="{StaticResource IconButton}" Width="26" Height="48" Padding="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,8,0" Content="›" ToolTip="收起本局状态" Click="InspectorPaneToggleButton_Click" Panel.ZIndex="80" />
+    <Border x:Name="ToastBorder" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,18" Padding="13,9" Background="#1A231F" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="8" Visibility="Collapsed" Panel.ZIndex="100"><TextBlock x:Name="ToastText" FontSize="12" /></Border>
+  </Grid>
+</Window>

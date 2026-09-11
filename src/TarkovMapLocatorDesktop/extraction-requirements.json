@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.07.31",
+  "source": "https://escapefromtarkov.fandom.com/wiki/Map_of_Tarkov",
+  "sourceCheckedAt": "2026-07-31",
+  "standardExtractKeys": [
+    "customs|17号仓库|scav",
+    "customs|4号仓库|scav",
+    "customs|Scav检查站|scav",
+    "customs|ZB-1011|pmc",
+    "customs|工厂棚屋|scav",
+    "customs|工厂远角|scav",
+    "customs|狙击手路障|scav",
+    "customs|军事基地检查站|scav",
+    "customs|老路大门|scav",
+    "customs|十字路口|shared",
+    "customs|石间小道|scav",
+    "customs|通往港口的铁路|scav",
+    "customs|通往军事基地的铁路|scav",
+    "customs|通往塔科夫的铁路|scav",
+    "customs|拖车停车场|pmc",
+    "customs|拖车停车场工人棚屋|scav",
+    "customs|行政区大门|scav",
+    "factory|0号门|pmc",
+    "factory|3号门|pmc",
+    "factory|3号门|scav",
+    "factory|办公室窗户|scav",
+    "factory|监控地堡大门|scav",
+    "factory|庭院大门|pmc",
+    "ground-zero|Emercom检查点|shared",
+    "ground-zero|Nakatani地下室楼梯|shared",
+    "interchange|Emercom检查点|shared",
+    "interchange|铁路|shared",
+    "lighthouse|北部检查点|pmc",
+    "lighthouse|南部大路|pmc",
+    "lighthouse|南部大路塌方处|scav",
+    "lighthouse|厂区大门|scav",
+    "lighthouse|洞穴Scav藏身处|scav",
+    "lighthouse|浮动码头下方的藏身处|scav",
+    "lighthouse|通往海岸线的路|pmc",
+    "lighthouse|通往海岸线的路|scav",
+    "reserve|加热管道|scav",
+    "reserve|检查点围墙|scav",
+    "reserve|库房密闭门|scav",
+    "reserve|山边围墙缺口|scav",
+    "shoreline|隧道|pmc",
+    "shoreline|铁路桥|pmc",
+    "shoreline|通往灯塔的路|pmc",
+    "shoreline|通往海关的路|pmc",
+    "shoreline|通往海关的路|scav",
+    "shoreline|被毁的道路|scav",
+    "shoreline|灯塔|scav",
+    "shoreline|健身房东楼入口|scav",
+    "shoreline|行政楼地下室|scav",
+    "streets-of-tarkov|Cardinal公寓停车场|scav",
+    "streets-of-tarkov|Kamchatskaya大街拱门|scav",
+    "streets-of-tarkov|Klimov交易中心|scav",
+    "streets-of-tarkov|倒塌的吊车|pmc",
+    "streets-of-tarkov|升降梯|pmc",
+    "streets-of-tarkov|受损的房屋|pmc",
+    "streets-of-tarkov|墓穴入口|scav",
+    "streets-of-tarkov|通风管道|scav",
+    "streets-of-tarkov|下水道|scav",
+    "streets-of-tarkov|污水河|pmc",
+    "streets-of-tarkov|展览馆|pmc",
+    "streets-of-tarkov|坠机现场|pmc",
+    "woods|RUAF路障|scav",
+    "woods|Scav地堡|scav",
+    "woods|Scav小屋|scav",
+    "woods|UN路障|pmc",
+    "woods|UN路障|scav",
+    "woods|北部UN路障|pmc",
+    "woods|东部岩石|scav",
+    "woods|旧火车站|scav",
+    "woods|郊区|pmc",
+    "woods|郊区|scav",
+    "woods|那艘船|scav",
+    "woods|山间仓库|scav",
+    "woods|亡者之所|scav"
+  ],
+  "rules": [
+    {
+      "key": "customs|ZB-013|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "先在吊车场 4 号仓库拉下供电拉杆，再用工厂紧急出口钥匙打开撤离门。",
+      "factionOverride": null
+    },
+    {
+      "key": "customs|ZB-013PowerSwitch|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "这是 ZB-013 的供电拉杆；拉下后仍需工厂紧急出口钥匙打开撤离门。",
+      "factionOverride": null
+    },
+    {
+      "key": "customs|宿舍载具|*",
+      "availability": "随机开放",
+      "useLimit": "单局一次",
+      "conditions": "每人基础费用 5,000 卢布，最多 4 人；实际费用受 Scav Karma 影响。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "customs|老加油站|pmc",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "现场绿色信号弹亮起时才可撤离。",
+      "factionOverride": null
+    },
+    {
+      "key": "customs|老加油站|scav",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "无额外物品要求；以本局撤离列表为准。",
+      "factionOverride": null
+    },
+    {
+      "key": "customs|RUAF路障|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "无额外物品要求；当前官方 Wiki 标注仅 PvE 模式存在。",
+      "factionOverride": null
+    },
+    {
+      "key": "customs|铁路通道(信号弹)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "进入信号弹区域后朝天空发射绿色信号弹；可使用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。 必须沿铁轨移动，避免被边界狙击手击杀。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "customs|地下室锅炉房(合作撤离)|*",
+      "availability": "PMC 随机分配，Scav 固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "至少一名 PMC 与一名玩家 Scav 同时进入撤离区。",
+      "factionOverride": "PMC \u002B 玩家 Scav"
+    },
+    {
+      "key": "customs|走私者的船|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带“暗号 Voron 的纸条”（Note with code word Voron）。",
+      "factionOverride": null
+    },
+    {
+      "key": "customs|走私者地堡(ZB-1012)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带“暗号 Voron 的纸条”（Note with code word Voron）。",
+      "factionOverride": null
+    },
+    {
+      "key": "streets-of-tarkov|院子|*",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "现场绿色信号弹亮起时才可撤离。",
+      "factionOverride": null
+    },
+    {
+      "key": "streets-of-tarkov|Klimov大街(УлицаКлимова)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "进入信号弹区域后朝天空发射绿色信号弹；可使用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "streets-of-tarkov|Pinewood地下室(合作)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "至少一名 PMC 与一名玩家 Scav 同时进入撤离区。",
+      "factionOverride": "PMC \u002B 玩家 Scav"
+    },
+    {
+      "key": "streets-of-tarkov|Primorsky大道出租车载具|*",
+      "availability": "随机开放",
+      "useLimit": "单局一次",
+      "conditions": "每人基础费用 5,000 卢布，最多 4 人；实际费用受 Scav Karma 影响。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "streets-of-tarkov|走私者的秘密基地|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带“暗号 Onyx 的纸条”（Note with code word Onyx）。",
+      "factionOverride": null
+    },
+    {
+      "key": "ground-zero|警方封锁线(载具)|*",
+      "availability": "固定开放",
+      "useLimit": "单局一次",
+      "conditions": "每人基础费用 5,000 卢布，最多 4 人；实际费用受 Scav Karma 影响。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "ground-zero|Scav检查站(合作)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "至少一名 PMC 与一名玩家 Scav 同时进入撤离区。",
+      "factionOverride": "PMC \u002B 玩家 Scav"
+    },
+    {
+      "key": "ground-zero|Mira大道|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "进入信号弹区域后朝天空发射绿色信号弹；可使用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。 黄色公交车旁的 Scav 尸体每局固定生成一枚绿色信号弹。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "ground-zero|Tartowers销售办公室|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带“暗号 Adaptation 的纸条”（Note with code word Adaptation）。",
+      "factionOverride": null
+    },
+    {
+      "key": "factory|地下室|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "使用工厂紧急出口钥匙打开撤离门。",
+      "factionOverride": null
+    },
+    {
+      "key": "factory|医疗帐篷大门|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "使用工厂紧急出口钥匙打开撤离门。",
+      "factionOverride": null
+    },
+    {
+      "key": "factory|走私者小道|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带“暗号 Ark 的纸条”（Note with code word Ark）。",
+      "factionOverride": null
+    },
+    {
+      "key": "interchange|河畔之路(信号弹)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "进入信号弹区域后朝天空发射绿色信号弹；可使用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "interchange|发电站|*",
+      "availability": "随机开放",
+      "useLimit": "单局一次",
+      "conditions": "每人基础费用 5,000 卢布，最多 4 人；实际费用受 Scav Karma 影响。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "interchange|Scav营地(合作)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "至少一名 PMC 与一名玩家 Scav 同时进入撤离区。",
+      "factionOverride": "PMC \u002B 玩家 Scav"
+    },
+    {
+      "key": "interchange|安全屋|*",
+      "availability": "固定开放",
+      "useLimit": "单局一次",
+      "conditions": "依次完成：发电站供电、Burger Spot 冲洗小便池、刷 Object #11SR 钥匙卡、进入后按门旁按钮锁门。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "interchange|SaferoomExfilSwitch|*",
+      "availability": "固定开放",
+      "useLimit": "单局一次",
+      "conditions": "这是安全屋内部的锁门按钮。 依次完成：发电站供电、Burger Spot 冲洗小便池、刷 Object #11SR 钥匙卡、进入后按门旁按钮锁门。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "interchange|围栏破洞|*",
+      "availability": "旧版点位",
+      "useLimit": "不可确认",
+      "conditions": "旧版要求是不装备背包；当前官方 Wiki 撤离表已不再收录此点，请以本局撤离列表为准。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|医疗区电梯|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "在地下室 G6 房间恢复供电；电梯位于 G3 与 G4 之间。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|MedElevatorExtractButton|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "医疗区电梯内的撤离按钮；需先在地下室 G6 恢复供电。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|MedElevatorCallButton|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "医疗区电梯呼叫按钮；需先在地下室 G6 恢复供电。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|MedElevatorPowerButton|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "医疗区电梯供电按钮，位于地下室 G6。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|货运电梯|*",
+      "availability": "固定开放",
+      "useLimit": "单局一次",
+      "conditions": "在地下室 G1 房间恢复供电；电梯位于二楼 G21 对面。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|CargoElevatorExtractButton|*",
+      "availability": "固定机关",
+      "useLimit": "单局一次",
+      "conditions": "货运电梯内的撤离按钮；需先在地下室 G1 恢复供电。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|CargoElevatorCallButton|*",
+      "availability": "固定机关",
+      "useLimit": "单局一次",
+      "conditions": "货运电梯呼叫按钮；需先在地下室 G1 恢复供电。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|CargoElevatorPowerButton|*",
+      "availability": "固定机关",
+      "useLimit": "单局一次",
+      "conditions": "货运电梯供电按钮，位于地下室 G1。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|主电梯|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "在地下室 R4 对面恢复供电；电梯位于 R6 与 R8 之间。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|MainElevatorExtractButton|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "主电梯内的撤离按钮；需先在地下室 R4 对面恢复供电。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|MainElevatorCallButton|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "主电梯呼叫按钮；需先在地下室 R4 对面恢复供电。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|MainElevatorPowerButton|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "主电梯供电按钮，位于地下室 R4 对面。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|通风管道|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "不能装备背包。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|污水管道|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "在地下室 B1 降低水位，约需等待 80 秒。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|WaterLevelSwitch|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "这是污水管道的排水开关；启动后约 80 秒水位降至可撤离。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|SewageConduitPumpButton|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "这是污水管道的排水泵按钮；启动后约 80 秒水位降至可撤离。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|停车场大门|*",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "在二楼 R22 旁的 Y21 房间开启大门；撤离区为 Y11。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|ParkingGateSwitch|*",
+      "availability": "随机机关",
+      "useLimit": "可重复操作",
+      "conditions": "这是停车场大门开关，位于二楼 R22 旁的 Y21 房间。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|车库大门|*",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "在机库二楼 B24 控制室开启大门；撤离区为 B11。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-lab|HangarGateSwitch|*",
+      "availability": "随机机关",
+      "useLimit": "可重复操作",
+      "conditions": "这是机库大门开关，位于机库二楼 B24 控制室。",
+      "factionOverride": null
+    },
+    {
+      "key": "lighthouse|装甲列车|*",
+      "availability": "固定开放但限时",
+      "useLimit": "可重复使用",
+      "conditions": "列车在剩余 20～15 分钟时抵达并停留 7 分钟；发车前 1 分钟鸣笛。",
+      "factionOverride": null
+    },
+    {
+      "key": "lighthouse|通往军事基地的载具|*",
+      "availability": "随机开放",
+      "useLimit": "单局一次",
+      "conditions": "每人基础费用 5,000 卢布，最多 5 人；实际费用受 Scav Karma 影响。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "lighthouse|隧道(合作)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "至少一名 PMC 与一名玩家 Scav 同时进入撤离区。",
+      "factionOverride": "PMC \u002B 玩家 Scav"
+    },
+    {
+      "key": "lighthouse|山间小路|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带 Red Rebel 冰镐和 Paracord，且不能装备护甲背心。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "lighthouse|湖边小径|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带灯塔雷区地图（Minefield map - Lighthouse）。",
+      "factionOverride": null
+    },
+    {
+      "key": "shoreline|通往北方的路(载具)|*",
+      "availability": "固定开放",
+      "useLimit": "单局一次",
+      "conditions": "每人基础费用 5,000 卢布，最多 5 人；实际费用受 Scav Karma 影响。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "shoreline|走私者的通道(合作)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "至少一名 PMC 与一名玩家 Scav 同时进入撤离区。",
+      "factionOverride": "PMC \u002B 玩家 Scav"
+    },
+    {
+      "key": "shoreline|码头的船|*",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "现场绿色信号弹亮起时才可撤离。",
+      "factionOverride": null
+    },
+    {
+      "key": "shoreline|攀岩者之路|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带 Red Rebel 冰镐和 Paracord，且不能装备护甲背心。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "shoreline|山边地堡|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带“暗号 Heartbeat 的纸条”（Note with code word Heartbeat）。",
+      "factionOverride": null
+    },
+    {
+      "key": "reserve|装甲列车|*",
+      "availability": "随机开放且限时",
+      "useLimit": "单局一次",
+      "conditions": "列车在剩余 16～12 分钟时抵达并停留 7 分钟；发车前 1 分钟鸣笛。",
+      "factionOverride": null
+    },
+    {
+      "key": "reserve|D-2|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "先在地下地堡指挥区拉下供电拉杆，再按滑动门旁的按钮。",
+      "factionOverride": null
+    },
+    {
+      "key": "reserve|D-2DoorSwitch|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "这是 D-2 滑动门按钮；需先在地下地堡指挥区恢复供电。",
+      "factionOverride": null
+    },
+    {
+      "key": "reserve|D-2PowerSwitch|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "这是 D-2 供电拉杆；拉下后还需按撤离门旁的按钮。",
+      "factionOverride": null
+    },
+    {
+      "key": "reserve|地堡密闭门|*",
+      "availability": "固定开放但限时",
+      "useLimit": "可重复使用",
+      "conditions": "拉下白马兵营西侧小屋内的拉杆；撤离窗口持续 4 分钟，期间警报鸣响。",
+      "factionOverride": null
+    },
+    {
+      "key": "reserve|BunkerHermeticDoorPowerSwitch|*",
+      "availability": "固定机关",
+      "useLimit": "可重复操作",
+      "conditions": "这是地堡密闭门拉杆；启动后撤离窗口持续 4 分钟。",
+      "factionOverride": null
+    },
+    {
+      "key": "reserve|峭壁斜坡|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带 Red Rebel 冰镐和 Paracord，且不能装备护甲背心。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "reserve|Scav之地(合作)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "至少一名 PMC 与一名玩家 Scav 同时进入撤离区。",
+      "factionOverride": "PMC \u002B 玩家 Scav"
+    },
+    {
+      "key": "reserve|下水道检修孔|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "不能装备背包。",
+      "factionOverride": null
+    },
+    {
+      "key": "reserve|前往森林的路|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带储备站雷区地图（Minefield map - Reserve）。",
+      "factionOverride": null
+    },
+    {
+      "key": "woods|友谊之桥(合作撤离)|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "至少一名 PMC 与一名玩家 Scav 同时进入撤离区。",
+      "factionOverride": "PMC \u002B 玩家 Scav"
+    },
+    {
+      "key": "woods|RUAF大门|*",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "现场绿色信号弹亮起时才可撤离。",
+      "factionOverride": null
+    },
+    {
+      "key": "woods|ZB-016|*",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "现场绿色信号弹亮起时才可撤离。",
+      "factionOverride": null
+    },
+    {
+      "key": "woods|ZB-014|*",
+      "availability": "随机开放",
+      "useLimit": "可重复使用",
+      "conditions": "现场绿色信号弹亮起，并使用 ZB-014 钥匙开门。",
+      "factionOverride": null
+    },
+    {
+      "key": "woods|大桥载具|*",
+      "availability": "随机开放",
+      "useLimit": "单局一次",
+      "conditions": "每人基础费用 5,000 卢布，最多 4 人；实际费用受 Scav Karma 影响。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "woods|输电通道|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "进入信号弹区域后朝天空发射绿色信号弹；可使用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。",
+      "factionOverride": "PMC"
+    },
+    {
+      "key": "woods|前往塔科夫的铁路桥|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带森林雷区地图（Minefield map - Woods）。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-labyrinth|向上通路|*",
+      "availability": "开局 15 分钟后开放",
+      "useLimit": "可重复使用",
+      "conditions": "无需额外物品；开放时会听到开门声。",
+      "factionOverride": null
+    },
+    {
+      "key": "the-labyrinth|阿里阿德涅之线|*",
+      "availability": "固定开放",
+      "useLimit": "可重复使用",
+      "conditions": "携带阿里阿德涅符号钥匙（Ariadne symbol key）。",
+      "factionOverride": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<UserControl x:Class="TarkovMapLocator.Modules.Memo.MemoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#101514"
+             UseLayoutRounding="True"
+             SnapsToDevicePixels="True">
+  <Grid Background="#101514">
+    <Grid.RowDefinitions><RowDefinition Height="88" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+    <Grid Margin="24,20,24,16">
+      <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+      <StackPanel VerticalAlignment="Bottom"><TextBlock Text="MEMO OVERLAY" Style="{StaticResource SectionLabel}" /><TextBlock Text="备忘录" Style="{StaticResource PageTitle}" /></StackPanel>
+      <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Bottom">
+        <CheckBox x:Name="OverlayVisibleCheckBox" Content="显示悬浮窗" Foreground="{StaticResource TextBrush}" VerticalAlignment="Center" Checked="OverlayVisibleCheckBox_Changed" Unchecked="OverlayVisibleCheckBox_Changed" />
+        <Button x:Name="AdjustOverlayButton" Style="{StaticResource PageToolbarButton}" Margin="14,0,0,0" MinWidth="92" Click="AdjustOverlayButton_Click">调整位置</Button>
+      </StackPanel>
+    </Grid>
+
+    <Grid Grid.Row="1" Margin="24,0,24,24">
+      <Grid.ColumnDefinitions><ColumnDefinition Width="0.9*" MinWidth="280" /><ColumnDefinition Width="16" /><ColumnDefinition Width="1.1*" MinWidth="340" /></Grid.ColumnDefinitions>
+
+      <Border Background="#111715" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="10" Padding="18">
+        <Grid>
+          <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="*" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+          <TextBlock Text="文字备忘" Foreground="White" FontSize="16" FontWeight="SemiBold" />
+          <TextBox Grid.Row="1" x:Name="MemoTextBox" Margin="0,14,0,0" Padding="12" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" MaxLength="4000" Background="#0D1210" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontSize="13" TextChanged="MemoTextBox_TextChanged" />
+          <TextBlock Grid.Row="2" x:Name="SaveStatusText" Text="自动保存" Foreground="{StaticResource TextFaintBrush}" FontSize="11" Margin="0,10,0,0" />
+        </Grid>
+      </Border>
+
+      <Border Grid.Column="2" Background="#111715" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="10" Padding="18">
+        <Grid>
+          <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="150" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+          <TextBlock Text="物品备忘" Foreground="White" FontSize="16" FontWeight="SemiBold" />
+          <Border Grid.Row="1" Height="40" Margin="0,14,0,0" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" Background="#0D1210" CornerRadius="8"><Grid Margin="12,0"><Grid.ColumnDefinitions><ColumnDefinition Width="22" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><TextBlock Text="⌕" Foreground="{StaticResource TextFaintBrush}" FontSize="16" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="ItemSearchBox" TextChanged="ItemSearchBox_TextChanged" Background="Transparent" BorderThickness="0" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontSize="13" Padding="0" VerticalContentAlignment="Center" ToolTip="输入物品名称或简称" /></Grid></Border>
+          <TextBlock Grid.Row="2" x:Name="ItemSearchStatusText" Text="输入名称搜索物品" Foreground="{StaticResource TextFaintBrush}" FontSize="11" Margin="0,10,0,7" />
+          <ListBox Grid.Row="3" x:Name="ItemSearchResultsList" Background="#0D1210" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" Padding="6" ItemContainerStyle="{StaticResource CardListItem}" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <ListBox.ItemTemplate><DataTemplate><Grid Margin="7,6"><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><TextBlock Text="{Binding Name}" Foreground="White" FontSize="12" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" /><TextBlock Text="{Binding ShortName}" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,3,0,0" TextTrimming="CharacterEllipsis" /></StackPanel><Button Grid.Column="1" Style="{StaticResource PageToolbarButton}" MinWidth="64" Height="32" Padding="12,0" Margin="12,0,0,0" VerticalContentAlignment="Center" Tag="{Binding}" Click="AddItemButton_Click">添加</Button></Grid></DataTemplate></ListBox.ItemTemplate>
+          </ListBox>
+          <TextBlock Grid.Row="4" Text="已选物品" Foreground="White" FontSize="13" FontWeight="SemiBold" Margin="0,15,0,8" />
+          <Grid Grid.Row="5">
+            <ListBox x:Name="SelectedItemsList" Background="Transparent" BorderThickness="0" ItemContainerStyle="{StaticResource CardListItem}" ScrollViewer.VerticalScrollBarVisibility="Auto">
+              <ListBox.ItemTemplate><DataTemplate><Border Background="#151C19" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="7" Padding="10" Margin="0,0,0,7"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><TextBlock Text="{Binding Name}" Foreground="White" FontSize="12" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" /><TextBlock Text="{Binding ShortName}" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,3,0,0" TextTrimming="CharacterEllipsis" /></StackPanel><StackPanel Grid.Column="1" Orientation="Horizontal"><Button Style="{StaticResource TacticalButton}" Width="30" Height="30" Padding="0" FontSize="14" Tag="{Binding}" Click="DecreaseItemButton_Click">−</Button><TextBox Text="{Binding Quantity, Mode=OneWay}" Width="48" Height="30" Margin="5,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="{StaticResource RaisedBrush}" BorderBrush="{StaticResource LineBrightBrush}" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontFamily="Cascadia Mono" FontSize="11" Tag="{Binding}" LostFocus="ItemQuantityBox_LostFocus" KeyDown="ItemQuantityBox_KeyDown" /><Button Style="{StaticResource TacticalButton}" Width="30" Height="30" Padding="0" FontSize="14" Tag="{Binding}" Click="IncreaseItemButton_Click">+</Button><Button Style="{StaticResource PageToolbarButton}" MinWidth="64" Height="32" Padding="12,0" Margin="10,0,0,0" VerticalContentAlignment="Center" Tag="{Binding}" Click="RemoveItemButton_Click">删除</Button></StackPanel></Grid></Border></DataTemplate></ListBox.ItemTemplate>
+            </ListBox>
+            <TextBlock x:Name="SelectedItemsEmptyText" Text="尚未添加物品" Foreground="{StaticResource TextFaintBrush}" FontSize="12" Margin="5" />
+          </Grid>
+        </Grid>
+      </Border>
+    </Grid>
+  </Grid>
+</UserControl>

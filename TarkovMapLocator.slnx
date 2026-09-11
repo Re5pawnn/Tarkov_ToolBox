@@ -1,7 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/TarkovMapLocator.App/TarkovMapLocator.App.csproj" />
-    <Project Path="src/TarkovMapLocator.Core/TarkovMapLocator.Core.csproj" />
-    <Project Path="src/TarkovMapLocator.Updater/TarkovMapLocator.Updater.csproj" />
-  </Folder>
-</Solution>

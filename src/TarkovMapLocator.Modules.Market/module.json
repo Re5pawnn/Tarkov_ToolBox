@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "market",
+  "assembly": "TarkovMapLocator.Modules.Market.dll",
+  "entryType": "TarkovMapLocator.Modules.Market.MarketFeatureModule"
+}

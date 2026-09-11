@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "source": "SPT DynamicMaps QuestMarkerDumper export",
+  "sourceFile": "laboratory.quest-markers.json",
+  "generatedAt": "2026-06-08T11:26:50.361Z",
+  "mapId": "5b0fc42d86f7744a585f9105",
+  "mapInternalName": "laboratory",
+  "mapNormalizedName": "the-lab",
+  "coordinateFormat": "world-x-y-z",
+  "coordinateMapping": "export Position.X->position.x, Position.Z->position.y, Position.Y->position.z",
+  "markers": [
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u6309\u56fe\u7d22\u9aa5",
+      "conditionDescription": "\u641c\u7d22\u5b9e\u9a8c\u5ba4\u7684\u4eba\u4f53\u5b9e\u9a8c\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:44.950372+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -131.53511,
+        "y": 1.0027318,
+        "z": -357.84436
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u6309\u56fe\u7d22\u9aa5",
+      "conditionDescription": "\u641c\u7d22\u5b9e\u9a8c\u5ba4\u7684\u6b66\u5668\u6d4b\u8bd5\u533a\u57df",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:44.7699713+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -182.867111,
+        "y": 1.29073191,
+        "z": -312.875366
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u6309\u56fe\u7d22\u9aa5",
+      "conditionDescription": "\u5728\u5b9e\u9a8c\u5ba4\u7684\u4e3b\u7ba1\u529e\u516c\u5ba4\u91cc\u627e\u5230\u52a0\u5bc6\u78c1\u5e26",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:45.1270977+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -161.397079,
+        "y": 4.80383,
+        "z": -346.8847
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u6839\u6e90",
+      "conditionDescription": "\u5728\u5b9e\u9a8c\u5ba4\u4e2d\u627e\u5230\u5e76\u83b7\u53d6\u75c5\u6bd2\u6837\u672c",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:46.3037056+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -109.654495,
+        "y": 0.9265,
+        "z": -444.245117
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u6fc0\u8fdb\u6cbb\u7597",
+      "conditionDescription": "\u5728\u5b9e\u9a8c\u5ba4\u6295\u653e\u75ab\u82d7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:47.0333488+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -169.030991,
+        "y": -6.481268,
+        "z": -290.848
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u8857\u533a\u4e4b\u4e0b",
+      "conditionDescription": "\u5728\u540c\u573a\u6218\u5c40\u4e2d\u627e\u5230\u5b9e\u9a8c\u5ba4\u901a\u5f80\u5854\u79d1\u592b\u8857\u533a\u7684\u9053\u8def",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:45.9616159+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -169.079956,
+        "y": 0.91,
+        "z": -420.878052
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u8857\u533a\u4e4b\u4e0b",
+      "conditionDescription": "\u5728\u540c\u573a\u6218\u5c40\u4e2d\u4fa6\u67e5\u5b9e\u9a8c\u5ba4\u8f66\u5e93\u5927\u95e8\u7684\u63a7\u5236\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:45.8067922+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -170.7431,
+        "y": 4.75,
+        "z": -283.03
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u8857\u533a\u4e4b\u4e0b",
+      "conditionDescription": "\u5728\u540c\u573a\u6218\u5c40\u4e2d\u4fa6\u67e5\u5b9e\u9a8c\u5ba4\u5b58\u653e\u5371\u9669\u5316\u5408\u7269\u7684\u5706\u9876\u5e10\u7bf7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:45.6493923+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -172.2812,
+        "y": 1.01,
+        "z": -371.2509
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u8857\u533a\u4e4b\u4e0b",
+      "conditionDescription": "\u5728\u540c\u573a\u6218\u5c40\u4e2d\u4fa6\u67e5\u5b9e\u9a8c\u5ba4\u7684\u670d\u52a1\u5668\u673a\u623f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:45.4847155+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -125.55,
+        "y": 2.54,
+        "z": -305.090973
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u6c61\u8840",
+      "conditionDescription": "\u5728\u5b9e\u9a8c\u5ba4\u4e2d\u627e\u5230\u5e76\u83b7\u53d6\u611f\u67d3\u8005\u8840\u6db2\u6837\u672c",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:46.1252657+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -114.894333,
+        "y": 0.239290655,
+        "z": -421.726166
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u5bfb\u627e\u6e90\u5934",
+      "conditionDescription": "\u8fdb\u5165\u5b9e\u9a8c\u5ba4\u4e2d\u5b58\u653e\u75c5\u6bd2\u7684\u5c01\u95ed\u623f\u95f4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:46.4805902+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -119.143,
+        "y": 0.358731747,
+        "z": -445.322
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u5bfb\u627e\u6e90\u5934",
+      "conditionDescription": "\u5728\u623f\u95f4\u5185\u627e\u5230\u5e76\u83b7\u53d6\u65e5\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:46.6421627+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -116.954,
+        "y": 0.06999993,
+        "z": -443.143
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u6837\u672c IV - \u65b0\u7684\u5e0c\u671b",
+      "conditionDescription": "\u5728\u5b9e\u9a8c\u5ba4\u4e2d\u627e\u5230\u5e76\u83b7\u53d6\u75ab\u82d7\u5c0f\u74f6",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:46.8246794+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -116.856895,
+        "y": 0.5762,
+        "z": -441.5661
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "\u8d28\u91cf\u6807\u51c6",
+      "conditionDescription": "\u5728\u5b9e\u9a8c\u5ba4\u627e\u5230\u5e76\u83b7\u53d6\u7279\u6b8a\u7248\u672c\u7684 LEDX \u76ae\u80a4\u900f\u7167\u4eea",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:45.3103853+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -173.7443,
+        "y": 1.2538,
+        "z": -374.4323
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "TerraGroup \u96c7\u5458",
+      "conditionDescription": "\u53d6\u5f97\u6709\u5173Sanitar\u5de5\u4f5c\u7684\u4fe1\u606f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:44.5885236+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -133.0114,
+        "y": 5.0157,
+        "z": -335.2083
+      }
+    },
+    {
+      "mapId": "5b0fc42d86f7744a585f9105",
+      "mapInternalName": "laboratory",
+      "mapNormalizedName": "the-lab",
+      "questName": "TerraGroup \u96c7\u5458",
+      "conditionDescription": "\u627e\u5230 Sanitar \u5728\u5b9e\u9a8c\u5ba4\u7684\u5de5\u4f5c\u95f4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:54:43.8564883+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -131.949112,
+        "y": 5.40873146,
+        "z": -336.865356
+      }
+    }
+  ]
+}

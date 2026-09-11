@@ -1,0 +1,1459 @@
+{
+  "schemaVersion": 1,
+  "source": "https://member.kaedeori.com/app/interactive",
+  "sourceVersion": "4.5.12",
+  "generatedAt": "2026-08-14T12:00:00.000Z",
+  "maps": [
+    {
+      "id": "customs",
+      "sourceId": "56f40101d2720b2a4d8b45d6",
+      "sourceName": "海关",
+      "surfaceHeight": [
+        -1000,
+        1000
+      ],
+      "surface": {
+        "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/customs_0.16/main/{z}/{x}/{y}.png",
+        "svgPath": "https://cdn.kaedeori.com/uploads/tarkov/maps/Customs.svg",
+        "svgLayer": "Ground_Level"
+      },
+      "projection": {
+        "minZoom": 2,
+        "maxZoom": 6,
+        "transform": [
+          0.239,
+          168.65,
+          0.239,
+          136.35
+        ],
+        "coordinateRotation": 180,
+        "bounds": [
+          [
+            698,
+            -307
+          ],
+          [
+            -372,
+            237
+          ]
+        ]
+      },
+      "layers": [
+        {
+          "id": "underground",
+          "name": "地下层",
+          "sourceName": "Underground",
+          "image": "customs--underground.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/customs_0.16/underground/{z}/{x}/{y}.png",
+          "svgLayer": "Underground_Level",
+          "debugAsset": "Customs-Underground_Level.png",
+          "extents": [
+            {
+              "height": [
+                -1000,
+                0.5
+              ],
+              "bounds": [
+                [
+                  [
+                    635,
+                    -137
+                  ],
+                  [
+                    620,
+                    -125
+                  ]
+                ],
+                [
+                  [
+                    473,
+                    -122
+                  ],
+                  [
+                    458,
+                    -110
+                  ]
+                ],
+                [
+                  [
+                    314,
+                    -173
+                  ],
+                  [
+                    308,
+                    -184
+                  ]
+                ],
+                [
+                  [
+                    349,
+                    -88
+                  ],
+                  [
+                    323,
+                    -32
+                  ]
+                ],
+                [
+                  [
+                    219,
+                    -158
+                  ],
+                  [
+                    193,
+                    -137
+                  ]
+                ],
+                [
+                  [
+                    122,
+                    -61
+                  ],
+                  [
+                    88,
+                    -40
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2nd-floor",
+          "name": "二层",
+          "sourceName": "2nd Floor",
+          "image": "customs--2nd-floor.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/customs_0.16/2nd/{z}/{x}/{y}.png",
+          "svgLayer": "Second_Floor",
+          "debugAsset": "Customs-Second_Floor.png",
+          "extents": [
+            {
+              "height": [
+                2.7,
+                6.5
+              ],
+              "bounds": [
+                [
+                  [
+                    243,
+                    190
+                  ],
+                  [
+                    165,
+                    125
+                  ]
+                ],
+                [
+                  [
+                    116,
+                    -83
+                  ],
+                  [
+                    72,
+                    -170
+                  ]
+                ],
+                [
+                  [
+                    356,
+                    -30
+                  ],
+                  [
+                    341,
+                    -84
+                  ]
+                ],
+                [
+                  [
+                    334,
+                    -52
+                  ],
+                  [
+                    321,
+                    -59
+                  ]
+                ],
+                [
+                  [
+                    589,
+                    10
+                  ],
+                  [
+                    577,
+                    -1
+                  ]
+                ],
+                [
+                  [
+                    580,
+                    -104
+                  ],
+                  [
+                    532,
+                    -134
+                  ]
+                ],
+                [
+                  [
+                    625,
+                    -120
+                  ],
+                  [
+                    599,
+                    -139
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                5.7,
+                1000
+              ],
+              "bounds": [
+                [
+                  [
+                    580,
+                    -104
+                  ],
+                  [
+                    532,
+                    -134
+                  ]
+                ],
+                [
+                  [
+                    -199,
+                    -90
+                  ],
+                  [
+                    -223,
+                    -131
+                  ]
+                ],
+                [
+                  [
+                    239,
+                    3
+                  ],
+                  [
+                    169,
+                    -160
+                  ]
+                ],
+                [
+                  [
+                    336,
+                    -56
+                  ],
+                  [
+                    316,
+                    -95
+                  ]
+                ],
+                [
+                  [
+                    584,
+                    -46
+                  ],
+                  [
+                    556,
+                    -92
+                  ]
+                ],
+                [
+                  [
+                    93,
+                    0
+                  ],
+                  [
+                    65,
+                    -22
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                14,
+                15
+              ],
+              "bounds": [
+                [
+                  [
+                    497,
+                    -44
+                  ],
+                  [
+                    450,
+                    -90
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                3.9,
+                7.6
+              ],
+              "bounds": [
+                [
+                  [
+                    73,
+                    57
+                  ],
+                  [
+                    22,
+                    -38
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                4.4,
+                6.5
+              ],
+              "bounds": [
+                [
+                  [
+                    119,
+                    -57
+                  ],
+                  [
+                    100,
+                    -42
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                4.6,
+                7.9
+              ],
+              "bounds": [
+                [
+                  [
+                    279,
+                    -79
+                  ],
+                  [
+                    246,
+                    -1.4
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3rd-floor",
+          "name": "三层",
+          "sourceName": "3rd Floor",
+          "image": "customs--3rd-floor.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/customs_0.16/3rd/{z}/{x}/{y}.png",
+          "svgLayer": "Third_Floor",
+          "debugAsset": "Customs-Third_Floor.png",
+          "extents": [
+            {
+              "height": [
+                5.7,
+                1000
+              ],
+              "bounds": [
+                [
+                  [
+                    243,
+                    190
+                  ],
+                  [
+                    165,
+                    125
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                7.7,
+                11.3
+              ],
+              "bounds": [
+                [
+                  [
+                    73,
+                    -73
+                  ],
+                  [
+                    22,
+                    -38
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                6.7,
+                11.6
+              ],
+              "bounds": [
+                [
+                  [
+                    126,
+                    -64
+                  ],
+                  [
+                    88,
+                    -35
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                8,
+                11.1
+              ],
+              "bounds": [
+                [
+                  [
+                    279,
+                    -79
+                  ],
+                  [
+                    246,
+                    -1.4
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4th-floor",
+          "name": "四层",
+          "sourceName": "4th Floor",
+          "image": "customs--4th-floor.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/customs_0.16/4th/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [
+            {
+              "height": [
+                11.2,
+                54.7
+              ],
+              "bounds": [
+                [
+                  [
+                    279,
+                    -79
+                  ],
+                  [
+                    246,
+                    -1.4
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factory",
+      "sourceId": "55f2d3fd4bdc2d5f408b4567",
+      "sourceName": "工厂",
+      "surfaceHeight": [
+        -1,
+        3
+      ],
+      "surface": {
+        "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/factory/main/{z}/{x}/{y}.png",
+        "svgPath": "https://cdn.kaedeori.com/uploads/tarkov/maps/Factory.svg",
+        "svgLayer": "Ground_Floor"
+      },
+      "projection": {
+        "minZoom": 1,
+        "maxZoom": 6,
+        "transform": [
+          1.629,
+          119.9,
+          1.629,
+          139.3
+        ],
+        "coordinateRotation": 90,
+        "bounds": [
+          [
+            77,
+            -64.5
+          ],
+          [
+            -65.5,
+            67.4
+          ]
+        ]
+      },
+      "layers": [
+        {
+          "id": "2nd-floor",
+          "name": "二层",
+          "sourceName": "2nd Floor",
+          "image": "factory--2nd-floor.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/factory/2nd/{z}/{x}/{y}.png",
+          "svgLayer": "Second_Floor",
+          "debugAsset": "Factory-Second_Floor.png",
+          "extents": [
+            {
+              "height": [
+                3,
+                6
+              ],
+              "bounds": []
+            }
+          ]
+        },
+        {
+          "id": "3rd-floor",
+          "name": "三层",
+          "sourceName": "3rd Floor",
+          "image": "factory--3rd-floor.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/factory/3rd/{z}/{x}/{y}.png",
+          "svgLayer": "Third_Floor",
+          "debugAsset": "Factory-Third_Floor.png",
+          "extents": [
+            {
+              "height": [
+                6,
+                10000
+              ],
+              "bounds": []
+            }
+          ]
+        },
+        {
+          "id": "tunnels",
+          "name": "地下隧道",
+          "sourceName": "Tunnels",
+          "image": "factory--tunnels.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/factory/tunnels/{z}/{x}/{y}.png",
+          "svgLayer": "Basement",
+          "debugAsset": "Factory-Basement.png",
+          "extents": [
+            {
+              "height": [
+                -10000,
+                -1
+              ],
+              "bounds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ground-zero",
+      "sourceId": "653e6760052c01c1c805532f",
+      "sourceName": "中心区",
+      "surfaceHeight": [
+        -1000,
+        28
+      ],
+      "surface": {
+        "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/groundzero/main_summer/{z}/{x}/{y}.png",
+        "svgPath": "https://cdn.kaedeori.com/uploads/tarkov/maps/GroundZero.svg",
+        "svgLayer": "Ground_Level"
+      },
+      "projection": {
+        "minZoom": 1,
+        "maxZoom": 6,
+        "transform": [
+          0.524,
+          167.3,
+          0.524,
+          65.1
+        ],
+        "coordinateRotation": 180,
+        "bounds": [
+          [
+            249,
+            -124
+          ],
+          [
+            -99,
+            364
+          ]
+        ]
+      },
+      "layers": [
+        {
+          "id": "garage",
+          "name": "地下车库",
+          "sourceName": "Garage",
+          "image": "ground-zero--garage.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/groundzero/garage/{z}/{x}/{y}.png",
+          "svgLayer": "Underground_Level",
+          "debugAsset": "GroundZero-Underground_Level.png",
+          "extents": [
+            {
+              "height": [
+                -1000,
+                21
+              ],
+              "bounds": [
+                [
+                  [
+                    117,
+                    -100
+                  ],
+                  [
+                    43,
+                    190
+                  ]
+                ],
+                [
+                  [
+                    143,
+                    49
+                  ],
+                  [
+                    117,
+                    80
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2nd-floor",
+          "name": "二层",
+          "sourceName": "2nd Floor",
+          "image": "ground-zero--2nd-floor.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/groundzero/2nd/{z}/{x}/{y}.png",
+          "svgLayer": "Second_Floor",
+          "debugAsset": "GroundZero-Second_Floor.png",
+          "extents": [
+            {
+              "height": [
+                28,
+                32.3
+              ],
+              "bounds": []
+            },
+            {
+              "height": [
+                26,
+                31
+              ],
+              "bounds": [
+                [
+                  [
+                    98,
+                    216
+                  ],
+                  [
+                    91,
+                    228
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3rd-floor",
+          "name": "三层",
+          "sourceName": "3rd Floor",
+          "image": "ground-zero--3rd-floor.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/groundzero/3rd/{z}/{x}/{y}.png",
+          "svgLayer": "Third_Floor",
+          "debugAsset": "GroundZero-Third_Floor.png",
+          "extents": [
+            {
+              "height": [
+                32.3,
+                1000
+              ],
+              "bounds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interchange",
+      "sourceId": "5714dbc024597771384a510d",
+      "sourceName": "立交桥",
+      "surfaceHeight": [
+        -1000,
+        25
+      ],
+      "surface": {
+        "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/interchange/main/{z}/{x}/{y}.png",
+        "svgPath": "https://cdn.kaedeori.com/uploads/tarkov/maps/Interchange.svg",
+        "svgLayer": "Ground_Level"
+      },
+      "projection": {
+        "minZoom": 1,
+        "maxZoom": 6,
+        "transform": [
+          0.265,
+          150.6,
+          0.265,
+          134.6
+        ],
+        "coordinateRotation": 180,
+        "bounds": [
+          [
+            598,
+            -442
+          ],
+          [
+            -433,
+            426
+          ]
+        ]
+      },
+      "layers": [
+        {
+          "id": "2nd-floor",
+          "name": "二层",
+          "sourceName": "2nd Floor",
+          "image": "interchange--2nd-floor.png",
+          "tilePath": null,
+          "svgLayer": "First_Floor",
+          "debugAsset": "Interchange-First_Floor.png",
+          "extents": [
+            {
+              "height": [
+                25,
+                34
+              ],
+              "bounds": [
+                [
+                  [
+                    120,
+                    218
+                  ],
+                  [
+                    -222,
+                    -327
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3rd-floor",
+          "name": "三层",
+          "sourceName": "3rd Floor",
+          "image": "interchange--3rd-floor.png",
+          "tilePath": null,
+          "svgLayer": "Second_Floor",
+          "debugAsset": "Interchange-Second_Floor.png",
+          "extents": [
+            {
+              "height": [
+                34,
+                1000
+              ],
+              "bounds": [
+                [
+                  [
+                    120,
+                    218
+                  ],
+                  [
+                    -222,
+                    -327
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reserve",
+      "sourceId": "5704e5fad2720bc05b8b4567",
+      "sourceName": "储备站",
+      "surfaceHeight": [
+        -7,
+        10000
+      ],
+      "surface": {
+        "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/reserve/main/{z}/{x}/{y}.png",
+        "svgPath": "https://cdn.kaedeori.com/uploads/tarkov/maps/Reserve.svg",
+        "svgLayer": "Ground_Level"
+      },
+      "projection": {
+        "minZoom": 2,
+        "maxZoom": 6,
+        "transform": [
+          0.395,
+          122,
+          0.395,
+          137.65
+        ],
+        "coordinateRotation": 180,
+        "bounds": [
+          [
+            289,
+            -293
+          ],
+          [
+            -303,
+            244
+          ]
+        ]
+      },
+      "layers": [
+        {
+          "id": "bunkers",
+          "name": "地下掩体",
+          "sourceName": "Bunkers",
+          "image": "reserve--bunkers.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/reserve/bunkers/{z}/{x}/{y}.png",
+          "svgLayer": "Bunkers",
+          "debugAsset": "Reserve-Bunkers.png",
+          "extents": [
+            {
+              "height": [
+                -10000,
+                -7.27
+              ],
+              "bounds": [
+                [
+                  [
+                    128,
+                    -208
+                  ],
+                  [
+                    18,
+                    -33
+                  ]
+                ],
+                [
+                  [
+                    -46,
+                    -42
+                  ],
+                  [
+                    -176,
+                    127
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                -10000,
+                -12
+              ],
+              "bounds": [
+                [
+                  [
+                    -40,
+                    124
+                  ],
+                  [
+                    -124,
+                    189
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                -10000,
+                18
+              ],
+              "bounds": [
+                [
+                  [
+                    23,
+                    173
+                  ],
+                  [
+                    -65,
+                    189
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                -7.27,
+                -3.2
+              ],
+              "bounds": [
+                [
+                  [
+                    74,
+                    -196
+                  ],
+                  [
+                    19,
+                    -149
+                  ]
+                ]
+              ]
+            },
+            {
+              "height": [
+                -11,
+                -4.6
+              ],
+              "bounds": [
+                [
+                  [
+                    -246,
+                    -79
+                  ],
+                  [
+                    -274,
+                    -53
+                  ]
+                ],
+                [
+                  [
+                    238,
+                    -26
+                  ],
+                  [
+                    126,
+                    45
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoreline",
+      "sourceId": "5704e554d2720bac5b8b456e",
+      "sourceName": "海岸线",
+      "surfaceHeight": [
+        -1000,
+        -1
+      ],
+      "surface": {
+        "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/shoreline/main_summer/{z}/{x}/{y}.png",
+        "svgPath": "https://cdn.kaedeori.com/uploads/tarkov/maps/Shoreline.svg",
+        "svgLayer": "Ground_Level"
+      },
+      "projection": {
+        "minZoom": 2,
+        "maxZoom": 6,
+        "transform": [
+          0.16,
+          83.2,
+          0.16,
+          111.1
+        ],
+        "coordinateRotation": 180,
+        "bounds": [
+          [
+            504,
+            -415
+          ],
+          [
+            -1056,
+            618
+          ]
+        ]
+      },
+      "layers": [
+        {
+          "id": "underground",
+          "name": "地下层",
+          "sourceName": "Underground",
+          "image": "shoreline--underground.png",
+          "tilePath": null,
+          "svgLayer": "Underground_Level",
+          "debugAsset": "Shoreline-Underground_Level.png",
+          "extents": [
+            {
+              "height": [
+                -1000,
+                -5
+              ],
+              "bounds": [
+                [
+                  [
+                    -137,
+                    -68
+                  ],
+                  [
+                    -237,
+                    -104
+                  ]
+                ],
+                [
+                  [
+                    -234,
+                    -134
+                  ],
+                  [
+                    -268,
+                    -163
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2nd-floor",
+          "name": "二层",
+          "sourceName": "2nd Floor",
+          "image": "shoreline--2nd-floor.png",
+          "tilePath": null,
+          "svgLayer": "Second_Floor",
+          "debugAsset": "Shoreline-Second_Floor.png",
+          "extents": [
+            {
+              "height": [
+                -1,
+                2
+              ],
+              "bounds": []
+            }
+          ]
+        },
+        {
+          "id": "3rd-floor",
+          "name": "三层",
+          "sourceName": "3rd Floor",
+          "image": "shoreline--3rd-floor.png",
+          "tilePath": null,
+          "svgLayer": "Third_Floor",
+          "debugAsset": "Shoreline-Third_Floor.png",
+          "extents": [
+            {
+              "height": [
+                2,
+                1000
+              ],
+              "bounds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "streets-of-tarkov",
+      "sourceId": "5714dc692459777137212e12",
+      "sourceName": "塔科夫街区",
+      "surfaceHeight": [
+        -6,
+        10
+      ],
+      "surface": {
+        "tilePath": null,
+        "svgPath": "https://cdn.kaedeori.com/uploads/tarkov/maps/StreetsOfTarkov.svg",
+        "svgLayer": "Ground_Level"
+      },
+      "projection": {
+        "minZoom": 1,
+        "maxZoom": 5,
+        "transform": [
+          0.38,
+          0,
+          0.38,
+          0
+        ],
+        "coordinateRotation": 180,
+        "bounds": [
+          [
+            323,
+            -295
+          ],
+          [
+            -280,
+            532
+          ]
+        ]
+      },
+      "layers": [
+        {
+          "id": "underground",
+          "name": "地下层",
+          "sourceName": "Underground",
+          "image": "streets-of-tarkov--underground.png",
+          "tilePath": null,
+          "svgLayer": "Underground_Level",
+          "debugAsset": "StreetsOfTarkov-Underground_Level.png",
+          "extents": [
+            {
+              "height": [
+                -10000,
+                -6
+              ],
+              "bounds": []
+            }
+          ]
+        },
+        {
+          "id": "2nd-floor",
+          "name": "二层",
+          "sourceName": "2nd Floor",
+          "image": "streets-of-tarkov--2nd-floor.png",
+          "tilePath": null,
+          "svgLayer": "Second_Floor",
+          "debugAsset": "StreetsOfTarkov-Second_Floor.png",
+          "extents": [
+            {
+              "height": [
+                10,
+                15
+              ],
+              "bounds": []
+            }
+          ]
+        },
+        {
+          "id": "3rd-floor",
+          "name": "三层",
+          "sourceName": "3rd Floor",
+          "image": "streets-of-tarkov--3rd-floor.png",
+          "tilePath": null,
+          "svgLayer": "Third_Floor",
+          "debugAsset": "StreetsOfTarkov-Third_Floor.png",
+          "extents": [
+            {
+              "height": [
+                15,
+                20
+              ],
+              "bounds": []
+            }
+          ]
+        },
+        {
+          "id": "4th-floor",
+          "name": "四层",
+          "sourceName": "4th Floor",
+          "image": "streets-of-tarkov--4th-floor.png",
+          "tilePath": null,
+          "svgLayer": "Fourth_Floor",
+          "debugAsset": "StreetsOfTarkov-Fourth_Floor.png",
+          "extents": [
+            {
+              "height": [
+                20,
+                25
+              ],
+              "bounds": []
+            }
+          ]
+        },
+        {
+          "id": "5th-floor",
+          "name": "五层",
+          "sourceName": "5th Floor",
+          "image": "streets-of-tarkov--5th-floor.png",
+          "tilePath": null,
+          "svgLayer": "Fifth_Floor",
+          "debugAsset": "StreetsOfTarkov-Fifth_Floor.png",
+          "extents": [
+            {
+              "height": [
+                25,
+                10000
+              ],
+              "bounds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icebreaker",
+      "sourceId": "69af492a4819ea4ba10a69c5",
+      "sourceName": "破冰船",
+      "surfaceName": "医务室",
+      "surfaceHeight": [18.92, 19.56],
+      "outputWidth": 923,
+      "outputHeight": 3000,
+      "buildZoom": 5,
+      "assetBounds": [[20, -28], [-23, 52]],
+      "surface": {
+        "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/06_infirmary/{z}/{x}/{y}.png",
+        "svgPath": null,
+        "svgLayer": null
+      },
+      "projection": {
+        "minZoom": 1,
+        "maxZoom": 5,
+        "transform": [2, 125, 3.5, 91],
+        "coordinateRotation": 180,
+        "bounds": [[77, -64.5], [-65.5, 67.4]]
+      },
+      "layers": [
+        {
+          "id": "control-room",
+          "name": "控制室",
+          "sourceName": "Control Room",
+          "image": "icebreaker--control-room.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/00_control_room/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [-10000, 3.5], "bounds": [] }]
+        },
+        {
+          "id": "engine-room",
+          "name": "发动机舱",
+          "sourceName": "Engine Room",
+          "image": "icebreaker--engine-room.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/01_engine_room/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [3.6, 5.6], "bounds": [] }]
+        },
+        {
+          "id": "engine-room-upper",
+          "name": "发动机舱（上层）",
+          "sourceName": "Engine Room (upper)",
+          "image": "icebreaker--engine-room-upper.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/02_engine_room_upper/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [5.7, 8.7], "bounds": [] }]
+        },
+        {
+          "id": "fuel-pumps-lower",
+          "name": "燃油泵（下层）",
+          "sourceName": "Fuel Pumps (lower)",
+          "image": "icebreaker--fuel-pumps-lower.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/03_fuel_pumps_lower/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [8.8, 11.8], "bounds": [] }]
+        },
+        {
+          "id": "fuel-pumps",
+          "name": "燃油泵",
+          "sourceName": "Fuel Pumps",
+          "image": "icebreaker--fuel-pumps.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/04_fuel_pumps/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [11.9, 14.9], "bounds": [] }]
+        },
+        {
+          "id": "storage-security",
+          "name": "储藏区 / 安保区",
+          "sourceName": "Storage/Security",
+          "image": "icebreaker--storage-security.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/05_storage_ecurity/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [15, 18.93], "bounds": [] }]
+        },
+        {
+          "id": "helipad",
+          "name": "直升机坪",
+          "sourceName": "Helipad",
+          "image": "icebreaker--helipad.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/07_helipad/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [19.57, 22.1], "bounds": [] }]
+        },
+        {
+          "id": "gym-canteen",
+          "name": "健身房 / 食堂",
+          "sourceName": "Gym/Canteen",
+          "image": "icebreaker--gym-canteen.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/08_gym-canteen/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [22.2, 25.2], "bounds": [] }]
+        },
+        {
+          "id": "accommodation-lower",
+          "name": "居住区（下层）",
+          "sourceName": "Accommodation (lower)",
+          "image": "icebreaker--accommodation-lower.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/09_accommodation_lower/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [25.3, 28.2], "bounds": [] }]
+        },
+        {
+          "id": "accommodation-mid",
+          "name": "居住区（中层）",
+          "sourceName": "Accommodation (mid)",
+          "image": "icebreaker--accommodation-mid.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/10_accommodation_mid/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [28.3, 31.3], "bounds": [] }]
+        },
+        {
+          "id": "accommodation-upper",
+          "name": "居住区（上层）",
+          "sourceName": "Accommodation (upper)",
+          "image": "icebreaker--accommodation-upper.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/11_accommodation_upper/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [31.4, 34.4], "bounds": [] }]
+        },
+        {
+          "id": "officers-deck",
+          "name": "军官甲板",
+          "sourceName": "Officers' Deck",
+          "image": "icebreaker--officers-deck.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/12_officers_deck/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [34.5, 37.5], "bounds": [] }]
+        },
+        {
+          "id": "stairs-blocked",
+          "name": "楼梯（封锁）",
+          "sourceName": "Stairs (blocked)",
+          "image": "icebreaker--stairs-blocked.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/13_stairs_blocked/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [37.6, 40.6], "bounds": [] }]
+        },
+        {
+          "id": "bridge",
+          "name": "舰桥",
+          "sourceName": "Bridge",
+          "image": "icebreaker--bridge.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/14_bridge/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [40.7, 43.7], "bounds": [] }]
+        },
+        {
+          "id": "bridge-roof",
+          "name": "舰桥顶部",
+          "sourceName": "Bridge Roof",
+          "image": "icebreaker--bridge-roof.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/icebreaker/15_bridge_roof/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [{ "height": [43.8, 10000], "bounds": [] }]
+        }
+      ]
+    },
+    {
+      "id": "terminal",
+      "sourceId": "65cc8f81a9aac3e77d0cfd3e",
+      "sourceName": "码头",
+      "surfaceName": "地面",
+      "surfaceHeight": [-10000, 10000],
+      "outputWidth": 1701,
+      "outputHeight": 2000,
+      "surface": {
+        "tilePath": null,
+        "svgPath": "https://cdn.kaedeori.com/uploads/tarkov/maps/Terminal.svg",
+        "svgLayer": "Ground_Level"
+      },
+      "projection": {
+        "minZoom": 2,
+        "maxZoom": 6,
+        "transform": [0.2, 0, 0.2, 0],
+        "coordinateRotation": 180,
+        "bounds": [[463, -580], [-433, 475]]
+      },
+      "layers": []
+    },
+    {
+      "id": "the-lab",
+      "sourceId": "5b0fc42d86f7744a585f9105",
+      "sourceName": "实验室",
+      "surfaceHeight": [
+        -0.9,
+        3
+      ],
+      "surface": {
+        "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/labs_v4/1st/{z}/{x}/{y}.png",
+        "svgPath": null,
+        "svgLayer": null
+      },
+      "projection": {
+        "minZoom": 2,
+        "maxZoom": 6,
+        "transform": [
+          0.575,
+          281.2,
+          0.575,
+          193.7
+        ],
+        "coordinateRotation": 270,
+        "bounds": [
+          [
+            -80,
+            -477
+          ],
+          [
+            -287,
+            -193
+          ]
+        ]
+      },
+      "layers": [
+        {
+          "id": "second-level",
+          "name": "二层",
+          "sourceName": "Second Level",
+          "image": "the-lab--second-level.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/labs_v4/2nd/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [
+            {
+              "height": [
+                3,
+                10000
+              ],
+              "bounds": [
+                [
+                  [
+                    -101,
+                    -422
+                  ],
+                  [
+                    -271,
+                    -270
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "technical",
+          "name": "技术层",
+          "sourceName": "Technical",
+          "image": "the-lab--technical.png",
+          "tilePath": "https://cdn.kaedeori.com/uploads/tarkov/maps/labs_v4/technical/{z}/{x}/{y}.png",
+          "svgLayer": null,
+          "debugAsset": null,
+          "extents": [
+            {
+              "height": [
+                -10000,
+                -0.9
+              ],
+              "bounds": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1254 @@
+{
+  "schemaVersion": 1,
+  "source": "SPT DynamicMaps QuestMarkerDumper export",
+  "sourceFile": "Woods.quest-markers.json",
+  "generatedAt": "2026-06-08T11:26:50.357Z",
+  "mapId": "5704e3c2d2720bac5b8b4567",
+  "mapInternalName": "Woods",
+  "mapNormalizedName": "woods",
+  "coordinateFormat": "world-x-y-z",
+  "coordinateMapping": "export Position.X->position.x, Position.Z->position.y, Position.Y->position.z",
+  "markers": [
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6697\u5ea6\u9648\u4ed3",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684\u7b2c\u4e8c\u4e2a RPG \u5f39\u836f\u7bb1\u85cf\u533f\u4e00\u4e2a VOG-25 Khattabka \u624b\u69b4\u5f39",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:40.4701102+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 238.969971,
+        "y": -1.475,
+        "z": -69.3800049
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6697\u5ea6\u9648\u4ed3",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684\u7b2c\u4e09\u4e2a RPG \u5f39\u836f\u7bb1\u85cf\u533f\u4e00\u4e2a VOG-25 Khattabka \u624b\u69b4\u5f39",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:40.614267+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -92.52002,
+        "y": 26.96,
+        "z": -380.125
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6697\u5ea6\u9648\u4ed3",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684\u7b2c\u4e00\u4e2a RPG \u5f39\u836f\u7bb1\u85cf\u533f\u4e00\u4e2a VOG-25 Khattabka \u624b\u69b4\u5f39",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:40.3430282+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -13.52002,
+        "y": -3.12,
+        "z": 49.71997
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6697\u4e2d\u63a9\u62a4",
+      "conditionDescription": "\u5728\u68ee\u6797\u5c06\u96f7\u8fbe\u7ad9\u5907\u7528\u96f6\u4ef6\u85cf\u533f\u5728\u65e7\u952f\u6728\u5382\u7684\u5382\u623f\u91cc",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:39.2357015+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -545.608032,
+        "y": 18.845,
+        "z": -204.528015
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6697\u4e2d\u63a9\u62a4",
+      "conditionDescription": "\u5728\u68ee\u6797\u5c06\u96f7\u8fbe\u7ad9\u5907\u7528\u96f6\u4ef6\u85cf\u533f\u5728\u65e7\u952f\u6728\u5382\u7684\u5382\u623f\u91cc",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:39.0979849+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -537.853,
+        "y": 15.838,
+        "z": -202.000977
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6697\u4e2d\u63a9\u62a4",
+      "conditionDescription": "\u5728\u68ee\u6797\u5c06\u96f7\u8fbe\u7ad9\u5907\u7528\u96f6\u4ef6\u85cf\u533f\u5728\u65e7\u952f\u6728\u5382\u7684\u5382\u623f\u91cc",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:38.918699+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -533.285034,
+        "y": 18.813,
+        "z": -206.508972
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5bf9\u7a7a\u906e\u65ad",
+      "conditionDescription": "\u5728\u68ee\u6797\u6307\u5b9a\u4ea4\u8d27\u70b9\u53d6\u5f97\u5305\u88f9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:40.2090539+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -54.61438,
+        "y": 8.867821,
+        "z": -494.305176
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u68ee\u6797\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:42.2834656+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -636.1,
+        "y": 13.6,
+        "z": 260.400024
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u68ee\u6797\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:41.8367116+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -578,
+        "y": 13.6,
+        "z": -9
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u68ee\u6797\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:42.5639202+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -388.5,
+        "y": 13.6,
+        "z": 342
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u68ee\u6797\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:42.4182577+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -267.2,
+        "y": 13.6,
+        "z": -57.7000122
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u68ee\u6797\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:41.9967072+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -262.900024,
+        "y": 13.6,
+        "z": -485
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u68ee\u6797\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:42.1442177+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -115.599976,
+        "y": 13.6,
+        "z": 178.099976
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u68ee\u6797\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:41.6889557+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 49,
+        "y": 13.6,
+        "z": -372.5
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u68ee\u6797\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:41.5412808+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 410,
+        "y": 13.6,
+        "z": -329
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u611f\u6069\u7684\u5fc3",
+      "conditionDescription": "\u628a\u5e7d\u7075\u5934\u5957\u85cf\u533f\u5728\u6307\u5b9a\u5730\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:33.965988+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 23.7940063,
+        "y": -15.413,
+        "z": 99.84198
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u516c\u9053\u4ef7 - 2",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684\u65e7\u952f\u6728\u5382\u627e\u5230\u5e76\u83b7\u53d6 AK-50 \u62a4\u6728",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:43.4236345+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -544.425659,
+        "y": 19.2192,
+        "z": -204.0365
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u516c\u9053\u4ef7 - 2",
+      "conditionDescription": "\u627e\u5230\u57cb\u85cf\u5730\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:43.2686684+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -542.37,
+        "y": 18.38,
+        "z": -203.87
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u4f9b\u7ed9\u8ba1\u5212",
+      "conditionDescription": "\u5728\u68ee\u6797\u952f\u6728\u5382\u5c0f\u5c4b\u91cc\u53d6\u5f97\u673a\u5bc6\u6587\u4ef6\u59390052",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:33.1655615+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -3.322,
+        "y": -1.4843,
+        "z": -81.1259
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5f52\u8fd8\u4eba\u60c5",
+      "conditionDescription": "\u5c06TerraGroup \"\u84dd\u8272\u6587\u4ef6\u5939\"\u85cf\u533f\u5728\u68ee\u6797USEC\u8425\u5730\u7684\u9ed1\u8272SUV\u91cc\u9762",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:36.7613885+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 289.967041,
+        "y": 23.515,
+        "z": -439.011963
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5f52\u8fd8\u4eba\u60c5",
+      "conditionDescription": "\u5c06TerraGroup \"\u84dd\u8272\u6587\u4ef6\u5939\"\u85cf\u533f\u5728USEC\u8425\u5730\u536b\u661f\u5929\u7ebf\u9644\u8fd1\u7684\u7bb1\u5b50\u91cc",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:36.8917372+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 292.484,
+        "y": 23.353,
+        "z": -507.383057
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5f52\u8fd8\u4eba\u60c5",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684\u5927\u5c71\u9644\u8fd1\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:36.6399416+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -185,
+        "y": 45.7,
+        "z": -292.699951
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u540e\u77e5\u540e\u89c9",
+      "conditionDescription": "\u5728\u5730\u5821\u5185\u85cf\u533f\u7b2c\u4e8c\u5305\u4fc4\u5236\u53e3\u5f84\u7a7f\u7532\u5f39\u836f\u5305",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:41.1450292+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -268.927979,
+        "y": 7.687,
+        "z": -412.652954
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u540e\u77e5\u540e\u89c9",
+      "conditionDescription": "\u5728\u5730\u5821\u5185\u85cf\u533f\u7b2c\u4e09\u5305\u4fc4\u5236\u53e3\u5f84\u7a7f\u7532\u5f39\u836f\u5305",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:41.2767104+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -268.294,
+        "y": 7.687,
+        "z": -416.212036
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u540e\u77e5\u540e\u89c9",
+      "conditionDescription": "\u5728\u5730\u5821\u5185\u85cf\u533f\u7b2c\u4e00\u5305\u4fc4\u5236\u53e3\u5f84\u7a7f\u7532\u5f39\u836f\u5305",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:41.0094734+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -272.703,
+        "y": 7.687,
+        "z": -411.795044
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u540e\u77e5\u540e\u89c9",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u5c71\u4e0b\u7684\u5730\u5821",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:40.8772052+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -282.789978,
+        "y": 12.88,
+        "z": -414.77002
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u8d27\u8fd0\u5ef6\u8bef - 2",
+      "conditionDescription": "\u627e\u5230\u5e76\u4fa6\u5bdf\u68ee\u6797\u94c1\u8def\u6280\u672f\u7ad9\u7684\u529e\u516c\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:39.6396188+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -615.69,
+        "y": 8.094838,
+        "z": 128.68
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u8d27\u8fd0\u5ef6\u8bef - 2",
+      "conditionDescription": "\u627e\u5230\u5e76\u4fa6\u5bdf\u68ee\u6797\u94c1\u8def\u6280\u672f\u7ad9\u7684\u4ed3\u5e93",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:39.4966871+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -617.2,
+        "y": 8.094838,
+        "z": 154.150024
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u8d27\u8fd0\u5ef6\u8bef - 2",
+      "conditionDescription": "\u627e\u5230\u5e76\u4fa6\u5bdf\u68ee\u6797\u94c1\u8def\u6280\u672f\u7ad9\u7684\u8f66\u5e93",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:39.7850793+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -684.24,
+        "y": 8.094838,
+        "z": 105.580017
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6fc0\u8fdb\u6cbb\u7597",
+      "conditionDescription": "\u5728\u68ee\u6797\u6295\u653e\u75ab\u82d7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:39.3639865+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -268,
+        "y": 7.2,
+        "z": -664
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u7b80\u5355\u526f\u4e1a",
+      "conditionDescription": "\u5c06\u8d27\u7269\u85cf\u533f\u5728\u68ee\u6797\u7684 Scav \u5c0f\u5c4b",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:40.7490117+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 412.89,
+        "y": -13.04,
+        "z": 240.049988
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u4ecb\u7ecd",
+      "conditionDescription": "\u53d6\u5f97Jaeger\u7684\u52a0\u5bc6\u7559\u8a00",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:35.170686+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -257.1476,
+        "y": 8.518,
+        "z": 7.9998
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u4ecb\u7ecd",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230Jaeger\u7684\u8425\u5730",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:35.0334639+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -256,
+        "y": 9.58,
+        "z": 9.700012
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u53e3\u5e72\u820c\u71e5 - \u9001\u8d27\u670d\u52a1",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u6307\u5b9a\u57cb\u85cf\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:37.6647951+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 227.698975,
+        "y": 21.056,
+        "z": -706.560059
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6765\u81ea\u8bfa\u6587\u65af\u514b\u7684\u670b\u53cb - \u7b2c3\u90e8\u5206",
+      "conditionDescription": "\u627e\u5230\u5e76\u83b7\u53d6 Mechanic \u670b\u53cb\u7684\u65e5\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:43.5704968+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -60.82788,
+        "y": 10.9259,
+        "z": -649.5177
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u63a0\u5730\u653b\u57ce",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684Scav\u8425\u5730\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:35.8692326+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -189.099976,
+        "y": 0.3,
+        "z": 232.200012
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u60c5\u62a5\u5c31\u662f\u529b\u91cf",
+      "conditionDescription": "\u5728\u68ee\u6797\u5b89\u88c5\u65e0\u7ebf\u6444\u50cf\u5934\u4ee5\u76d1\u89c6\u4f10\u6728\u573a\u7801\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:34.0973171+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 31.086792,
+        "y": -13.6127291,
+        "z": 83.0115356
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u60c5\u62a5\u4e4b\u6e90",
+      "conditionDescription": "\u5728\u68ee\u6797\u5e78\u5b58\uff0c\u5e76\u901a\u8fc7\u5357\u90e8\u8f7d\u5177\u64a4\u79bb\u70b9\u64a4\u79bb",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:36.5040019+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -485.325745,
+        "y": 15.5812693,
+        "z": -504.061432
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u751f\u5b58\u8005\u4e4b\u8def - \u7701\u5403\u4fed\u7528",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684ZB-014\u5730\u5821\u91cc\u85cf\u533fIskra\u4e2a\u4eba\u914d\u7ed9\u53e3\u7cae",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:35.480307+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 447.979,
+        "y": -13.19,
+        "z": 71.3010254
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u751f\u5b58\u8005\u4e4b\u8def - \u7701\u5403\u4fed\u7528",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684ZB-016\u5730\u5821\u91cc\u85cf\u533fIskra\u4e2a\u4eba\u914d\u7ed9\u53e3\u7cae",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:35.3364781+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -386.786,
+        "y": 4.224,
+        "z": 22.5930176
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u8bd5\u63a2 - 2",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u7b2c\u4e8c\u4e2a\u5730\u5821\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:36.1348313+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -156.091,
+        "y": 52.27,
+        "z": -273.31897
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u8bd5\u63a2 - 2",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u7b2c\u4e09\u4e2a\u5730\u5821\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:36.2558094+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -157.601013,
+        "y": 47.173,
+        "z": -233.202026
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u8bd5\u63a2 - 2",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u7b2c\u56db\u4e2a\u5730\u5821\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:36.3790654+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 446.337036,
+        "y": -13.139,
+        "z": 69.18402
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u8bd5\u63a2 - 2",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u7b2c\u4e00\u4e2a\u5730\u5821\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:36.0042077+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 222.160034,
+        "y": 21.382,
+        "z": -706.6
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u641c\u7d22\u4efb\u52a1",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230Prapor\u7684\u5931\u8e2a\u8f66\u961f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:35.6157712+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 195.560059,
+        "y": 12.21,
+        "z": -595.819946
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u641c\u7d22\u4efb\u52a1",
+      "conditionDescription": "\u627e\u5230USEC\u4e34\u65f6\u8425\u5730",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:35.7441305+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 283.050049,
+        "y": 24.04,
+        "z": -439.39
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u7279\u522b\u8054\u7edc",
+      "conditionDescription": "\u5728\u68ee\u6797 RUAF \u5927\u95e8\u65c1\u7684\u5de8\u77f3\u5904\u85cf\u533f\u519b\u7528\u7535\u7f06",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:38.4539095+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -119.044983,
+        "y": -0.93,
+        "z": 400.652
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5916\u90e8\u8ba2\u5355",
+      "conditionDescription": "\u5c06\u8be5\u88c5\u7f6e\u85cf\u533f\u5728\u68ee\u6797\u7684\u6307\u5b9a\u4f4d\u7f6e",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:39.9211826+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -55.0050049,
+        "y": 8.82,
+        "z": -498.353027
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5371\u673a\u56db\u4f0f\u5854\u79d1\u592b",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u9ad8\u5bc6\u5ea6\u96f7\u533a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:38.5928398+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 341.599976,
+        "y": 22.907,
+        "z": -492.300049
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u7a33\u5b9a\u4fe1\u53f7",
+      "conditionDescription": "\u5728\u68ee\u6797\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u4e8c\u4e2a\u6c14\u8c61\u7ad9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:37.153521+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -209.221985,
+        "y": 77.521,
+        "z": -279.781
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u7a33\u5b9a\u4fe1\u53f7",
+      "conditionDescription": "\u5728\u68ee\u6797\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u4e09\u4e2a\u6c14\u8c61\u7ad9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:37.2765324+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -97.25,
+        "y": 13.993,
+        "z": -542.050049
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u7a33\u5b9a\u4fe1\u53f7",
+      "conditionDescription": "\u5728\u68ee\u6797\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u56db\u4e2a\u6c14\u8c61\u7ad9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:37.4035554+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 247.27002,
+        "y": -9.067,
+        "z": 291.49
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u7a33\u5b9a\u4fe1\u53f7",
+      "conditionDescription": "\u5728\u68ee\u6797\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u4e94\u4e2a\u6c14\u8c61\u7ad9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:37.5307688+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -447.077,
+        "y": 2.061,
+        "z": 249
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u7a33\u5b9a\u4fe1\u53f7",
+      "conditionDescription": "\u5728\u68ee\u6797\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u4e00\u4e2a\u6c14\u8c61\u7ad9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:37.0340271+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 412.208984,
+        "y": 13.708,
+        "z": -608.531
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5148\u53d1\u5236\u4eba",
+      "conditionDescription": "\u5728Skier \u7684\u6148\u5584\u68c0\u67e5\u70b9\u51fb\u6740Scav",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:43.0215689+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 174.800049,
+        "y": 23.6,
+        "z": -728.1
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5c0f\u672c\u751f\u610f - 3",
+      "conditionDescription": "\u5728\u68ee\u6797\u6cb3\u8fb9\u6751\u5e84\u5185\u7684\u796d\u7940\u5708\u57cb\u85cf\u4e00\u628a\u90aa\u6559\u5f92\u7684\u5200",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:33.4516549+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 195.977051,
+        "y": 1.032,
+        "z": -7.24200439
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5c0f\u672c\u751f\u610f - 3",
+      "conditionDescription": "\u5728\u68ee\u6797\u952f\u6728\u5382\u65c1\u7684\u796d\u7940\u5708\u57cb\u85cf\u4e00\u628a\u90aa\u6559\u5f92\u7684\u5200",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:33.5774258+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -88.70001,
+        "y": 12.55,
+        "z": -717.61
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u4e00\u62a5\u8fd8\u4e00\u62a5",
+      "conditionDescription": "\u5728\u68ee\u6797 Prapor \u5b89\u653e WI-FI \u6444\u50cf\u5934\u7684\u5730\u70b9\u85cf\u533f\u91d1\u516c\u9e21\u96d5\u50cf",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:38.1891506+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -219.747986,
+        "y": 62.621,
+        "z": -219.974976
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u4e00\u81c2\u4e4b\u529b",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u5e76\u83b7\u53d6 Prapor \u7684\u5305\u88f9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:42.7058157+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -619.196045,
+        "y": 8.457,
+        "z": 127.908813
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u533b\u7597\u9690\u79c1 - 3",
+      "conditionDescription": "\u63d0\u53d6\u8840\u6db2\u6837\u672c",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:33.8277019+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -94.25195,
+        "y": -15.702,
+        "z": 218.992981
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u533b\u7597\u9690\u79c1 - 3",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u90a3\u8f86\u66fe\u5c5e\u4e8e\u7597\u517b\u9662\u533b\u7597\u670d\u52a1\u8d1f\u8d23\u4eba\u7684\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:33.7016547+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -97.1500244,
+        "y": -13.19,
+        "z": 219.76001
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u9690\u79d8\u7684\u8d44\u52a9\u4eba",
+      "conditionDescription": "\u627e\u5230\u5e76\u83b7\u53d6\u65b0\u7684\u6148\u5584\u62db\u52df\u8005\u7b14\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:42.8477256+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 132.008667,
+        "y": 25.3763,
+        "z": -732.1907
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u613f\u8005\u4e0a\u94a9",
+      "conditionDescription": "\u5728\u68ee\u6797\u5c06\u5c06\u91d1\u9879\u94fe\u85cf\u5230\u4f10\u6728\u573a\u5bbf\u820d\u533a\u7684\u4e2d\u95f4\u5c0f\u5c4b\u5185",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:34.4791068+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -6.21435547,
+        "y": -0.492474556,
+        "z": -75.55499
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u518d\u6b21\u5ef6\u8bef",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u5931\u8e2a\u7684\u9001\u8d27\u4eba\u5458",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:40.0710772+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -39.0599976,
+        "y": 19.884,
+        "z": -250.38
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6218\u4e89\u4e4b\u8840 - 3",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u7b2c\u4e8c\u4e2a\u71c3\u6599\u5806\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:34.7771403+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -325.042,
+        "y": 15.319,
+        "z": 23.9849854
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6218\u4e89\u4e4b\u8840 - 3",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u7b2c\u4e09\u4e2a\u71c3\u6599\u5806\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:34.905719+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -200.406982,
+        "y": 31.302,
+        "z": -210.924011
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6218\u4e89\u4e4b\u8840 - 3",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u7b2c\u4e00\u4e2a\u71c3\u6599\u5806\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:34.6405304+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 356.449951,
+        "y": 0.35,
+        "z": -85.8800049
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u68ee\u6797\u8fc7\u706b\u8f66\u8f86\u6b8b\u9ab8\u91cc\u7684\u5c0f\u718a\u8eab\u8fb9\u5b89\u88c5WI-FI\u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:38.7423911+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -117.325073,
+        "y": 22.035,
+        "z": -463.949951
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u81f4\u547d\u8bba\u636e",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u5e76\u83b7\u53d6 RPG \u5f39\u836f\u5305\u88f9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:41.4084106+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 409.434326,
+        "y": -13.5449991,
+        "z": 240.53363
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u5fe0\u5b9e\u89c2\u4f17",
+      "conditionDescription": "\u5728\u68ee\u6797\u5c71\u4e0a\u7684\u60ac\u5d16\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:38.0536569+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -219.22699,
+        "y": 64.622,
+        "z": -224.43396
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u79df\u501f\u6cd5\u6848 - 1",
+      "conditionDescription": "\u5728\u68ee\u6797\u53d6\u5f97\u7b2c\u4e00\u4e2a\u7535\u673a\u63a7\u5236\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:34.2217344+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 233.843018,
+        "y": -1.235,
+        "z": -71.10199
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u79df\u501f\u6cd5\u6848 - 1",
+      "conditionDescription": "\u5728\u68ee\u6797\u627e\u5230\u7b2c\u4e00\u4e2a\u5355\u8f74\u5149\u7ea4\u9640\u87ba\u4eea",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:34.3476776+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 56.7149658,
+        "y": -1.791,
+        "z": -50.3070068
+      }
+    },
+    {
+      "mapId": "5704e3c2d2720bac5b8b4567",
+      "mapInternalName": "Woods",
+      "mapNormalizedName": "woods",
+      "questName": "\u6700\u540e\u7684\u7ec6\u679d\u672b\u8282",
+      "conditionDescription": "\u5728\u68ee\u6797\u7684\u65e7\u952f\u6728\u5382\u4e2d\u85cf\u533f\u65e5\u5fd7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:32:38.3231252+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -510.893,
+        "y": 17.147,
+        "z": -178.234985
+      }
+    }
+  ]
+}

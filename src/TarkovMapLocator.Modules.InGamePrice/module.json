@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "in-game-price",
+  "assembly": "TarkovMapLocator.Modules.InGamePrice.dll",
+  "entryType": "TarkovMapLocator.Modules.InGamePrice.InGamePriceFeatureModule"
+}

@@ -1,0 +1,676 @@
+{
+  "schemaVersion": 1,
+  "source": "SPT DynamicMaps QuestMarkerDumper export",
+  "sourceFile": "Interchange.quest-markers.json",
+  "generatedAt": "2026-06-08T11:04:14.445Z",
+  "mapId": "5714dbc024597771384a510d",
+  "mapInternalName": "Interchange",
+  "mapNormalizedName": "interchange",
+  "coordinateFormat": "world-x-y-z",
+  "coordinateMapping": "export Position.X->position.x, Position.Z->position.y, Position.Y->position.z",
+  "markers": [
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6210\u529f\u7684\u5173\u952e",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u53d6\u5f97\u670d\u88c5\u8bbe\u8ba1\u624b\u518c\uff08\u4e8c\uff09",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:51.0993925+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -31.44458,
+        "y": 27.5668068,
+        "z": -136.191284
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6210\u529f\u7684\u5173\u952e",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u53d6\u5f97\u670d\u88c5\u8bbe\u8ba1\u624b\u518c\uff08\u4e00\uff09",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.9720127+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 20.2713623,
+        "y": 36.60581,
+        "z": -4.425293
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5927\u6d77\u635e\u9488",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u8c03\u67e5\u513f\u7ae5\u6e38\u4e50\u573a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:54.1928348+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 42.5,
+        "y": 29.9,
+        "z": -216.4
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5927\u6d77\u635e\u9488",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u8c03\u67e5\u5361\u4e01\u8f66\u573a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:54.0657456+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 159.9,
+        "y": 23.4,
+        "z": -246.7
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5927\u7529\u5356",
+      "conditionDescription": "\u68c0\u67e5AVOKADO\u5546\u5e97",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:49.443797+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -33.16,
+        "y": 28.631,
+        "z": 25.81
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5927\u7529\u5356",
+      "conditionDescription": "\u68c0\u67e5DINO CLOTHES\u5546\u5e97",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:49.8869306+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 94.39,
+        "y": 28.16,
+        "z": -120.64
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5927\u7529\u5356",
+      "conditionDescription": "\u68c0\u67e5KOSTIN\u5546\u5e97",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:49.6400396+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -24.67,
+        "y": 28.62,
+        "z": -103.52
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5927\u7529\u5356",
+      "conditionDescription": "\u68c0\u67e5TOP BRAND\u5546\u5e97",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.0000909+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 94.2,
+        "y": 28.2,
+        "z": 10.22
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5927\u7529\u5356",
+      "conditionDescription": "\u68c0\u67e5tRend\u5546\u5e97",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:49.75026+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 64.17,
+        "y": 28.07,
+        "z": -155.4
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u9ad8\u5149\u65f6\u523b",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u627e\u5230\u5e76\u83b7\u53d6\u7279\u6b8a\u7248\u672c\u7684\u6e38\u620f\u6742\u5fd7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:53.8328493+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 14.6282606,
+        "y": 38.453,
+        "z": -4.792009
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u706b\u7ebf\u901f\u9012",
+      "conditionDescription": "\u5c06BNTI Gzhel-K\u62a4\u7532\u85cf\u5230\u6307\u5b9a\u5730\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:51.3350931+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 179.855621,
+        "y": 22.3142071,
+        "z": -40.89569
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u706b\u7ebf\u901f\u9012",
+      "conditionDescription": "\u5c06Peltor ComTac 2\u85cf\u5230\u6307\u5b9a\u5730\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:51.2234055+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -50.388,
+        "y": 27.695,
+        "z": 25.076004
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u60c5\u62a5\u5c31\u662f\u529b\u91cf",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u5b89\u88c5\u65e0\u7ebf\u6444\u50cf\u5934\u4ee5\u76d1\u89c6Kiba\u6b66\u5668\u5546\u5e97\u5927\u95e8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:52.0644942+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 8.095032,
+        "y": 27.553,
+        "z": -36.7020264
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u60c5\u62a5\u4e4b\u6e90",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u5e78\u5b58\uff0c\u5e76\u901a\u8fc7\u53d1\u7535\u7ad9\u8f7d\u5177\u64a4\u79bb\u70b9\u64a4\u79bb",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:53.1609753+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -251.92,
+        "y": 21.72,
+        "z": -367.13
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6570\u636e\u5e93 - 1",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u53d6\u5f97Goshan\u8d27\u7269\u6e05\u5355",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.4640202+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -76.48059,
+        "y": 27.9598122,
+        "z": -157.719238
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6570\u636e\u5e93 - 1",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u53d6\u5f97IDEA\u8d27\u7269\u6e05\u5355",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.7215847+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -1.99902344,
+        "y": 27.9606133,
+        "z": -292.8999
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6570\u636e\u5e93 - 1",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u53d6\u5f97OLI\u8d27\u7269\u6e05\u5355",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.594298+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 38.0084229,
+        "y": 27.9528084,
+        "z": 147.143677
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6570\u636e\u5e93 - 2",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u53d6\u5f97OLI\u8d27\u8fd0\u8def\u7ebf\u6587\u4ef6",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.8372089+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 86.60339,
+        "y": 28.06081,
+        "z": 120.860718
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6311\u8845",
+      "conditionDescription": "\u5c06\u5395\u7eb8\u85cf\u533f\u5728\u79d8\u5bc6\u7269\u8d44\u7bb1\u91cc",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:53.7136539+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 138.847015,
+        "y": 25.06355,
+        "z": 274.358
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6311\u8845",
+      "conditionDescription": "\u5c06\u54b8\u72d7\u725b\u8089\u80a0\u85cf\u533f\u5728Kiba Arms\u5546\u5e97\u91cc",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:53.4102119+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -19.50299,
+        "y": 27.57155,
+        "z": -22.401001
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6311\u8845",
+      "conditionDescription": "\u5c06\u4e00\u74f6\u201c\u51f6\u72e0\u8dd1\u5200\u5d3d\u201d\u6708\u5149\u85cf\u533f\u5728\u79d8\u5bc6\u5b89\u5168\u5c4b\u91cc",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:53.5596419+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -49.3209839,
+        "y": 21.80355,
+        "z": 45.028
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6311\u8845",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u4f7f\u7528Ash-12\u51fb\u6740\u4efb\u4f55\u4f4d\u4e8eKiba Arms\u5546\u5e97\u9644\u8fd1\u7684\u654c\u4eba",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:53.2794398+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -9.443756,
+        "y": 28.241,
+        "z": -33.70941
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5fae\u578b\u5ba2\u8f66",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u627e\u5230\u7b2c\u4e8c\u8f86\u5fae\u578b\u5ba2\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:51.5772578+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 17.5570374,
+        "y": 22.834,
+        "z": -25.4960022
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5fae\u578b\u5ba2\u8f66",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u627e\u5230\u7b2c\u4e09\u8f86\u5fae\u578b\u5ba2\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:51.7063508+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -49.76779,
+        "y": 22.854,
+        "z": 59.03575
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u5fae\u578b\u5ba2\u8f66",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u627e\u5230\u7b2c\u4e00\u8f86\u5fae\u578b\u5ba2\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:51.4694812+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 109.867981,
+        "y": 22.33,
+        "z": 288.768
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u7ef4\u4ed6\u547d - 1",
+      "conditionDescription": "\u53d6\u5f97\u7b2c\u4e8c\u4e2a\u5316\u5b66\u54c1\u5bb9\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:51.8266927+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 19.3435,
+        "y": 28.1595,
+        "z": -106.6355
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u7ef4\u4ed6\u547d - 1",
+      "conditionDescription": "\u53d6\u5f97\u7b2c\u4e09\u4e2a\u5316\u5b66\u54c1\u5bb9\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:51.9438941+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 23.5142841,
+        "y": 28.033,
+        "z": -80.812
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u8bf1\u4eba\u65b0\u8d27",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u627e\u5230\u5e76\u83b7\u53d6\u4e22\u5931\u7684\u6b66\u5668\u7bb1",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:53.9547614+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 137.963,
+        "y": 24.107,
+        "z": 268.126
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u613f\u8005\u4e0a\u94a9",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865\u7684Generic\u5546\u5e97\u5c06\u91d1\u9879\u94fe\u85cf\u5230BTR-82A\u88c5\u7532\u8f66\u65c1\u8fb9\u7684\u5e8a\u57ab\u4e0b",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:52.1811544+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -27.234375,
+        "y": 28.105,
+        "z": 2.3956604
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6218\u4e89\u4e4b\u8840 - 1",
+      "conditionDescription": "\u6807\u8bb0\u7b2c\u4e8c\u8f86\u6cb9\u7f50\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.2407397+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 274.29,
+        "y": 22.85,
+        "z": 14.53
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6218\u4e89\u4e4b\u8840 - 1",
+      "conditionDescription": "\u6807\u8bb0\u7b2c\u4e09\u8f86\u6cb9\u7f50\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.3486376+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -172.62,
+        "y": 22.807,
+        "z": -359.48
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u6218\u4e89\u4e4b\u8840 - 1",
+      "conditionDescription": "\u6807\u8bb0\u7b2c\u4e00\u8f86\u6cb9\u7f50\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:50.123302+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -208.36,
+        "y": 22.84,
+        "z": -74.42
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u957f\u671f\u5408\u4f5c",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865ULTRA\u5546\u573a\u5185\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:52.9193742+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -189.299988,
+        "y": 33.14955,
+        "z": -54.5599976
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u957f\u671f\u5408\u4f5c",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865ULTRA\u5546\u573a\u5185\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:52.5483695+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -40.70999,
+        "y": 33.14955,
+        "z": -54.5599976
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u957f\u671f\u5408\u4f5c",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865ULTRA\u5546\u573a\u5185\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:52.3071245+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -19.3599854,
+        "y": 33.14955,
+        "z": -239.897888
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u957f\u671f\u5408\u4f5c",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865ULTRA\u5546\u573a\u5185\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:52.4220373+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -19.3599854,
+        "y": 33.14955,
+        "z": 129.34
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u957f\u671f\u5408\u4f5c",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865ULTRA\u5546\u573a\u5185\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:53.0372217+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 92.27002,
+        "y": 33.14955,
+        "z": -265.76
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u957f\u671f\u5408\u4f5c",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865ULTRA\u5546\u573a\u5185\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:52.6741617+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 103.490021,
+        "y": 33.14955,
+        "z": -54.5599976
+      }
+    },
+    {
+      "mapId": "5714dbc024597771384a510d",
+      "mapInternalName": "Interchange",
+      "mapNormalizedName": "interchange",
+      "questName": "\u957f\u671f\u5408\u4f5c",
+      "conditionDescription": "\u5728\u7acb\u4ea4\u6865ULTRA\u5546\u573a\u5185\u51fb\u6740PMC",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T17:58:52.7921777+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 109.16,
+        "y": 33.14955,
+        "z": -54.5599976
+      }
+    }
+  ]
+}

@@ -1,0 +1,982 @@
+{
+  "schemaVersion": 1,
+  "source": "SPT DynamicMaps QuestMarkerDumper export",
+  "sourceFile": "RezervBase.quest-markers.json",
+  "generatedAt": "2026-06-08T11:16:21.573Z",
+  "mapId": "5704e5fad2720bc05b8b4567",
+  "mapInternalName": "RezervBase",
+  "mapNormalizedName": "reserve",
+  "coordinateFormat": "world-x-y-z",
+  "coordinateMapping": "export Position.X->position.x, Position.Z->position.y, Position.Y->position.z",
+  "markers": [
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5b89\u5168\u901a\u9053",
+      "conditionDescription": "\u6d88\u706d\u50a8\u5907\u7ad9\u5730\u4e0b\u4ed3\u5e93\u91cc\u7684Scav",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:16.1041026+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 65.38989,
+        "y": -24.4292221,
+        "z": -104.648087
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u75c5\u5386",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u53d6\u5f97\u7b2c\u4e8c\u4efd\u533b\u5b66\u62a5\u544a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:15.6178058+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -80.47601,
+        "y": -3.647,
+        "z": -30.7659912
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u75c5\u5386",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u53d6\u5f97\u7b2c\u4e00\u4efd\u533b\u5b66\u62a5\u544a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:15.438707+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -59.0209961,
+        "y": -3.637,
+        "z": -36.1919861
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u50a8\u5907",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u98df\u54c1\u50a8\u5b58\u533a\u57df",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:10.1213079+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 78.77,
+        "y": -12.2860031,
+        "z": -117.1
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5730\u5821 - 1",
+      "conditionDescription": "\u627e\u5230\u5730\u5821",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:10.2752477+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -115.030106,
+        "y": -11.8592224,
+        "z": 33.8819122
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5730\u5821 - 1",
+      "conditionDescription": "\u627e\u5230\u5730\u5821\u63a7\u5236\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:10.4681452+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -116.753113,
+        "y": -13.1592255,
+        "z": 31.6869049
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5730\u5821 - 2",
+      "conditionDescription": "\u627e\u5230\u901a\u5f801\u53f7\u519b\u8425\u7684\u4e24\u6247\u5bc6\u95ed\u95e8\u4e2d\u7684\u4e00\u4e2a\uff08\u9ed1\u5175\uff09",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:11.1301842+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -149.41011,
+        "y": -9.329224,
+        "z": 50.0019073
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5730\u5821 - 2",
+      "conditionDescription": "\u627e\u5230\u901a\u5f802\u53f7\u519b\u8425\u7684\u4e24\u6247\u5bc6\u95ed\u95e8\u4e2d\u7684\u4e00\u4e2a\uff08\u767d\u5175\uff09",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:11.3617617+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -107.0101,
+        "y": -9.388222,
+        "z": 77.49191
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5730\u5821 - 2",
+      "conditionDescription": "\u627e\u5230\u901a\u5f80\u7a7a\u4e2d\u7ba1\u5236\u4e2d\u5fc3\u5927\u697c\u7684\u5bc6\u95ed\u95e8\uff08\u767d\u738b\uff09",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:11.5705916+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -73.0011139,
+        "y": -9.653221,
+        "z": 29.9939117
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5730\u5821 - 2",
+      "conditionDescription": "\u627e\u5230\u901a\u5f80\u5b66\u9662\u5927\u697c\u7684\u4e24\u6247\u5bc6\u95ed\u95e8\u4e2d\u7684\u4e00\u4e2a\uff08\u9ed1\u4e3b\u6559\uff09",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:10.9201023+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -144.2501,
+        "y": -9.983223,
+        "z": 6.19191
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5730\u5821 - 2",
+      "conditionDescription": "\u627e\u5230\u901a\u5f80\u533b\u9662\u7684\u5bc6\u95ed\u95e8\uff08\u767d\u4e3b\u6559\uff09",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:10.7301455+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -90.30911,
+        "y": -13.41922,
+        "z": -5.14808655
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u72ec\u7acb\u7684\u4ee3\u4ef7",
+      "conditionDescription": "\u5c06\u4fe1\u4ef6\u85cf\u533f\u5728\u50a8\u5907\u7ad9\u9a7b\u519b\u603b\u90e8\u7684\u4e09\u697c",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:19.5340516+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -127.21611,
+        "y": 0.6957779,
+        "z": -20.3590851
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u591a\u9c7c\u4e4b\u6f0f",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u53d6\u5f97\u7b2c\u4e8c\u4efd\u52a0\u5bc6\u6587\u4ef6",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:14.9655731+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -114.18103,
+        "y": -13.6893,
+        "z": 39.7880249
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u591a\u9c7c\u4e4b\u6f0f",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u53d6\u5f97\u7b2c\u4e09\u4efd\u52a0\u5bc6\u6587\u4ef6",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:15.119187+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -121.867004,
+        "y": -14.314,
+        "z": 38.6560059
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u591a\u9c7c\u4e4b\u6f0f",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u53d6\u5f97\u7b2c\u4e00\u4efd\u52a0\u5bc6\u6587\u4ef6",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:14.7405+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -114.36499,
+        "y": -13.7081,
+        "z": 27.3590088
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u98ce\u706b\u8f6e - \u518d\u6b21\u5c1d\u8bd5",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230 BTR \u7684\u5907\u7528\u8def\u8f6e\uff0c\u5e76\u4f7f\u7528 MS2000 \u6807\u8bb0\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:19.0791311+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 100.468048,
+        "y": -6.62599945,
+        "z": 28.3770142
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5bb3\u866b\u9632\u6cbb",
+      "conditionDescription": "\u6d88\u706d\u50a8\u5907\u7ad9\u8425\u533a\u91cc\u7684Scav",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:17.7284414+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -164.0601,
+        "y": -4.139221,
+        "z": 54.1319122
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5bb3\u866b\u9632\u6cbb",
+      "conditionDescription": "\u6d88\u706d\u50a8\u5907\u7ad9\u8425\u533a\u91cc\u7684Scav",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:17.5175366+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -102.8701,
+        "y": -4.139221,
+        "z": 92.47191
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u540e\u95e8",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u672a\u4f9b\u7535\u7684\u79d8\u5bc6\u51fa\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:15.9544729+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -119.750107,
+        "y": -29.3112259,
+        "z": 171.7919
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u7b80\u5355\u526f\u4e1a",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u519b\u533b\u9662\u697c\u9876\u627e\u5230\u5e76\u83b7\u53d6 Lightkeeper \u7684\u8d27\u7bb1",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:19.8143398+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -83.6329956,
+        "y": -0.545,
+        "z": -28.8239746
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u7edd\u5bc6\u6280\u672f",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u88c5\u6709T-90M\u63a7\u5236\u9762\u677f\u7684\u5305\u88f9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:14.5312259+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -88.065,
+        "y": -19.129,
+        "z": 151.055
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6765\u81ea\u8bfa\u6587\u65af\u514b\u7684\u670b\u53cb - \u7b2c1\u90e8\u5206",
+      "conditionDescription": "\u4fa6\u5bdf\u50a8\u5907\u7ad9\u6559\u5b66\u697c\u529e\u516c\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:20.8276798+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -63.7225952,
+        "y": -0.3592224,
+        "z": 6.237625
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6765\u81ea\u8bfa\u6587\u65af\u514b\u7684\u670b\u53cb - \u7b2c1\u90e8\u5206",
+      "conditionDescription": "\u4fa6\u5bdf\u50a8\u5907\u7ad9\u533b\u7597\u697c\u6307\u6325\u5b98\u529e\u516c\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:20.6742091+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -52.4861145,
+        "y": -6.41400146,
+        "z": -29.1219788
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6765\u81ea\u8bfa\u6587\u65af\u514b\u7684\u670b\u53cb - \u7b2c1\u90e8\u5206",
+      "conditionDescription": "\u4fa6\u5bdf\u50a8\u5907\u7ad9\u6307\u6325\u5730\u5821\u529e\u516c\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:20.5041421+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -104.465683,
+        "y": -13.6944427,
+        "z": 28.2581787
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u53db\u65e0\u6240\u4f9d",
+      "conditionDescription": "\u6d88\u706d\u50a8\u5907\u7ad9\u5730\u5821\u63a7\u5236\u5ba4\u4e2d\u7684\u63a0\u593a\u8005",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:15.2671272+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -109.6501,
+        "y": -12.8292236,
+        "z": 37.5119171
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u62a2\u593a\u5148\u673a",
+      "conditionDescription": "\u5c06\u4f2a\u9020\u7684\u60c5\u62a5\u85cf\u533f\u5728BMP-2\u4e0b\u65b9\u4ee5\u5b8c\u6210\u8c03\u5305",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:12.8565124+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 101.727905,
+        "y": -5.592224,
+        "z": 64.4449158
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u62a2\u593a\u5148\u673a",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u7684\u5730\u5821\u91cc\u627e\u5230\u539f\u59cb\u60c5\u62a5",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:17.9313642+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 102.242981,
+        "y": -6.813,
+        "z": 65.56604
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6e05\u70b9\u5e93\u5b58",
+      "conditionDescription": "\u68c0\u67e5\u50a8\u5907\u7ad9\u5317\u8fb9\u519b\u8425\u7684\u7b2c\u4e8c\u4e2a\u519b\u68b0\u5e93",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:16.9675116+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -125.518112,
+        "y": -7.0462265,
+        "z": 95.67992
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6e05\u70b9\u5e93\u5b58",
+      "conditionDescription": "\u68c0\u67e5\u50a8\u5907\u7ad9\u5317\u8fb9\u519b\u8425\u7684\u7b2c\u4e00\u4e2a\u519b\u68b0\u5e93",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:16.7880975+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -125.5401,
+        "y": -1.28522491,
+        "z": 95.6819153
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6e05\u70b9\u5e93\u5b58",
+      "conditionDescription": "\u68c0\u67e5\u50a8\u5907\u7ad9\u897f\u8fb9\u519b\u8425\u7684\u7b2c\u4e8c\u4e2a\u519b\u68b0\u5e93",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:16.624071+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -167.376114,
+        "y": -7.0462265,
+        "z": 31.3559113
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6e05\u70b9\u5e93\u5b58",
+      "conditionDescription": "\u68c0\u67e5\u50a8\u5907\u7ad9\u897f\u8fb9\u519b\u8425\u7684\u7b2c\u4e00\u4e2a\u519b\u68b0\u5e93",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:16.2637527+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -167.376114,
+        "y": -1.28522491,
+        "z": 31.3559113
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6e05\u70b9\u5e93\u5b58",
+      "conditionDescription": "\u68c0\u67e5\u50a8\u5907\u7ad9\u897f\u8fb9\u519b\u8425\u7684\u503c\u73ed\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:16.4474276+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -164.964111,
+        "y": -4.221222,
+        "z": 34.52591
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u70ed\u70b9\u5730\u5e26",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u6307\u5b9a\u7ef4\u4fee\u8f66\u95f4\u623f\u9876\u85cf\u533f\u4efb\u610f\u578b\u53f7\u7684 4 \u7ea7\u9632\u5f39\u63d2\u677f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:19.9873628+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 15.8999023,
+        "y": 1.280777,
+        "z": -7.388092
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u77f3\u6cb9\u5b58\u50a8",
+      "conditionDescription": "\u5728\u6d77\u5173\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u56db\u8f86\u6cb9\u7f50\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:09.739291+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -334.933167,
+        "y": -101.455826,
+        "z": -163.460114
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u7279\u522b\u8054\u7edc",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9 LAV \u88c5\u7532\u8f66\u65c1\u5730\u4e0b\u4ed3\u5e93\u9876\u7684\u6c99\u888b\u5904\u85cf\u533f\u519b\u7528\u7535\u7f06",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:18.4134366+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 50.98111,
+        "y": -0.624961853,
+        "z": -181.916656
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u540c\u597d\u4ff1\u4e50\u90e8",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u83b7\u53d6 AK-50 \u67aa\u7ba1",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:20.177055+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 40.6063843,
+        "y": -4.2792,
+        "z": -125.859558
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u540c\u597d\u4ff1\u4e50\u90e8",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u683c\u9c81\u54c8\u7684\u8f66\u95f4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:20.3418316+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 45.46988,
+        "y": -2.78922272,
+        "z": -117.468094
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u5916\u90e8\u8ba2\u5355",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u7684\u673a\u7535\u4ed3\u5e93\u627e\u5230\u5e76\u83b7\u53d6\u7535\u5b50\u5e72\u6270\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:19.3412653+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -66.87903,
+        "y": -6.510002,
+        "z": 29.5370178
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u6807\u8bb0\u7b2c\u4e8c\u8f86BMP-2\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:12.4453183+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 79.02789,
+        "y": -5.43922424,
+        "z": -31.7870865
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u6807\u8bb0\u7b2c\u56db\u8f86BMP-2\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:13.2803795+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 53.6199036,
+        "y": -3.997223,
+        "z": 122.661896
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u6807\u8bb0\u7b2c\u4e00\u8f86BMP-2\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:12.0086308+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -100.580109,
+        "y": -3.719223,
+        "z": -155.878082
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u6807\u8bb0\u7b2c\u4e00\u8f86LAV-III\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:13.7629055+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 42.12439,
+        "y": 0.8737793,
+        "z": -195.23909
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u68c0\u67e5\u7b2c\u4e8c\u8f86BMP-2\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:12.2284058+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 79.00989,
+        "y": -4.62922668,
+        "z": -31.5480881
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u68c0\u67e5\u7b2c\u4e8c\u8f86LAV-III\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:14.0255188+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -107.222275,
+        "y": -5.6922226,
+        "z": -67.3433
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u68c0\u67e5\u7b2c\u4e09\u8f86BMP-2\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:12.6530433+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 103.3819,
+        "y": -4.62922668,
+        "z": 63.8699036
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u68c0\u67e5\u7b2c\u56db\u8f86BMP-2\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:13.0824472+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 53.829895,
+        "y": -4.139221,
+        "z": 122.031921
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u68c0\u67e5\u7b2c\u4e00\u8f86BMP-2\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:11.7721487+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -100.4001,
+        "y": -4.3192215,
+        "z": -155.6881
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u68c0\u67e5\u7b2c\u4e00\u8f86LAV-III\u6b65\u6218\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:13.5278505+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 42.0299072,
+        "y": 0.280776978,
+        "z": -195.2381
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u50a8\u5907\u7ad9",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u68c0\u67e5T-90\u5766\u514b",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:14.2839608+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -160.6201,
+        "y": -4.3192215,
+        "z": -117.588089
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u7269\u5c3d\u5176\u7528",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u53d6\u5f97MBT\u7efc\u5408\u5bfc\u822a\u6a21\u5757",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:15.7835241+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 99.78601,
+        "y": -6.725,
+        "z": 59.1600342
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u96ea\u4e2d\u9001\u70ad",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u4e8c\u7ec4\u6cb9\u7f50",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:17.3316287+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 170.0299,
+        "y": -9.309227,
+        "z": -97.85809
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u96ea\u4e2d\u9001\u70ad",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u4e00\u7ec4\u6cb9\u7f50",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:17.1510697+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 11.94989,
+        "y": -9.889221,
+        "z": 73.80191
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u4ee5\u7259\u8fd8\u7259",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u5e78\u5b58\uff0c\u5e76\u4ece\u5ced\u58c1\u659c\u5761\u64a4\u79bb",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:18.2338323+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -9.24,
+        "y": 20.93,
+        "z": 208.43
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u7684\u4e24\u628a\u6905\u5b50\u8c1c\u56e2\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:18.7209917+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 125.10199,
+        "y": -6.481941,
+        "z": -89.345
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u6240\u6709\u5766\u514b\u624b\u7684\u7b2c\u4e00\u6b3e\u6e38\u620f\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:18.913388+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -77.323,
+        "y": -6.251999,
+        "z": -20.2539978
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u4e49\u52a1\u5175\u8fdb\u884c\u6700\u91cd\u8981\u7684\u4efb\u52a1\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:18.5721749+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -82.75,
+        "y": -6.37999725,
+        "z": 62.4400024
+      }
+    },
+    {
+      "mapId": "5704e5fad2720bc05b8b4567",
+      "mapInternalName": "RezervBase",
+      "mapNormalizedName": "reserve",
+      "questName": "\u6700\u540e\u51b2\u523a - \u5f00\u62d3\u8005",
+      "conditionDescription": "\u5728\u50a8\u5907\u7ad9\u627e\u5230\u5e76\u83b7\u53d6\u7b2c\u4e8c\u5f20\u6e38\u620f\u78c1\u76d8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:11:20.9893006+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -172.190979,
+        "y": -2.652,
+        "z": -7.25598145
+      }
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+Escape from Tarkov 全地图撤离点要求（官方 Wiki 核对版）
+========================================================
+
+核对日期：2026-07-21
+主要来源：The Official Escape from Tarkov Wiki（英文官方 Wiki）
+用途：作为 TarkovMapLocatorDesktop 后续补充撤离条件、提示文字和地图数据的依据。
+
+【阅读说明】
+1. “固定开放”对应 Wiki 的 Always available = ✔；“随机开放”对应 ✘。
+2. “固定开放”不代表该局一定分配给你的角色，仍应以游戏内双击 O 显示的撤离列表为准。
+3. “单次使用”表示该撤离点在一局内会被消耗、关闭或载具开走；有座位上限时会单独注明。
+4. “现场绿色信号弹/绿烟 = 开放”与“玩家主动发射绿色信号弹”是两种不同机制，以下已明确区分。
+5. “双方”表示 PMC 与 Scav 均可使用；“合作”必须至少有一名 PMC 与一名玩家 Scav 一起撤离。
+6. 车辆撤离的基础费用目前均为每人 5,000 卢布，实际费用受 Scav Karma（栅栏声望）影响。
+7. 地图之间的“转移点”统一在开局 1 分钟后可用；有额外钥匙卡、金钱、时间限制时另行注明。
+8. Wiki 会随版本更新。本文件记录的是 2026-07-21 核对到的页面内容，后续使用前可按文末链接复核。
+
+
+第一部分：当前桌面地图工具已收录的 11 张地图
+================================================
+
+一、海关（Customs）
+-------------------
+
+撤离点：
+- 管理处大门（Administration Gate）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 锅炉房地下室（合作）（Boiler Room Basement）｜阵营：PMC + Scav｜开放：PMC 随机、Scav 固定｜单次：否｜要求：一名 PMC 与一名玩家 Scav 同时进入；位置在施工区双烟囱锅炉楼地下室。
+- 十字路口（Crossroads）｜阵营：双方｜开放：固定｜单次：否｜要求：无。
+- 宿舍车辆撤离（Dorms V-Ex）｜阵营：PMC｜开放：随机｜单次：是｜要求：每人 5,000 卢布，最多 4 人；费用受 Scav Karma 影响。
+- 工厂远角（Factory Far Corner）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 工厂棚屋（Factory Shacks）｜阵营：Scav｜开放：固定｜单次：否｜要求：无；位于叠放活动板房对面。
+- 军事基地检查站（Military Base CP）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 老加油站（Old Gas Station）｜阵营：PMC｜开放：随机｜单次：否｜要求：现场出现绿色信号弹/绿烟时开放；撤离区在地下室。
+- 老加油站大门（Old Gas Station Gate）｜阵营：Scav｜开放：随机｜单次：否｜要求：无额外物品，以本局撤离列表为准。
+- 老路大门（Old Road Gate）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 岩石间通道（Passage Between Rocks）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 铁路通道（信号弹）（Railroad Passage）｜阵营：PMC｜开放：固定｜单次：否｜要求：进入信号弹区域后，朝天空发射绿色信号弹；可用手持 RSP-30 绿色信号弹或信号枪 26×75mm 绿色信号弹。预组队队伍只需一人正确发射即可为全队开启；必须沿铁轨移动，避免被边界狙击手击杀。
+- 通往军事基地的铁路（Railroad to Military Base）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 通往港口的铁路（Railroad to Port）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 通往塔科夫的铁路（Railroad to Tarkov）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- RUAF 路障（RUAF Roadblock）｜阵营：双方｜开放：固定｜单次：否｜要求：无；Wiki 标注仅 PvE 模式存在。
+- Scav 检查站（Scav Checkpoint）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 走私者之船（Smugglers' Boat）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“暗号 Voron 的纸条”（Note with code word Voron）。注意：这是新版规则，不再是旧版“看篝火随机开放”。
+- 走私者地堡 ZB-1012（Smugglers' Bunker）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“暗号 Voron 的纸条”。
+- 狙击手路障（Sniper Roadblock）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 拖车停车场（Trailer Park）｜阵营：PMC｜开放：固定｜单次：否｜要求：无；撤离区在树林内。
+- 拖车停车场工人棚屋（Trailer Park Workers' Shack）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 4 号仓库（Warehouse 4）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 17 号仓库（Warehouse 17）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- ZB-013｜阵营：PMC｜开放：固定｜单次：否｜要求：先在吊车场的 4 号仓库内拉下供电拉杆，再使用“工厂紧急出口钥匙”打开撤离门；撤离区位于 Scav 要塞地下室。
+- ZB-1011｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+
+转移点：
+- 转移至工厂｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于老加油站撤离点旁。
+- 转移至立交桥｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于拖车停车场旁的公交车内。
+- 转移至储备站｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于军事基地检查站附近。
+- 转移至海岸线｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于狙击手路障后方公交车内。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Customs
+
+
+二、塔科夫街区（Streets of Tarkov）
+-----------------------------------
+
+撤离点：
+- 枢机公寓停车场（Cardinal Apartment Complex Parking）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 倒塌吊车（Collapsed Crane）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 庭院（Courtyard）｜阵营：PMC｜开放：随机｜单次：否｜要求：现场绿色信号弹/绿烟亮起时开放。
+- 坠机现场（Crash Site）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 受损房屋（Damaged House）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 地下墓穴入口（Entrance to Catacombs）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 展览馆检查站（Expo Checkpoint）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 克里莫夫购物中心撤离点（Klimov Shopping Mall Exfil）｜阵营：Scav｜开放：固定｜单次：否｜要求：无；位于购物中心东侧楼梯一层。
+- 克里莫夫大街（信号弹）（Klimov Street）｜阵营：PMC｜开放：固定｜单次：否｜要求：进入信号弹区域后朝天空发射绿色信号弹；可用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。预组队队伍一人正确发射即可为全队开启。
+- 堪察加拱门附近（Near Kamchatskaya Arch）｜阵营：Scav｜开放：固定｜单次：否｜要求：无；位于博物馆建筑庭院。
+- 松木酒店地下室（合作）（Pinewood Basement）｜阵营：PMC + Scav｜开放：固定｜单次：否｜要求：一名 PMC 与一名玩家 Scav 同时进入；位于 Pinewood 酒店东北楼梯。
+- 滨海大道出租车车辆撤离（Primorsky Ave Taxi V-Ex）｜阵营：PMC｜开放：随机｜单次：是｜要求：每人 5,000 卢布，最多 4 人；费用受 Scav Karma 影响，车辆外侧有边界狙击手。
+- 下水道井盖（Sewer Manhole）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 下水河道（Sewer River）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 走私者地下室（Smugglers' Basement）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“暗号 Onyx 的纸条”（Note with code word Onyx）。
+- 基座建筑电梯（Stylobate Building Elevator）｜阵营：PMC｜开放：固定｜单次：否｜要求：无；入口在 Beluga 餐厅三楼吧台后方。
+- 通风井（Ventilation Shaft）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+
+转移点：
+- 转移至中心区｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于内务部学院旁。
+- 转移至立交桥｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于 Concordia 公寓西南侧。
+- 转移至实验室｜阵营：PMC｜开局 1 分钟后可用｜额外要求：每人一张 TerraGroup 实验室门禁卡；入口在 Klimova 16A、宇航员壁画前的地下通道。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Streets_of_Tarkov
+
+
+三、立交桥（Interchange）
+-------------------------
+
+撤离点：
+- EMERCOM 检查站（Emercom Checkpoint）｜阵营：双方｜开放：固定｜单次：否｜要求：无。
+- 河畔之路（信号弹）（Path to River）｜阵营：PMC｜开放：固定｜单次：否｜要求：进入信号弹区域后朝天空发射绿色信号弹；可用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。预组队队伍一人正确发射即可为全队开启。
+- 发电站车辆撤离（Power Station V-Ex）｜阵营：PMC｜开放：随机｜单次：是｜要求：每人 5,000 卢布，最多 4 人；费用受 Scav Karma 影响，车辆外侧有边界狙击手。
+- 铁路撤离点（Railway Exfil）｜阵营：双方｜开放：固定｜单次：否｜要求：无。
+- 安全屋撤离点（Saferoom Exfil）｜阵营：PMC｜开放：固定｜单次：是｜要求：①在发电站接通电源；②到 Burger Spot 餐厅冲洗小便池，使刷卡面板露出；③刷 Object #11SR 钥匙卡；④进入安全屋后按门旁按钮锁门并撤离。
+- Scav 营地（合作）（Scav Camp）｜阵营：PMC + Scav｜开放：固定｜单次：否｜要求：一名 PMC 与一名玩家 Scav 同时进入。
+- 走私者隧道（Smugglers' Tunnel）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“立交桥地下管线图”（Interchange underground utility plan）。
+
+转移点：
+- 转移至海关｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于高速公路南端。
+- 转移至塔科夫街区｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于高速公路北端。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Interchange
+
+
+四、灯塔（Lighthouse）
+---------------------
+
+撤离点：
+- 装甲列车（Armored Train）｜阵营：双方｜开放：固定但限时｜单次：否｜要求：列车在剩余 20～15 分钟时抵达，停留 7 分钟；到站鸣笛两次，发车前 1 分钟鸣笛一次，关门时鸣笛两次。
+- 登陆台下藏身处（Hideout Under the Landing Stage）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 工业区大门（Industrial Zone Gates）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 山口（Mountain Pass）｜阵营：PMC｜开放：固定｜单次：否｜要求：携带 Red Rebel 冰镐和 Paracord，且不能装备护甲背心（armor vest）。
+- 北部检查站（Northern Checkpoint）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 湖边通道（Passage by the Lake）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“灯塔雷区地图”（Minefield map - Lighthouse）。
+- 通往海岸线的道路（Path to Shoreline）｜阵营：双方｜开放：固定｜单次：否｜要求：无。
+- 通往军事基地车辆撤离（Road to Military Base V-Ex）｜阵营：PMC｜开放：随机｜单次：是｜要求：每人 5,000 卢布，最多 5 人；费用受 Scav Karma 影响，车辆外侧有边界狙击手。
+- 石窟 Scav 藏身处（Scav Hideout at the Grotto）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 侧隧道（合作）（Side Tunnel）｜阵营：PMC + Scav｜开放：固定｜单次：否｜要求：一名 PMC 与一名玩家 Scav 同时进入；撤离区在进入隧道后左侧房间内。
+- 南部道路（Southern Road）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 南部道路山体滑坡（Southern Road Landslide）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+
+转移点：
+- 转移至储备站｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于通往军事基地车辆撤离的道路上。
+- 转移至海岸线｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于“通往海岸线的道路”旁。
+- 转移至森林｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于通往北部检查站的道路上。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Lighthouse
+
+
+五、海岸线（Shoreline）
+-----------------------
+
+撤离点：
+- 行政楼地下室（Admin Basement）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 攀登者小径（Climber's Trail）｜阵营：PMC｜开放：固定｜单次：否｜要求：携带 Red Rebel 冰镐和 Paracord，且不能装备护甲背心。
+- 东翼健身房入口（East Wing Gym Entrance）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 灯塔（Lighthouse）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 山地地堡（Mountain Bunker）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“暗号 Heartbeat 的纸条”（Note with code word Heartbeat）。
+- 通往灯塔的道路（Path to Lighthouse）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 码头船（Pier Boat）｜阵营：PMC｜开放：随机｜单次：否｜要求：现场绿色信号弹/绿烟亮起时开放。
+- 铁路桥（Railway Bridge）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+- 通往海关的道路（Road to Customs）｜阵营：双方｜开放：固定｜单次：否｜要求：无。
+- 北路车辆撤离（Road to North V-Ex）｜阵营：PMC｜开放：固定｜单次：是｜要求：每人 5,000 卢布，最多 5 人；费用受 Scav Karma 影响，车辆外侧有边界狙击手。
+- 废弃道路（Ruined Road）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 走私者小径（合作）（Smugglers' Path）｜阵营：PMC + Scav｜开放：固定｜单次：否｜要求：一名 PMC 与一名玩家 Scav 同时进入。
+- 隧道（Tunnel）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。
+
+转移点：
+- 转移至迷宫｜阵营：PMC｜开局 1 分钟后可用｜要求：每人一张 Labrys 门禁卡；度假村西翼地下室入口还需要 Knossos LLC 设施钥匙开门。
+- 转移至灯塔｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于“通往灯塔的道路”前方。
+- 转移至破冰船｜阵营：PMC｜开局 1 分钟后可用｜要求：每人 400,000 卢布，最多 3 人，并且必须先通过剧情章节 Boreas 解锁。
+- 转移至终点站｜阵营：PMC｜开局 1 分钟后可用，且仅限游戏内时间 21:00～06:00｜要求：每人须在港口驻军对讲机出示下列任一通行凭证：
+  A. “带 Kerman 哈希码的重编程 RFID 钥匙卡” + “装有 TerraGroup 证据的 Alpha-1 安全箱”；
+  B. “名称未知的 RFID 钥匙卡”；
+  C. “带 Prapor 哈希码的重编程 RFID 钥匙卡”；
+  D. “Prapor 写给港口检查站的信”。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Shoreline
+
+
+六、储备站（Reserve）
+---------------------
+
+撤离点：
+- 装甲列车（Armored Train）｜阵营：双方｜开放：随机且限时｜单次：是｜要求：列车在剩余 16～12 分钟时抵达，停留 7 分钟；到站鸣笛两次，发车前 1 分钟鸣笛一次，关门时鸣笛两次。列车到站前后可能在车场生成 Scav Raider。
+- 地堡密闭门（Bunker Hermetic Door）｜阵营：双方｜开放：固定但需激活｜单次：否｜要求：拉下白马兵营西侧小屋内的拉杆；撤离窗口持续 4 分钟，期间警报鸣响。拉杆可能触发车场 Raider。
+- 检查站围栏（Checkpoint Fence）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 悬崖下降（Cliff Descent）｜阵营：PMC｜开放：固定｜单次：否｜要求：携带 Red Rebel 冰镐和 Paracord，且不能装备护甲背心。
+- D-2｜阵营：PMC｜开放：固定但需激活｜单次：否｜要求：①在地下地堡指挥区拉下供电拉杆；②到滑动门旁按墙上的按钮。供电可能触发指挥区 Raider。
+- 仓库密闭门（Depot Hermetic Door）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 通往森林的出口（Exit to Woods）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“储备站雷区地图”（Minefield map - Reserve）。
+- 暖气管（Heating Pipe）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 山边墙洞（Hole in the Wall by the Mountains）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- Scav 之地（合作）（Scav Lands）｜阵营：PMC + Scav｜开放：固定｜单次：否｜要求：一名 PMC 与一名玩家 Scav 同时进入。
+- 下水道井盖（Sewer Manhole）｜阵营：双方｜开放：固定｜单次：否｜要求：不能装备背包。
+
+转移点：
+- 转移至海关｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于黑主教兵营北侧铁轨尽头。
+- 转移至灯塔｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于车场西南侧地图边界。
+- 转移至森林｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于车场西北侧地图边界。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Reserve
+
+
+七、森林（Woods）
+-----------------
+
+撤离点：
+- 船（Boat）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 桥梁车辆撤离（Bridge V-Ex）｜阵营：PMC｜开放：随机｜单次：是｜要求：每人 5,000 卢布，最多 4 人；费用受 Scav Karma 影响，车辆外侧有边界狙击手。
+- 死人之地（Dead Man's Place）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 东部岩石（Eastern Rocks）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 友谊桥（合作）（Friendship Bridge）｜阵营：PMC + Scav｜开放：固定｜单次：否｜要求：一名 PMC 与一名玩家 Scav 同时进入；Wiki 注明撤离区在右侧。
+- 山地储藏点（Mountain Stash）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 北部 UN 路障（Northern UN Roadblock）｜阵营：PMC｜开放：固定｜单次：否｜要求：无；大门外有边界狙击手。
+- 老铁路仓库（Old Railway Depot）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 外围（Outskirts）｜阵营：双方｜开放：固定｜单次：否｜要求：无。
+- 电力线通道（信号弹）（Power Line Passage）｜阵营：PMC｜开放：固定｜单次：否｜要求：进入信号弹区域后朝天空发射绿色信号弹；可用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。预组队队伍一人正确发射即可为全队开启。
+- 通往塔科夫的铁路桥（Railway Bridge to Tarkov）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“森林雷区地图”（Minefield map - Woods）。
+- RUAF 大门（RUAF Gate）｜阵营：PMC｜开放：随机｜单次：否｜要求：现场绿色信号弹/绿烟亮起时开放。
+- RUAF 路障（RUAF Roadblock）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- Scav 地堡（Scav Bunker）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- Scav 小屋（Scav House）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- UN 路障（UN Roadblock）｜阵营：双方｜开放：固定｜单次：否｜要求：无；集装箱外侧有边界狙击手。
+- ZB-014｜阵营：PMC｜开放：随机｜单次：否｜要求：现场绿色信号弹/绿烟亮起，并使用 ZB-014 钥匙开门。
+- ZB-016｜阵营：PMC｜开放：随机｜单次：否｜要求：现场绿色信号弹/绿烟亮起。
+
+转移点：
+- 转移至海关｜阵营：双方｜开局 1 分钟后可用｜额外要求：无。
+- 转移至工厂｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位置为旧“工厂大门”区域。
+- 转移至灯塔｜阵营：双方｜开局 1 分钟后可用｜额外要求：无。
+- 转移至储备站｜阵营：双方｜开局 1 分钟后可用｜额外要求：无。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Woods
+
+
+八、中心区（Ground Zero）
+-------------------------
+
+撤离点：
+- EMERCOM 检查站（Emercom Checkpoint）｜阵营：双方｜开放：固定｜单次：否｜要求：无。
+- 米拉大道（信号弹）（Mira Ave）｜阵营：PMC｜开放：固定｜单次：否｜要求：进入信号弹区域后朝天空发射绿色信号弹；可用手持 RSP-30 或信号枪 26×75mm 绿色信号弹。每局在撤离点黄色公交车旁倚靠的 Scav 尸体上固定生成一枚信号弹；预组队队伍一人正确发射即可为全队开启。
+- 纳卡塔尼地下室楼梯（Nakatani Basement Stairs）｜阵营：双方｜开放：固定｜单次：否｜要求：无；入口在 Nakatani 大楼地下室。
+- 警察封锁车辆撤离（Police Cordon V-Ex）｜阵营：PMC｜开放：固定｜单次：是｜要求：每人 5,000 卢布，最多 4 人；费用受 Scav Karma 影响，车辆外侧有边界狙击手。
+- Scav 检查站（合作）（Scav Checkpoint）｜阵营：PMC + Scav｜开放：固定｜单次：否｜要求：一名 PMC 与一名玩家 Scav 同时进入。
+- TarTowers 销售办公室（Tartowers Sales Office）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“暗号 Adaptation 的纸条”（Note with code word Adaptation）。
+
+转移点：
+- 转移至塔科夫街区｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于米拉大道撤离点旁。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Ground_Zero
+
+
+九、工厂（Factory）
+-------------------
+
+撤离点：
+- 摄像机地堡门（Camera Bunker Door）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 地下室（Cellars）｜阵营：PMC｜开放：固定｜单次：否｜要求：使用“工厂紧急出口钥匙”打开撤离门。
+- 庭院大门（Courtyard Gate）｜阵营：PMC｜开放：固定｜单次：否｜要求：无；也可从二楼更衣室到达。
+- 0 号门（Gate 0）｜阵营：PMC｜开放：固定｜单次：否｜要求：无。注意：当前 Wiki 已不再标注需要工厂钥匙。
+- 3 号门（Gate 3）｜阵营：双方｜开放：固定｜单次：否｜要求：无。
+- 医疗帐篷大门（Med Tent Gate）｜阵营：PMC｜开放：固定｜单次：否｜要求：使用“工厂紧急出口钥匙”打开撤离门。
+- 办公室窗口（Office Window）｜阵营：Scav｜开放：固定｜单次：否｜要求：无。
+- 走私者通道（Smugglers' Passage）｜阵营：双方｜开放：固定｜单次：否｜要求：携带“暗号 Ark 的纸条”（Note with code word Ark）。
+
+转移点：
+- 转移至海关｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于医疗帐篷大门一侧的室外区域。
+- 转移至实验室｜阵营：PMC｜开局 1 分钟后可用｜要求：每人一张 TerraGroup 实验室门禁卡；入口在连接积水区的下水道隧道内。
+- 转移至森林｜阵营：双方｜开局 1 分钟后可用｜额外要求：无；位于庭院大门撤离点。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Factory
+
+
+十、实验室（The Lab）
+---------------------
+
+进入地图补充条件：通常每人需要一张 TerraGroup 实验室门禁卡；实验室内遗留的投保物品不会返还。
+
+撤离点：
+- 货运电梯（Cargo Elevator）｜开放：固定｜单次：是｜要求：在地下室 G1 房间恢复供电；电梯位于二楼 G21 对面。
+- 机库大门（Hangar Gate）｜开放：随机｜单次：否｜要求：在机库二楼 B24 控制室开启大门；撤离区为 B11 区。
+- 主电梯（Main Elevator）｜开放：固定｜单次：否｜要求：在地下室 R4 对面恢复供电；电梯位于地下室 R6 与 R8 之间走廊。
+- 医疗区电梯（Medical Block Elevator）｜开放：固定｜单次：否｜要求：在地下室 G6 房间恢复供电；电梯位于地下室 G3 与 G4 之间。
+- 停车场大门（Parking Gate）｜开放：随机｜单次：否｜要求：在二楼、R22 旁的 Y21 房间开启大门；撤离区为 Y11 区。
+- 污水管道（Sewage Conduit）｜开放：固定｜单次：否｜要求：在地下室 B1 房间降低水位；左侧为排水开关、右侧为撤离区，水位下降约需 80 秒。
+- 通风井（Ventilation Shaft）｜开放：固定｜单次：否｜要求：不能装备背包；位于地下室 G1 与 G8 之间走廊、G7 旁。
+
+重要备注：激活任何撤离开关都有概率生成 Scav Raider，并使其向激活位置移动。
+
+转移点：
+- 转移至塔科夫街区｜开局 1 分钟后可用｜额外要求：无；位于橙色穹顶附近、带台球桌办公室旁。
+
+来源：https://escapefromtarkov.fandom.com/wiki/The_Lab
+
+
+十一、迷宫（The Labyrinth / Labrys）
+-----------------------------------
+
+进入地图补充条件：只能从海岸线度假村西翼地下室转移进入；每人需要一张 Labrys 门禁卡，且入口门需要 Knossos LLC 设施钥匙。迷宫内遗留的投保物品不会返还。
+
+撤离点：
+- 阿里阿德涅之路（Ariadne's Path）｜开放：固定｜单次：否｜要求：携带“阿里阿德涅符号钥匙”（Ariadne symbol key）。
+- 向上之路（The Way Up）｜开放：固定但限时｜单次：否｜要求：开局 15 分钟后才开放；开放时会听到开门声。
+
+来源：https://escapefromtarkov.fandom.com/wiki/The_Labyrinth
+
+
+第二部分：官方 Wiki 已收录、当前桌面工具尚未收录的地图
+======================================================
+
+十二、破冰船（Icebreaker / Boreas）
+----------------------------------
+
+进入地图补充条件：
+- 初次只能在剧情章节 Boreas 解锁后，从海岸线码头支付每人 400,000 卢布转移进入。
+- 完成 Stick to It 任务线后可从地图选择界面直接进入，但 400,000 卢布费用仍然存在。
+- 地图内遗留的投保物品不会返还。
+
+撤离点：
+- 直升机（Helicopter）｜阵营：PMC｜开放：固定｜单次：是｜要求：①进入信号弹区域后朝天空发射绿色信号弹，可用手持 RSP-30 或信号枪 26×75mm 绿色信号弹；②每人支付 2,400 欧元。正确发射后直升机会在短时间后抵达。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Icebreaker
+
+
+十三、终点站（Terminal）
+-----------------------
+
+进入地图补充条件：
+- 只能从海岸线转移进入，游戏内时间必须为 21:00～06:00。
+- 每名玩家须在港口驻军对讲机出示海岸线章节所列的任一通行凭证。
+- 无论死亡还是成功撤离，角色状态都会恢复到进入终点站前的状态，但已消耗的准入物品不会返还。
+
+撤离点：
+- Zubr 快艇（Zubr Boat）｜阵营：PMC｜开放：固定｜单次：是｜要求与规则：
+  ① 可用座位数取决于进入该局的人数：1～3 名玩家时有 3 个座位；4 名玩家时有 3～4 个座位；5 名玩家时有 4～5 个座位。
+  ② 携带“装有 TerraGroup 证据的 Alpha-1 安全箱”进入的玩家，撤离时必须仍把该安全箱带在身上。
+  ③ 到达码头后开始 3 分钟撤离倒计时。
+
+来源：https://escapefromtarkov.fandom.com/wiki/Terminal
+
+
+快速条件索引
+============
+
+需要主动发射绿色信号弹：
+- 海关：铁路通道（信号弹）
+- 塔科夫街区：克里莫夫大街（信号弹）
+- 立交桥：河畔之路（信号弹）
+- 森林：电力线通道（信号弹）
+- 中心区：米拉大道（信号弹）
+- 破冰船：直升机（同时每人 2,400 欧元）
+
+只需观察现场绿色信号弹/绿烟是否亮起：
+- 海关：老加油站
+- 塔科夫街区：庭院
+- 海岸线：码头船
+- 森林：RUAF 大门、ZB-014、ZB-016
+
+需要钥匙、钥匙卡、纸条或地图：
+- 海关 ZB-013：工厂紧急出口钥匙 + 拉电；走私者之船/ZB-1012：Voron 纸条。
+- 塔科夫街区走私者地下室：Onyx 纸条。
+- 立交桥安全屋：Object #11SR 钥匙卡 + 完整开门流程；走私者隧道：地下管线图。
+- 灯塔湖边通道：灯塔雷区地图。
+- 海岸线山地地堡：Heartbeat 纸条；迷宫转移：Labrys 门禁卡 + Knossos LLC 设施钥匙。
+- 储备站通往森林出口：储备站雷区地图。
+- 森林铁路桥：森林雷区地图；ZB-014：ZB-014 钥匙。
+- 中心区 TarTowers 销售办公室：Adaptation 纸条。
+- 工厂地下室/医疗帐篷大门：工厂紧急出口钥匙；走私者通道：Ark 纸条。
+- 迷宫阿里阿德涅之路：阿里阿德涅符号钥匙。
+
+需要 Red Rebel + Paracord + 不装备护甲背心：
+- 灯塔：山口
+- 海岸线：攀登者小径
+- 储备站：悬崖下降
+
+不能携带/装备特定装备：
+- 储备站下水道井盖：不能装备背包。
+- 实验室通风井：不能装备背包。
+
+合作撤离：
+- 海关：锅炉房地下室
+- 塔科夫街区：松木酒店地下室
+- 立交桥：Scav 营地
+- 灯塔：侧隧道
+- 海岸线：走私者小径
+- 储备站：Scav 之地
+- 森林：友谊桥
+- 中心区：Scav 检查站
+
+车辆撤离基础费用：
+- 海关宿舍、塔科夫街区滨海大道出租车、立交桥发电站、灯塔军事基地道路、海岸线北路、森林桥梁、中心区警察封锁：每人基础 5,000 卢布；最终费用受 Scav Karma 影响。
+
+
+官方 Wiki 页面汇总
+===================
+https://escapefromtarkov.fandom.com/wiki/Customs
+https://escapefromtarkov.fandom.com/wiki/Streets_of_Tarkov
+https://escapefromtarkov.fandom.com/wiki/Interchange
+https://escapefromtarkov.fandom.com/wiki/Lighthouse
+https://escapefromtarkov.fandom.com/wiki/Shoreline
+https://escapefromtarkov.fandom.com/wiki/Reserve
+https://escapefromtarkov.fandom.com/wiki/Woods
+https://escapefromtarkov.fandom.com/wiki/Ground_Zero
+https://escapefromtarkov.fandom.com/wiki/Factory
+https://escapefromtarkov.fandom.com/wiki/The_Lab
+https://escapefromtarkov.fandom.com/wiki/The_Labyrinth
+https://escapefromtarkov.fandom.com/wiki/Icebreaker
+https://escapefromtarkov.fandom.com/wiki/Terminal

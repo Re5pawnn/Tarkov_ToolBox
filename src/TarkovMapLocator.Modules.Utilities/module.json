@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "utilities",
+  "assembly": "TarkovMapLocator.Modules.Utilities.dll",
+  "entryType": "TarkovMapLocator.Modules.Utilities.UtilitiesFeatureModule"
+}

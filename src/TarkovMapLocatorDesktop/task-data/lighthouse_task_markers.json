@@ -1,0 +1,1288 @@
+{
+  "schemaVersion": 1,
+  "source": "SPT DynamicMaps QuestMarkerDumper export",
+  "sourceFile": "Lighthouse.quest-markers.json",
+  "generatedAt": "2026-06-08T11:20:54.550Z",
+  "mapId": "5704e4dad2720bb55b8b4567",
+  "mapInternalName": "Lighthouse",
+  "mapNormalizedName": "lighthouse",
+  "coordinateFormat": "world-x-y-z",
+  "coordinateMapping": "export Position.X->position.x, Position.Z->position.y, Position.Y->position.z",
+  "markers": [
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u767e\u91cc\u6311\u4e00",
+      "conditionDescription": "\u5728\u706f\u5854\u5c06KOSA\u65e0\u4eba\u673a\u7535\u5b50\u53cd\u5236\u88c5\u7f6e\u85cf\u533f\u5728\u6e38\u8247\u4ff1\u4e50\u90e8\u7684\u5c0f\u5c4b\u4e8c\u5c42",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:40.543018+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 133.032608,
+        "y": 3.32189941,
+        "z": -187.18335
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u767e\u91cc\u6311\u4e00",
+      "conditionDescription": "\u5728\u706f\u5854\u5c06KOSA\u65e0\u4eba\u673a\u7535\u5b50\u53cd\u5236\u88c5\u7f6e\u85cf\u533f\u5728\u6e38\u8247\u4ff1\u4e50\u90e8\u7684\u5c0f\u5c4b\u4e8c\u5c42",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:40.4217484+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 138.0736,
+        "y": 3.61389923,
+        "z": -195.50531
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u767e\u91cc\u6311\u4e00",
+      "conditionDescription": "\u5728\u706f\u5854\u5c06KOSA\u65e0\u4eba\u673a\u7535\u5b50\u53cd\u5236\u88c5\u7f6e\u85cf\u533f\u5728\u6e38\u8247\u4ff1\u4e50\u90e8\u7684\u5c0f\u5c4b\u4e8c\u5c42",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:41.0492916+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 138.7246,
+        "y": 3.61189651,
+        "z": -192.570313
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u767e\u91cc\u6311\u4e00",
+      "conditionDescription": "\u5728\u706f\u5854\u5c06KOSA\u65e0\u4eba\u673a\u7535\u5b50\u53cd\u5236\u88c5\u7f6e\u85cf\u533f\u5728\u6e38\u8247\u4ff1\u4e50\u90e8\u7684\u5c0f\u5c4b\u4e8c\u5c42",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:40.793505+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 139.77562,
+        "y": 3.4448967,
+        "z": -130.80835
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u767e\u91cc\u6311\u4e00",
+      "conditionDescription": "\u5728\u706f\u5854\u5c06KOSA\u65e0\u4eba\u673a\u7535\u5b50\u53cd\u5236\u88c5\u7f6e\u85cf\u533f\u5728\u6e38\u8247\u4ff1\u4e50\u90e8\u7684\u5c0f\u5c4b\u4e8c\u5c42",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:40.9257937+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 145.318985,
+        "y": 3.80389786,
+        "z": -138.524353
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u767e\u91cc\u6311\u4e00",
+      "conditionDescription": "\u5728\u706f\u5854\u5c06KOSA\u65e0\u4eba\u673a\u7535\u5b50\u53cd\u5236\u88c5\u7f6e\u85cf\u533f\u5728\u6e38\u8247\u4ff1\u4e50\u90e8\u7684\u5c0f\u5c4b\u4e8c\u5c42",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:40.6670823+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 148.0836,
+        "y": 3.71089935,
+        "z": -133.3443
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5351\u9119\u7684\u5916\u4e61\u4eba",
+      "conditionDescription": "Eliminate Scavs at the village on Lighthouse (In one raid)",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:39.7908101+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -72.8853149,
+        "y": 5.777012,
+        "z": -286.249237
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u8e29\u70b9\u884c\u52a8",
+      "conditionDescription": "\u8e29\u70b9\u706f\u5854\u7b2c\u4e8c\u4e2a\u529e\u516c\u697c\u7684\u697c\u9876",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:36.8204653+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -97.73739,
+        "y": 15.3948975,
+        "z": -753.8093
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u8e29\u70b9\u884c\u52a8",
+      "conditionDescription": "\u8e29\u70b9\u706f\u5854\u7b2c\u4e09\u4e2a\u529e\u516c\u697c\u7684\u697c\u9876",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:36.9656264+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -196.6474,
+        "y": 15.3948975,
+        "z": -666.8093
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u8e29\u70b9\u884c\u52a8",
+      "conditionDescription": "\u8e29\u70b9\u706f\u5854\u7b2c\u4e00\u4e2a\u529e\u516c\u697c\u7684\u697c\u9876",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:36.6878404+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 53.232605,
+        "y": 15.3948975,
+        "z": -623.5593
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u706f\u5854\u4e4b\u5319",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u65e0\u7ebf\u7535\u53d1\u5c04\u5668\u4e3b\u673a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:36.0535196+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 1.35900116,
+        "y": 2.1595,
+        "z": -630.858032
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u549a\u549a\u549a",
+      "conditionDescription": "\u5728\u706f\u5854\u5c0f\u5c9b\u9644\u8fd1\u68c0\u67e5\u5e94\u7b54\u673a\u80fd\u5426\u6b63\u5e38\u5de5\u4f5c",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:36.1758581+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 119.3026,
+        "y": 2.1548996,
+        "z": 520.7606
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:42.1606441+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -331.567383,
+        "y": 8.064898,
+        "z": -588.1093
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:41.8657925+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -197.8674,
+        "y": 8.064898,
+        "z": -366.809326
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:42.0070398+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -100.167389,
+        "y": 8.064898,
+        "z": 339.0907
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:42.4138395+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 79.83261,
+        "y": 8.064898,
+        "z": 68.6906738
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:42.2866894+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 133.73262,
+        "y": 8.064898,
+        "z": -681.1093
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u6d77\u8fb9\u5047\u671f",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u7ebf\u4eba\u7684\u516c\u6587\u5305",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:33.038006+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 139.195068,
+        "y": 3.26197624,
+        "z": -129.871185
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u7f09\u6bd2\u884c\u52a8",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u9690\u853d\u7684\u6bd2\u54c1\u5b9e\u9a8c\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:36.5480863+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -119.217392,
+        "y": 13.0148983,
+        "z": -841.129333
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u6fc0\u8fdb\u6cbb\u7597",
+      "conditionDescription": "\u5728\u706f\u5854\u6295\u653e\u75ab\u82d7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:41.172847+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -207.467392,
+        "y": -14.7551,
+        "z": -348.1093
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u80fd\u6e90\u5371\u673a",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u7b2c\u4e8c\u8f86\u6cb9\u7f50\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:33.6756456+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -158.4574,
+        "y": 6.044899,
+        "z": -608.019348
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u80fd\u6e90\u5371\u673a",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u7b2c\u4e09\u8f86\u6cb9\u7f50\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:33.801566+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 29.0826111,
+        "y": 5.99489975,
+        "z": -423.3593
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u80fd\u6e90\u5371\u673a",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u7b2c\u4e00\u8f86\u6cb9\u7f50\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:33.5318398+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -73.70739,
+        "y": 11.6148987,
+        "z": -875.5493
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u80fd\u6e90\u5371\u673a",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u4e00\u7ec4\u6cb9\u7f50\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:33.4032898+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -116.5974,
+        "y": 11.6748981,
+        "z": -921.8493
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u7834\u955c\u91cd\u5706",
+      "conditionDescription": "\u524d\u5f80\u706f\u5854",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:36.425688+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 442.2326,
+        "y": 24.1148987,
+        "z": 460.690674
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u7834\u955c\u91cd\u5706",
+      "conditionDescription": "\u5728\u706f\u5854\u83b7\u5f97V3 U\u76d8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:36.3041041+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -65.779,
+        "y": 5.8256,
+        "z": -734.927
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u62a2\u593a\u5148\u673a",
+      "conditionDescription": "\u5728\u706f\u5854\u7684\u6e38\u8361\u8005\u57fa\u5730\u627e\u5230\u4f2a\u9020\u7684\u60c5\u62a5",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:37.6849419+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 21.2779083,
+        "y": 5.31199932,
+        "z": -445.487946
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u53e3\u8fc7\u5269",
+      "conditionDescription": "\u6e05\u9664\u706f\u5854\u5ea6\u5047\u6751\u533a\u57df\u7684Scav\u5a01\u80c1",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:33.2738912+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -108.867393,
+        "y": 22.2448978,
+        "z": -2.30932617
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e8c\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:38.3317952+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -144.7034,
+        "y": 5.00189972,
+        "z": -757.6273
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e8c\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:38.4629091+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -136.7974,
+        "y": 5.22489929,
+        "z": -757.7793
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e8c\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:38.5956679+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -135.010391,
+        "y": 5.419899,
+        "z": -737.0763
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e8c\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:38.8809176+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -60.6273956,
+        "y": 5.0849,
+        "z": -748.209351
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e8c\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:38.73568+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -46.55539,
+        "y": 5.43689728,
+        "z": -747.722351
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e09\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:39.5438762+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -186.6834,
+        "y": 5.30989838,
+        "z": -705.6583
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e09\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:39.6689688+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -184.643387,
+        "y": 4.87189865,
+        "z": -615.5453
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e09\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:39.2770299+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -181.4654,
+        "y": 5.10989761,
+        "z": -617.019348
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e09\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:39.0249135+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -180.4074,
+        "y": 5.1948967,
+        "z": -630.7793
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e09\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:39.1467189+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -177.8454,
+        "y": 5.221897,
+        "z": -704.3413
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e09\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:39.4252413+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -176.639389,
+        "y": 5.412899,
+        "z": -717.5913
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e00\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:37.9548255+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 34.1446075,
+        "y": 4.58789825,
+        "z": -582.212341
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e00\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:37.8207147+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 35.2566071,
+        "y": 5.263897,
+        "z": -558.832336
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e00\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:38.0820359+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 38.2026062,
+        "y": 5.3349,
+        "z": -669.4993
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u4eba\u8d43\u5e76\u83b7",
+      "conditionDescription": "\u5728\u706f\u5854\u5730\u533a\u5b89\u88c5\u4e00\u53f0 WI-FI \u6444\u50cf\u673a\uff0c\u7528\u4e8e\u76d1\u89c6\u7b2c\u4e00\u5ea7\u6c34\u5904\u7406\u5382\u5efa\u7b51\u7684\u5165\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:38.209959+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 40.6746063,
+        "y": 5.4249,
+        "z": -566.8103
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5546\u4e1a\u673a\u5bc6",
+      "conditionDescription": "\u627e\u5230\u6cf5\u7ad9\u8fd0\u884c\u6570\u636e",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:34.0500191+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 53.2094955,
+        "y": 8.74386,
+        "z": -638.8754
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5546\u4e1a\u673a\u5bc6",
+      "conditionDescription": "\u627e\u5230\u6c34\u6cf5\u8fd0\u884c\u6570\u636e",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:33.9210402+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -111.0176,
+        "y": 9.24679,
+        "z": -750.147034
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u795e\u79d8\u8d27\u7269 - 4",
+      "conditionDescription": "\u5728\u706f\u5854\u7684\u6d77\u8fb9\u627e\u5230TerraGroup\u7684\u8d27\u7269",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:35.2697951+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 136.8986,
+        "y": 0.790897369,
+        "z": 47.88867
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5931\u8e2a\u8d27\u7269",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u5931\u4e8b\u7684\u76f4\u5347\u673a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:34.6572002+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -126.697388,
+        "y": 22.4348984,
+        "z": 301.52063
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5931\u8e2a\u8d27\u7269",
+      "conditionDescription": "\u627e\u5230\u7ebf\u4eba\u7684\u60c5\u62a5\u6587\u4ef6\u5939",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:34.7758673+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -115.694664,
+        "y": 40.7532349,
+        "z": 88.8879852
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u8bd5\u63a2 - 1",
+      "conditionDescription": "\u6d88\u706d\u4f4d\u4e8e\u706f\u5854\u672c\u4f53\u533a\u57df\u7684PMC\u884c\u52a8\u4eba\u5458",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:35.9078684+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -29.5673981,
+        "y": 23.3448982,
+        "z": 112.690674
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5934\u53f7\u673a\u5bc6",
+      "conditionDescription": "\u83b7\u53d6\u8bb0\u8f7d\u4e86\u822a\u73ed\u8def\u7ebf\u7684\u519b\u7528\u673a\u68b0\u786c\u76d8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:37.2191559+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 352.6155,
+        "y": 16.2869,
+        "z": 545.5324
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5934\u53f7\u673a\u5bc6",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u96f7\u8fbe\u7ad9\u6307\u6325\u5458\u7684\u529e\u516c\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:37.0994967+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 353.1126,
+        "y": 17.0239,
+        "z": 547.821655
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u6295\u77f3\u95ee\u8def",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u5ced\u58c1\u901a\u8def\u7684\u7b2c\u4e8c\u6bb5\uff0c\u5e76\u4f7f\u7528 MS2000 \u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:41.4537705+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -167.8174,
+        "y": 30.8948975,
+        "z": -52.0292969
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u6295\u77f3\u95ee\u8def",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u5ced\u58c1\u901a\u8def\u7684\u7b2c\u4e09\u6bb5\uff0c\u5e76\u4f7f\u7528 MS2000 \u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:41.5827718+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -181.27739,
+        "y": 34.9349,
+        "z": -119.039307
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u6295\u77f3\u95ee\u8def",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u5ced\u58c1\u901a\u8def\u7684\u7b2c\u56db\u6bb5\uff0c\u5e76\u4f7f\u7528 MS2000 \u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:41.7240709+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -185.20697,
+        "y": 23.3648987,
+        "z": -177.929321
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u6295\u77f3\u95ee\u8def",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u5ced\u58c1\u901a\u8def\u7684\u7b2c\u4e00\u6bb5\uff0c\u5e76\u4f7f\u7528 MS2000 \u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:41.3107415+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -143.55304,
+        "y": 29.8679886,
+        "z": -6.61932373
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u7f51\u7edc\u4f9b\u5e94\u5546 - 2",
+      "conditionDescription": "\u5c06\u4fe1\u53f7\u4e2d\u7ee7\u5668\u5b89\u88c5\u5728\u5e9f\u5f03\u7684USEC\u8425\u623f\u5185\u90e8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:35.5171635+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -116.486389,
+        "y": 40.3649,
+        "z": 88.86865
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u7f51\u7edc\u4f9b\u5e94\u5546 - 2",
+      "conditionDescription": "\u5c06\u4fe1\u53f7\u4e2d\u7ee7\u5668\u5b89\u88c5\u5728\u6d77\u8fb9\u6c89\u6ca1\u5efa\u7b51\u7684\u623f\u9876",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:35.7724988+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 127.572617,
+        "y": 6.994898,
+        "z": 293.000732
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u7f51\u7edc\u4f9b\u5e94\u5546 - 2",
+      "conditionDescription": "\u5c06\u4fe1\u53f7\u4e2d\u7ee7\u5668\u5b89\u88c5\u5728\u53ef\u4ee5\u4fef\u77b0\u706f\u5854\u7684\u9ad8\u5904",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:35.6396032+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 71.11261,
+        "y": 10.1648979,
+        "z": 392.52063
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u7f51\u7edc\u4f9b\u5e94\u5546 - 2",
+      "conditionDescription": "\u5c06\u4fe1\u53f7\u4e2d\u7ee7\u5668\u5b89\u88c5\u5728\u6c61\u6c34\u5904\u7406\u5382\u7684MI-8\u76f4\u5347\u673a\u5185\u90e8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:35.3951163+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -94.61739,
+        "y": 1.94389725,
+        "z": -550.689331
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u706f\u5854",
+      "conditionDescription": "\u627e\u5230\u7b2c\u4e8c\u8f86BRDM\u88c5\u7532\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:34.2859921+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -65.23739,
+        "y": 3.35789871,
+        "z": -691.4793
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u706f\u5854",
+      "conditionDescription": "\u627e\u5230\u7b2c\u4e8c\u8f86Stryker\u88c5\u7532\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:34.5389478+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -41.467392,
+        "y": 10.1948986,
+        "z": 16.4906616
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u706f\u5854",
+      "conditionDescription": "\u627e\u5230\u7b2c\u4e00\u8f86BRDM\u88c5\u7532\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:34.166438+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 13.1366119,
+        "y": 2.78689957,
+        "z": -503.2343
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u65e0\u4e2d\u751f\u6709 - \u706f\u5854",
+      "conditionDescription": "\u627e\u5230\u7b2c\u4e00\u8f86Stryker\u88c5\u7532\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:34.4088769+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 66.08261,
+        "y": 2.76489639,
+        "z": 516.5807
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u6d88\u5931\u7684\u7ebf\u4eba",
+      "conditionDescription": "\u5728\u706f\u5854\u7684\u623f\u5c4b\u533a\u57df\u627e\u5230\u5931\u8e2a\u7684\u5c0f\u961f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:33.1572369+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -70.35739,
+        "y": 26.779995,
+        "z": 132.230652
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5c0f\u83dc\u4e00\u789f - 1",
+      "conditionDescription": "\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u76f4\u5347\u673a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:32.7779016+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -96.48739,
+        "y": 2.374897,
+        "z": -552.589355
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5c0f\u83dc\u4e00\u789f - 1",
+      "conditionDescription": "\u5728\u706f\u5854\u7684\u6c61\u6c34\u5904\u7406\u5382\u627e\u5230\u76f4\u5347\u673a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:32.4784823+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -95.9473953,
+        "y": 2.4048996,
+        "z": -553.3493
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u5c0f\u83dc\u4e00\u789f - 2",
+      "conditionDescription": "\u6d88\u706d\u706f\u5854\u6c61\u6c34\u5904\u7406\u5382\u76f4\u5347\u673a\u5468\u56f4\u7684\u4efb\u610f\u654c\u4eba",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:32.9011986+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -51.16739,
+        "y": 14.544899,
+        "z": -573.209351
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u9690\u58eb",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230Jaeger\u670b\u53cb\u7684\u85cf\u8eab\u5904",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:34.899199+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -246.5874,
+        "y": 0.9148979,
+        "z": -328.259338
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u9690\u58eb",
+      "conditionDescription": "\u627e\u5230\u5199\u7ed9Jaeger\u7684\u7559\u8a00",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:35.0287551+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -248.4343,
+        "y": 0.159906387,
+        "z": -328.300323
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u957f\u8def\u6f2b\u6f2b",
+      "conditionDescription": "\u6d88\u706d\u9a7b\u624e\u5728\u6d77\u8fb9\u53ca\u706f\u5854\u4e3b\u8def\u7684Scav",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:35.1492938+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 0.0326080322,
+        "y": 7.844898,
+        "z": 47.6906738
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u706f\u5854\u7684\u8d85\u5929\u624d\u79d1\u5b66\u5bb6\u5ea7\u6905\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:40.2929047+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 97.11299,
+        "y": 24.225,
+        "z": 115.724731
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u706f\u5854\u7684\u8be1\u5f02\u6b22\u8fce\u62db\u724c\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:40.1726236+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 36.0599976,
+        "y": 7.38999939,
+        "z": -261.599976
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u706f\u5854\u70b9\u71c3\u7684\u7bdd\u706b\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:40.0508931+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 97.62605,
+        "y": 3.65999985,
+        "z": -165.789978
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u706f\u5854\u4f60\u7684\u670b\u53cb Wilson \u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:39.9227454+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 117.081985,
+        "y": 0.8717003,
+        "z": -154.473389
+      }
+    },
+    {
+      "mapId": "5704e4dad2720bb55b8b4567",
+      "mapInternalName": "Lighthouse",
+      "mapNormalizedName": "lighthouse",
+      "questName": "\u76f4\u64ad - 1",
+      "conditionDescription": "\u5728\u706f\u5854\u627e\u5230\u9690\u853d\u7684\u5f55\u5236\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:27:37.3404548+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 32.5486145,
+        "y": 6.414898,
+        "z": -640.290344
+      }
+    }
+  ]
+}

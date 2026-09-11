@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>TarkovMapLocator.Modules.MobileMap</AssemblyName>
+    <RootNamespace>TarkovMapLocator.Modules.MobileMap</RootNamespace>
+    <Version>1.0.0</Version>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Release'">false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TarkovMapLocator.ModuleContracts\TarkovMapLocator.ModuleContracts.csproj" />
+    <None Include="module.json" />
+    <InternalsVisibleTo Include="TarkovMapLocatorDesktop.RegressionTests" />
+  </ItemGroup>
+  <Target Name="CopyMobileMapWebAfterBuild" AfterTargets="Build">
+    <ItemGroup>
+      <MobileMapWebFiles Include="$(MSBuildProjectDirectory)\web\**\*" />
+    </ItemGroup>
+    <RemoveDir Directories="$(TargetDir)web" />
+    <Copy SourceFiles="@(MobileMapWebFiles)"
+          DestinationFiles="@(MobileMapWebFiles->'$(TargetDir)web\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+  </Target>
+  <Target Name="CopyMobileMapWebAfterPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <MobileMapWebPublishFiles Include="$(MSBuildProjectDirectory)\web\**\*" />
+    </ItemGroup>
+    <RemoveDir Directories="$(PublishDir)web" />
+    <Copy SourceFiles="@(MobileMapWebPublishFiles)"
+          DestinationFiles="@(MobileMapWebPublishFiles->'$(PublishDir)web\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+  </Target>
+</Project>

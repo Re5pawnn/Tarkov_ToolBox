@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "task-tracking",
+  "assembly": "TarkovMapLocator.Modules.TaskTracking.dll",
+  "entryType": "TarkovMapLocator.Modules.TaskTracking.TaskTrackingFeatureModule"
+}

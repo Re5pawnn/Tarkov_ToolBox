@@ -1,0 +1,55 @@
+<UserControl x:Class="TarkovMapLocator.Modules.TaskItems.TaskItemsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TarkovMapLocator.Modules.TaskItems"
+             Background="#101514"
+             UseLayoutRounding="True"
+             SnapsToDevicePixels="True">
+  <Grid Background="#101514">
+      <Grid.RowDefinitions><RowDefinition Height="88" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+      <Grid Margin="24,20,24,16">
+        <StackPanel VerticalAlignment="Bottom"><TextBlock Text="ITEM TRACKER" Style="{StaticResource SectionLabel}" /><TextBlock Text="任务物品数量清单" Style="{StaticResource PageTitle}" /></StackPanel>
+      </Grid>
+      <Grid Grid.Row="1" Height="36" Margin="24,0,24,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><Border Height="36" Margin="0,0,16,0" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" Background="#111715" CornerRadius="7" SnapsToDevicePixels="True"><Grid Margin="10,0"><Grid.ColumnDefinitions><ColumnDefinition Width="19" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><TextBlock Text="⌕" Foreground="{StaticResource TextFaintBrush}" FontSize="15" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="TaskItemsSearchBox" TextChanged="TaskItemsSearchBox_TextChanged" Background="Transparent" BorderThickness="0" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontSize="12" Padding="0" VerticalContentAlignment="Center" ToolTip="搜索物品、简称或物品 ID" /></Grid></Border><StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center"><Button x:Name="TaskItemsPvpButton" Style="{StaticResource PageToolbarButton}" Click="TaskItemsPvp_Click">PVP</Button><Button x:Name="TaskItemsPveButton" Style="{StaticResource PageToolbarButton}" Margin="7,0,0,0" Click="TaskItemsPve_Click">PVE</Button><Button x:Name="TaskItemsRefreshButton" Style="{StaticResource PageToolbarButton}" MinWidth="86" Margin="12,0,0,0" Click="TaskItemsRefresh_Click">刷新清单</Button></StackPanel></Grid>
+      <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="24,11,24,0" VerticalAlignment="Center"><Button x:Name="TrackerTasksButton" Style="{StaticResource PageFilterButton}" Click="TrackerTasks_Click">任务</Button><Button x:Name="TrackerHideoutButton" Style="{StaticResource PageFilterButton}" Margin="8,0,0,0" Click="TrackerHideout_Click">藏身处</Button><Button x:Name="TrackerHideoutLevelsButton" Style="{StaticResource PageFilterButton}" MinWidth="104" Margin="8,0,0,0" Click="TrackerHideoutLevels_Click">藏身处等级</Button><Button x:Name="TrackerCompletedButton" Style="{StaticResource PageFilterButton}" MinWidth="94" Margin="8,0,0,0" Click="TrackerCompleted_Click">显示已完成</Button></StackPanel>
+      <TextBlock Grid.Row="3" x:Name="TaskItemsStatusText" Foreground="{StaticResource TextFaintBrush}" FontSize="11" MinHeight="17" Margin="24,11,24,10" VerticalAlignment="Center" TextWrapping="Wrap" />
+      <Border Grid.Row="4" Margin="24,0,24,24" Background="#111715" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="10">
+        <Grid>
+          <ListBox x:Name="TaskItemsResultsList" Background="Transparent" BorderThickness="0" Padding="12" ItemContainerStyle="{StaticResource CardListItem}" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" ScrollViewer.IsDeferredScrollingEnabled="False" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" VirtualizingPanel.ScrollUnit="Pixel" VirtualizingPanel.CacheLength="1,1" VirtualizingPanel.CacheLengthUnit="Page">
+            <ListBox.ItemsPanel><ItemsPanelTemplate><VirtualizingStackPanel /></ItemsPanelTemplate></ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+              <DataTemplate>
+                <Border x:Name="TrackerCard" BorderThickness="1" CornerRadius="7" Padding="12" Margin="0,0,0,8" ClipToBounds="True" SnapsToDevicePixels="True">
+                  <Border.Style>
+                    <Style TargetType="Border">
+                      <Setter Property="Background" Value="#151C19" />
+                      <Setter Property="BorderBrush" Value="{StaticResource LineBrush}" />
+                      <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsMouseOver, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True"><Setter Property="Background" Value="#18201D" /><Setter Property="BorderBrush" Value="{StaticResource LineBrightBrush}" /></DataTrigger>
+                        <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True"><Setter Property="Background" Value="#1A2420" /><Setter Property="BorderBrush" Value="#4C665B" /></DataTrigger>
+                      </Style.Triggers>
+                    </Style>
+                  </Border.Style>
+                  <StackPanel>
+                    <Grid>
+                      <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                      <local:AsyncItemIcon ItemId="{Binding Id}" IconLink="{Binding IconLink}" Margin="0,0,10,0" />
+                      <StackPanel Grid.Column="1">
+                        <TextBlock Text="{Binding Name}" Foreground="White" FontSize="13" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                        <TextBlock Text="{Binding ShortName}" Foreground="{StaticResource TextFaintBrush}" FontSize="11" Margin="0,4,0,0" TextTrimming="CharacterEllipsis" />
+                        <StackPanel Orientation="Horizontal" Margin="0,4,0,0"><TextBlock Text="任务 " Foreground="{StaticResource TextFaintBrush}" FontSize="11" /><TextBlock Text="{Binding TaskRequired}" Foreground="{StaticResource TextFaintBrush}" FontSize="11" /><TextBlock Text=" · 藏身处 " Foreground="{StaticResource TextFaintBrush}" FontSize="11" /><TextBlock Text="{Binding HideoutRequired}" Foreground="{StaticResource TextFaintBrush}" FontSize="11" /><TextBlock Text=" · 战局内 " Foreground="{StaticResource TextFaintBrush}" FontSize="11" /><TextBlock Text="{Binding FoundInRaidRequired}" Foreground="{StaticResource TextFaintBrush}" FontSize="11" /></StackPanel>
+                      </StackPanel>
+                      <StackPanel Grid.Column="2" HorizontalAlignment="Right"><TextBlock HorizontalAlignment="Right" Foreground="{StaticResource TaskBrush}" FontFamily="Cascadia Mono" FontSize="15" FontWeight="Bold"><Run Text="{Binding Remaining, Mode=OneWay}" /><Run Text=" / " /><Run Text="{Binding Required, Mode=OneWay}" /></TextBlock><TextBlock HorizontalAlignment="Right" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,4,0,0"><Run Text="持有 " /><Run Text="{Binding Have, Mode=OneWay}" /><Run Text=" · 预计 " /><Run Text="{Binding EstimatedCost, Mode=OneWay, StringFormat={}{0:N0} ₽}" /></TextBlock></StackPanel>
+                    </Grid>
+                    <StackPanel Orientation="Horizontal" Margin="0,9,0,0"><Button Style="{StaticResource TacticalButton}" Width="26" Height="25" Padding="0" FontSize="14" Tag="{Binding}" Click="TrackerCountDecrease_Click">−</Button><TextBox Text="{Binding Have, Mode=OneWay}" Width="42" Height="25" Margin="5,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="{StaticResource RaisedBrush}" BorderBrush="{StaticResource LineBrightBrush}" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontFamily="Cascadia Mono" FontSize="11" Tag="{Binding}" LostFocus="TrackerCountBox_LostFocus" KeyDown="TrackerCountBox_KeyDown" /><Button Style="{StaticResource TacticalButton}" Width="26" Height="25" Padding="0" FontSize="14" Tag="{Binding}" Click="TrackerCountIncrease_Click">+</Button></StackPanel>
+                    <Expander Style="{StaticResource AnimatedDetailExpander}" Margin="0,10,0,0" Expanded="AnimatedDetailExpander_Expanded" Collapsed="AnimatedDetailExpander_Collapsed"><Expander.Header><TextBlock Text="来源明细" Foreground="{StaticResource TextDimBrush}" FontSize="11" /></Expander.Header><StackPanel><TextBlock Foreground="{StaticResource TextDimBrush}" FontSize="11" Margin="0,8,0,0"><Run Text="报价：跳蚤 " /><Run Text="{Binding FleaPrice, Mode=OneWay, StringFormat={}{0:N0} ₽}" /><Run Text=" · 24h 均价 " /><Run Text="{Binding Avg24hPrice, Mode=OneWay, StringFormat={}{0:N0} ₽}" /><Run Text=" · 已通过来源 " /><Run Text="{Binding CompletedRequired, Mode=OneWay}" /></TextBlock><ItemsControl ItemsSource="{Binding Sources}"><ItemsControl.ItemTemplate><DataTemplate><CheckBox IsChecked="{Binding Completed, Mode=OneWay}" Tag="{Binding}" Foreground="{StaticResource TextDimBrush}" Margin="0,9,0,0" Click="TrackerSourceCompleted_Click"><StackPanel Margin="5,0,0,0"><TextBlock Text="{Binding Name}" Foreground="{StaticResource TextBrush}" FontSize="11" TextWrapping="Wrap" /><TextBlock Text="{Binding Detail}" Foreground="{StaticResource TextFaintBrush}" FontSize="10" LineHeight="16" TextWrapping="Wrap" Margin="0,3,0,0" /></StackPanel></CheckBox></DataTemplate></ItemsControl.ItemTemplate></ItemsControl></StackPanel></Expander>
+                  </StackPanel>
+                </Border>
+              </DataTemplate>
+            </ListBox.ItemTemplate>
+          </ListBox>
+          <TextBlock x:Name="TaskItemsEmptyText" Visibility="Collapsed" Foreground="{StaticResource TextFaintBrush}" FontSize="12" TextWrapping="Wrap" Margin="16" VerticalAlignment="Top" />
+        </Grid>
+      </Border>
+    </Grid>
+</UserControl>

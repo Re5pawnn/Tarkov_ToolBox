@@ -1,25 +1,29 @@
-.build_venv/
 .vs/
-__pycache__/
+.idea/
+.vscode/
+
+**/bin/
+**/obj/
+**/TestResults/
+**/__pycache__/
 *.pyc
 *.pyo
-*.pyd
-!runtime/python/**/*.pyd
-*.spec
+*.user
+*.suo
+*.cache
+*.log
 
-bin/
-obj/
-src/**/bin/
-src/**/obj/
-
+# Local build, backup, and packaged outputs.
+artifacts/
 release/
+TarkovToolbox/
+
+# Archived pre-componentization project; the modular source under src/ is authoritative.
+legacy/
+
+# Local publish staging folders.
 release_payload/
 _install_test/
-
 dist/
 build/
-installer/dist/
-installer/update-package/
-
 exports/
-satellite_alignment_steps/

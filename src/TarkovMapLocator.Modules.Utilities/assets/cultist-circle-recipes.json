@@ -1,0 +1,2054 @@
+{
+  "updatedAt": "2026-07-21T14:44:02+08:00",
+  "sourceUrl": "https://www.tarkovbox.com/gametools/cultist-circle-recipes",
+  "recipes": [
+    {
+      "title": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u94f6\uff09 \u2192 \u5723\u8bde\u8001\u4eba\u73a9\u5076",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": true,
+      "inputs": [
+        {
+          "id": "835f4bed3fddf09b2e9c3edd",
+          "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u94f6\uff09",
+          "englishName": "Christmas tree ornament (Silver)",
+          "iconLink": "https://assets.tarkovbox.com/external-images/98239143ddc0b010.webp",
+          "count": 1
+        },
+        {
+          "id": "ed09c6375e974ebf48d30818",
+          "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7ea2\uff09",
+          "englishName": "Christmas tree ornament (Red)",
+          "iconLink": "https://assets.tarkovbox.com/external-images/f930eb16df7cdfa9.webp",
+          "count": 1
+        },
+        {
+          "id": "31f271ec15dc5034b424546e",
+          "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7d2b\uff09",
+          "englishName": "Christmas tree ornament (Violet)",
+          "iconLink": "https://assets.tarkovbox.com/external-images/5fb89886cc92cc6f.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "655c67ab0d37ca5135388f4b",
+              "name": "\u5723\u8bde\u8001\u4eba\u73a9\u5076",
+              "englishName": "Ded Moroz figurine",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c67ab0d37ca5135388f4b-icon-0910e711a5201bb1.webp",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Jaeger \u73a9\u5076 \u2192 MTs-255-12 12\u94c5\u5f84\u9730\u5f39\u67aa",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": true,
+      "inputs": [
+        {
+          "id": "68f25faa22c8979ee308f4da",
+          "name": "Jaeger \u73a9\u5076",
+          "englishName": "Jaeger figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25faa22c8979ee308f4da-icon-f0cf195aa054424b.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "60db29ce99594040e04c4a27",
+              "name": "MTs-255-12 12\u94c5\u5f84\u9730\u5f39\u67aa",
+              "englishName": "MTs-255-12 12ga shotgun",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/60db29ce99594040e04c4a27-icon-92256ac2c7d90b9a.webp",
+              "count": 1
+            },
+            {
+              "id": "635a758bfefc88a93f021b8a",
+              "name": "\u54b8\u72d7\u725b\u8089\u80a0",
+              "englishName": "Salty Dog beef sausage",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/635a758bfefc88a93f021b8a-icon-9332d81c71944c1b.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lightkeeper \u73a9\u5076 \u2192 \u795e\u5723\u62a4\u8eab\u7b26",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": true,
+      "inputs": [
+        {
+          "id": "68f25fdf928cd23ddf0471fb",
+          "name": "Lightkeeper \u73a9\u5076",
+          "englishName": "Lightkeeper figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25fdf928cd23ddf0471fb-icon-3d06be7305a448ff.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "2eb59e743a7286cd324eace9",
+              "name": "\u795e\u5723\u62a4\u8eab\u7b26",
+              "englishName": "Sacred Amulet",
+              "iconLink": "https://assets.tarkovbox.com/external-images/05a14ce2c708db3d.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ragman \u73a9\u5076 \u2192 \u63d0\u82b1\u5934\u5dfe\uff08\u7eff\u8272\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": true,
+      "inputs": [
+        {
+          "id": "68f25f3a5d977110860c3350",
+          "name": "Ragman \u73a9\u5076",
+          "englishName": "Ragman figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25f3a5d977110860c3350-icon-98418a1eed27a87a.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": true,
+          "items": [
+            {
+              "id": "5ab8f85d86f7745cd93a1cf5",
+              "name": "\u63d0\u82b1\u5934\u5dfe\uff08\u7eff\u8272\uff09",
+              "englishName": "Shemagh (Green)",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5ab8f85d86f7745cd93a1cf5-icon-990e76f2e19636c3.webp",
+              "count": 1
+            },
+            {
+              "id": "5aa2b923e5b5b000137b7589",
+              "name": "\u5706\u6846\u592a\u9633\u955c",
+              "englishName": "Round frame sunglasses",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5aa2b923e5b5b000137b7589-icon-90d4fea62f2acdf9.webp",
+              "count": 1
+            },
+            {
+              "id": "5aa2b9aee5b5b00015693121",
+              "name": "\u96f7\u787c\u5b09\u76ae\u592a\u9633\u955c",
+              "englishName": "RayBench Hipster Reserve sunglasses",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5aa2b9aee5b5b00015693121-icon-dc1e1b76d12a6ebe.webp",
+              "count": 1
+            },
+            {
+              "id": "5ab8f4ff86f77431c60d91ba",
+              "name": "\u5e7d\u7075\u5934\u5957",
+              "englishName": "Ghost balaclava",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5ab8f4ff86f77431c60d91ba-icon-87535ec983c89c1a.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "BTR \u6a21\u578b \u2192 OFZ 30x165\u6beb\u7c73\u70ae\u5f39",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": true,
+      "inputs": [
+        {
+          "id": "68f2608301fb9de974058be6",
+          "name": "BTR \u6a21\u578b",
+          "englishName": "BTR figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f2608301fb9de974058be6-icon-90ac0c12a5e1a11b.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5d0379a886f77420407aa271",
+              "name": "OFZ 30x165\u6beb\u7c73\u70ae\u5f39",
+              "englishName": "OFZ 30x165mm shell",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5d0379a886f77420407aa271-icon-79fdda2e7b4d77ad.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u85cf\u8eab\u5904\u4e4b\u732b\u73a9\u5076 \u2192 \u732b\u96d5\u50cf",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": true,
+      "inputs": [
+        {
+          "id": "68f260d7b84c6e1f8a09cffd",
+          "name": "\u85cf\u8eab\u5904\u4e4b\u732b\u73a9\u5076",
+          "englishName": "Hideout Cat figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f260d7b84c6e1f8a09cffd-icon-8bdd585de594a7ce.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "59e3658a86f7741776641ac4",
+              "name": "\u732b\u96d5\u50cf",
+              "englishName": "Cat figurine",
+              "iconLink": "https://assets.tarkovbox.com/game-items/59e3658a86f7741776641ac4/icon-25e951526a32.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u9e2d\u5b50\u73a9\u5076 \u2192 \u9e2d\u809d\u9171\u7f50\u5934",
+      "durationMinutes": 66,
+      "restriction": "\u4ec5\u9650 PVP",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "697cddb414e932098005748d",
+          "name": "\u9e2d\u5b50\u73a9\u5076",
+          "englishName": "Duck figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/697cddb414e932098005748d-icon-bf9430efaf423dcb.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "69774bb0a247161ff1068335",
+              "name": "\u9e2d\u809d\u9171\u7f50\u5934",
+              "englishName": "Can of duck pate",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/69774bb0a247161ff1068335-icon-992de0ea2e14fe0a.webp",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u9e2d\u809d\u9171\u7f50\u5934 \u2192 \u9e2d\u5b50\u73a9\u5076",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "69774bb0a247161ff1068335",
+          "name": "\u9e2d\u809d\u9171\u7f50\u5934",
+          "englishName": "Can of duck pate",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/69774bb0a247161ff1068335-icon-992de0ea2e14fe0a.webp",
+          "count": 5
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "697cddb414e932098005748d",
+              "name": "\u9e2d\u5b50\u73a9\u5076",
+              "englishName": "Duck figurine",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/697cddb414e932098005748d-icon-bf9430efaf423dcb.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Labrys \u7814\u53d1\u8bb0\u5f55 \u2192 Labrys \u8bbf\u95ee\u94a5\u5319\u5361",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "679b992329acd1f2f60985a5",
+          "name": "Labrys \u7814\u53d1\u8bb0\u5f55",
+          "englishName": "Labrys research notes",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/679b992329acd1f2f60985a5-icon-04e9c888c34a002c.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "2bf7b52e6463d09b7fa7259f",
+              "name": "Labrys \u8bbf\u95ee\u94a5\u5319\u5361",
+              "englishName": "Labrys access keycard",
+              "iconLink": "https://assets.tarkovbox.com/external-images/f40a03cf910349c7.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Elvisvista \u73a9\u5076 \u2192 Elvisvista \u73a9\u5076",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "690c70a2a1461a01d605a1bd",
+          "name": "Elvisvista \u73a9\u5076",
+          "englishName": "Elvisvista figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/690c70a2a1461a01d605a1bd-icon-6d4fb42bde99f8a5.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "690c70a2a1461a01d605a1bd",
+              "name": "Elvisvista \u73a9\u5076",
+              "englishName": "Elvisvista figurine",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/690c70a2a1461a01d605a1bd-icon-6d4fb42bde99f8a5.webp",
+              "count": 1
+            },
+            {
+              "id": "572b7d8524597762b472f9d1",
+              "name": "\u68d2\u7403\u5e3d",
+              "englishName": "Baseball cap",
+              "iconLink": "https://assets.tarkovbox.com/game-items/572b7d8524597762b472f9d1/icon-ecf8a61218f3.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fence \u73a9\u5076 \u2192 Fence \u73a9\u5076",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "68f25da3b84c6e1f8a09cffb",
+          "name": "Fence \u73a9\u5076",
+          "englishName": "Fence figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25da3b84c6e1f8a09cffb-icon-01ae9524f1058251.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "68f25da3b84c6e1f8a09cffb",
+              "name": "Fence \u73a9\u5076",
+              "englishName": "Fence figurine",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25da3b84c6e1f8a09cffb-icon-01ae9524f1058251.webp",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mechanic \u73a9\u5076 \u2192 \u87ba\u6bcd",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "68f25f1201fb9de974058be4",
+          "name": "Mechanic \u73a9\u5076",
+          "englishName": "Mechanic figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25f1201fb9de974058be4-icon-f7591fc1c048f1c9.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "57347c77245977448d35f6e2",
+              "name": "\u87ba\u6bcd",
+              "englishName": "Screw nuts",
+              "iconLink": "https://assets.tarkovbox.com/game-items/57347c77245977448d35f6e2/icon-c31700801124.webp",
+              "count": 2
+            },
+            {
+              "id": "544fb5454bdc2df8738b456a",
+              "name": "Leatherman\u591a\u529f\u80fd\u5de5\u5177\u94b3",
+              "englishName": "Leatherman Multitool",
+              "iconLink": "https://assets.tarkovbox.com/game-items/544fb5454bdc2df8738b456a/icon-676157f5417a.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Peacekeeper \u73a9\u5076 \u2192 MF-UNTAR\u9632\u5f39\u80cc\u5fc3",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "68f25eef19a2b503d70dc291",
+          "name": "Peacekeeper \u73a9\u5076",
+          "englishName": "Peacekeeper figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25eef19a2b503d70dc291-icon-9c77c816e616d6b3.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5ab8e4ed86f7742d8e50c7fa",
+              "name": "MF-UNTAR\u9632\u5f39\u80cc\u5fc3",
+              "englishName": "MF-UNTAR body armor",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5ab8e4ed86f7742d8e50c7fa-icon-7910e04569d51f96.webp",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Prapor \u73a9\u5076 \u2192 42 Signature Blend\u82f1\u5f0f\u8336",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "68f25c64b2b53abd200b954f",
+          "name": "Prapor \u73a9\u5076",
+          "englishName": "Prapor figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25c64b2b53abd200b954f-icon-fd3c27b013a6f085.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5bc9be8fd4351e00334cae6e",
+              "name": "42 Signature Blend\u82f1\u5f0f\u8336",
+              "englishName": "42 Signature Blend English Tea",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5bc9be8fd4351e00334cae6e-icon-9d1348878a27718d.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skier \u73a9\u5076 \u2192 \u7ed2\u7403\u6bdb\u7ebf\u5e3d",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "68f25eba19a2b503d70dc28f",
+          "name": "Skier \u73a9\u5076",
+          "englishName": "Skier figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25eba19a2b503d70dc28f-icon-b74ac7442327ed16.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5b4329075acfc400153b78ff",
+              "name": "\u7ed2\u7403\u6bdb\u7ebf\u5e3d",
+              "englishName": "Pompon hat",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5b4329075acfc400153b78ff-icon-d7e130769c72e8e0.webp",
+              "count": 1
+            },
+            {
+              "id": "56742c324bdc2d150f8b456d",
+              "name": "\u635f\u574f\u7684GPhone",
+              "englishName": "Broken GPhone smartphone",
+              "iconLink": "https://assets.tarkovbox.com/game-items/56742c324bdc2d150f8b456d/icon-76aa1e7848d7.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Therapist \u73a9\u5076 \u2192 Salewa\u6025\u6551\u5305",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "68f25ce9b2b53abd200b9551",
+          "name": "Therapist \u73a9\u5076",
+          "englishName": "Therapist figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f25ce9b2b53abd200b9551-icon-aba8bc03ebd75a96.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "544fb45d4bdc2dee738b4568",
+              "name": "Salewa\u6025\u6551\u5305",
+              "englishName": "Salewa first aid kit",
+              "iconLink": "https://assets.tarkovbox.com/game-items/544fb45d4bdc2dee738b4568/icon-79c129f4a2a3.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u65e0\u8d56\u6218\u58eb\u73a9\u5076 \u2192 BNTI Module-3M \u9632\u5f39\u80cc\u5fc3",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "68f26124b84c6e1f8a09cfff",
+          "name": "\u65e0\u8d56\u6218\u58eb\u73a9\u5076",
+          "englishName": "Walking Tank figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f26124b84c6e1f8a09cfff-icon-9a4db5bdae2cde96.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "59e7635f86f7742cbf2c1095",
+              "name": "BNTI Module-3M \u9632\u5f39\u80cc\u5fc3",
+              "englishName": "BNTI Module-3M body armor",
+              "iconLink": "https://assets.tarkovbox.com/game-items/59e7635f86f7742cbf2c1095/icon-931a4d3b8595.webp",
+              "count": 2
+            },
+            {
+              "id": "5bf3e03b0db834001d2c4a9c",
+              "name": "AK-74 5.45x39 \u7a81\u51fb\u6b65\u67aa",
+              "englishName": "Kalashnikov AK-74 5.45x39 assault rifle",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5bf3e03b0db834001d2c4a9c-icon-a530a38b1c61a904.webp",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mastichin \u73a9\u5076 \u2192 Voron\u7684\u85cf\u8eab\u5904\u94a5\u5319",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "68f261f6928cd23ddf0471fd",
+          "name": "Mastichin \u73a9\u5076",
+          "englishName": "Mastichin figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/68f261f6928cd23ddf0471fd-icon-a6b8fc080915dc7a.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "f678d8164cfa5742b9cceea6",
+              "name": "Voron\u7684\u85cf\u8eab\u5904\u94a5\u5319",
+              "englishName": "Voron's Hideout key",
+              "iconLink": "https://assets.tarkovbox.com/external-images/9b51b62329e9733e.webp",
+              "count": 1
+            },
+            {
+              "id": "44b9360c23e14ed9e60b9222",
+              "name": "\u5199\u6709\u6697\u53f7\u201cVoron\u201d\u7684\u7eb8\u6761",
+              "englishName": "Note with code word Voron",
+              "iconLink": "https://assets.tarkovbox.com/external-images/68fe4851dfcddb1d.webp",
+              "count": 1
+            },
+            {
+              "id": "5e54f62086f774219b0f1937",
+              "name": "\u4e4c\u9e26\u96d5\u50cf",
+              "englishName": "Raven",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5e54f62086f774219b0f1937-icon-383470e1413a3e25.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6-STEN-140-M\u519b\u7528\u7535\u6c60 \u2192 \u65e7\u5c4b\u5395\u6240\u94a5\u5319",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "5d03794386f77420415576f5",
+          "name": "6-STEN-140-M\u519b\u7528\u7535\u6c60",
+          "englishName": "6-STEN-140-M military battery",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5d03794386f77420415576f5-icon-c728ef85d0a10caa.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "b6e6664d4a20dc0e0eee9b74",
+              "name": "\u65e7\u5c4b\u5395\u6240\u94a5\u5319",
+              "englishName": "Old house toilet key",
+              "iconLink": "https://assets.tarkovbox.com/external-images/b98a98122d268b4d.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Domontovich \u6bdb\u5e3d \u2192 \u4f9b\u5e94\u90e8\u95e8\u4e3b\u7ba1\u529e\u516c\u5ba4\u94a5\u5319",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "6937f02dfd6488bb27024839",
+          "name": "Domontovich \u6bdb\u5e3d",
+          "englishName": "Domontovich ushanka hat",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/6937f02dfd6488bb27024839-icon-ad4ba979b3545c1a.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "63a39ce4cd6db0635c1975fa",
+              "name": "\u4f9b\u5e94\u90e8\u95e8\u4e3b\u7ba1\u529e\u516c\u5ba4\u94a5\u5319",
+              "englishName": "Supply department director's office key",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/63a39ce4cd6db0635c1975fa-icon-f63fa1a69c40a9da.webp",
+              "count": 1
+            },
+            {
+              "id": "d3a54cc9b0750a8982ced255",
+              "name": "ZiD SP-81 26x75\u4fe1\u53f7\u67aa",
+              "englishName": "ZiD SP-81 26x75 signal pistol",
+              "iconLink": "https://assets.tarkovbox.com/external-images/3c99db32a25a57eb.webp",
+              "count": 1
+            },
+            {
+              "id": "5d403f9186f7743cac3f229b",
+              "name": "Dan Jackiel\u74f6\u88c5\u5a01\u58eb\u5fcc",
+              "englishName": "Bottle of Dan Jackiel whiskey",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5d403f9186f7743cac3f229b-icon-373c8f9e92087499.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nut Sack \u5df4\u62c9\u514b\u62c9\u74e6\u5934\u5957 \u2192 SSh-68\u94a2\u76d4\uff08\u6a44\u6984\u7eff\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "69398e94ca94fd2877039504",
+          "name": "Nut Sack \u5df4\u62c9\u514b\u62c9\u74e6\u5934\u5957",
+          "englishName": "Nut sack",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/69398e94ca94fd2877039504-icon-c95ac129fad43cf8.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": true,
+          "items": [
+            {
+              "id": "5c06c6a80db834001b735491",
+              "name": "SSh-68\u94a2\u76d4\uff08\u6a44\u6984\u7eff\uff09",
+              "englishName": "SSh-68 steel helmet (Olive Drab)",
+              "iconLink": "https://assets.tarkovbox.com/game-items/5c06c6a80db834001b735491/icon-511d357338ba.webp",
+              "count": 1
+            },
+            {
+              "id": "60a7acf20c5cb24b01346648",
+              "name": "BOSS\u9e2d\u820c\u5e3d",
+              "englishName": "BOSS cap",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/60a7acf20c5cb24b01346648-icon-5aaac98604d4164b.webp",
+              "count": 1
+            },
+            {
+              "id": "59e7708286f7742cbd762753",
+              "name": "\u5e26\u8033\u7f69\u7684\u82cf\u8054\u6bdb\u5e3d",
+              "englishName": "Ushanka ear flap hat",
+              "iconLink": "https://assets.tarkovbox.com/game-items/59e7708286f7742cbd762753/icon-bd01559d8a4a.webp",
+              "count": 2
+            },
+            {
+              "id": "60bf74184a63fc79b60c57f6",
+              "name": "Bomber \u65e0\u6a90\u5c0f\u4fbf\u5e3d",
+              "englishName": "Bomber beanie",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/60bf74184a63fc79b60c57f6-icon-640e77b629d2b9d9.webp",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "random": true,
+          "items": [
+            {
+              "id": "5c06c6a80db834001b735491",
+              "name": "SSh-68\u94a2\u76d4\uff08\u6a44\u6984\u7eff\uff09",
+              "englishName": "SSh-68 steel helmet (Olive Drab)",
+              "iconLink": "https://assets.tarkovbox.com/game-items/5c06c6a80db834001b735491/icon-511d357338ba.webp",
+              "count": 1
+            },
+            {
+              "id": "60a7acf20c5cb24b01346648",
+              "name": "BOSS\u9e2d\u820c\u5e3d",
+              "englishName": "BOSS cap",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/60a7acf20c5cb24b01346648-icon-5aaac98604d4164b.webp",
+              "count": 1
+            },
+            {
+              "id": "59e7708286f7742cbd762753",
+              "name": "\u5e26\u8033\u7f69\u7684\u82cf\u8054\u6bdb\u5e3d",
+              "englishName": "Ushanka ear flap hat",
+              "iconLink": "https://assets.tarkovbox.com/game-items/59e7708286f7742cbd762753/icon-bd01559d8a4a.webp",
+              "count": 1
+            },
+            {
+              "id": "5aa2b9ede5b5b000137b758b",
+              "name": "Kinda\u725b\u4ed4\u5e3d",
+              "englishName": "Kinda cowboy hat",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5aa2b9ede5b5b000137b758b-icon-144a1aca0d894b74.webp",
+              "count": 1
+            },
+            {
+              "id": "60bf74184a63fc79b60c57f6",
+              "name": "Bomber \u65e0\u6a90\u5c0f\u4fbf\u5e3d",
+              "englishName": "Bomber beanie",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/60bf74184a63fc79b60c57f6-icon-640e77b629d2b9d9.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7ea2\uff09 \u2192 \u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u94f6\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "ed09c6375e974ebf48d30818",
+          "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7ea2\uff09",
+          "englishName": "Christmas tree ornament (Red)",
+          "iconLink": "https://assets.tarkovbox.com/external-images/f930eb16df7cdfa9.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "835f4bed3fddf09b2e9c3edd",
+              "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u94f6\uff09",
+              "englishName": "Christmas tree ornament (Silver)",
+              "iconLink": "https://assets.tarkovbox.com/external-images/98239143ddc0b010.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u94f6\uff09 \u2192 \u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7d2b\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "835f4bed3fddf09b2e9c3edd",
+          "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u94f6\uff09",
+          "englishName": "Christmas tree ornament (Silver)",
+          "iconLink": "https://assets.tarkovbox.com/external-images/98239143ddc0b010.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "31f271ec15dc5034b424546e",
+              "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7d2b\uff09",
+              "englishName": "Christmas tree ornament (Violet)",
+              "iconLink": "https://assets.tarkovbox.com/external-images/5fb89886cc92cc6f.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7d2b\uff09 \u2192 \u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7ea2\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "31f271ec15dc5034b424546e",
+          "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7d2b\uff09",
+          "englishName": "Christmas tree ornament (Violet)",
+          "iconLink": "https://assets.tarkovbox.com/external-images/5fb89886cc92cc6f.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "ed09c6375e974ebf48d30818",
+              "name": "\u5723\u8bde\u6811\u88c5\u9970\u7403\uff08\u7ea2\uff09",
+              "englishName": "Christmas tree ornament (Red)",
+              "iconLink": "https://assets.tarkovbox.com/external-images/f930eb16df7cdfa9.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tigzresq \u5939\u677f \u2192 \u91d1\u86cb",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "6937ecf8628ee476240c07cb",
+          "name": "Tigzresq \u5939\u677f",
+          "englishName": "Tigzresq splint",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/6937ecf8628ee476240c07cb-icon-73fc56002e442d54.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "62a09cfe4f842e1bd12da3e4",
+              "name": "\u91d1\u86cb",
+              "englishName": "Golden egg",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/62a09cfe4f842e1bd12da3e4-icon-8b7c891d1a1706e6.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mazoni \u91d1\u8272\u54d1\u94c3 \u2192 Mazoni \u91d1\u8272\u54d1\u94c3",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "6937edb912d456a817083e82",
+          "name": "Mazoni \u91d1\u8272\u54d1\u94c3",
+          "englishName": "Mazoni golden dumbbell",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/6937edb912d456a817083e82-icon-d4ac6fc964949ad4.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "6937edb912d456a817083e82",
+              "name": "Mazoni \u91d1\u8272\u54d1\u94c3",
+              "englishName": "Mazoni golden dumbbell",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/6937edb912d456a817083e82-icon-d4ac6fc964949ad4.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u529b\u767e\u6c40\u6297\u751f\u7d20\u836f\u7247 \u2192 xTG-12\u89e3\u6bd2\u5242",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "590c695186f7741e566b64a2",
+          "name": "\u529b\u767e\u6c40\u6297\u751f\u7d20\u836f\u7247",
+          "englishName": "Augmentin antibiotic pills",
+          "iconLink": "https://assets.tarkovbox.com/game-items/590c695186f7741e566b64a2/icon-c9bdc11fd7b7.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5fca138c2a7b221b2852a5c6",
+              "name": "xTG-12\u89e3\u6bd2\u5242",
+              "englishName": "xTG-12 antidote injector",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5fca138c2a7b221b2852a5c6-icon-92a614627b1a0211.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u88c5\u6709\u7cd6\u679c\u7684\u5357\u74dc \u2192 \u6770\u514b\u5357\u74dc\u706f\u6218\u672f\u5357\u74dc\u5934\u76d4",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "634959225289190e5e773b3b",
+          "name": "\u88c5\u6709\u7cd6\u679c\u7684\u5357\u74dc",
+          "englishName": "Pumpkin with sweets",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/634959225289190e5e773b3b-icon-3f2c6956983b7d98.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "59ef13ca86f77445fd0e2483",
+              "name": "\u6770\u514b\u5357\u74dc\u706f\u6218\u672f\u5357\u74dc\u5934\u76d4",
+              "englishName": "Jack-o'-lantern tactical pumpkin helmet",
+              "iconLink": "https://assets.tarkovbox.com/game-items/59ef13ca86f77445fd0e2483/icon-02e7fc4536a4.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u6770\u514b\u5357\u74dc\u706f\u6218\u672f\u5357\u74dc\u5934\u76d4 \u2192 Random foods",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "59ef13ca86f77445fd0e2483",
+          "name": "\u6770\u514b\u5357\u74dc\u706f\u6218\u672f\u5357\u74dc\u5934\u76d4",
+          "englishName": "Jack-o'-lantern tactical pumpkin helmet",
+          "iconLink": "https://assets.tarkovbox.com/game-items/59ef13ca86f77445fd0e2483/icon-02e7fc4536a4.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "b2e1fb4b89c2f857d24e9002",
+              "name": "Random foods",
+              "englishName": "Random foods",
+              "iconLink": "",
+              "count": 1
+            },
+            {
+              "id": "28573b38f76d63f95c8ca3f7",
+              "name": "Random drinks",
+              "englishName": "Random drinks",
+              "iconLink": "",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "400\u6beb\u5347WD-40 \u2192 100\u6beb\u5347WD-40",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "590c5c9f86f77477c91c36e7",
+          "name": "400\u6beb\u5347WD-40",
+          "englishName": "WD-40 (400ml)",
+          "iconLink": "https://assets.tarkovbox.com/game-items/590c5c9f86f77477c91c36e7/icon-b754e9f370ae.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "590c5bbd86f774785762df04",
+              "name": "100\u6beb\u5347WD-40",
+              "englishName": "WD-40 (100ml)",
+              "iconLink": "https://assets.tarkovbox.com/game-items/590c5bbd86f774785762df04/icon-065a57167a06.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "0.6\u5347\u74f6\u88c5\u6c34 \u2192 \u7ed2\u5e03\u5e03\u6599",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "5448fee04bdc2dbc018b4567",
+          "name": "0.6\u5347\u74f6\u88c5\u6c34",
+          "englishName": "Bottle of water (0.6L)",
+          "iconLink": "https://assets.tarkovbox.com/game-items/5448fee04bdc2dbc018b4567/icon-8142d62e8770.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5e2af47786f7746d404f3aaa",
+              "name": "\u7ed2\u5e03\u5e03\u6599",
+              "englishName": "Fleece fabric",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5e2af47786f7746d404f3aaa-icon-8f1a87b2aa679861.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u9489\u5b50\u5934\u73a9\u5076 \u2192 Tagilla \u7684\u201cZABEY\u201d\u7535\u710a\u9762\u7f69\uff08\u4eff\u5236\u54c1\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "95f87290567ce80ff2a02691",
+          "name": "\u9489\u5b50\u5934\u73a9\u5076",
+          "englishName": "Nailhead figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/f9cadfdec40123a9.webp",
+          "count": 1
+        },
+        {
+          "id": "ee92aeeebd40ad0b63826f75",
+          "name": "\u5f02\u5f62\u73a9\u5076",
+          "englishName": "Xenoalien figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/9268d0887d2106c7.webp",
+          "count": 1
+        },
+        {
+          "id": "8dab6e50f1c4d9a2d39dc62c",
+          "name": "\u4e09\u89d2\u5934\u73a9\u5076",
+          "englishName": "Pointy guy figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/5f00c983b1868d86.webp",
+          "count": 1
+        },
+        {
+          "id": "865825f608f4fb08495c26bd",
+          "name": "Petya Crooker \u73a9\u5076",
+          "englishName": "Petya Crooker figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/b8dec44432cbbcd7.webp",
+          "count": 1
+        },
+        {
+          "id": "0a1013eafac6bec9d11273f8",
+          "name": "\u5438\u8840\u9b3c\u516c\u7235\u73a9\u5076",
+          "englishName": "Count Bloodsucker figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/2073f2bbe4239cf3.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "90354f025163a665f60295d5",
+              "name": "Tagilla \u7684\u201cZABEY\u201d\u7535\u710a\u9762\u7f69\uff08\u4eff\u5236\u54c1\uff09",
+              "englishName": "Tagilla's welding mask \"ZABEY\" (Replica)",
+              "iconLink": "https://assets.tarkovbox.com/external-images/cfc1e4cf52338257.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u9489\u5b50\u5934\u73a9\u5076 \u2192 \u4e00\u5305\u9489\u5b50",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "95f87290567ce80ff2a02691",
+          "name": "\u9489\u5b50\u5934\u73a9\u5076",
+          "englishName": "Nailhead figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/f9cadfdec40123a9.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "590c31c586f774245e3141b2",
+              "name": "\u4e00\u5305\u9489\u5b50",
+              "englishName": "Pack of nails",
+              "iconLink": "https://assets.tarkovbox.com/game-items/590c31c586f774245e3141b2/icon-17598811f913.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5f02\u5f62\u73a9\u5076 \u2192 Xenomorph\u53d1\u6ce1\u5bc6\u5c01\u80f6",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "ee92aeeebd40ad0b63826f75",
+          "name": "\u5f02\u5f62\u73a9\u5076",
+          "englishName": "Xenoalien figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/9268d0887d2106c7.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "590c346786f77423e50ed342",
+              "name": "Xenomorph\u53d1\u6ce1\u5bc6\u5c01\u80f6",
+              "englishName": "Xenomorph sealing foam",
+              "iconLink": "https://assets.tarkovbox.com/game-items/590c346786f77423e50ed342/icon-f691c9c98cfc.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u4e09\u89d2\u5934\u73a9\u5076 \u2192 \u751f\u9508\u7684\u5e26\u8840\u94a5\u5319",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "8dab6e50f1c4d9a2d39dc62c",
+          "name": "\u4e09\u89d2\u5934\u73a9\u5076",
+          "englishName": "Pointy guy figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/5f00c983b1868d86.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "4b50c2006e288368246435a4",
+              "name": "\u751f\u9508\u7684\u5e26\u8840\u94a5\u5319",
+              "englishName": "Rusty bloody key",
+              "iconLink": "https://assets.tarkovbox.com/external-images/2aab6db037e82db5.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Petya Crooker \u73a9\u5076 \u2192 \u300a\u5929\u96f7\u5730\u706b\u300b\u5f55\u50cf\u5e26",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "865825f608f4fb08495c26bd",
+          "name": "Petya Crooker \u73a9\u5076",
+          "englishName": "Petya Crooker figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/b8dec44432cbbcd7.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "62a09e974f842e1bd12da3f0",
+              "name": "\u300a\u5929\u96f7\u5730\u706b\u300b\u5f55\u50cf\u5e26",
+              "englishName": "Video cassette with the Cyborg Killer movie",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/62a09e974f842e1bd12da3f0-icon-eaeacc70fb11f4d6.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5438\u8840\u9b3c\u516c\u7235\u73a9\u5076 \u2192 \u533b\u7528\u8f93\u8840\u5de5\u5177",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "0a1013eafac6bec9d11273f8",
+          "name": "\u5438\u8840\u9b3c\u516c\u7235\u73a9\u5076",
+          "englishName": "Count Bloodsucker figurine",
+          "iconLink": "https://assets.tarkovbox.com/external-images/2073f2bbe4239cf3.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5b4335ba86f7744d2837a264",
+              "name": "\u533b\u7528\u8f93\u8840\u5de5\u5177",
+              "englishName": "Medical bloodset",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5b4335ba86f7744d2837a264-icon-586b32d7ba8bf5c9.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gamma \u5b89\u5168\u7bb1 \u2192 Gamma \u5b89\u5168\u7bb1",
+      "durationMinutes": 6,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "5857a8bc2459772bad15db29",
+          "name": "Gamma \u5b89\u5168\u7bb1",
+          "englishName": "Secure container Gamma (The Unheard Edition)",
+          "iconLink": "https://assets.tarkovbox.com/game-items/5857a8bc2459772bad15db29/icon-520045ff9354.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5857a8bc2459772bad15db29",
+              "name": "Gamma \u5b89\u5168\u7bb1",
+              "englishName": "Secure container Gamma (Edge of Darkness Edition)",
+              "iconLink": "https://assets.tarkovbox.com/game-items/5857a8bc2459772bad15db29/icon-520045ff9354.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kappa\u5b89\u5168\u7bb1 \u2192 Kappa\u5b89\u5168\u7bb1\uff08\u4eb5\u6e0e\u7248\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "b92d9cdaee1b9cc8e2f23c4e",
+          "name": "Kappa\u5b89\u5168\u7bb1",
+          "englishName": "Secure container Kappa",
+          "iconLink": "https://assets.tarkovbox.com/external-images/a4d6fac16d8d1f4b.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "4ac839749f034632bb2517cc",
+              "name": "Kappa\u5b89\u5168\u7bb1\uff08\u4eb5\u6e0e\u7248\uff09",
+              "englishName": "Secure container Kappa (Desecrated)",
+              "iconLink": "https://assets.tarkovbox.com/external-images/a80894a2bd82152d.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u90aa\u6559\u5f92\u73a9\u5076 \u2192 \u6050\u6016\u5934\u9885\u9762\u5177",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "655c669103999d3c810c025b",
+          "name": "\u90aa\u6559\u5f92\u73a9\u5076",
+          "englishName": "Cultist figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c669103999d3c810c025b-icon-d782f052bb93db68.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "635267ab3c89e2112001f826",
+              "name": "\u6050\u6016\u5934\u9885\u9762\u5177",
+              "englishName": "Spooky skull mask",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/635267ab3c89e2112001f826-icon-10f08928e2f6bb96.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u90aa\u6559\u5f92\u73a9\u5076 \u2192 \u90aa\u6559\u5f92\u4e4b\u5203",
+      "durationMinutes": 666,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "655c669103999d3c810c025b",
+          "name": "\u90aa\u6559\u5f92\u73a9\u5076",
+          "englishName": "Cultist figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c669103999d3c810c025b-icon-d782f052bb93db68.webp",
+          "count": 5
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5fc64ea372b0dd78d51159dc",
+              "name": "\u90aa\u6559\u5f92\u4e4b\u5203",
+              "englishName": "Cultist knife",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5fc64ea372b0dd78d51159dc-icon-64309ac6194e2c66.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Killa \u73a9\u5076 \u2192 Maska-1SCh \u9632\u5f39\u5934\u76d4\uff08Killa \u7248\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "66572c82ad599021091c6118",
+          "name": "Killa \u73a9\u5076",
+          "englishName": "Killa figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/66572c82ad599021091c6118-icon-c0037cfa512684cf.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5c0e874186f7745dc7616606",
+              "name": "Maska-1SCh \u9632\u5f39\u5934\u76d4\uff08Killa \u7248\uff09",
+              "englishName": "Maska-1SCh bulletproof helmet (Killa Edition)",
+              "iconLink": "https://assets.tarkovbox.com/game-items/5c0e874186f7745dc7616606/icon-2720e6d76ea4.webp",
+              "count": 1
+            },
+            {
+              "id": "5c0e842486f77443a74d2976",
+              "name": "Maska-1SCh \u9632\u5f39\u9762\u7f69\uff08Killa \u7248\uff09",
+              "englishName": "Maska-1SCh face shield (Killa Edition)",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5c0e842486f77443a74d2976-icon-982115cf6f11d4aa.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tagilla \u73a9\u5076 \u2192 Tagilla\u7684\"Gorilla\"\u7535\u710a\u9762\u7f69",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "66572cbdad599021091c611a",
+          "name": "Tagilla \u73a9\u5076",
+          "englishName": "Tagilla figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/66572cbdad599021091c611a-icon-a24fc4ad110d2499.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": true,
+          "items": [
+            {
+              "id": "60a7ad3a0c5cb24b0134664a",
+              "name": "Tagilla\u7684\"Gorilla\"\u7535\u710a\u9762\u7f69",
+              "englishName": "Tagilla's welding mask \"Gorilla\"",
+              "iconLink": "https://assets.tarkovbox.com/game-items/60a7ad3a0c5cb24b0134664a/icon-993b46c25057.webp",
+              "count": 1
+            },
+            {
+              "id": "60a7ad2a2198820d95707a2e",
+              "name": "Tagilla\u7684\"UBEY\"\u7535\u710a\u9762\u7f69",
+              "englishName": "Tagilla's welding mask \"UBEY\"",
+              "iconLink": "https://assets.tarkovbox.com/game-items/60a7ad2a2198820d95707a2e/icon-38dea5fe14c0.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reshala \u73a9\u5076 \u2192 \u6258\u5361\u5217\u592b TT-33 7.62x25 \u9ec4\u91d1\u624b\u67aa",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "66572be36a723f7f005a066e",
+          "name": "Reshala \u73a9\u5076",
+          "englishName": "Reshala figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/66572be36a723f7f005a066e-icon-047a9d8615dcc1f6.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5b3b713c5acfc4330140bd8d",
+              "name": "\u6258\u5361\u5217\u592b TT-33 7.62x25 \u9ec4\u91d1\u624b\u67aa",
+              "englishName": "TT-33 7.62x25 TT pistol (Golden)",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5b3b713c5acfc4330140bd8d-icon-72f84bae1d8908b1.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Den \u73a9\u5076 \u2192 Deadlyslob\u7684\u80e1\u987b\u6cb9",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "66572b8d80b1cd4b6a67847f",
+          "name": "Den \u73a9\u5076",
+          "englishName": "Den figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/66572b8d80b1cd4b6a67847f-icon-fba6fbd47f07fe8c.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": true,
+          "items": [
+            {
+              "id": "5bc9b9ecd4351e3bac122519",
+              "name": "Deadlyslob\u7684\u80e1\u987b\u6cb9",
+              "englishName": "Deadlyslob's beard oil",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5bc9b9ecd4351e3bac122519-icon-e0bab20854f61e49.webp",
+              "count": 1
+            },
+            {
+              "id": "62a09dd4621468534a797ac7",
+              "name": "Baddie\u7684\u7ea2\u80e1\u5b50",
+              "englishName": "Baddie's red beard",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/62a09dd4621468534a797ac7-icon-57782e0415c3118c.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mutkevich \u653f\u5ba2\u73a9\u5076 \u2192 Tarkovskaya\u74f6\u88c5\u4f0f\u7279\u52a0",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "655c66e40b2de553b618d4b8",
+          "name": "Mutkevich \u653f\u5ba2\u73a9\u5076",
+          "englishName": "Politician Mutkevich figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c66e40b2de553b618d4b8-icon-3e61ebe7b21da43c.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5d40407c86f774318526545a",
+              "name": "Tarkovskaya\u74f6\u88c5\u4f0f\u7279\u52a0",
+              "englishName": "Bottle of Tarkovskaya vodka",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5d40407c86f774318526545a-icon-ba70193d7d36ab93.webp",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Scav \u73a9\u5076 \u2192 Scav\u80cc\u5305",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "655c673673a43e23e857aebd",
+          "name": "Scav \u73a9\u5076",
+          "englishName": "Scav figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c673673a43e23e857aebd-icon-cb9b347c0ec98365.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": true,
+          "items": [
+            {
+              "id": "56e335e4d2720b6c058b456d",
+              "name": "Scav\u80cc\u5305",
+              "englishName": "Scav backpack",
+              "iconLink": "https://assets.tarkovbox.com/game-items/56e335e4d2720b6c058b456d/icon-d690671340be.webp",
+              "count": 1
+            },
+            {
+              "id": "572b7adb24597762ae139821",
+              "name": "Scav\u80cc\u5fc3",
+              "englishName": "Scav Vest",
+              "iconLink": "https://assets.tarkovbox.com/game-items/572b7adb24597762ae139821/icon-926c296ed35b.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ryzhy \u73a9\u5076 \u2192 Obdolbos \u9e21\u5c3e\u9152\u5174\u594b\u5242\u6ce8\u5c04\u5668",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "655c67782a1356436041c9c5",
+          "name": "Ryzhy \u73a9\u5076",
+          "englishName": "Ryzhy figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c67782a1356436041c9c5-icon-476b9f8849333ab0.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5ed5166ad380ab312177c100",
+              "name": "Obdolbos \u9e21\u5c3e\u9152\u5174\u594b\u5242\u6ce8\u5c04\u5668",
+              "englishName": "Obdolbos cocktail injector",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5ed5166ad380ab312177c100-icon-38cc53d21e5c47aa.webp",
+              "count": 1
+            },
+            {
+              "id": "59e3577886f774176a362503",
+              "name": "\u4e00\u5305\u7cd6",
+              "englishName": "Pack of sugar",
+              "iconLink": "https://assets.tarkovbox.com/game-items/59e3577886f774176a362503/icon-7ab217153724.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "BEAR \u5e72\u5458\u73a9\u5076 \u2192 Grizzly\u6025\u6551\u5305",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "655c652d60d0ac437100fed7",
+          "name": "BEAR \u5e72\u5458\u73a9\u5076",
+          "englishName": "BEAR operative figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c652d60d0ac437100fed7-icon-4588e65306162b0e.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "590c657e86f77412b013051d",
+              "name": "Grizzly\u6025\u6551\u5305",
+              "englishName": "Grizzly medical kit",
+              "iconLink": "https://assets.tarkovbox.com/game-items/590c657e86f77412b013051d/icon-c4e71db130d4.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "USEC \u5e72\u5458\u73a9\u5076 \u2192 HighCom Trooper TFO \u9632\u5f39\u80cc\u5fc3\uff08\u590d\u5408\u8ff7\u5f69\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "655c663a6689c676ce57af85",
+          "name": "USEC \u5e72\u5458\u73a9\u5076",
+          "englishName": "USEC operative figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c663a6689c676ce57af85-icon-9faa80d463137188.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5c0e655586f774045612eeb2",
+              "name": "HighCom Trooper TFO \u9632\u5f39\u80cc\u5fc3\uff08\u590d\u5408\u8ff7\u5f69\uff09",
+              "englishName": "HighCom Trooper TFO body armor (MultiCam)",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5c0e655586f774045612eeb2-icon-be0264bf7ad93eb7.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kerman\u5148\u751f\u7684\u5168\u606f\u732b \u2192 Kerman\u5148\u751f\u7684\u5168\u606f\u732b",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "6638a5474e92f038531e210e",
+          "name": "Kerman\u5148\u751f\u7684\u5168\u606f\u732b",
+          "englishName": "Mr Kerman's cat hologram",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/6638a5474e92f038531e210e-icon-db4bb64a6a254eca.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "6638a5474e92f038531e210e",
+              "name": "Kerman\u5148\u751f\u7684\u5168\u606f\u732b",
+              "englishName": "Mr Kerman's cat hologram",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/6638a5474e92f038531e210e-icon-db4bb64a6a254eca.webp",
+              "count": 1
+            },
+            {
+              "id": "5c94bbff86f7747ee735c08f",
+              "name": "TerraGroup\u5b9e\u9a8c\u5ba4\u8bbf\u95ee\u94a5\u5319\u5361",
+              "englishName": "TerraGroup Labs access keycard",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5c94bbff86f7747ee735c08f-icon-104732abc75d04cf.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5723\u8bde\u8001\u4eba\u73a9\u5076 \u2192 \u5723\u8bde\u8001\u4eba\u7684\u80cc\u5305",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "655c67ab0d37ca5135388f4b",
+          "name": "\u5723\u8bde\u8001\u4eba\u73a9\u5076",
+          "englishName": "Ded Moroz figurine",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/655c67ab0d37ca5135388f4b-icon-0910e711a5201bb1.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "61b9e1aaef9a1b5d6a79899a",
+              "name": "\u5723\u8bde\u8001\u4eba\u7684\u80cc\u5305",
+              "englishName": "Santa's Bag",
+              "iconLink": "https://assets.tarkovbox.com/game-items/61b9e1aaef9a1b5d6a79899a/icon-647963fbb10d.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u4f11\u606f\u5ba4\u94a5\u5319 \u2192 \u201c\u51f6\u72e0\u8dd1\u5200\u5d3d\u201d\u79c1\u9152",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "6582dbf0b8d7830efc45016f",
+          "name": "\u4f11\u606f\u5ba4\u94a5\u5319",
+          "englishName": "Relaxation room key",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/6582dbf0b8d7830efc45016f-icon-021758595f90cc38.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5d1b376e86f774252519444e",
+              "name": "\u201c\u51f6\u72e0\u8dd1\u5200\u5d3d\u201d\u79c1\u9152",
+              "englishName": "Bottle of Fierce Hatchling moonshine",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5d1b376e86f774252519444e-icon-d242d66a3d3086b0.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dundukk\u8fd0\u52a8\u592a\u9633\u955c \u2192 Axel\u9e66\u9e49\u96d5\u50cf",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "5aa2b986e5b5b00014028f4c",
+          "name": "Dundukk\u8fd0\u52a8\u592a\u9633\u955c",
+          "englishName": "Dundukk sport sunglasses",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5aa2b986e5b5b00014028f4c-icon-11f8aa2859518829.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "62a091170b9d3c46de5b6cf2",
+              "name": "Axel\u9e66\u9e49\u96d5\u50cf",
+              "englishName": "Axel parrot figurine",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/62a091170b9d3c46de5b6cf2-icon-9344d02b4d3234a8.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u80a5\u7682 \u2192 \u7f1d\u7eab\u9525",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "5c13cd2486f774072c757944",
+          "name": "\u80a5\u7682",
+          "englishName": "Soap",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5c13cd2486f774072c757944-icon-21b44f12c6813d7c.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "62a0a098de7ac8199358053b",
+              "name": "\u7f1d\u7eab\u9525",
+              "englishName": "Awl",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/62a0a098de7ac8199358053b-icon-e2093cebd615c9fb.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zarya\u9707\u64bc\u624b\u69b4\u5f39 \u2192 \u7535\u706f\u6ce1",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "5a0c27731526d80618476ac4",
+          "name": "Zarya\u9707\u64bc\u624b\u69b4\u5f39",
+          "englishName": "Zarya stun grenade",
+          "iconLink": "https://assets.tarkovbox.com/game-items/5a0c27731526d80618476ac4/icon-68fdec0dcd1c.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5d1b392c86f77425243e98fe",
+              "name": "\u7535\u706f\u6ce1",
+              "englishName": "Light bulb",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5d1b392c86f77425243e98fe-icon-b0a5a381d75189a9.webp",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5b9e\u4f53\u6bd4\u7279\u5e01 \u2192 GreenBat\u9502\u7535\u6c60",
+      "durationMinutes": 666,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "59faff1d86f7746c51718c9c",
+          "name": "\u5b9e\u4f53\u6bd4\u7279\u5e01",
+          "englishName": "Physical Bitcoin",
+          "iconLink": "https://assets.tarkovbox.com/game-items/59faff1d86f7746c51718c9c/icon-4171101248bc.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "5e2aedd986f7746d404f3aa4",
+              "name": "GreenBat\u9502\u7535\u6c60",
+              "englishName": "GreenBat lithium battery",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5e2aedd986f7746d404f3aa4-icon-91291626cbbd529c.webp",
+              "count": 2
+            },
+            {
+              "id": "5c12620d86f7743f8b198b72",
+              "name": "Tetriz\u4fbf\u643a\u5f0f\u6e38\u620f\u673a",
+              "englishName": "Tetriz portable game console",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5c12620d86f7743f8b198b72-icon-f705e7e0d2f6787c.webp",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "LEDX\u76ae\u80a4\u900f\u7167\u4eea \u2192 TerraGroup \"\u84dd\u8272\u6587\u4ef6\u5939\" \u6750\u6599",
+      "durationMinutes": 666,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "5c0530ee86f774697952d952",
+          "name": "LEDX\u76ae\u80a4\u900f\u7167\u4eea",
+          "englishName": "LEDX Skin Transilluminator",
+          "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/5c0530ee86f774697952d952-icon-c31b08d5efd0d611.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "6389c8c5dbfd5e4b95197e6b",
+              "name": "TerraGroup \"\u84dd\u8272\u6587\u4ef6\u5939\" \u6750\u6599",
+              "englishName": "TerraGroup \"Blue Folders\" materials",
+              "iconLink": "https://assets.tarkovbox.com/images/tarkov-dev/6389c8c5dbfd5e4b95197e6b-icon-7a37b289bc905e90.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u5de6\u534a\u8fb9 \u2192 \u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u53f3\u534a\u8fb9",
+      "durationMinutes": 12,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "53e292c62a67708026be0d4a",
+          "name": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u5de6\u534a\u8fb9",
+          "englishName": "Left half of a Physical Bitcoin",
+          "iconLink": "https://assets.tarkovbox.com/external-images/d5265541fa45042f.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "edf6a7376023687a7a11882b",
+              "name": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u53f3\u534a\u8fb9",
+              "englishName": "Right half of a Physical Bitcoin",
+              "iconLink": "https://assets.tarkovbox.com/external-images/d9a2c4809b5a399b.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u53f3\u534a\u8fb9 \u2192 \u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u5de6\u534a\u8fb9",
+      "durationMinutes": 12,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "edf6a7376023687a7a11882b",
+          "name": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u53f3\u534a\u8fb9",
+          "englishName": "Right half of a Physical Bitcoin",
+          "iconLink": "https://assets.tarkovbox.com/external-images/d9a2c4809b5a399b.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "53e292c62a67708026be0d4a",
+              "name": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u5de6\u534a\u8fb9",
+              "englishName": "Left half of a Physical Bitcoin",
+              "iconLink": "https://assets.tarkovbox.com/external-images/d5265541fa45042f.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u5de6\u534a\u8fb9 \u2192 \u5b9e\u4f53\u6bd4\u7279\u5e01",
+      "durationMinutes": 12,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "53e292c62a67708026be0d4a",
+          "name": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u5de6\u534a\u8fb9",
+          "englishName": "Left half of a Physical Bitcoin",
+          "iconLink": "https://assets.tarkovbox.com/external-images/d5265541fa45042f.webp",
+          "count": 1
+        },
+        {
+          "id": "edf6a7376023687a7a11882b",
+          "name": "\u5b9e\u4f53\u6bd4\u7279\u5e01\u7684\u53f3\u534a\u8fb9",
+          "englishName": "Right half of a Physical Bitcoin",
+          "iconLink": "https://assets.tarkovbox.com/external-images/d9a2c4809b5a399b.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "59faff1d86f7746c51718c9c",
+              "name": "\u5b9e\u4f53\u6bd4\u7279\u5e01",
+              "englishName": "Physical Bitcoin",
+              "iconLink": "https://assets.tarkovbox.com/game-items/59faff1d86f7746c51718c9c/icon-4171101248bc.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gamma \u5b89\u5168\u7bb1\uff08\u8def\u6613\u4f2a\u767b\uff09 \u2192 Gamma \u5b89\u5168\u7bb1\uff08\u8def\u6613\u4f2a\u767b\uff09",
+      "durationMinutes": 66,
+      "restriction": "",
+      "isNew": false,
+      "inputs": [
+        {
+          "id": "e714e375a5caf2295656e6e3",
+          "name": "Gamma \u5b89\u5168\u7bb1\uff08\u8def\u6613\u4f2a\u767b\uff09",
+          "englishName": "Secure container Gamma (Loui Peeton)",
+          "iconLink": "https://assets.tarkovbox.com/external-images/7e9bf0fd5e044647.webp",
+          "count": 1
+        }
+      ],
+      "rewardGroups": [
+        {
+          "random": false,
+          "items": [
+            {
+              "id": "e714e375a5caf2295656e6e3",
+              "name": "Gamma \u5b89\u5168\u7bb1\uff08\u8def\u6613\u4f2a\u767b\uff09",
+              "englishName": "Secure container Gamma (Loui Peeton)",
+              "iconLink": "https://assets.tarkovbox.com/external-images/7e9bf0fd5e044647.webp",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1628 @@
+{
+  "schemaVersion": 1,
+  "source": "SPT DynamicMaps QuestMarkerDumper export",
+  "sourceFile": "Shoreline.quest-markers.json",
+  "generatedAt": "2026-06-08T11:26:50.352Z",
+  "mapId": "5704e554d2720bac5b8b456e",
+  "mapInternalName": "Shoreline",
+  "mapNormalizedName": "shoreline",
+  "coordinateFormat": "world-x-y-z",
+  "coordinateMapping": "export Position.X->position.x, Position.Z->position.y, Position.Y->position.z",
+  "markers": [
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6697\u85cf\u7384\u673a",
+      "conditionDescription": "\u5c1d\u8bd5\u8fdb\u5165 Knossos LLC \u8bbe\u65bd",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:33.2916014+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -196,
+        "y": -6.5,
+        "z": -77
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6697\u85cf\u7384\u673a",
+      "conditionDescription": "\u627e\u5230\u4e0e Knossos LLC \u76f8\u5173\u7684\u6709\u6548\u7ebf\u7d22",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:33.1399717+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -196.5,
+        "y": -6,
+        "z": -81
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6697\u4e2d\u63a9\u62a4",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5c06GARY ZONT \u201c\u4fdd\u62a4\u4f1e\u201d\u4fbf\u643a\u5f0f\u7535\u5b50\u6218\u88c5\u7f6e\u85cf\u533f\u5728\u6c14\u8c61\u7ad9\u7684\u9ad8\u5854\u4e0a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:29.571686+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -512.087036,
+        "y": -13.16,
+        "z": 264.141
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u80ae\u810f\u6e38\u620f",
+      "conditionDescription": "\u5c06MS200\u6307\u793a\u5668\u653e\u5728\u6d77\u5cb8\u7ebf\u522b\u5885\u7684\u533b\u7597\u7269\u8d44\u7bb1\u4e0a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:26.8857428+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 98.10303,
+        "y": -47.19,
+        "z": 96.9790344
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u80ae\u810f\u6e38\u620f",
+      "conditionDescription": "\u5c06MS200\u6307\u793a\u5668\u653e\u5728\u6d77\u5cb8\u7ebf\u7597\u517b\u9662\u7684\u533b\u7597\u7269\u8d44\u7bb1\u4e0a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:26.7078347+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -263.594,
+        "y": -3.95800018,
+        "z": -85.71597
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u80ae\u810f\u6e38\u620f",
+      "conditionDescription": "\u5c06MS200\u6307\u793a\u5668\u653e\u5728\u6d77\u5cb8\u7ebf\u7801\u5934\u7684\u533b\u7597\u7269\u8d44\u7bb1\u4e0a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:27.0659343+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -305.384033,
+        "y": -60.86,
+        "z": 492.20105
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5351\u9119\u7684\u5916\u4e61\u4eba",
+      "conditionDescription": "Eliminate Scavs at the village on Shoreline (In one raid)",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:29.141084+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 377.300049,
+        "y": -54.42,
+        "z": 136.299988
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u88ab\u9057\u5fd8\u7684\u8a93\u8a00",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf Sanitar \u7684\u529e\u516c\u5ba4\u4e2d\u627e\u5230\u5e76\u83b7\u53d6\u771f\u6b63\u7684\u75ab\u82d7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:29.861987+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -321.131958,
+        "y": -2.966,
+        "z": -74.677
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5927\u6d77\u635e\u9488",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u8c03\u67e5\u5cb8\u8fb9\u7684\u5efa\u7b51\u5de5\u5730",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:32.8224778+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -625.819946,
+        "y": -54.72,
+        "z": 482.169983
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5927\u6d77\u635e\u9488",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u8c03\u67e5\u7597\u517b\u9662\u5185\u7684\u513f\u7ae5\u6e38\u4e50\u573a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:32.9972358+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -351.329956,
+        "y": -1.17,
+        "z": -134
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7f14\u7ed3\u53cb\u8c0a",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u5e76\u83b7\u53d6 Prapor \u7684\u8d27\u7269",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:30.3036787+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -315.522461,
+        "y": -57.3780022,
+        "z": 478.8883
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:32.6520236+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -807.6,
+        "y": -21.5,
+        "z": 225.700012
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:31.3650734+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -635.9,
+        "y": -21.5,
+        "z": 373.900024
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:32.3110609+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -569.699951,
+        "y": -21.5,
+        "z": -60.6000061
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:31.5186448+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -477.900024,
+        "y": -21.5,
+        "z": -159.2
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:31.0626738+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -430.199951,
+        "y": -21.5,
+        "z": 84.20001
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:31.6698613+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -371.5,
+        "y": -21.5,
+        "z": 256
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:30.8752019+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -327.800049,
+        "y": -21.5,
+        "z": -283.5
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:31.2072501+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -267.400024,
+        "y": -21.5,
+        "z": 293.400024
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:31.9728767+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -88.5999756,
+        "y": -21.5,
+        "z": 189.799988
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:32.1413371+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 62.9000244,
+        "y": -21.5,
+        "z": -176.1
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:31.8210131+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 212.099976,
+        "y": -21.5,
+        "z": 246.299988
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:32.4807349+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 265.8999,
+        "y": -21.5,
+        "z": -27.6000061
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:30.4471647+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 306.199951,
+        "y": -21.5,
+        "z": -285.4
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:30.727699+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 322.6001,
+        "y": -21.5,
+        "z": 28.5
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u975e\u6cd5\u780d\u4f10",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u5730\u56fe\u7684\u68ee\u6797\u533a\u57df\u5185\uff0c\u4e8e22:00-10:00\u65f6\u95f4\u6bb5\u6d88\u706d\u4efb\u610f\u76ee\u6807",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:30.5820635+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 523.8999,
+        "y": -21.5,
+        "z": -143.7
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5316\u5b66\u6a71\u67dc",
+      "conditionDescription": "\u5728\u7597\u517b\u9662\u627e\u5230Sanitar\u7684\u529e\u516c\u5ba4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:27.2489977+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -322.833,
+        "y": -2.75299835,
+        "z": -77.53696
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6000\u65e7\u4e4b\u60c5",
+      "conditionDescription": "\u53d6\u5f97Jaeger\u7684\u76f8\u518c",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:25.294805+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -226.552,
+        "y": 2.089,
+        "z": -87.571
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6000\u65e7\u4e4b\u60c5",
+      "conditionDescription": "\u5728\u7597\u517b\u9662\u627e\u5230Jaeger\u7684\u6d77\u666f\u623f\u95f4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:25.1457828+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -229.060059,
+        "y": 3.285,
+        "z": -88.8569946
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6fc0\u8fdb\u6cbb\u7597",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u6295\u653e\u75ab\u82d7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:29.7119993+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -173.716553,
+        "y": -15.86,
+        "z": -335.151947
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7981\u6b62\u6253\u52ab",
+      "conditionDescription": "\u5728\u9a7b\u5730\u6d88\u706dScav",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:27.7530259+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -591.800049,
+        "y": -20.3,
+        "z": -117.7
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7edd\u4e0d\u4e0a\u5f53",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230Ragman\u7684SUV",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:27.9166431+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 227.163086,
+        "y": -54.911,
+        "z": -159.882
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u53e3\u5e72\u820c\u71e5 - \u5f80\u65e5\u56de\u54cd",
+      "conditionDescription": "\u5728\u201c\u6e34\u6b7b\u9b3c\u201d\u7684\u85cf\u8eab\u5904\u627e\u5230\u4fe1\u606f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:28.2549073+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -203.14978,
+        "y": -6.2083,
+        "z": -76.56938
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u53e3\u5e72\u820c\u71e5 - \u5f80\u65e5\u56de\u54cd",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u4e0e\u201c\u6e34\u6b7b\u9b3c\u201d\u6709\u5173\u7684\u4efb\u4f55\u4fe1\u606f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:28.0862824+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -200.310059,
+        "y": -6.15,
+        "z": -76.36099
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6765\u81ea\u8bfa\u6587\u65af\u514b\u7684\u670b\u53cb - \u7b2c2\u90e8\u5206",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7597\u517b\u9662\u627e\u5230\u5e76\u83b7\u53d6\u4efb\u4f55\u6709\u52a9\u4e8e\u8c03\u67e5\u7684\u4e1c\u897f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:33.8592423+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -283.430054,
+        "y": -2.9412,
+        "z": -102.291
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u793c\u8282\u6027\u62dc\u8bbf",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u5e9f\u5f03\u6751\u5e84\u91cc\u627e\u5230\u5730\u65b9\u4e3b\u5e2d\u7684\u623f\u5b50",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:24.6937531+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 405.939941,
+        "y": -51.93,
+        "z": -44.5
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u793c\u8282\u6027\u62dc\u8bbf",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u5e9f\u5f03\u6751\u5e84\u91cc\u627e\u5230\u7267\u5e08\u7684\u623f\u5b50",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:24.9911392+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 287.1399,
+        "y": -49.2,
+        "z": -46.3200073
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u793c\u8282\u6027\u62dc\u8bbf",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u5e9f\u5f03\u6751\u5e84\u91cc\u627e\u5230\u6e14\u592b\u7684\u623f\u5b50",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:24.8435122+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 382.939941,
+        "y": -51.93,
+        "z": -125.899994
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7597\u517b\u4e4b\u65c5 - 2",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u5b89\u5168\u901a\u9053",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:19.0338659+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -280.550049,
+        "y": -4.78,
+        "z": -41.3099976
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7597\u517b\u4e4b\u65c5 - 2",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u76f4\u5347\u673a ",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:18.8590386+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -250.5,
+        "y": -5.14096546,
+        "z": -48.28
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7597\u517b\u4e4b\u65c5 - 4",
+      "conditionDescription": "\u627e\u5230\u7597\u517b\u9662\u4e1c\u697c\u7684\u53d1\u7535\u673a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:19.2030739+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -336.545044,
+        "y": 0.145,
+        "z": -76.42799
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7597\u517b\u4e4b\u65c5 - 4",
+      "conditionDescription": "\u627e\u5230\u7597\u517b\u9662\u897f\u697c\u7684\u53d1\u7535\u673a",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:19.3819709+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -171.162964,
+        "y": 0.14,
+        "z": -75.51401
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7597\u517b\u4e4b\u65c5 - 5",
+      "conditionDescription": "\u53d6\u5f97\u7597\u517b\u9662\u5c01\u95ed\u573a\u6240\u7684\u94a5\u5319",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:19.5390371+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -152.349976,
+        "y": -14.546,
+        "z": -301.219
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u63a0\u5730\u653b\u57ce",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u7597\u517b\u9662\u533a\u57df\u51fb\u6740PMC\u4eba\u5458",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:27.4283156+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -253.400024,
+        "y": -5.7,
+        "z": -99.6000061
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u9ebb\u9189",
+      "conditionDescription": "\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u6d77\u5cb8\u7ebf\u7684\u7b2c\u4e8c\u4e2a\u4ea4\u6613\u7ad9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:25.5907956+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 96.72998,
+        "y": -47.19,
+        "z": 97.10004
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u9ebb\u9189",
+      "conditionDescription": "\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u6d77\u5cb8\u7ebf\u7684\u7b2c\u4e09\u4e2a\u4ea4\u6613\u7ad9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:25.7450398+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -306.199951,
+        "y": -60.86,
+        "z": 494.099976
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u9ebb\u9189",
+      "conditionDescription": "\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u6d77\u5cb8\u7ebf\u7684\u7b2c\u4e00\u4e2a\u4ea4\u6613\u7ad9 ",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:25.439725+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -263.983032,
+        "y": -3.95800018,
+        "z": -85.25296
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7834\u94dc\u70c2\u94c1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e8c\u8f86T-90\u5766\u514b\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:20.0536759+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 378.74,
+        "y": -54.375,
+        "z": 166.859985
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7834\u94dc\u70c2\u94c1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e09\u8f86T-90\u5766\u514b\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:20.2057901+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -349.680054,
+        "y": -39.864,
+        "z": 185.87
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7834\u94dc\u70c2\u94c1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e00\u8f86T-90\u5766\u514b\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:19.9006789+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -153.079956,
+        "y": -17.05,
+        "z": -280.18
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4eba\u9053\u4e3b\u4e49\u63f4\u52a9",
+      "conditionDescription": "\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u4e8c\u8f86\u5361\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:20.9916464+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -596.26,
+        "y": -58.53,
+        "z": 475.530029
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4eba\u9053\u4e3b\u4e49\u63f4\u52a9",
+      "conditionDescription": "\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0\u7b2c\u4e00\u8f86\u5361\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:20.8313439+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -234.48999,
+        "y": -3.47,
+        "z": -164.42
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u795e\u79d8\u8d27\u7269 - 1",
+      "conditionDescription": "\u4ece\u7597\u517b\u9662\u4e1c\u697c\u7684\u7535\u8111\u4e2d\u53d6\u5f97\u6570\u636e",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:21.4810371+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -285.103027,
+        "y": 2.512,
+        "z": -89.3500061
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u795e\u79d8\u8d27\u7269 - 2",
+      "conditionDescription": "\u53d6\u5f97\u4efb\u4f55\u6709\u5173\u7b2c\u4e8c\u90e8\u5206\u8d27\u7269\u8fd0\u8f93\u7684\u4fe1\u606f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:18.5627048+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -340.984,
+        "y": -2.725,
+        "z": -88.627
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u795e\u79d8\u8d27\u7269 - 2",
+      "conditionDescription": "\u5728\u7597\u517b\u9662\u627e\u5230\u6c34\u7bb1\u6240\u5728\u7684\u623f\u95f4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:21.6436885+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -336.974976,
+        "y": -2.729,
+        "z": -88.08501
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u795e\u79d8\u8d27\u7269 - 3",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u88ab\u85cf\u533f\u7684TerraGroup\u8d27\u7269",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:21.8965994+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -149.874023,
+        "y": -6.08,
+        "z": -77.004
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6e7f\u6d3b - 2",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u6e14\u6c11\u7684\u4f4f\u6240",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:22.0620984+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 235.560059,
+        "y": -64.464,
+        "z": 442.02002
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6e7f\u6d3b - 3",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230Artyom\u7684\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:22.2332679+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 72.9100342,
+        "y": -59.6730728,
+        "z": 348.72998
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6e7f\u6d3b - 4",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u53d6\u5f97\u4e00\u4efd\u7597\u517b\u9662\u623f\u5ba2\u540d\u5355",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:22.3902794+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -267.220947,
+        "y": -0.017,
+        "z": -145.576
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6e7f\u6d3b - 5",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u5173\u4e8eArtyom\u5de5\u4f5c\u7684\u4fe1\u606f",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:22.5448261+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -358.954956,
+        "y": 2.549,
+        "z": -76.994
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5854\u79d1\u592b\u5c60\u592b",
+      "conditionDescription": "\u5c06\u5316\u5b66\u54c1\u5bb9\u5668\u85cf\u533f\u5728\u6d77\u5cb8\u7ebf\u522b\u5885\u7684\u6551\u62a4\u8f66\u5185",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:33.4550722+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 97.5,
+        "y": -47.21,
+        "z": 71
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u540c\u4e8b - 1",
+      "conditionDescription": "\u627e\u5230\u88ab\u6d3e\u5f80\u6d77\u5cb8\u7ebf\u522b\u5885\u7684\u5c0f\u7ec4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:26.2124173+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 94.20996,
+        "y": -47.5,
+        "z": 61.97003
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u540c\u4e8b - 1",
+      "conditionDescription": "\u627e\u5230\u88ab\u6d3e\u5f80\u6d77\u5cb8\u7ebf\u7597\u517b\u9662\u7684\u5c0f\u7ec4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:25.8891504+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -253.170044,
+        "y": -4.06999969,
+        "z": -56.8599548
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u540c\u4e8b - 1",
+      "conditionDescription": "\u627e\u5230\u88ab\u6d3e\u5f80\u6d77\u5cb8\u7ebf\u7801\u5934\u7684\u5c0f\u7ec4",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:26.0376454+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -311.900024,
+        "y": -60.9,
+        "z": 489.700073
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u540c\u4e8b - 2",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230Sanitar\u5e26\u6709\u84dd\u8272\u8bb0\u53f7\u7684\u624b\u672f\u5957\u88c5",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:26.3764248+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -314.594971,
+        "y": -55.7427,
+        "z": 480.1722
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u540c\u4e8b - 2",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230Sanitar\u7684\u68c0\u773c\u955c",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:26.5356798+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 99.45056,
+        "y": -44.3777,
+        "z": 107.002594
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u7ef4\u4ed6\u547d - 1",
+      "conditionDescription": "\u53d6\u5f97\u7b2c\u4e00\u4e2a\u5316\u5b66\u54c1\u5bb9\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:24.0851817+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -186.06189,
+        "y": -2.7302,
+        "z": -86.1152039
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5148\u53d1\u5236\u4eba",
+      "conditionDescription": "\u5728Skier \u7684\u6148\u5584\u68c0\u67e5\u70b9\u51fb\u6740Scav",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:27.5968553+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -645,
+        "y": -20.3,
+        "z": -200.7
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5c0f\u672c\u751f\u610f - 3",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u6c89\u9677\u6751\u5e84\u5185\u7684\u796d\u7940\u5708\u57cb\u85cf\u4e00\u628a\u90aa\u6559\u5f92\u7684\u5200",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:28.4192939+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 251.987061,
+        "y": -52.69,
+        "z": -105.118652
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5c0f\u672c\u751f\u610f - 3",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7597\u517b\u9662\u5185\u7684\u796d\u7940\u5708\u57cb\u85cf\u4e00\u628a\u90aa\u6559\u5f92\u7684\u5200",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:21.3336718+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -336.644043,
+        "y": 3.545,
+        "z": -88.728
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u90aa\u6559 - 1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u5931\u8e2a\u7684\u7ebf\u4eba",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:21.1720372+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 287.0691,
+        "y": -49.353,
+        "z": -42.3269958
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4fe1\u53f7 - 1",
+      "conditionDescription": "\u627e\u5230\u7b2c\u4e8c\u4e2a\u4fe1\u53f7\u6e90",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:23.4470243+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -483.310059,
+        "y": -25.762,
+        "z": 253.659973
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4fe1\u53f7 - 1",
+      "conditionDescription": "\u627e\u5230\u7b2c\u4e00\u4e2a\u4fe1\u53f7\u6e90",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:23.2958983+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -230.400024,
+        "y": 8.35,
+        "z": -93.6199951
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4fe1\u53f7 - 3",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u6307\u5b9a\u5730\u70b9\u653e\u7f6e\u7b2c\u4e8c\u4e2a\u4fe1\u53f7\u5e72\u6270\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:23.7565337+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -230.550049,
+        "y": 8.32,
+        "z": -92.39
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4fe1\u53f7 - 3",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u6307\u5b9a\u5730\u70b9\u653e\u7f6e\u7b2c\u4e09\u4e2a\u4fe1\u53f7\u5e72\u6270\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:23.9172683+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -708.72,
+        "y": -26.21,
+        "z": 90.59
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4fe1\u53f7 - 3",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u6307\u5b9a\u5730\u70b9\u653e\u7f6e\u7b2c\u4e00\u4e2a\u4fe1\u53f7\u5e72\u6270\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:23.5959674+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -483.810059,
+        "y": -24.47,
+        "z": 248.830017
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4e25\u8bcd\u6307\u63a7",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u6728\u5c4b\u5185\u627e\u5230\u5e76\u83b7\u53d6\u786c\u76d8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:28.8402577+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 323.6604,
+        "y": -54.3150978,
+        "z": -81.6693
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u4e00\u62a5\u8fd8\u4e00\u62a5",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf Prapor \u5b89\u653e WI-FI \u6444\u50cf\u5934\u7684\u5730\u70b9\u85cf\u533f\u91d1\u516c\u9e21\u96d5\u50cf",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:28.9963803+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -459.720947,
+        "y": -47.769,
+        "z": 564.833
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u533b\u7597\u9690\u79c1 - 1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e8c\u8f86\u6551\u62a4\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:22.8327925+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 354.919922,
+        "y": -58.63,
+        "z": 306.12
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u533b\u7597\u9690\u79c1 - 1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e09\u8f86\u6551\u62a4\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:22.9808796+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -258.074951,
+        "y": -3.958,
+        "z": -85.66
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u533b\u7597\u9690\u79c1 - 1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e00\u8f86\u6551\u62a4\u8f66\uff0c\u5e76\u4f7f\u7528MS2000\u6307\u793a\u5668\u6807\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:22.6929985+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 312.699951,
+        "y": -59.18,
+        "z": 314.5
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u533b\u7597\u9690\u79c1 - 2",
+      "conditionDescription": "\u5728\u7597\u517b\u9662\u7684\u623f\u95f4\u4e2d\u627e\u5230\u4efb\u4f55\u5173\u4e8eTerraGroup\u7814\u7a76\u7684\u6587\u4ef6\u3002",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:23.1457239+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -218.02002,
+        "y": 2.815,
+        "z": -86.09
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u9690\u79d8\u7684\u8d44\u52a9\u4eba",
+      "conditionDescription": "\u627e\u5230\u5e76\u83b7\u53d6\u65b0\u7684\u6148\u5584\u62db\u52df\u8005\u7b14\u8bb0",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:33.5970376+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -629.906,
+        "y": -26.0672,
+        "z": -240.437
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u9e70\u773c",
+      "conditionDescription": "\u5728\u7b2c\u4e00\u67b6\u5760\u6bc1\u7684\u65e0\u4eba\u673a\u4e0a\u627e\u5230SAS\u786c\u76d8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:20.5256035+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -552.9468,
+        "y": -31.2057,
+        "z": -128.2434
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u9e70\u773c",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e8c\u67b6\u65e0\u4eba\u673a\u7684\u5760\u6bc1\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:20.6799857+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 81.4337158,
+        "y": -31.8154,
+        "z": -166.845
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u9e70\u773c",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e00\u67b6\u65e0\u4eba\u673a\u7684\u5760\u6bc1\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:20.3711152+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -553.0862,
+        "y": -29.35,
+        "z": -127.678192
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u6e14\u5177",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u9632\u6ce2\u5824\u65c1\u8fb9\u7684\u8239\u53ea",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:19.7217889+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -182.040039,
+        "y": -63.725,
+        "z": 459.849976
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u53cd\u91cd\u529b\u6905\u5b50\u5904\u5b89\u88c5WI-FI\u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:29.2957182+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 326.22998,
+        "y": -54.202,
+        "z": 131.473389
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7684\u9762\u9762\u76f8\u89d1\u536b\u751f\u95f4\u91cc\u5b89\u88c5WI-FI\u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:29.4391517+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -321.5857,
+        "y": -61.078,
+        "z": 488.20343
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u5fe0\u5b9e\u89c2\u4f17",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u7801\u5934\u7684\u89c2\u666f\u53f0\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:28.6817172+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -459.339966,
+        "y": -47.6,
+        "z": 566.965
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u81ea\u7136\u4ea4\u6362",
+      "conditionDescription": "\u5c06\u7b2c\u4e8c\u4e2a\u91d1\u5c5e\u71c3\u6599\u6876\u85cf\u533f\u5728\u6d77\u5cb8\u7ebf\u7684\u8d70\u79c1\u8005\u8425\u5730",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:30.1627364+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -627.011,
+        "y": -25.449,
+        "z": -228.452972
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u81ea\u7136\u4ea4\u6362",
+      "conditionDescription": "\u5c06\u7b2c\u4e00\u4e2a\u91d1\u5c5e\u71c3\u6599\u6876\u85cf\u533f\u5728\u6d77\u5cb8\u7ebf\u7684\u8d70\u79c1\u8005\u57fa\u5730",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:30.0220223+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -609.325439,
+        "y": -28.66,
+        "z": -176.86499
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u79df\u501f\u6cd5\u6848 - 1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u53d6\u5f97\u7b2c\u4e8c\u4e2a\u7535\u673a\u63a7\u5236\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:24.2406998+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -567.78,
+        "y": -44.838,
+        "z": 104.505005
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u79df\u501f\u6cd5\u6848 - 1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u53d6\u5f97\u7b2c\u4e09\u4e2a\u7535\u673a\u63a7\u5236\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:24.3940508+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -289.378052,
+        "y": 2.225,
+        "z": -84.373
+      }
+    },
+    {
+      "mapId": "5704e554d2720bac5b8b456e",
+      "mapInternalName": "Shoreline",
+      "mapNormalizedName": "shoreline",
+      "questName": "\u79df\u501f\u6cd5\u6848 - 1",
+      "conditionDescription": "\u5728\u6d77\u5cb8\u7ebf\u627e\u5230\u7b2c\u4e8c\u4e2a\u5355\u8f74\u5149\u7ea4\u9640\u87ba\u4eea",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-08T18:18:24.539234+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -181.3706,
+        "y": 0.2235,
+        "z": -80.57291
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "team-sync",
+  "assembly": "TarkovMapLocator.Modules.TeamSync.dll",
+  "entryType": "TarkovMapLocator.Modules.TeamSync.TeamSyncFeatureModule"
+}

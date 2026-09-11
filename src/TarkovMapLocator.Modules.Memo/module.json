@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "memo",
+  "assembly": "TarkovMapLocator.Modules.Memo.dll",
+  "entryType": "TarkovMapLocator.Modules.Memo.MemoFeatureModule"
+}

@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "mobile-map",
+  "assembly": "TarkovMapLocator.Modules.MobileMap.dll",
+  "entryType": "TarkovMapLocator.Modules.MobileMap.MobileMapFeatureModule"
+}

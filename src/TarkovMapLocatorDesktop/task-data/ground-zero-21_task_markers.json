@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "source": "SPT DynamicMaps QuestMarkerDumper export",
+  "sourceFile": "Sandbox_high.quest-markers.json",
+  "generatedAt": "2026-06-08T11:26:50.360Z",
+  "mapId": "65b8d6f5cdde2479cb2a3125",
+  "mapInternalName": "Sandbox_high",
+  "mapNormalizedName": "ground-zero-21",
+  "coordinateFormat": "world-x-y-z",
+  "coordinateMapping": "export Position.X->position.x, Position.Z->position.y, Position.Y->position.z",
+  "markers": [
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u6253\u9776\u8bad\u7ec3",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u627e\u5230AGS\u69b4\u5f39\u53d1\u5c04\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:07.1902553+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 101.043,
+        "y": 34.16,
+        "z": 276.36
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u6253\u9776\u8bad\u7ec3",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u627e\u5230Utyos\u673a\u67aa",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:07.0204615+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 56.603,
+        "y": 32.336,
+        "z": 130.605
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5927\u6d77\u635e\u9488",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u8c03\u67e5\u8c03\u67e5 TerraGroup \u603b\u90e8\u95e8\u524d\u7684\u516c\u56ed",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:09.6867371+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -15.4,
+        "y": 23.79,
+        "z": 68.9
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u6551\u63f4\u884c\u52a8",
+      "conditionDescription": "\u83b7\u5f97\u4e2d\u5fc3\u533a\u5b9e\u9a8c\u5ba4\u79d1\u5b66\u5bb6\u529e\u516c\u5ba4\u7684\u94a5\u5319",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:08.1015391+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -13.48,
+        "y": 31.01,
+        "z": 51.33
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u6551\u63f4\u884c\u52a8",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u7684 TerraGroup \u5927\u697c\u505c\u8f66\u573a\u627e\u5230 USEC PMC\u7684\u8e2a\u8ff9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:07.7677179+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -21.01,
+        "y": 24.228,
+        "z": -25.1
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u6551\u63f4\u884c\u52a8",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u7684 TerraGroup \u603b\u90e8\u5185\u627e\u5230\u5b9e\u9a8c\u5ba4\u79d1\u5b66\u5bb6",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:07.9322595+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -60.45,
+        "y": 25.62,
+        "z": 27.42
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u6551\u63f4\u884c\u52a8",
+      "conditionDescription": "\u627e\u5230\u5e76\u83b7\u53d6\u79d1\u5b66\u5bb6\u7684\u786c\u76d8",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:08.262933+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -12.3334141,
+        "y": 30.691,
+        "z": 49.01263
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5feb\u8f66\u521d\u4f53\u9a8c",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u4f7f\u7528\u8f7d\u5177\u64a4\u79bb\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:06.3566963+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": -19.5134068,
+        "y": 23.7110023,
+        "z": 114.942139
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5962\u9761\u4eba\u751f",
+      "conditionDescription": "\u5728\u5546\u5e97\u4e2d\u627e\u5230\u5e76\u83b7\u53d6\u9152\u74f6",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:07.5144308+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 128.2405,
+        "y": 24.0651,
+        "z": 25.1103
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5962\u9761\u4eba\u751f",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u627e\u5230\u9152\u5546\u5e97",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:07.3542235+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 117.06,
+        "y": 24.228,
+        "z": 26.86
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5854\u79d1\u592b\u5c60\u592b",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u627e\u5230\u5e76\u83b7\u53d6\u5316\u5b66\u54c1\u5bb9\u5668",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:09.8535649+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 78.8748,
+        "y": 15.758503,
+        "z": 96.33389
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5371\u673a\u56db\u4f0f\u5854\u79d1\u592b",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u627e\u5230\u9614\u5251\u5730\u96f7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:08.7496701+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 60.3543625,
+        "y": 23.7417164,
+        "z": 170.889557
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u65b0\u8def\u7ebf\uff0c\u65b0\u673a\u9047",
+      "conditionDescription": "\u5728\u540c\u573a\u6218\u5c40\u4e2d\u627e\u5230\u4e2d\u5fc3\u533a\u901a\u5f80\u5854\u79d1\u592b\u8857\u533a\u7684\u9053\u8def",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:08.5791981+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 222.829117,
+        "y": 15.993,
+        "z": 65.72
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u65b0\u8def\u7ebf\uff0c\u65b0\u673a\u9047",
+      "conditionDescription": "\u5728\u540c\u573a\u6218\u5c40\u4e2d\u4fa6\u5bdf\u4e2d\u5fc3\u533a Mira \u5927\u9053\u548c\u9ad8\u67b6\u8def\u7684\u4ea4\u6c47\u8def\u53e3",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:08.4199343+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 172.43,
+        "y": 17.31,
+        "z": 64.7
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u65b0\u624b\u4e0a\u8def",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u627e\u5230Emercom\u7ad9\u70b9",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:06.8454683+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 156.2,
+        "y": 25.52,
+        "z": -83.59
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5f71\u5b50\u96c7\u5458",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u627e\u5230 Knossos LLC \u9ad8\u7ea7\u7ecf\u7406\u7684\u8f7f\u8f66",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:09.3678083+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 55.26,
+        "y": 23.79,
+        "z": 252.75
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5f71\u5b50\u96c7\u5458",
+      "conditionDescription": "\u627e\u5230\u5e76\u83b7\u53d6\u7ecf\u7406\u7684\u65e5\u5fd7",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:09.5267449+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 88.976,
+        "y": 23.175,
+        "z": 225.284
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u864e\u80c6\u9f99\u5a01\u4e00\u5c55\u8eab\u624b\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:08.9103465+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 4.628006,
+        "y": 23.95,
+        "z": 337.2477
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u4e94\u9ed1\u4e00\u767d\u6905\u5b50\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:09.2157845+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 41.1,
+        "y": 31.411,
+        "z": 140.81
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u8fd9\u662f\u4ec0\u4e48\u6897\uff1f",
+      "conditionDescription": "\u5728\u4e2d\u5fc3\u533a\u53ea\u6709\u7a0b\u5e8f\u5458\u624d\u61c2\u7684\u7b11\u8bdd\u5904\u5b89\u88c5 WI-FI \u6444\u50cf\u5934",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:09.0628429+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 118.714516,
+        "y": 24.2415,
+        "z": 190.304688
+      }
+    },
+    {
+      "mapId": "65b8d6f5cdde2479cb2a3125",
+      "mapInternalName": "Sandbox_high",
+      "mapNormalizedName": "ground-zero-21",
+      "questName": "\u5236\u9020\u5e72\u6270 - \u7b2c1\u90e8\u5206 [PVE \u533a\u57df]",
+      "conditionDescription": "\u5c06 TP-200 TNT \u70b8\u836f\u7816\u5b89\u653e\u5728\u96f6\u53f7\u5730\u5e26\u5496\u5561\u9986\u4e8c\u697c",
+      "objectiveType": "Quest",
+      "sourceKind": "spt-dynamicmaps",
+      "zoneId": "",
+      "capturedAt": "2026-06-06T22:17:10.0136435+08:00",
+      "showInRaid": true,
+      "position": {
+        "x": 107.46,
+        "y": 29.09,
+        "z": 148.06
+      }
+    }
+  ]
+}

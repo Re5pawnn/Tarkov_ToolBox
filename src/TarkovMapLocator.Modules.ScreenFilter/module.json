@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "screen-filter",
+  "assembly": "TarkovMapLocator.Modules.ScreenFilter.dll",
+  "entryType": "TarkovMapLocator.Modules.ScreenFilter.ScreenFilterFeatureModule"
+}

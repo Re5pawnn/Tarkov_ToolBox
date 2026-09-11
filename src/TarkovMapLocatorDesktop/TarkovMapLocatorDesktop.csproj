@@ -1,0 +1,320 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseSystemDrawing>true</UseSystemDrawing>
+    <ApplicationIcon>assets\branding\app-icon.ico</ApplicationIcon>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
+    <AssemblyName>TarkovToolbox</AssemblyName>
+    <AssemblyTitle>Tarkov Toolbox</AssemblyTitle>
+    <Product>Tarkov Toolbox</Product>
+    <Description>塔科夫地图、查价与任务桌面工具</Description>
+    <Authors>大狼吃药了;呆呆猫猫丨</Authors>
+    <Company>Tarkov Toolbox Community</Company>
+    <Version>31.27.63</Version>
+    <AssemblyVersion>31.27.63.0</AssemblyVersion>
+    <FileVersion>31.27.63.0</FileVersion>
+    <InformationalVersion>$(Version)</InformationalVersion>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=TarkovMapLocatorDesktop</PathMap>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Release'">false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TarkovMapLocator.ModuleContracts\TarkovMapLocator.ModuleContracts.csproj" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.Market\TarkovMapLocator.Modules.Market.csproj"
+                      ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.TaskItems\TarkovMapLocator.Modules.TaskItems.csproj"
+                      ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.Memo\TarkovMapLocator.Modules.Memo.csproj"
+                      ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.TaskTracking\TarkovMapLocator.Modules.TaskTracking.csproj"
+                      ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.ScreenFilter\TarkovMapLocator.Modules.ScreenFilter.csproj"
+                      ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.InGamePrice\TarkovMapLocator.Modules.InGamePrice.csproj"
+                      ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.TeamSync\TarkovMapLocator.Modules.TeamSync.csproj"
+                      ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.MobileMap\TarkovMapLocator.Modules.MobileMap.csproj"
+                      ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\TarkovMapLocator.Modules.Utilities\TarkovMapLocator.Modules.Utilities.csproj"
+                      ReferenceOutputAssembly="false" />
+    <Resource Include="assets\branding\app-icon.ico" />
+    <Resource Include="assets\branding\app-icon.png" />
+    <InternalsVisibleTo Include="TarkovMapLocatorDesktop.RegressionTests" />
+    <Compile Remove="tests\**\*.cs" />
+    <!-- Curated task-requirement patches extracted from the legacy launcher. -->
+    <EmbeddedResource Include="tracker-requirement-patches.json">
+      <LogicalName>TarkovMapLocatorDesktop.Resources.OriginalTrackerPatches.json</LogicalName>
+    </EmbeddedResource>
+    <!-- The original BTR predictor is loaded as an optional plug-in at runtime. -->
+    <Content Include="vendor\original-runtime\TarkovMapLocator.dll" Link="TarkovMapLocator.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="vendor\original-runtime\TarkovMapLocator.Core.dll" Link="TarkovMapLocator.Core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="vendor\original-runtime\TarkovMapLocator.pri" Link="TarkovMapLocator.pri">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <!-- BTR uses the original WinRT module initializer, but does not need the
+         55 MB Microsoft.Windows.SDK.NET reference assembly at runtime. -->
+    <Content Include="vendor\original-runtime\Microsoft.WindowsAppRuntime.dll" Link="Microsoft.WindowsAppRuntime.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="vendor\original-runtime\WinRT.Runtime.dll" Link="WinRT.Runtime.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="assets\maps\native-cache\**\*" Link="assets\maps\native-cache\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="assets\maps\layers\**\*" Link="assets\maps\layers\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="assets\maps\web\**\*" Link="assets\maps\web\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="assets\maps\mobile-web\**\*" Link="assets\maps\mobile-web\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="web-map-projections.json" Link="web-map-projections.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="task-data\**\*" Link="task-data\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="maps_detail.json" Link="maps_detail.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="maps_detail.supplemental.json" Link="maps_detail.supplemental.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="maps_list.json" Link="maps_list.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <EmbeddedResource Include="map-catalog.json">
+      <LogicalName>TarkovMapLocatorDesktop.Resources.MapCatalog.json</LogicalName>
+    </EmbeddedResource>
+    <Content Include="map-catalog.json" Link="map-catalog.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="map-layers.json" Link="map-layers.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="map-switches.json" Link="map-switches.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Include="map-season-documents.json" Link="map-season-documents.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <EmbeddedResource Include="extraction-requirements.json">
+      <LogicalName>TarkovMapLocatorDesktop.Resources.ExtractionRequirements.json</LogicalName>
+    </EmbeddedResource>
+    <Content Include="extraction-requirements.json" Link="extraction-requirements.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <None Update="README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </None>
+  </ItemGroup>
+  <Target Name="CopyFeatureModulesAfterBuild" AfterTargets="Build">
+    <PropertyGroup>
+      <MarketModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Market\bin\$(Configuration)\$(TargetFramework)</MarketModuleOutput>
+      <MarketModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Market\module.json</MarketModuleManifest>
+      <TaskItemsModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TaskItems\bin\$(Configuration)\$(TargetFramework)</TaskItemsModuleOutput>
+      <TaskItemsModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TaskItems\module.json</TaskItemsModuleManifest>
+      <MemoModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Memo\bin\$(Configuration)\$(TargetFramework)</MemoModuleOutput>
+      <MemoModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Memo\module.json</MemoModuleManifest>
+      <TaskTrackingModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TaskTracking\bin\$(Configuration)\$(TargetFramework)</TaskTrackingModuleOutput>
+      <TaskTrackingModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TaskTracking\module.json</TaskTrackingModuleManifest>
+      <ScreenFilterModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.ScreenFilter\bin\$(Configuration)\$(TargetFramework)</ScreenFilterModuleOutput>
+      <ScreenFilterModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.ScreenFilter\module.json</ScreenFilterModuleManifest>
+      <InGamePriceModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.InGamePrice\bin\$(Configuration)\$(TargetFramework)</InGamePriceModuleOutput>
+      <InGamePriceModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.InGamePrice\module.json</InGamePriceModuleManifest>
+      <TeamSyncModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TeamSync\bin\$(Configuration)\$(TargetFramework)</TeamSyncModuleOutput>
+      <TeamSyncModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TeamSync\module.json</TeamSyncModuleManifest>
+      <MobileMapModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.MobileMap\bin\$(Configuration)\$(TargetFramework)</MobileMapModuleOutput>
+      <MobileMapModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.MobileMap\module.json</MobileMapModuleManifest>
+      <UtilitiesModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Utilities\bin\$(Configuration)\$(TargetFramework)</UtilitiesModuleOutput>
+      <UtilitiesModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Utilities\module.json</UtilitiesModuleManifest>
+    </PropertyGroup>
+    <Delete Files="$(TargetDir)task-data\task-game-id-map.json;$(TargetDir)task-data\task-tracking-catalog.json" />
+    <RemoveDir Directories="$(TargetDir)Modules" />
+    <MakeDir Directories="$(TargetDir)Modules\Market" />
+    <Copy SourceFiles="$(MarketModuleOutput)\TarkovMapLocator.Modules.Market.dll;$(MarketModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\Market"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(TargetDir)Modules\TaskItems" />
+    <Copy SourceFiles="$(TaskItemsModuleOutput)\TarkovMapLocator.Modules.TaskItems.dll;$(TaskItemsModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\TaskItems"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(TargetDir)Modules\Memo" />
+    <Copy SourceFiles="$(MemoModuleOutput)\TarkovMapLocator.Modules.Memo.dll;$(MemoModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\Memo"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(TargetDir)Modules\TaskTracking" />
+    <Copy SourceFiles="$(TaskTrackingModuleOutput)\TarkovMapLocator.Modules.TaskTracking.dll;$(TaskTrackingModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\TaskTracking"
+          SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <TaskTrackingModuleDataFiles Include="$(TaskTrackingModuleOutput)\task-data\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(TaskTrackingModuleDataFiles)"
+          DestinationFiles="@(TaskTrackingModuleDataFiles->'$(TargetDir)Modules\TaskTracking\task-data\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(TargetDir)Modules\ScreenFilter" />
+    <Copy SourceFiles="$(ScreenFilterModuleOutput)\TarkovMapLocator.Modules.ScreenFilter.dll;$(ScreenFilterModuleOutput)\NOTICE.md;$(ScreenFilterModuleOutput)\LICENSE;$(ScreenFilterModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\ScreenFilter"
+          SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <InGamePriceModuleFiles Include="$(InGamePriceModuleOutput)\**\*"
+                              Exclude="$(InGamePriceModuleOutput)\TarkovMapLocator.ModuleContracts.dll" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)Modules\InGamePrice" />
+    <Copy SourceFiles="@(InGamePriceModuleFiles)"
+          DestinationFiles="@(InGamePriceModuleFiles->'$(TargetDir)Modules\InGamePrice\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(InGamePriceModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\InGamePrice"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(TargetDir)Modules\TeamSync" />
+    <Copy SourceFiles="$(TeamSyncModuleOutput)\TarkovMapLocator.Modules.TeamSync.dll;$(TeamSyncModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\TeamSync"
+          SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <MobileMapModuleFiles Include="$(MobileMapModuleOutput)\**\*"
+                            Exclude="$(MobileMapModuleOutput)\TarkovMapLocator.ModuleContracts.dll" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)Modules\MobileMap" />
+    <Copy SourceFiles="@(MobileMapModuleFiles)"
+          DestinationFiles="@(MobileMapModuleFiles->'$(TargetDir)Modules\MobileMap\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(MobileMapModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\MobileMap"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(TargetDir)Modules\Utilities" />
+    <Copy SourceFiles="$(UtilitiesModuleOutput)\TarkovMapLocator.Modules.Utilities.dll;$(UtilitiesModuleManifest)"
+          DestinationFolder="$(TargetDir)Modules\Utilities"
+          SkipUnchangedFiles="true" />
+  </Target>
+  <Target Name="CopyFeatureModulesAfterPublish" AfterTargets="Publish">
+    <PropertyGroup>
+      <MarketModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Market\bin\$(Configuration)\$(TargetFramework)</MarketModuleOutput>
+      <MarketModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Market\module.json</MarketModuleManifest>
+      <TaskItemsModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TaskItems\bin\$(Configuration)\$(TargetFramework)</TaskItemsModuleOutput>
+      <TaskItemsModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TaskItems\module.json</TaskItemsModuleManifest>
+      <MemoModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Memo\bin\$(Configuration)\$(TargetFramework)</MemoModuleOutput>
+      <MemoModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Memo\module.json</MemoModuleManifest>
+      <TaskTrackingModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TaskTracking\bin\$(Configuration)\$(TargetFramework)</TaskTrackingModuleOutput>
+      <TaskTrackingModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TaskTracking\module.json</TaskTrackingModuleManifest>
+      <ScreenFilterModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.ScreenFilter\bin\$(Configuration)\$(TargetFramework)</ScreenFilterModuleOutput>
+      <ScreenFilterModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.ScreenFilter\module.json</ScreenFilterModuleManifest>
+      <InGamePriceModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.InGamePrice\bin\$(Configuration)\$(TargetFramework)</InGamePriceModuleOutput>
+      <InGamePriceModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.InGamePrice\module.json</InGamePriceModuleManifest>
+      <TeamSyncModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TeamSync\bin\$(Configuration)\$(TargetFramework)</TeamSyncModuleOutput>
+      <TeamSyncModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.TeamSync\module.json</TeamSyncModuleManifest>
+      <MobileMapModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.MobileMap\bin\$(Configuration)\$(TargetFramework)</MobileMapModuleOutput>
+      <MobileMapModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.MobileMap\module.json</MobileMapModuleManifest>
+      <UtilitiesModuleOutput>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Utilities\bin\$(Configuration)\$(TargetFramework)</UtilitiesModuleOutput>
+      <UtilitiesModuleManifest>$(MSBuildProjectDirectory)\..\TarkovMapLocator.Modules.Utilities\module.json</UtilitiesModuleManifest>
+    </PropertyGroup>
+    <Delete Files="$(PublishDir)task-data\task-game-id-map.json;$(PublishDir)task-data\task-tracking-catalog.json" />
+    <RemoveDir Directories="$(PublishDir)Modules" />
+    <MakeDir Directories="$(PublishDir)Modules\Market" />
+    <Copy SourceFiles="$(MarketModuleOutput)\TarkovMapLocator.Modules.Market.dll;$(MarketModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\Market"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(PublishDir)Modules\TaskItems" />
+    <Copy SourceFiles="$(TaskItemsModuleOutput)\TarkovMapLocator.Modules.TaskItems.dll;$(TaskItemsModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\TaskItems"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(PublishDir)Modules\Memo" />
+    <Copy SourceFiles="$(MemoModuleOutput)\TarkovMapLocator.Modules.Memo.dll;$(MemoModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\Memo"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(PublishDir)Modules\TaskTracking" />
+    <Copy SourceFiles="$(TaskTrackingModuleOutput)\TarkovMapLocator.Modules.TaskTracking.dll;$(TaskTrackingModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\TaskTracking"
+          SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <TaskTrackingModuleDataFiles Include="$(TaskTrackingModuleOutput)\task-data\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(TaskTrackingModuleDataFiles)"
+          DestinationFiles="@(TaskTrackingModuleDataFiles->'$(PublishDir)Modules\TaskTracking\task-data\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(PublishDir)Modules\ScreenFilter" />
+    <Copy SourceFiles="$(ScreenFilterModuleOutput)\TarkovMapLocator.Modules.ScreenFilter.dll;$(ScreenFilterModuleOutput)\NOTICE.md;$(ScreenFilterModuleOutput)\LICENSE;$(ScreenFilterModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\ScreenFilter"
+          SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <InGamePriceModuleFiles Include="$(InGamePriceModuleOutput)\**\*"
+                              Exclude="$(InGamePriceModuleOutput)\TarkovMapLocator.ModuleContracts.dll" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)Modules\InGamePrice" />
+    <Copy SourceFiles="@(InGamePriceModuleFiles)"
+          DestinationFiles="@(InGamePriceModuleFiles->'$(PublishDir)Modules\InGamePrice\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(InGamePriceModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\InGamePrice"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(PublishDir)Modules\TeamSync" />
+    <Copy SourceFiles="$(TeamSyncModuleOutput)\TarkovMapLocator.Modules.TeamSync.dll;$(TeamSyncModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\TeamSync"
+          SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <MobileMapModuleFiles Include="$(MobileMapModuleOutput)\**\*"
+                            Exclude="$(MobileMapModuleOutput)\TarkovMapLocator.ModuleContracts.dll" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)Modules\MobileMap" />
+    <Copy SourceFiles="@(MobileMapModuleFiles)"
+          DestinationFiles="@(MobileMapModuleFiles->'$(PublishDir)Modules\MobileMap\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(MobileMapModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\MobileMap"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(PublishDir)Modules\Utilities" />
+    <Copy SourceFiles="$(UtilitiesModuleOutput)\TarkovMapLocator.Modules.Utilities.dll;$(UtilitiesModuleManifest)"
+          DestinationFolder="$(PublishDir)Modules\Utilities"
+          SkipUnchangedFiles="true" />
+  </Target>
+</Project>

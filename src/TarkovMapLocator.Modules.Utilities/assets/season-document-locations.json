@@ -1,0 +1,3272 @@
+{
+  "sourceUrl": "https://www.optarkov.com/season/doc-locations",
+  "sourceCheckedAt": "2026-08-28T13:08:25.033Z",
+  "documents": [
+    {
+      "id": "6a31807f17005505b70d5827",
+      "name": "Financial documents",
+      "localizedName": "\u8d22\u52a1\u6587\u4ef6",
+      "iconLink": "https://www.optarkov.com/images/item/6a31807f17005505b70d5827.webp",
+      "maps": [
+        {
+          "name": "Customs",
+          "localizedName": "\u6d77\u5173"
+        },
+        {
+          "name": "Streets of Tarkov",
+          "localizedName": "\u8857\u533a"
+        },
+        {
+          "name": "Interchange",
+          "localizedName": "\u7acb\u4ea4\u6865"
+        }
+      ],
+      "locations": [
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u60c5\u62a5\u697c2\u697c\u7684\u4e66\u67b6\u4e0a",
+          "imageCacheId": "896ad2236cd2db4effcab2f6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/33.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u8001\u52a0\u6cb9\u7ad9\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "cc505e99cbf86dfd45656601",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/34.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "3\u5c42\u5bbf\u820d\u697c\uff0c304\u623f\u95f4\u7684\u5e8a\u5934\u67dc\u4e0a",
+          "imageCacheId": "5d8e406d548d6d80eb5f44a7",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/35.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u5de5\u5382\u5382\u623f\u9876\u697c\u7684\u529e\u516c\u5ba4\u4e2d",
+          "imageCacheId": "078c866901c3c67f756b4a41",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/36.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "3\u5c42\u5bbf\u820d\u697c\uff0c212\u623f\u95f4\u7684\u4e66\u67b6\u4e0a",
+          "imageCacheId": "8d4e7e4c5c1144f21eed2efb",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/37.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u7ea2\u5382\u623f\u5357\u4fa7\u5c97\u697c\u7684\u6863\u6848\u67dc\u4e0a",
+          "imageCacheId": "d70ea4abaf0a9ad50a7e62f2",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/38.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "2\u5c42\u5bbf\u820d\u697c\uff0c\u8b66\u536b\u5ba4\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "4bf04f94504da0ccfe94a9ad",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/39.png",
+          "keys": [
+            {
+              "id": "59136a4486f774447a1ed172",
+              "name": "Dorm guard desk key",
+              "localizedName": "\u5bbf\u820d\u95e8\u536b\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u60c5\u62a5\u697c2\u697c\u7684\u4e66\u67b6\u4e0a",
+          "imageCacheId": "e772638c2ad0c0fc0c3fdc2f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/40.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u7ea2\u5382\u623f2\u697c\u7684\u529e\u516c\u5ba4\u4e2d",
+          "imageCacheId": "760765d56e9547214280dc49",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/41.png",
+          "keys": [
+            {
+              "id": "5780d0532459777a5108b9a2",
+              "name": "Tarcone Director's office key",
+              "localizedName": "\u6d77\u5173 Tarcone \u4e3b\u7ba1\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u516c\u53f8\u4e3b\u7ba1\u529e\u516c\u5ba4\u7684\u4fdd\u9669\u67dc\u4e0a",
+          "imageCacheId": "08d31ff2db89e724392cfa6d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/42.png",
+          "keys": [
+            {
+              "id": "6761a6f90575f25e020816a4",
+              "name": "Company director's room key",
+              "localizedName": "\u516c\u53f8\u4e3b\u7ba1\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "zb013\u64a4\u79bb\u70b9\u70c2\u5c3e\u697c\u7684\u623f\u95f4\u4e2d",
+          "imageCacheId": "34d6969e64647f4eb925fd64",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/65.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "reshala \u623f\u95f4\u4e2d",
+          "imageCacheId": "85507f6526e1e41dab462e52",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/66.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "2\u5c42\u5bbf\u820d\u697c\uff0c212\u623f\u95f4\u7684\u5730\u677f\u4e0a",
+          "imageCacheId": "fe9cbacabeba18435700d93d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/67.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u516c\u53f8\u4e3b\u7ba1\u529e\u516c\u5ba4\u7684\u67b6\u5b50\u4e0a",
+          "imageCacheId": "3c7e70f9811ad371096a4609",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/68.png",
+          "keys": [
+            {
+              "id": "6761a6f90575f25e020816a4",
+              "name": "Company director's room key",
+              "localizedName": "\u516c\u53f8\u4e3b\u7ba1\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u57285\u53f7\u4ed3\u5e93\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "d796a169407986f2fa121d81",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/80.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Unity \u94f6\u884c\u5185\u7684\u67dc\u5b50\u4e0a",
+          "imageCacheId": "fa2be6fcc61912c26bac78bc",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/44.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728TerraGroup\u516c\u53f8\u516c\u5bd3\u623f\u95f4\u6c99\u53d1\u65c1\u8fb9\u7684\u5730\u4e0a",
+          "imageCacheId": "e57be7c3f7cd5171e403e26d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/45.png",
+          "keys": [
+            {
+              "id": "67ee7680562d5057e60ccc3a",
+              "name": "TerraGroup corporate apartment key",
+              "localizedName": "TerraGroup \u96c6\u56e2\u516c\u5bd3\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728TerraGroup\u5927\u697c\u5185\uff0c\u5728\u63a5\u5f85\u5904\u67dc\u53f0\u4e0b\u9762\u3002",
+          "imageCacheId": "e6757b1c43fc72b22bb670dc",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/46.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u65c1\u8fb9\u7684TerraGroup\u5b89\u5168\u519b\u68b0\u5e93\u7684\u94a5\u5319\u95e8\u4e0a\u7684\u4e66\u67b6\u4e0a\u3002",
+          "imageCacheId": "99135105924bf397cc8fe90f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/47.png",
+          "keys": [
+            {
+              "id": "64ccc24de61ea448b507d34d",
+              "name": "TerraGroup security armory key",
+              "localizedName": "TerraGroup\u519b\u68b0\u5e93\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Beluga\u9910\u5385\u4e8c\u697c\u7684\u67dc\u53f0\u4e0a\u3002",
+          "imageCacheId": "fbd73ba70d30f6349a3c16d8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/69.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728\u8c08\u5224\u5927\u697c\u7684\u4e00\u4e2a\u529e\u516c\u5ba4\u91cc\u7684\u4e00\u5f20\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "377cf570e92dcf397ba9a364",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/70.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u8c08\u5224\u5927\u697c\u5185\u7684\u4e00\u5c42\u4f11\u606f\u5ba4\u5185\u3002",
+          "imageCacheId": "489851378492f6e6bee918f9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/71.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u677e\u6728\u9152\u5e97212\u53f7\u623f\u95f4",
+          "imageCacheId": "ffb8ece3e4d630ce19fb5853",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/72.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728Terragroup\u529e\u516c\u5ba4\u5317\u4e8c\u697c\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "d1378c0db43848c96228b404",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/73.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728\u91d1\u878d\u673a\u6784\u529e\u516c\u5ba4\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "a3929dda6133faad1aba00a2",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/74.png",
+          "keys": [
+            {
+              "id": "63a39667c9b3aa4b61683e98",
+              "name": "Financial institution office key",
+              "localizedName": "\u91d1\u878d\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u91d1\u878d\u673a\u6784\u5c0f\u529e\u516c\u5ba4\u94a5\u5319\u95e8\u540e\u9762\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "28c8cc07e127fde6b9a4c178",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/75.png",
+          "keys": [
+            {
+              "id": "63a71ed21031ac76fe773c7f",
+              "name": "Financial institution small office key",
+              "localizedName": "\u91d1\u878d\u529e\u516c\u5ba4\u5c0f\u623f\u95f4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Concordia\u5927\u697c1\u53f7\u516c\u5bd32\u697c\u7684\u623f\u95f4\u4e2d",
+          "imageCacheId": "92052949ae50479cef57d40a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/76.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Concordia\u516c\u5bd38\u5bb6\u5ead\u5f71\u9662\u623f\u95f4\u4e2d\u3002",
+          "imageCacheId": "32937bb7291ef23797a7467e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/77.png",
+          "keys": [
+            {
+              "id": "64ccc1ec1779ad6ba200a137",
+              "name": "Concordia apartment 8 home cinema key",
+              "localizedName": "Concordia 8\u53f7\u516c\u5bd3\u5bb6\u5ead\u5f71\u9662\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Cardinal\u5927\u53a63\u53f7\u516c\u5bd3\u5185\uff0c2\u697c\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "b849f94a6778dd0e8859b379",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/78.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Concordia\u5927\u697c1\u53f7\u516c\u5bd31\u697c\u529e\u516c\u5ba4\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "4a0c320fc197d7829c680399",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/79.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728IDEA\u529e\u516c\u5ba4\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "97b50ccb21d86d2bb968bc2a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/49.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "Goshan\u548cIDEA\u4e4b\u95f4\u7684\u4e00\u95f4\u529e\u516c\u5ba4\u5185\u3002",
+          "imageCacheId": "71623378c91ca4124551d387",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/50.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728\u8d70\u79c1\u57fa\u5730\u7684\u4e00\u4e2a\u5706\u684c\u4e0a\uff0c\u5728\u4e00\u4e2a\u7eff\u8272\u96c6\u88c5\u7bb1\u4e0b\u9762\u3002",
+          "imageCacheId": "d76f41d7aa13f32bd1516908",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/51.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "OLI\u7ba1\u7406\u5458\u529e\u516c\u5ba4\u4e2d",
+          "imageCacheId": "a698c752401ff42446a6694f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/52.png",
+          "keys": [
+            {
+              "id": "5ad5ccd186f774446d5706e9",
+              "name": "OLI administration office key",
+              "localizedName": "OLI\u7ba1\u7406\u5458\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728\u53d1\u7535\u7ad9\u91cc\u9762\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "2fc907b73ed8fcf7c8d1d1b9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/53.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "IDEA2\u697c \u513f\u7ae5\u4e50\u56ed\u524d\u9762\u7684\u957f\u6905\u4e0a\u3002",
+          "imageCacheId": "2b019f90c20a7b178c1630ef",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/54.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u57283\u697c\u65c1\u8fb9\u7684\u5317\u5706\u5b54\u4e00\u4e2a\u8d27\u67b6\u4e0a\u7684\u5546\u5e97\u3002",
+          "imageCacheId": "94f750be87c878735985a1a4",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/55.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728\u4e09\u697c\u7684\u6c49\u5821\u5e97\u91cc\u9762\u3002",
+          "imageCacheId": "cefd422e0c24e20d834e2f0f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/56.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "KORD 14-4\u7ad9\u5185\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "5fb7e9838a755d842ff157e8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/57.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728\u7eff\u8d85\u5357\u4fa7\u96c6\u88c5\u7bb1\u4e2d\u3010Object 21 WS\u3011\u4e2d",
+          "imageCacheId": "07c1240df9a5bd27f569b8ef",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/58.png",
+          "keys": [
+            {
+              "id": "5e42c83786f7742a021fdf3c",
+              "name": "Object #21WS keycard",
+              "localizedName": "Object #21WS \u94a5\u5319\u5361"
+            }
+          ]
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u533b\u7597\u623f\u5bf9\u9762\u7684TTS\u5546\u5e97\u5185\u3002",
+          "imageCacheId": "db5d7484e2ebc0a77a44f2ea",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/59.png",
+          "keys": [
+            {
+              "id": "5ad5db3786f7743568421cce",
+              "name": "EMERCOM medical unit key",
+              "localizedName": "EMERCOM\u533b\u7597\u533a\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "Goshan\u548cOLI\u4e4b\u95f4\u7684\u5173\u95ed\u8b66\u62a5\u7684\u623f\u95f4",
+          "imageCacheId": "a4482feeb2cd4905f0ac97e4",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/60.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728Goshan\u548cOLI\u4e4b\u95f4\u7684\u4e00\u95f4\u5173\u95ed\u8b66\u62a5\u7684\u623f\u95f4\u95e8\u53e3\u7684\u684c\u5b50",
+          "imageCacheId": "1a577e86f97be5f91321129e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/61.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "Goshan\u9762\u524d\uff0c\u519b\u7f51\u4e0b\uff0c\u9910\u5385\u7684\u4e00\u5f20\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "57b4b2fd692b9dfa66632595",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/62.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728IDEA\u7684\u5973\u5395\u6240\u91cc\u3002",
+          "imageCacheId": "a70825adce30f38fe2bf9f43",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/63.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "Goshan\u5317\u529e\u516c\u5ba4\u5185\u3002",
+          "imageCacheId": "7537125d631251c568017220",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Financial_documents/64.png",
+          "keys": []
+        }
+      ]
+    },
+    {
+      "id": "6a317b9692cfdcddcb02a58e",
+      "name": "PMC personnel files",
+      "localizedName": "PMC \u4e2a\u4eba\u6863\u6848",
+      "iconLink": "https://www.optarkov.com/images/item/6a317b9692cfdcddcb02a58e.webp",
+      "maps": [
+        {
+          "name": "Reserve",
+          "localizedName": "\u50a8\u5907\u7ad9"
+        },
+        {
+          "name": "Lighthouse",
+          "localizedName": "\u706f\u5854"
+        },
+        {
+          "name": "Icebreaker",
+          "localizedName": "\u7834\u51b0\u8239"
+        }
+      ],
+      "locations": [
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u8fdb\u5165\u96a7\u9053\uff0cD2\u64a4\u79bb\u70b9\u7684\u8def\u4e0a\u7684\u623f\u95f4\u91cc",
+          "imageCacheId": "390dbcc75624c9a9e4d6863c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/27.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u9ed1\u4e3b\u6559\u91cc\u9762\uff0c\u5730\u4e0b\u7684\u4e00\u5f20\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "b66e8dcd27a6386999ea197e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/28.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5927\u5706\u74032\u697cRB-KORL\u623f\u5185\u3002",
+          "imageCacheId": "97f1b181593c912d3e772679",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/29.png",
+          "keys": [
+            {
+              "id": "5d8e0db586f7744450412a42",
+              "name": "RB-KORL key",
+              "localizedName": "RB-KORL\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5728\u5927\u5706\u7403\u5e73\u53f0\u4e0a\u7684KB-KPRL\u623f\u95f4\u4e2d",
+          "imageCacheId": "5098624ac166b68e332b0b5e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/30.png",
+          "keys": [
+            {
+              "id": "5d8e0e0e86f774321140eb56",
+              "name": "RB-KPRL key",
+              "localizedName": "RB-KPRL\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5927\u5706\u74032\u697c\u6700\u91cc\u9762\u7684\u623f\u95f4\u89d2\u843d\u91cc\u3002",
+          "imageCacheId": "f080ba5876e9c361b89fb52e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/31.png",
+          "keys": [
+            {
+              "id": "5da46e3886f774653b7a83fe",
+              "name": "RB-RS key",
+              "localizedName": "RB-RS\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5927\u5706\u74032\u697cRB-RLSA\u623f\u95f4\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "0a42f2ce33900c7bcb25ae9e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/32.png",
+          "keys": [
+            {
+              "id": "5ede7b0c6d23e5473e6e8c66",
+              "name": "RB-RLSA key",
+              "localizedName": "RB-RLSA \u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u9ed1\u4e3b\u6559\u4e8c\u697c\uff0c\u95e8\u5728\u697c\u68af\u5bf9\u9762\u3002",
+          "imageCacheId": "8644ea56e1c4923ea60df788",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/33.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5c71\u811a\u4e0b\u7684\u68c0\u67e5\u7ad9\u4e2d",
+          "imageCacheId": "62c63bc3dbcf0cfbb35e482e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/34.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u767d\u9a6c\u697c3\u697c\u8d70\u5eca\u6700\u540e\u4e00\u4e2a\u623f\u95f4\u4e2d\u7684\u5730\u4e0a",
+          "imageCacheId": "6e2777e65be4d3218d818656",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/35.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u706b\u8f66\u7ad9\u6708\u53f01\u53f7\u548c3\u53f7\u4e4b\u95f4\u7684\u8f66\u53a2\u5185\u7684\u5e8a\u4e0a\u3002",
+          "imageCacheId": "b22dfadd1f30155c5266ce46",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/53.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5728\u5927\u5385\u5c3d\u5934\u7b2c\u4e8c\u4e2a\u623f\u95f4\u7684\u9ed1\u9a91\u58eb\u3002",
+          "imageCacheId": "d5ce3ca035184b4e1f8f3932",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/37.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u706b\u8f66\u7ad9\u6708\u53f04\u53f7\u697c\u4ed3\u5e93\u4e2d",
+          "imageCacheId": "70cf7f123ce2e6f235d38a06",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/38.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u706b\u8f66\u7ad9\u65c1\u8fb9\u7684\u623f\u95f4\u4e2d",
+          "imageCacheId": "d77acd4a94f7f00628ec9a3f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/54.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u9ed1\u5175\u697c3\u697cRB-OB\u94a5\u5319\u95e8\u540e\u9762\u7684\u4e00\u4e2a\u67b6\u5b50\u91cc\u9762\u3002",
+          "imageCacheId": "55fa4f941575eb1c4119f0e1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/55.png",
+          "keys": [
+            {
+              "id": "5d80c6c586f77440351beef1",
+              "name": "RB-OB key",
+              "localizedName": "RB-OB\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u9ed1\u5175\u697c3\u697c\u8d70\u5eca\u5317\u4fa7\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "7e6a67ecc5e97834ad5a2178",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/56.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u767d\u5175\u697c4\u697cRB-ORB1\u623f\u95f4\u7684\u5730\u677f\u4e0a\u3002",
+          "imageCacheId": "407ee97c365dcd5159ec1bf6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/57.png",
+          "keys": [
+            {
+              "id": "5d80ccac86f77470841ff452",
+              "name": "RB-ORB1 key",
+              "localizedName": "RB-ORB1\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c61\u6c34\u5382 2\u53f7\u697c\u5185\uff0c\u8f66\u65c1\u7684\u65e0\u7ebf\u7535\u5ba4\u3002",
+          "imageCacheId": "b54f549684f9d8873878f06d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/39.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u5728\u6751\u5e84\u4e00\u4e2a\u7ea2\u8272\u7684\u4e24\u5c42\u697c\u7684\u623f\u5b50\u5728\u4e8c\u697c\u7684\u5367\u5ba4\u91cc\u3002",
+          "imageCacheId": "515aed149e2c198c88604052",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/40.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c61\u6c34\u5382\u5357\u90e8\u5706\u76d8\u4e2d\u7684\u4e00\u4e2a\u5e10\u7bf7\u5185\u3002",
+          "imageCacheId": "6f24b32f25e82b79c0632833",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/41.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u84dd\u9876\u5ea6\u5047\u6751\uff0c2\u697c\u5367\u5ba4\u91cc\u7684\u4e00\u5f20\u5706\u684c\u4e0a\u3002",
+          "imageCacheId": "1d7a5192a0220f8c4e8e1ced",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/42.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u84dd\u9876\u5ea6\u5047\u6751 \u5357\u4fa7\u8f66\u5e932\u697c\u6700\u91cc\u9762\u7684\u5e8a\u4e0a\u3002",
+          "imageCacheId": "ea5f95ce591d60d98b08e89c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/43.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "USEC\u57fa\u57303\u697c \u53a8\u623f\u7684\u5fae\u6ce2\u7089\u3002",
+          "imageCacheId": "840a6b90b6977e1874cfe4fb",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/44.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c61\u6c34\u53821\u5382\u5916\u7684USEC\u4ed3\u5e93\u95e8\u53e3\u7684\u6c99\u53d1\u4e0a\u3002",
+          "imageCacheId": "2a57c3d9ecc7e00bec88b2b8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/58.png",
+          "keys": [
+            {
+              "id": "61a64492ba05ef10d62adcc1",
+              "name": "Rogue USEC stash key",
+              "localizedName": "\u53db\u4e71USEC\u4ed3\u5e93\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "USEC\u57fa\u5730\u897f\u4fa7\u7684\u7f51\u7403\u573a\u5e10\u7bf7\u91cc\u3002",
+          "imageCacheId": "de29a95bd434eb8503e4d73f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/59.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u5728\u706b\u8f66\u7ad9\u7684\u673a\u5e93\u91cc\u3002",
+          "imageCacheId": "2ed9d75846f1de22d7eb86ca",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/60.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u7801\u5934\u5317\u4fa7\u623f\u5b502\u697c\uff0c\u9633\u53f0\u7684\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "40743b06ed059267381a1d9a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/61.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u7801\u5934\u5357\u4fa7\u5c0f\u5c4b\u4e8c\u697c\u5367\u5ba4\u5185\u7535\u89c6\u67dc\u5185\u3002",
+          "imageCacheId": "fe32bdb213c01aa8c94b9c4f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/62.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6751\u957f\u4e4b\u5bb6\u4e8c\u697c\u53f3\u8fb9\u97f3\u54cd\u67dc\u5b50\u7684\u91cc\u3002",
+          "imageCacheId": "217be92a863a3bd738c2e4f5",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/63.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "USEC\u57fa\u57303\u697c\u5357\u4fa7\u7684\u5367\u5ba4\u5185\u5730\u4e0a",
+          "imageCacheId": "4f2aadc92d644ad86ee4ae42",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/64.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c61\u6c34\u53821\u53f7\u697c2\u697c\u897f\u4fa7\u7684\u529e\u516c\u5ba4\u3002",
+          "imageCacheId": "b6575b84731cc9ba6f248386",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/65.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c61\u6c34\u53823\u53f7\u697c2\u697c\u7684\u897f\u4fa7\u8d70\u5eca\u5185\u3002",
+          "imageCacheId": "1772f1c1fad8b5d365eeb6da",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/66.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u4e8c\u697c\u4e0b\u6c89\u5f0f\u9910\u5385\u5185\uff0c\u4e00\u5f20\u5e8a\u4e0a\u3002",
+          "imageCacheId": "d2a8a19ada89eafeda3143a2",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/67.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u5728\u4e00\u697c\u7684\u533b\u52a1\u5ba4\u91cc\u3002",
+          "imageCacheId": "685acd600b59da9c5490fe80",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/45.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u5728\u4e8c\u697c\u65e0\u4eba\u673a\u5ba4\u7684\u76d2\u5b50\u91cc\u3002",
+          "imageCacheId": "edb5331eaa238e81d277f0c9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/46.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u5728\u4e8c\u697c\u65e0\u4eba\u673a\u5ba4\u7684\u53f3\u8fb9\u623f\u95f4\u91cc\u3002",
+          "imageCacheId": "494d52a859ba083543cb4a70",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/47.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u8d1f2\u5c42\u7684\u5c0f\u623f\u95f4\u91cc",
+          "imageCacheId": "12b369c507be2bbac076c7e3",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/48.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "1\u5c42\u51fa\u751f\u70b9\uff0c\u7eff\u8272\u4fe1\u53f7\u5f39\u6240\u5728\u7684\u623f\u95f4\u5185\u3002",
+          "imageCacheId": "a827f299528bd2aa8a7fdc32",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/49.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u4e00\u697c\u76f4\u5347\u673a\u505c\u673a\u576a\u4e0b\u7684\u63a7\u5236\u5ba4\u5185\u3002",
+          "imageCacheId": "f3652c5e79f7f89e263ba62d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/50.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u8d1f\u4e09\u5c42\u81ea\u52a8\u5316\u5ba4\u5185\uff0c\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "015bf44691c0fab69d92a2fe",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/51.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u5728\u7b2c\u56db\u5c42\u76f4\u5347\u673a\u505c\u673a\u576a\u4e0a\u65b9\u7684\u7167\u660e\u5f39\u5237\u65b0\u623f\u95f4\u5185\u3002",
+          "imageCacheId": "347babf5c4611e0798b69e92",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/PMC_personnel_files/52.png",
+          "keys": []
+        }
+      ]
+    },
+    {
+      "id": "6a3181f178450ec91c0ea1aa",
+      "name": "Project documentation",
+      "localizedName": "\u9879\u76ee\u6587\u4ef6",
+      "iconLink": "https://www.optarkov.com/images/item/6a3181f178450ec91c0ea1aa.webp",
+      "maps": [
+        {
+          "name": "Factory",
+          "localizedName": "\u5de5\u5382"
+        },
+        {
+          "name": "Reserve",
+          "localizedName": "\u50a8\u5907\u7ad9"
+        },
+        {
+          "name": "Customs",
+          "localizedName": "\u6d77\u5173"
+        }
+      ],
+      "locations": [
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u529e\u516c\u533a3\u697c\u9700\u8981\u5de5\u5382\u94a5\u5319\u6253\u5f00\u7684\u623f\u95f4",
+          "imageCacheId": "5c4754d0971dd0e45b01f3a0",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/30.png",
+          "keys": [
+            {
+              "id": "5448ba0b4bdc2d02308b456c",
+              "name": "Factory emergency exit key",
+              "localizedName": "\u5de5\u5382\u7d27\u6025\u51fa\u53e3\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u529e\u516c\u697c\u533a\u57df3\u697c\u5927\u623f\u95f4",
+          "imageCacheId": "3febb7f738669affb122090d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/31.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "3\u53f7\u95e8\u524d\u9762\u7684\u96c6\u88c5\u7bb1\u4e2d",
+          "imageCacheId": "469ce45c11425c05a126ae03",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/32.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5199\u77401986\u7684\u6587\u5b57\u5899\u7684\u4e0b\u65b92\u5c42\u5e73\u53f0\u4e0a",
+          "imageCacheId": "7177062afc3b2ec215da2ea9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/33.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u529e\u516c\u697c\u533a\u57df1\u697c\u5927\u623f\u95f4\u4e00\u7535\u8111\u684c\u65c1",
+          "imageCacheId": "0df892b5d118393ba7cec6b1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/34.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u533b\u7597\u5b9e\u9a8c\u697c1\u697c\u50a8\u7269\u67dc\u91cc",
+          "imageCacheId": "a59d9d8ba16b3f60b27f859b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/35.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u62bd\u6c34\u623f\u94c1\u67dc\u5b50\u65c1",
+          "imageCacheId": "9babf3f4e947d66f6058c95b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/36.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u529e\u516c\u697c\u533a\u57df1\u697c\u623f\u95f4\u4e00\u5806\u6587\u4ef6\u4e2d",
+          "imageCacheId": "327458847fb2326726404bd6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/37.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u533b\u7597\u5b9e\u9a8c\u697c2\u697c\u67dc\u5b50\u65c1",
+          "imageCacheId": "90f2fd1110ffe630ff323f84",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/38.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u529e\u516c\u697c\u533a\u57df3\u697c\u623f\u95f4\u4e2d\u95f4\u7684\u623f\u95f4",
+          "imageCacheId": "3eb39f97ee624c246d1352cb",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/39.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u53c9\u8f66\u623f\u8863\u670d\u7684\u65c1\u8fb9",
+          "imageCacheId": "5bf0cf387cee87e149749f75",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/40.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u8d1f\u4e00\u697c\u4ed3\u5e93\u4e2d",
+          "imageCacheId": "94908d98c44b58ad300f0b1a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/41.png",
+          "keys": [
+            {
+              "id": "66acd6702b17692df20144c0",
+              "name": "TerraGroup storage room keycard",
+              "localizedName": "TerraGroup \u4ed3\u5e93\u94a5\u5319\u5361"
+            }
+          ]
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u529e\u516c\u533a\u4e09\u697c\u7684\u6587\u4ef6\u67dc\u91cc\u3002",
+          "imageCacheId": "f2730a7b3dd1e73abe9fee4e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/42.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u8d1f\u4e00\u697c\u4ed3\u5e93\u4e2d",
+          "imageCacheId": "1502ccfa1fed7fe7b3d4e7e0",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/43.png",
+          "keys": [
+            {
+              "id": "66acd6702b17692df20144c0",
+              "name": "TerraGroup storage room keycard",
+              "localizedName": "TerraGroup \u4ed3\u5e93\u94a5\u5319\u5361"
+            }
+          ]
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u533b\u7597\u5b9e\u9a8c\u697c\u4e00\u697c\u53a8\u623f\u524d\u7684\u4e00\u4e2a\u67b6\u5b50\u65c1\u8fb9\u3002",
+          "imageCacheId": "d4b46e6480c4f100635005bd",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/44.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u76f4\u5347\u98de\u673a\u5730\u4e0b\u529e\u516c\u5ba4\u4e2d\u7684\u4e00\u5f20\u684c\u5b50\u4e0b\u9762\u3002",
+          "imageCacheId": "2ed0473eeedf5d7e9ef8de89",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/45.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u76f4\u5347\u98de\u673a\u5730\u4e0b\u529e\u516c\u5ba4\u4e2d\u7684\u4e00\u53f0\u6253\u5370\u673a\u65c1\u8fb9",
+          "imageCacheId": "ff71ec9047277f50253991d4",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/46.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5927\u5706\u7403RB-KORL\u623f\u95f4\uff0c\u4e24\u4e2a\u67b6\u5b50\u4e4b\u95f4\u3002",
+          "imageCacheId": "11ff503ba60a595bd7cf93f6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/47.png",
+          "keys": [
+            {
+              "id": "5d8e0db586f7744450412a42",
+              "name": "RB-KORL key",
+              "localizedName": "RB-KORL\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5927\u5706\u7403\u5e73\u53f0\uff0c\u4e0d\u9700\u8981\u8981\u662f\u7684\u8b66\u536b\u697c\u5185\u3002",
+          "imageCacheId": "1b91b4aefe7ac791ef621d3f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/57.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5728RB-RS\u623f\u95f4\u4e2d\uff0c\u4e24\u4e2a\u62bd\u5c49\u65c1\u8fb9\u3002",
+          "imageCacheId": "135ef570a3eefc77af843b12",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/58.png",
+          "keys": [
+            {
+              "id": "5da46e3886f774653b7a83fe",
+              "name": "RB-RS key",
+              "localizedName": "RB-RS\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u9ed1\u4e3b\u6559\u4e8c\u697c\u7684\u4e00\u95f4\u50a8\u85cf\u5ba4\u5185\u3002",
+          "imageCacheId": "641960fbc480d1c94e24f6dd",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/59.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u673a\u5934\u697c3\u697c\u4e1c\u4fa7\u7684\u9ed1\u8272\u4e3b\u6559\u5ba4\u5185\u3002",
+          "imageCacheId": "2a5ab6733b829821d53014c4",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/60.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u673a\u4fa7\u697c\u767d\u5175\u4e8c\u697c\u7684\u4e00\u4e2a\u623f\u95f4\u91cc\u3002",
+          "imageCacheId": "ab366fba3ad92a9e97649652",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/61.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u9ed1\u5175\u697c\uff0c\u56db\u697c\u7684\u623f\u95f4",
+          "imageCacheId": "101e9ff7237dc8a36ca64ba5",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/62.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u5927\u5706\u7403\u5c71\u4e0b\u7684\u68c0\u67e5\u7ad9\u5927\u697c\u5185\u3002",
+          "imageCacheId": "6822e7101dc7f07453402064",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/63.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u9ed1\u9a6c\u697c3\u697c\u6700\u91cc\u9762\u7684\u623f\u95f4",
+          "imageCacheId": "5fa76bfe8ca3bf2fd8cb8b04",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/64.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "RB-OB\u623f\u95f4\u4e2d",
+          "imageCacheId": "ab59ef5682d75374ca17901b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/65.png",
+          "keys": [
+            {
+              "id": "5d80c6c586f77440351beef1",
+              "name": "RB-OB key",
+              "localizedName": "RB-OB\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u767d\u9a6c\u697c\u4e09\u697c\u6700\u91cc\u9762\u7684\u623f\u95f4",
+          "imageCacheId": "a636041b15bc9b1f76673577",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/66.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u767d\u5175\u697c2\u697c\u4e1c\u4fa7\u697c\u68af\u53f3\u624b\u8fb9\u7b2c\u4e00\u4e2a\u623f\u95f4\u65c1\u8fb9",
+          "imageCacheId": "6b4f1452b5566c71abb3c510",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/67.png",
+          "keys": []
+        },
+        {
+          "map": "Reserve",
+          "mapLocalizedName": "\u50a8\u5907\u7ad9",
+          "title": "\u767d\u5175\u697c2\u697c\u897f\u4fa7\u697c\u68af\u5de6\u624b\u8fb9\u7b2c\u4e00\u4e2a\u623f\u95f4\u65c1\u8fb9",
+          "imageCacheId": "df574ac9507a2225a127b06b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/68.png",
+          "keys": [
+            {
+              "id": "5d80ccdd86f77474f7575e02",
+              "name": "RB-ORB2 key",
+              "localizedName": "RB-ORB2\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u4fee\u7406\u623f2\u697c",
+          "imageCacheId": "8bc0bef9abbf23123bf29245",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/48.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u60c5\u62a5\u697c2\u697c\u7684\u4e66\u67b6\u4e0a",
+          "imageCacheId": "3044a110038f10080bc45976",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/49.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u60c5\u62a5\u697c2\u697c\u7684\u7a97\u6237\u4e0b",
+          "imageCacheId": "770148d44ab48499b68a89ff",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/50.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "17\u53f7\u5382\u623f\u4e2d",
+          "imageCacheId": "aec9c1cb9f661c7f00c3a494",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/51.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u516c\u53f8\u4e3b\u7ba1\u529e\u516c\u5ba4\u7684\u67b6\u5b50\u4e0a",
+          "imageCacheId": "2e5f555609a0051fdf4c397a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/52.png",
+          "keys": [
+            {
+              "id": "6761a6f90575f25e020816a4",
+              "name": "Company director's room key",
+              "localizedName": "\u516c\u53f8\u4e3b\u7ba1\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u8001\u52a0\u6cb9\u7ad9\u7684\u67dc\u5b50\u65c1",
+          "imageCacheId": "482e6bc895c8bcab837775f3",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/53.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "3\u5c42\u5bbf\u820d\u697c\uff0c212\u623f\u95f4\u7684\u684c\u5b50\u4e0b\u9762\u3002",
+          "imageCacheId": "76e8117535f2c72b63bd683c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/54.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "013\u70c2\u5c3e\u697c\uff0c\u6b66\u5668\u623f\u7684\u67b6\u5b50\u4e0a",
+          "imageCacheId": "c7b0118a9050ddf668a08564",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/55.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u60c5\u62a5\u623f \u5916\u9762\u7684\u5c0f\u697c\u4e2d",
+          "imageCacheId": "67fa09ba596ed485ddd61363",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/56.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u4e8c\u5c42\u5bbf\u820d\uff0c207\u623f\u95f4\u3002",
+          "imageCacheId": "53071305194f8c3b4dd6750c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/69.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u4e8c\u5c42\u5bbf\u820d\uff0c216\u53f7\u623f\u95f4\u3002",
+          "imageCacheId": "494365eead883a972e09a45a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/70.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u572817\u53f7\u4ed3\u5e93\u7684\u9876\u5c42\uff0c\u6709\u62d6\u8f66\u7684\u4e3b\u623f\u95f4\u3002",
+          "imageCacheId": "d40c82e86515818df941250d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/71.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "\u4e8c\u697c\u519b\u4e8b\u68c0\u67e5\u7ad9\u65c1\u8fb9\u7684\u8f66\u95f4\u5185\u3002",
+          "imageCacheId": "9d70919c9a1566d662956373",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/72.png",
+          "keys": []
+        },
+        {
+          "map": "Customs",
+          "mapLocalizedName": "\u6d77\u5173",
+          "title": "Tarcone\u4e3b\u7ba1\u529e\u516c\u5ba4\u94a5\u5319\u95e8\u540e\u9762\u7684\u7535\u8111\u5ba4\u91cc\u3002",
+          "imageCacheId": "bf8eb88ce0f326e9d1f61f48",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Project_documentation/73.png",
+          "keys": [
+            {
+              "id": "5780d0532459777a5108b9a2",
+              "name": "Tarcone Director's office key",
+              "localizedName": "\u6d77\u5173 Tarcone \u4e3b\u7ba1\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a31824878450ec91c0ea1ae",
+      "name": "Blueprints and technical documentation",
+      "localizedName": "\u84dd\u56fe\u4e0e\u6280\u672f\u6587\u6863",
+      "iconLink": "https://www.optarkov.com/images/item/6a31824878450ec91c0ea1ae.webp",
+      "maps": [
+        {
+          "name": "Interchange",
+          "localizedName": "\u7acb\u4ea4\u6865"
+        },
+        {
+          "name": "Factory",
+          "localizedName": "\u5de5\u5382"
+        },
+        {
+          "name": "The Labyrinth",
+          "localizedName": "\u8ff7\u5bab"
+        }
+      ],
+      "locations": [
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728OLI\u540e\u9762\u7684\u7535\u8111\u5ba4\u91cc\u3002",
+          "imageCacheId": "a61484d1a8e0d3ee7ad4a4fe",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/46.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "Goshan\u5317\u529e\u516c\u5ba4\u5185\u3002",
+          "imageCacheId": "e79e40018ba4bc87452ca232",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/47.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "OLI\u7684\u540e\u52e4\u529e\u516c\u5ba4\u3002",
+          "imageCacheId": "f80f202ca06c122425bd5e77",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/48.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u91cc\u9762\u7684IDEA\u5728\u5357\u90e8\u7684\u5546\u5e97\u7684\u5730\u677f\u4e0a\u3002",
+          "imageCacheId": "83d5f0f29af205a68d655b40",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/49.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728Goshan\u548cOLI\u4e4b\u95f4\u7684\u529e\u516c\u5ba4\u91cc\u3002",
+          "imageCacheId": "ab7b9b648189615b4b22ab28",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/50.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728Goshan\u5317\u90e8\u529e\u516c\u5ba4\u5185",
+          "imageCacheId": "e90a416c452fcb76f102857b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/51.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728The National\u5546\u5e97\u5185\u7684\u4e00\u4e2a\u6587\u4ef6\u67dc\u4e0a\u3002",
+          "imageCacheId": "64175741d78c6c3d662ab89f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/52.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728Goshan\u9644\u8fd1\u7684Bizarro\u5546\u5e97\u5185\u3002",
+          "imageCacheId": "8cf90496b4ad49043e4ee5d7",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/53.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "IDEA\u529e\u516c\u5ba4\u5185\u3002",
+          "imageCacheId": "c7917f5ddefc67e9741e043a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/54.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728OLI\u884c\u653f\u529e\u516c\u5ba4\u94a5\u5319\u95e8\u540e\u9762\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "0d311b776ab574f792329619",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/55.png",
+          "keys": [
+            {
+              "id": "5ad5ccd186f774446d5706e9",
+              "name": "OLI administration office key",
+              "localizedName": "OLI\u7ba1\u7406\u5458\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "Goshan\u548cOLI\u4e4b\u95f4\u7684\u4e00\u95f4\u529e\u516c\u5ba4\u5185\u3002",
+          "imageCacheId": "b8e5b8c239601a751afae92e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/56.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728OLI\u548cGoshan\u4e4b\u95f4\u7684\u529e\u516c\u5ba4\u5185",
+          "imageCacheId": "a7bd9fc6b274fd413747726c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/57.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728SPIEL\u5546\u5e97\u5185\u7684\u524d\u5e97\u3002",
+          "imageCacheId": "9006ed79f4cb87c7f0949b48",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/58.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "\u5728\u84dd\u8272\u50a8\u7269\u67dc\u9876\u90e8\u7684\u91d1\u5c5e\u68da\u5c4b\u91cc\uff0c\u7d27\u6328\u7740\u7167\u660e\u5f39\u63d0\u53d6\u5668\u3002",
+          "imageCacheId": "32d25bf98a40c0504777af5b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/91.png",
+          "keys": []
+        },
+        {
+          "map": "Interchange",
+          "mapLocalizedName": "\u7acb\u4ea4\u6865",
+          "title": "OLI\u540e\u52e4\u90e8\u529e\u516c\u5ba4\u95e8\u540e\u7684\u4e00\u5f20\u529e\u516c\u684c\u4e0a\u6709\u94a5\u5319\u3002",
+          "imageCacheId": "54ab8bc30bb971af544adb3b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/92.png",
+          "keys": [
+            {
+              "id": "5ad5cfbd86f7742c825d6104",
+              "name": "OLI logistics department office key",
+              "localizedName": "OLI\u7269\u6d41\u90e8\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u533b\u7597\u5b9e\u9a8c\u697c1\u697c",
+          "imageCacheId": "f2705fd99c7bbd8c75e4b716",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/61.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5b9e\u9a8c\u533a\u4e8c\u697c\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "61e540d11a8d3cee5469ea62",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/62.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u529e\u516c\u533a1\u697c\uff0c\u4fdd\u9669\u7bb1\u65c1\u8fb9\u7684\u62bd\u5c49\u91cc\u3002",
+          "imageCacheId": "c6ad80351f8fc95af03b50e0",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/63.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u529e\u516c\u533a3\u697c\uff0c\u8d70\u5eca\u7684\u62bd\u5c49\u4e2d",
+          "imageCacheId": "1774bb7fcdbb2d01ab1bdbb2",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/64.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u533b\u7597\u5e10\u7bf7\u4e2d\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "e75cc313e6c92b9dba97f8ba",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/65.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u7a97\u53e3\u529e\u516c\u5ba4\u7684\u529e\u516c\u684c\u4e0a",
+          "imageCacheId": "2165eb2461b8757bdd6af160",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/66.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u529e\u516c\u533a3\u697c\uff0c\u5927\u529e\u516c\u5ba4\u91cc\u6253\u5f00\u7684\u62bd\u5c49\u91cc",
+          "imageCacheId": "39fed064e87daa00451cec83",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/67.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u529e\u516c\u533a3\u697c\u9700\u8981\u5de5\u5382\u94a5\u5319\u6253\u5f00\u7684\u623f\u95f4\u67dc\u5b50\u4e0a",
+          "imageCacheId": "d83d830e4bc51b33c46aef3c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/68.png",
+          "keys": [
+            {
+              "id": "5448ba0b4bdc2d02308b456c",
+              "name": "Factory emergency exit key",
+              "localizedName": "\u5de5\u5382\u7d27\u6025\u51fa\u53e3\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u529e\u516c\u533a3\u697c\uff0c\u5927\u529e\u516c\u5ba4\u5012\u5728\u5730\u4e0a\u7684\u62bd\u5c49\u65c1",
+          "imageCacheId": "8c2f356e0fc27d9b2897624c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/69.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u533b\u7597\u533a\u5730\u4e0b\u5ba4\u7684\u4e00\u5177USEC\u5c38\u4f53\u4e0a\u3002",
+          "imageCacheId": "18764dae9744d057d31ea541",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/70.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u533b\u7597\u5b9e\u9a8c\u697c1\u697c\u7684\u957f\u6905\u4e0a",
+          "imageCacheId": "31b32750d47328d3a1d88fcd",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/71.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "tagilla\u5065\u8eab\u623f\u7684\u67b6\u5b50\u4e0a",
+          "imageCacheId": "1ca48ba603ae01a87bdc3b22",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/72.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "TerraGroup \u4ed3\u5e93\uff0c\u53f3\u4fa7\u4fdd\u9669\u7bb1\u9876\u90e8\u7684\u95e8\u5361\u95e8\u3002",
+          "imageCacheId": "b5d4f2664d3bea5a144d7d07",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/73.png",
+          "keys": [
+            {
+              "id": "66acd6702b17692df20144c0",
+              "name": "TerraGroup storage room keycard",
+              "localizedName": "TerraGroup \u4ed3\u5e93\u94a5\u5319\u5361"
+            }
+          ]
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u57283\u53f7\u95e8\u64a4\u79bb\u70b9\u524d\u7684\u5de5\u4f5c\u53f0\u533a\u3002",
+          "imageCacheId": "3798eff4d92b0a97cfbc6c58",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/74.png",
+          "keys": []
+        },
+        {
+          "map": "Factory",
+          "mapLocalizedName": "\u5de5\u5382",
+          "title": "\u5728\u5730\u56fe\u4e2d\u95f4\u91d1\u5c5e\u697c\u68af\u4e0b\u9762\u7684\u5e8a\u5934\u67dc\u91cc",
+          "imageCacheId": "12c89c4fd5c989189c4d9cce",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/75.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u706b\u707e\u5371\u9669\u623f\u95f4\u9644\u8fd1\u7684\u4e00\u4e2a\u6728\u7bb1\u4e0a\u9762\u3002",
+          "imageCacheId": "7745835db64b57e3c660d2ab",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/76.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u89c2\u5bdf\u5ba4\u94a5\u5319\u95e8\u540e\u9762\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "1ed89f29d880a416327e4dc7",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/77.png",
+          "keys": [
+            {
+              "id": "679baace4e9ca6b3d80586b2",
+              "name": "Observation room key",
+              "localizedName": "\u89c2\u5bdf\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "4\u53f7\u79d1\u5b66\u5bb6\u7684\u888b\u5b50\u540e\u9762\u3002",
+          "imageCacheId": "4c25505111e2fa5a1641f75a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/78.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u88c5\u914d\u5ba4\u7684\u4e00\u4e2a\u7bb1\u5b50\u4e0a\u3002",
+          "imageCacheId": "335a5e5a6656df289eaa13cc",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/79.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u88c5\u914d\u5ba4\u7684\u4e00\u5806\u7bb1\u5b50\u4e0a\u3002",
+          "imageCacheId": "0e5d5a9539f98b4f5c89b60f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/80.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u88c5\u914d\u5ba4\u4e00\u5177\u5de5\u4eba\u5c38\u4f53\u4e0a\u3002",
+          "imageCacheId": "e5b0424dfb4e37ad63131162",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/81.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5c31\u5728\u963f\u91cc\u963f\u5fb7\u6d85\u8def\u7684PMC\u5c38\u4f53\u65c1\u8fb9\u3002",
+          "imageCacheId": "0c3484a3b474221a8a3de8f9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/82.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u89c2\u5bdf\u5ba4\u94a5\u5319\u95e8\u540e\u9762\u7684\u670d\u52a1\u5668\u673a\u67b6\u4e0a\u3002",
+          "imageCacheId": "4e57513745f30271f9c7a32d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/83.png",
+          "keys": [
+            {
+              "id": "679baace4e9ca6b3d80586b2",
+              "name": "Observation room key",
+              "localizedName": "\u89c2\u5bdf\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u4e2d\u592e\u533a\u57df\uff0c\u88c5\u914d\u5ba4\u524d\u7684\u4e00\u5806\u7bb1\u5b50\u4e0a\u3002",
+          "imageCacheId": "211935d3643066bc3f3185bd",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/84.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u95e8\u4e0b\u9762\u6709\u4e00\u628a\u53bb\u505c\u5c38\u623f\u7684\u94a5\u5319\u3002",
+          "imageCacheId": "1a742691bb2040ae02ba61cd",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/85.png",
+          "keys": [
+            {
+              "id": "679bab714e9ca6b3d80586b4",
+              "name": "Corpse room key",
+              "localizedName": "\u505c\u5c38\u623f\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u5305\u88f9\u91cc\u9762\uff0c\u5c38\u4f53\u623f\u95f4\u7684\u94a5\u5319\u5728\u6709\u6bd2\u6c34\u5751\u548c\u730e\u67aa\u9677\u9631\u623f\u95f4\u4e4b\u95f4\u4ea7\u751f\u3002",
+          "imageCacheId": "bc93c2575911a811e7eeaf04",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/86.png",
+          "keys": [
+            {
+              "id": "679bab714e9ca6b3d80586b4",
+              "name": "Corpse room key",
+              "localizedName": "\u505c\u5c38\u623f\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "3\u53f7\u79d1\u5b66\u5bb6\u5c38\u4f53\u65c1\u8fb9\u7684\u6258\u76d8\u4e0a\u3002",
+          "imageCacheId": "2739f6522bc036516f3ebcee",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/87.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u706b\u707e\u5371\u9669\u5ba4\u51fa\u53e3\u9644\u8fd1\u7684\u6258\u76d8\u4e0a\u3002",
+          "imageCacheId": "2fd474febbea77678e91eca9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/88.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "5\u53f7\u79d1\u5b66\u5bb6\u5c38\u4f53\u4e0b\u9762\u3002",
+          "imageCacheId": "d1d109b728b9dd7df835abe8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/89.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u62f7\u95ee\u5ba4\u540e\u9762\u3002\u6587\u4ef6\u62ff\u4e0d\u51fa\u6765\u3002",
+          "imageCacheId": "6d37dd5f6478bb629884e617",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Blueprints_and_technical_documentation/90.png",
+          "keys": []
+        }
+      ]
+    },
+    {
+      "id": "6a31828557705071410ca00e",
+      "name": "Test documentation",
+      "localizedName": "\u6d4b\u8bd5\u6587\u6863",
+      "iconLink": "https://www.optarkov.com/images/item/6a31828557705071410ca00e.webp",
+      "maps": [
+        {
+          "name": "Shoreline",
+          "localizedName": "\u6d77\u5cb8\u7ebf"
+        },
+        {
+          "name": "Woods",
+          "localizedName": "\u68ee\u6797"
+        },
+        {
+          "name": "Icebreaker",
+          "localizedName": "\u7834\u51b0\u8239"
+        }
+      ],
+      "locations": [
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u7801\u5934\u8b66\u5bdf\u5c40\u5927\u697c\u7684\u524d\u7684\u4e00\u5f20\u6025\u6551\u75c5\u5e8a\u4e0a\u3002",
+          "imageCacheId": "93d985edb3c22ac23ab839d6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/19.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u5728\u8d70\u79c1\u8005\u57fa\u5730\u5357\u65b9\u4ed3\u5e93",
+          "imageCacheId": "e955ca90fc5135f115d7682e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/20.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u6c14\u8c61\u7ad9\u4e8c\u697c\u3002",
+          "imageCacheId": "f578b714f4000acb89eb2aa6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/21.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u7597\u517b\u9662\u4e1c\u697c326\u623f\u95f4\u7684\u5e8a\u5934\u67dc\u7684\u4e00\u4e2a\u6253\u5f00\u7684\u62bd\u5c49\u91cc\u9762\u3002",
+          "imageCacheId": "e7173c00f867697856411df0",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/22.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728\u65e7\u952f\u6728\u5382\u76842\u5c42\u7a9d\u68da\u91cc\u7684\u4e00\u5f20\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "a56b4fd118689313bda3569e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/23.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5c31\u5728scav\u5c0f\u533a\u5185\u7684\u90a3\u680b\u7ea2\u7816\u623f\u5b50\u697c\u5185\u3002",
+          "imageCacheId": "9b4fa3a9e19acffc694e8075",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/24.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728USEC\u68c0\u67e5\u7ad9\u7684\u62bd\u5c49\u9876\u90e8\u3002",
+          "imageCacheId": "67b1c1ecb1f04d989a61cd57",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/25.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728USEC\u68c0\u67e5\u7ad9\u65c1\u8fb9\u7684\u84dd\u8272\u5395\u6240\u4e2d",
+          "imageCacheId": "a3623db78e56911f4be5ca00",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/37.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u4e1c\u5317\u6751\u5e84\u4e1c\u4fa7\u7684\u4e8c\u5c42\u5c0f\u697c\u91cc\u9762\u3002",
+          "imageCacheId": "d815ea146a6faba456d6fe50",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/26.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728USEC\u5357\u4fa7\u8425\u5730\u7684\u4e00\u4e2a\u5e10\u7bf7\u91cc\uff0c\u65c1\u8fb9\u662f\u4e00\u5f20\u5e8a\u3002",
+          "imageCacheId": "8ebfaf8cebc4b9752caf0266",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/27.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728USEC\u5357\u4fa7\u8425\u5730\uff0c\u6cb9\u6876\u65c1\u8fb9\u7684\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "9cd9d51c9e8cf7918b919f27",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/38.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728USEC\u8425\u5730\u7684\u4e00\u4e2a\u6728\u7bb1\u4e0a\u3002",
+          "imageCacheId": "5ba6fe7dc1430b30a81df5b7",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/28.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5c31\u5728\u8001\u952f\u6728\u5382\u7684\u5c0f\u7a9d\u68da\u91cc\u9762\u3002",
+          "imageCacheId": "5e78d021072da614de274cfd",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/29.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728USEC\u8425\u5730\u7684\u533b\u7597\u53f0\u4e0a\u548c\u5c38\u4f53\u5728\u4e00\u8d77\u3002",
+          "imageCacheId": "2e07bb0f541aa8fe389164c3",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/30.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u533b\u7597\u8425\u5730\u7684\u4e00\u4e2a\u88c5\u5c38\u4f53\u7684\u767d\u8272\u96c6\u88c5\u7bb1\u91cc\u3002",
+          "imageCacheId": "ee3e439d3b3a9221a8e7736b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/31.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728USEC\u8425\u5730\u7684\u7761\u888b\u4e0a\u3002",
+          "imageCacheId": "5788278cccbd2002d64faefe",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/32.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u5728\u4e00\u697c\u7684\u533b\u836f\u50a8\u85cf\u5ba4\u91cc",
+          "imageCacheId": "407abe8e0baf6e79d028d5f6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/33.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u4e09\u697c\u98df\u5802\u4e1c\u5385\u5185",
+          "imageCacheId": "80a1cd326d1f44a183db8d98",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/34.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "1\u5c42\u51fa\u751f\u70b9\uff0c\u7eff\u8272\u4fe1\u53f7\u5f39\u6240\u5728\u7684\u623f\u95f4\u5185\u3002",
+          "imageCacheId": "964a25f1c78c4c80e6e1aef3",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/35.png",
+          "keys": []
+        },
+        {
+          "map": "Icebreaker",
+          "mapLocalizedName": "\u7834\u51b0\u8239",
+          "title": "\u5728\u4e8c\u697c\u76f4\u5347\u673a\u505c\u673a\u576a\u524d\u7684\u65e0\u4eba\u673a\u5ba4\u5185",
+          "imageCacheId": "81d6984ea7dd1672ec981be0",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Test_documentation/36.png",
+          "keys": []
+        }
+      ]
+    },
+    {
+      "id": "6a3182b72fd891345e047eef",
+      "name": "User documentation",
+      "localizedName": "\u5458\u5de5\u6587\u6863",
+      "iconLink": "https://www.optarkov.com/images/item/6a3182b72fd891345e047eef.webp",
+      "maps": [
+        {
+          "name": "Ground Zero",
+          "localizedName": "\u96f6\u53f7\u5730\u5e26"
+        },
+        {
+          "name": "Streets of Tarkov",
+          "localizedName": "\u8857\u533a"
+        },
+        {
+          "name": "The Lab",
+          "localizedName": "\u5b9e\u9a8c\u5ba4"
+        }
+      ],
+      "locations": [
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "TerraGroup\u79d1\u5b66\u529e\u516c\u5ba4\u529e\u516c\u684c\u4e2d",
+          "imageCacheId": "b18682512e83a86428d0e89f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/48.png",
+          "keys": [
+            {
+              "id": "658199aa38c79576a2569e13",
+              "name": "TerraGroup science office key",
+              "localizedName": "TerraGroup\u79d1\u5b66\u5bb6\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "TerraGroup\u5927\u697c\u4e8c\u697c\u8d70\u5eca\u91cc\uff0c\u79d1\u5b66\u5bb6\u529e\u516c\u5ba4\u5bf9\u9762\u7684\u957f\u6905\u4e0a\u3002",
+          "imageCacheId": "a9bf9e2c312eccf1bee11b5a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/49.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u57285\u53f7\u697c\u4e8c\u697c\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "52f237bfe924477786207a49",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/50.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u57285\u53f7\u697c\u4e00\u697c\u9760\u8fd1\u94c1\u4e1d\u7f51\u533a\u57df\u7684\u73bb\u7483\u684c\u4e0a\u3002",
+          "imageCacheId": "9b2f92bd8c65b3623c506b56",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/51.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728TerraGroup\u5927\u697c\u4e8c\u697c3\u53f7\u623f\u95f4\u7684\u4e00\u5f20\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "c8350133dfbf5dda11d7a5fb",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/52.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728TerraGroup\u5927\u697c\u4e8c\u697c\u63a5\u5f85\u5904\u7684\u67dc\u53f0\u5185\u3002",
+          "imageCacheId": "d349b2bd701d94fdea107ec1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/53.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728TerraGroup\u79d1\u5b66\u529e\u516c\u5ba4\u529e\u516c\u684c\u4e2d",
+          "imageCacheId": "1073f71498fca36182a86f93",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/54.png",
+          "keys": [
+            {
+              "id": "658199aa38c79576a2569e13",
+              "name": "TerraGroup science office key",
+              "localizedName": "TerraGroup\u79d1\u5b66\u5bb6\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "TerraGroup\u5927\u697c\u4e8c\u697c\u63a5\u5f85\u5ba4\u7684\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "6f85d969fc376e7e2d002395",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/55.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "TerraGroup\u5927\u697c\u524dCoffee Maniac\u5e97\u5185\u7684\u5706\u684c\u4e0a\u3002",
+          "imageCacheId": "4baeba5572b7b4549622739a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/56.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "5\u53f7\u697c1\u697c\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "a58ccea61802a460e3522264",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/57.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "4\u53f7\u697c\u9910\u5385\u4e8c\u697c\u7684\u6c99\u53d1\u4e0a\u3002",
+          "imageCacheId": "d35349f7b43f68b03081a32a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/58.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5c31\u57282\u53f7\u697c\u897f\u4fa7\u5e73\u53f0\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "5c0a8aa583adc79bb1435884",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/59.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "TerraGroup\u5927\u697c\u7684\u8f66\u5e93\u91cc\u4e00\u8f86\u9ed1\u8272\u96ea\u4f5b\u5170\u8f7f\u8f66\u3002",
+          "imageCacheId": "6d81eff31f999c2985ca3fda",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/60.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "4\u53f7\u697c\u548c\u6c7d\u8f66\u5c55\u793a\u5385\u4e2d\u95f4\u6491\u7740\u4f1e\u7684\u957f\u6905\u4e0a\u3002",
+          "imageCacheId": "4b045c722e2a03c12de6adcf",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/61.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728TerraGroup\u5927\u697c\u4e8c\u697c3\u53f7\u623f\u95f4\u7684\u4e00\u5f20\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "3e1d477a9c7abe2856eff9e1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/62.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728Cardinal\u516c\u5bd3\u94a5\u5319\u623f\u95f4\u7684\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "3048618b692bcce0e43bd0f5",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/63.png",
+          "keys": [
+            {
+              "id": "68c165f1903341d88b092b2a",
+              "name": "Cardinal apartment key",
+              "localizedName": "Cardinal \u516c\u5bd3\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "TerraGroup\u5b89\u5168\u519b\u68b0\u5e93\u623f\u95f4\u4e2d\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "e7e02952fb707ac2cad73e70",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/64.png",
+          "keys": [
+            {
+              "id": "64ccc24de61ea448b507d34d",
+              "name": "TerraGroup security armory key",
+              "localizedName": "TerraGroup\u519b\u68b0\u5e93\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "TerraGroup\u5927\u697c\u5185\uff0c1\u697c\u7684\u529e\u516c\u5ba4\u5185\u3002",
+          "imageCacheId": "314f130ca1aff03fc326e203",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/65.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728\u91d1\u878d\u5927\u697c\u4e8c\u697c\u7684\u529e\u516c\u5ba4\u4e2d\uff08\u4e0e\u3010\u5ba1\u8ba1\u3011\u4efb\u52a1\u76f8\u540c\u7684\u623f\u95f4\u3002",
+          "imageCacheId": "12fd1e3e6c49724873568bcb",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/66.png",
+          "keys": [
+            {
+              "id": "638fcd23dc65553116701d33",
+              "name": "Audit",
+              "localizedName": "\u5ba1\u8ba1"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Unity \u94f6\u884c\u5185\u90e8\uff0c\u4f1a\u8bae\u5ba4\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "c301b9ceb99c499cb1e43242",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/67.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u8c08\u5224\u5927\u697c\u5185\uff0c\u4f1a\u8bae\u5ba4\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "80eb1c92c08c672db987f5e8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/68.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u4e1c\u5317\u89d2\u7684Terragroup\u529e\u516c\u5ba4\u4e8c\u697c\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "b7a3f69d88c6eac758411c2d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/69.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728\u767d\u9cb8\u9910\u5385\u4e8c\u697c\u7684\u6c99\u53d1\u4e0a",
+          "imageCacheId": "224f96338bd5e38c0c73fc9a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/70.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728\u53a8\u623f\u91cc\u7684TerraGroup\u516c\u53f8\u516c\u5bd3\u94a5\u5319\u95e8\u540e\u9762\u3002",
+          "imageCacheId": "0cc2ca1be9d5de67b2f0a1ee",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/71.png",
+          "keys": [
+            {
+              "id": "67ee7680562d5057e60ccc3a",
+              "name": "TerraGroup corporate apartment key",
+              "localizedName": "TerraGroup \u96c6\u56e2\u516c\u5bd3\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728\u677e\u6728\u9152\u5e97\u7684\u7259\u79d1\u8bca\u6240\u91cc\u3002",
+          "imageCacheId": "e506a9a7860e46f10b19bcb1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/72.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u677e\u6728\u9152\u5e97208\u53f7\u623f\u95f4\u5185\u3002",
+          "imageCacheId": "4ad18afbcf42b8d23cc31113",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/73.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728Klimov\u8857\u548cPrimorskij\u5927\u8857\u4ea4\u53c9\u53e3\u7684\u9910\u5385\u5185\u3002",
+          "imageCacheId": "de776894652326976ed141b9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/74.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Concordia\u5927\u697c1\u53f7\u516c\u5bd31\u697cIT\u516c\u5bd3\u5185\u3002",
+          "imageCacheId": "ba8424af78e0b89dfee38298",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/75.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "Concordia\u5927\u697c1\u53f7\u516c\u5bd32\u697c\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "1d954d0c54b2eebaa1bb9a7d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/76.png",
+          "keys": []
+        },
+        {
+          "map": "Streets of Tarkov",
+          "mapLocalizedName": "\u8857\u533a",
+          "title": "\u5728Cardinal\u94f6\u884c\u5927\u697c\u548c\u65e7\u7684SCAV\u68c0\u67e5\u7ad9BTR\u4e4b\u95f4\u505c\u5728\u4e00\u8f86\u7ea2\u8272\u7684\u8f66\u91cc\u3002",
+          "imageCacheId": "cc328fc92e4b26bd69bd8d6b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/77.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u529e\u516c\u533a\u7684\u4f4e\u67dc\u4e0a",
+          "imageCacheId": "806eb0dfeef6f3605302f5d1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/78.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u529e\u516c\u533a\u7684\u95e8\u53e3\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "b30d05f782eb7b6eb7cc5804",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/79.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u7d2b\u5361\u623f\uff0c\u6700\u91cc\u9762\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "b90aa790019c677449696727",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/80.png",
+          "keys": [
+            {
+              "id": "5c1e495a86f7743109743dfb",
+              "name": "TerraGroup Labs keycard (Violet)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u7d2b"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u7ecf\u7406\u529e\u516c\u5ba4\u65c1\u8fb9\u7684\u4f1a\u8bae\u5ba4\u684c\u5b50\u4e0a",
+          "imageCacheId": "549994fa8e80e50626de085d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/81.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u7ecf\u7406\u529e\u516c\u5ba4\u4e2d\u7684\u7535\u8111\u684c\u4e0a",
+          "imageCacheId": "db5d8224179801c9d469aa14",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/82.png",
+          "keys": [
+            {
+              "id": "5c1e2a1e86f77431ea0ea84c",
+              "name": "TerraGroup Labs manager's office room key",
+              "localizedName": "TerraGroup \u5b9e\u9a8c\u5ba4\u7ecf\u7406\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u751f\u6d3b\u533a\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "df7431259e1e03b194c7baa2",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/83.png",
+          "keys": [
+            {
+              "id": "6711039f9e648049e50b3307",
+              "name": "TerraGroup Labs residential unit keycard",
+              "localizedName": "TerraGroup \u5b9e\u9a8c\u5ba4\u751f\u6d3b\u533a\u94a5\u5319\u5361"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u8f66\u5e93\u62c9\u95f8\u623f\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "d88a286a56b8ef6e0f8b0b03",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/84.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "Kruglov \u529e\u516c\u5ba4\u7684\u4e66\u67b6\u4e0a",
+          "imageCacheId": "fbebb17596f10198acaa1523",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/85.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u524d\u53f0\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "7efec7cf19a70f4dd415832c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/86.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u98df\u5802\u7684\u5ea7\u6905\u4e0a",
+          "imageCacheId": "de7ec296bda1c49664ff5b05",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/87.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u673a\u5e93\u62c9\u95f8\u623f\u4e2d\u4e66\u67b6\u4e0a",
+          "imageCacheId": "c6062bf9aeeacd8512d4a77c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/88.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u7ecf\u7406\u5ba4\u4e0b\u9762\uff0c\u67dc\u53f0\u4e0a\uff0c\u7535\u89c6\u5c4f\u5e55\u4e0b\u9762\u3002",
+          "imageCacheId": "b8ed82eed04249ba17fd9d24",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/89.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u529e\u516c\u533aO23\uff0c\u653e\u5728\u6c99\u53d1\u65c1\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "ab7b39c84d8731212506d33b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/90.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5728TerraGroup\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\uff08\u9ec4\u8272\uff09\u95e8\u540e\u9762\u7684\u4e00\u5806\u76d2\u5b50\u4e0a\u3002",
+          "imageCacheId": "9417992be7edd339d331821f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/91.png",
+          "keys": [
+            {
+              "id": "5c1d0d6d86f7744bb2683e1f",
+              "name": "TerraGroup Labs keycard (Yellow)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u9ec4"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u732b\u96d5\u5927\u5706\u684c\u4e0a",
+          "imageCacheId": "dea4036ed894ead593e269f8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/92.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u670d\u52a1\u5668\u5ba4\u5185\u67dc\u53f0\u4e0a\u7684\u4f11\u606f\u533a\u3002",
+          "imageCacheId": "1a2739bdf827fce83673b332",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/93.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u529e\u516c\u684c\u4e0a\u7684\u5185\u90e8\u529e\u516c\u5ba4\uff08O22\uff09",
+          "imageCacheId": "9b46851c0bc2e0a7fcb774d9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/94.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5728\u514b\u9c81\u683c\u6d1b\u592b\u529e\u516c\u5ba4\u65c1\u8fb9\u7684\u4f1a\u8bae\u684c\u4e0a\u3002",
+          "imageCacheId": "8a76c1dad6f8a6376afbe8ca",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/User_documentation/95.png",
+          "keys": []
+        }
+      ]
+    },
+    {
+      "id": "6a3182dc6cd8de21cf0a3a7d",
+      "name": "Medical documents",
+      "localizedName": "\u533b\u7597\u6587\u4ef6",
+      "iconLink": "https://www.optarkov.com/images/item/6a3182dc6cd8de21cf0a3a7d.webp",
+      "maps": [
+        {
+          "name": "The Lab",
+          "localizedName": "\u5b9e\u9a8c\u5ba4"
+        },
+        {
+          "name": "Ground Zero",
+          "localizedName": "\u96f6\u53f7\u5730\u5e26"
+        },
+        {
+          "name": "The Labyrinth",
+          "localizedName": "\u8ff7\u5bab"
+        }
+      ],
+      "locations": [
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5728\u84dd\u5361\u623f\u4e2d",
+          "imageCacheId": "546498dbe3bd93d483d4d6c7",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/49.png",
+          "keys": [
+            {
+              "id": "5c1d0c5f86f7744bb2683cf0",
+              "name": "TerraGroup Labs keycard (Blue)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u84dd"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5728\u7eff\u5361\u623f\u7684\u4e00\u4e2a\u7535\u8111\u65c1\u8fb9",
+          "imageCacheId": "51e53402d9f1d621aaa13923",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/50.png",
+          "keys": [
+            {
+              "id": "5c1d0dc586f7744baf2e7b79",
+              "name": "TerraGroup Labs keycard (Green)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u7eff"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u4f4f\u5b85\u5355\u5143\u5185\uff0c\u5c0f\u529e\u516c\u5ba4\u5185\u3002",
+          "imageCacheId": "2db2a20126ebf655f8fc0767",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/51.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5728\u7eff\u5361\u623f DNA\u58c1\u7eb8\u7684\u4e0b\u65b9",
+          "imageCacheId": "4aa64b15b15b47be6d85464b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/52.png",
+          "keys": [
+            {
+              "id": "5c1d0dc586f7744baf2e7b79",
+              "name": "TerraGroup Labs keycard (Green)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u7eff"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u732b\u96d5\u4f1a\u8bae\u5ba4\u7684\u5927\u5706\u684c\u4e0a",
+          "imageCacheId": "390ccd63f8dbe6d99a3bc4f1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/53.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5728\u9910\u5385\u7684\u4e00\u5f20\u9ad8\u684c\u5b50\u4e0a",
+          "imageCacheId": "6ad07f4b8b349ba47996a030",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/54.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5728\u9ed1\u5361\u623f\uff0c\u9694\u79bb\u8231\u6444\u50cf\u5934\u65c1\u8fb9\u7684\u5730\u4e0a",
+          "imageCacheId": "f4929d2c8ac630df8cb6f8d1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/55.png",
+          "keys": [
+            {
+              "id": "5c1d0f4986f7744bb01837fa",
+              "name": "TerraGroup Labs keycard (Black)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u9ed1"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u533b\u7597\u53bb\u9760\u8fd1\u5395\u6240\u7684\u8d70\u5eca",
+          "imageCacheId": "e3ae9e96359ad966d7c504e5",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/56.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5728\u7eff\u5361\u623f\u5916\u9762\u7684\u8d70\u5eca\u7684\u533b\u7597\u5e8a\u4e0a",
+          "imageCacheId": "03a94fa93295bac1d19cf049",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/57.png",
+          "keys": [
+            {
+              "id": "5c1d0dc586f7744baf2e7b79",
+              "name": "TerraGroup Labs keycard (Green)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u7eff"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u751f\u6d3b\u533a\u7684\u4e00\u5f20\u684c\u5b50\u4e0a",
+          "imageCacheId": "7ad16f0d0920d0f655aed420",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/58.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u5706\u9876\u5e10\u7bf7\u65c1\u8fb9\u7684\u684c\u5b50\u4e0a",
+          "imageCacheId": "3d699f1e5de33aea700f3e59",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/59.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u84dd\u5361\u623f\uff0c\u67b6\u5b50\u4e0a",
+          "imageCacheId": "bf8994fe6dd0ca26d1525612",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/60.png",
+          "keys": [
+            {
+              "id": "5c1d0c5f86f7744bb2683cf0",
+              "name": "TerraGroup Labs keycard (Blue)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u84dd"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u84dd\u5361\u623f\uff0c\u533b\u7597\u5e8a\u7684\u5730\u4e0a",
+          "imageCacheId": "c4e1ffbd28b3a35e90fdccc6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/61.png",
+          "keys": [
+            {
+              "id": "5c1d0c5f86f7744bb2683cf0",
+              "name": "TerraGroup Labs keycard (Blue)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u84dd"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u84dd\u5361\u623f\uff0c\u9760\u5899\u533b\u7597\u5e8a\u7684\u5730\u4e0a",
+          "imageCacheId": "dd2f8a9a624e4b8164dfcf84",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/62.png",
+          "keys": [
+            {
+              "id": "5c1d0c5f86f7744bb2683cf0",
+              "name": "TerraGroup Labs keycard (Blue)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u84dd"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u84dd\u5361\u623f\uff0c\u9760\u5899\u684c\u5b50\u4e0a",
+          "imageCacheId": "816a78f4bd076ed067eac992",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/63.png",
+          "keys": [
+            {
+              "id": "5c1d0c5f86f7744bb2683cf0",
+              "name": "TerraGroup Labs keycard (Blue)",
+              "localizedName": "\u5b9e\u9a8c\u5ba4\u94a5\u5319\u5361\u00b7\u84dd"
+            }
+          ]
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u533b\u7597\u533a\u7684\u4e00\u5f20\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "b83ddfbab083c0466173f48c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/64.png",
+          "keys": []
+        },
+        {
+          "map": "The Lab",
+          "mapLocalizedName": "\u5b9e\u9a8c\u5ba4",
+          "title": "\u533b\u7597\u533a\u7684 \u533b\u7597\u5e8a\u65c1\u8fb9\u7684\u67b6\u5b50\u4e0a",
+          "imageCacheId": "18827abbb364977e85123290",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/65.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u6587\u4ef6\u5728\u5730\u56fe\u4e0a\u7684\u4f4d\u7f6e\u3002",
+          "imageCacheId": "0451aaf8ede71d53716aee6d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/66.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728\u5496\u5561\u9986\u91cc\uff0cV-EX\u65c1\u8fb9\u7684\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "423fb960a660f968d652a986",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/67.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728TerraGroup\u79d1\u5b66\u529e\u516c\u5ba4\u94a5\u5319\u95e8\u540e\u9762\u7684\u6587\u4ef6\u67b6\u91cc\u3002",
+          "imageCacheId": "87f1bffecfed4116e9ee17f6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/68.png",
+          "keys": [
+            {
+              "id": "658199aa38c79576a2569e13",
+              "name": "TerraGroup science office key",
+              "localizedName": "TerraGroup\u79d1\u5b66\u5bb6\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728\u6c99\u53d1\u4e0aTerraGroup\u5927\u53a62\u697c3\u53f7\u623f\u95f4\u4e2d\u7684\u6c99\u53d1\u4e0a\u3002",
+          "imageCacheId": "94a161c0aac1f56eea944d62",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/69.png",
+          "keys": [
+            {
+              "id": "658199aa38c79576a2569e13",
+              "name": "TerraGroup science office key",
+              "localizedName": "TerraGroup\u79d1\u5b66\u5bb6\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u57284\u53f7\u697c\u4e8c\u697c\u7684\u684c\u5b50\u4e0a\uff0c\u4fef\u77b0TG\u5927\u697c\u3002",
+          "imageCacheId": "1a4de0c043a781c449bac179",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/70.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u57286\u53f7\u697c\u5bf9\u9762\u7684\u957f\u6905\u4e0a\u3002",
+          "imageCacheId": "591cd9095efb45e499a425c2",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/71.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u57286\u53f7\u697c\u5317\u4fa7\u7684\u505c\u8f66\u573a\u7684\u4e00\u8f86\u8f66\u540e\u5907\u7bb1\u91cc\uff0c\u65c1\u8fb9\u662fCapital Insight\u3002",
+          "imageCacheId": "57a0e3b4b65116389b916428",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/72.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "4\u53f7\u697c1\u697c\u9910\u5385\u4e3b\u5165\u53e3\u5de6\u4fa7\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "1b489b2f38671c0bdc53eb8e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/73.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728TerraGroup\u5927\u53a62\u697c3\u53f7\u623f\u95f4\u4e2d\u3002",
+          "imageCacheId": "afbdfccf5aa00e9d2087ef3a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/74.png",
+          "keys": [
+            {
+              "id": "658199aa38c79576a2569e13",
+              "name": "TerraGroup science office key",
+              "localizedName": "TerraGroup\u79d1\u5b66\u5bb6\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u57284\u53f7\u548c5\u53f7\u697c\u4e2d\u95f4\u9a6c\u8def\u7684\u8def\u4e2d\u592e\u7684\u4e00\u5f20\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "c8771f8f11e8d040b63edd3a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/75.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728TerraGroup\u79d1\u5b66\u529e\u516c\u5ba4\u7a97\u8fb9\u7684\u684c\u5b50\u4e0a\u3002",
+          "imageCacheId": "836f3a0b5cd83e1f724781d1",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/76.png",
+          "keys": [
+            {
+              "id": "658199aa38c79576a2569e13",
+              "name": "TerraGroup science office key",
+              "localizedName": "TerraGroup\u79d1\u5b66\u5bb6\u529e\u516c\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5750\u5728\u57c3\u9ed8\u5eb7\u68c0\u67e5\u7ad9\u5e10\u7bf7\u65c1\u7684\u8f6e\u6905\u4e0a\u3002",
+          "imageCacheId": "f5c0f1fda4b74e72d54f04a5",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/77.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5728\u7d27\u6025\u901a\u8baf\u68c0\u67e5\u7ad9\u4e00\u8f86\u84dd\u8272\u8f66\u524d\u7684\u5c0f\u957f\u6905\u4e0a\u3002",
+          "imageCacheId": "7566249e3706f73e8e6d40ab",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/78.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "7\u53f7\u697c\u65c1\u8fb9\u7684\u5783\u573e\u6876\u957f\u6905\u4e0a\u3002",
+          "imageCacheId": "ca2640aa5f785fef0599649a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/79.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5317\u533a\u8d1f\u4e00\u5c42\u4e00\u8f86\u655e\u5f00\u540e\u5907\u7bb1\u7684\u8f7f\u8f66\u540e\u9762\u3002",
+          "imageCacheId": "304e1c902ad4d2675fb22af8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/80.png",
+          "keys": []
+        },
+        {
+          "map": "Ground Zero",
+          "mapLocalizedName": "\u96f6\u53f7\u5730\u5e26",
+          "title": "\u5357\u533a\u8d1f\u4e00\u5c42\u4e00\u4e2a\u7ffb\u8f6c\u7bb1\u5b50\u524d\u7684\u5730\u677f\u4e0a\u3002",
+          "imageCacheId": "a80fc555a680c5da3ba6e574",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/81.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u89c2\u5bdf\u5ba4\u65c1\u8fb9\u7684\u62d0\u89d2\u5904\u4e00\u4e2a\u6b7b\u53bb\u7684\u5de5\u4eba\u7684\u8eab\u4e0a",
+          "imageCacheId": "55319a8e6d71c0d036cde7de",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/82.png",
+          "keys": [
+            {
+              "id": "679baace4e9ca6b3d80586b2",
+              "name": "Observation room key",
+              "localizedName": "\u89c2\u5bdf\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5730\u56fe\u7684\u897f\u4fa7\u7684\u7bb1\u5b50\u4e0a\uff0c",
+          "imageCacheId": "c48bad8ace86e6d01fb2b81c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/83.png",
+          "keys": [
+            {
+              "id": "679bab714e9ca6b3d80586b4",
+              "name": "Corpse room key",
+              "localizedName": "\u505c\u5c38\u623f\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u4e2d\u5fc3\u533a\u57df\u88c5\u914d\u5ba4\u9644\u8fd1\u4e00\u4e2a\u6b7b\u53bb\u7684\u5de5\u4eba\u7684\u811a\u4e0b\u3002",
+          "imageCacheId": "80c63165f45e6b0034c95201",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/84.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u4e2d\u5fc3\u533a\u57df\u88c5\u914d\u5ba4\u91cc\u6b7b\u53bb\u7684\u79d1\u5b66\u5bb6\u7684\u80f3\u818a\u4e0b\u3002",
+          "imageCacheId": "c9bf07dc9d7a4059ea326fdc",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/85.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5c38\u4f53\u623f\u95e8\u53e3\u7684\u5899\u4e0a\u3002",
+          "imageCacheId": "bb6ab6f335937f10e81aa52c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/86.png",
+          "keys": [
+            {
+              "id": "679bab714e9ca6b3d80586b4",
+              "name": "Corpse room key",
+              "localizedName": "\u505c\u5c38\u623f\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "3\u53f7\u79d1\u5b66\u5bb6\u5c38\u4f53\u65c1",
+          "imageCacheId": "8f527ab269dce80393f81878",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/87.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u963f\u91cc\u963f\u5fb7\u6d85\u4e4b\u8def\u9644\u8fd1\u7684\u725b\u5934\u602a\u795e\u6bbf\u91cc\uff0c\u4e00\u5806\u76d2\u5b50\u4e0a\u3002",
+          "imageCacheId": "a0d158324e1b24e3727e01d8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/88.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u62d6\u62c9\u673a\u65c1\u8fb9\u4e00\u4e2a\u6b7b\u53bb\u7684\u79d1\u5b66\u5bb6\u7684\u5c38\u4f53\u65c1\u8fb9\u3002",
+          "imageCacheId": "3913d02d701cbfdf3d35f534",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/89.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u62f7\u95ee\u5ba4\u5bf9\u9762\u62f1\u95e8\u65c1\u7684\u8840\u6dcb\u6dcb\u7684\u6876\u4e0a\u3002",
+          "imageCacheId": "f944a871a050bb317e6d86f9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/90.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u88c5\u914d\u5ba4\u7684\u4e00\u4e2a\u76d2\u5b50\u4e0a\u3002",
+          "imageCacheId": "de6c10056512b8c0bddda0b9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/92.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u88c5\u914d\u5ba4\u7684\u4e00\u4e2a\u76d2\u5b50\u4e0a\u3002",
+          "imageCacheId": "de6c10056512b8c0bddda0b9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/92.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u4e2d\u5fc3\u533a\u88c5\u914d\u5ba4\u5916\u7684\u4e00\u4e2a\u5de5\u4eba\u8eab\u4e0a\u3002",
+          "imageCacheId": "0a75aafc538874049bc67da8",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/93.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u89c2\u5bdf\u5ba4\u5185\uff0c\u94a5\u5319\u5ba4\u5728\u79d1\u5b66\u5bb6\u5c38\u4f53\u65c1\u8fb9\u3002",
+          "imageCacheId": "9a7dbff356084de9a6117ee0",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/94.png",
+          "keys": [
+            {
+              "id": "679baace4e9ca6b3d80586b2",
+              "name": "Observation room key",
+              "localizedName": "\u89c2\u5bdf\u5ba4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u6709\u6bd2\u6e38\u6cf3\u6c60\u7684\u51fa\u53e3\u5904\u8d70\u5eca\u4e0a\u7684\u4e00\u5177\u5c38\u4f53\u4e0a\u3002",
+          "imageCacheId": "45744f9a5a38c2ed36d222fb",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/95.png",
+          "keys": []
+        },
+        {
+          "map": "The Labyrinth",
+          "mapLocalizedName": "\u8ff7\u5bab",
+          "title": "\u5728\u4e00\u4e2a\u7bb1\u5b50\u4e0a\u9760\u8fd1\u9632\u706b\u51fa\u53e3\u7684\u5730\u65b9\u3002",
+          "imageCacheId": "38b04c38f741dd146eea5fec",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Medical_documents/96.png",
+          "keys": []
+        }
+      ]
+    },
+    {
+      "id": "6a31830dde69ceafd805afa0",
+      "name": "Technical documentation",
+      "localizedName": "\u6280\u672f\u6587\u6863",
+      "iconLink": "https://www.optarkov.com/images/item/6a31830dde69ceafd805afa0.webp",
+      "maps": [
+        {
+          "name": "Shoreline",
+          "localizedName": "\u6d77\u5cb8\u7ebf"
+        },
+        {
+          "name": "Woods",
+          "localizedName": "\u68ee\u6797"
+        },
+        {
+          "name": "Lighthouse",
+          "localizedName": "\u706f\u5854"
+        }
+      ],
+      "locations": [
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u53d1\u7535\u7ad9\u7b2c\u4e8c\u4e2a\u623f\u95f4",
+          "imageCacheId": "d4951e1c8fbbab6c2ff4264b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/28.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u5728\u8d70\u79c1\u8005\u57fa\u5730\u7684\u5317\u65b9\u4ed3\u5e93\u91cc\u3002",
+          "imageCacheId": "a4240e9d03e3987e00d08cbc",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/29.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u7801\u5934\u8b66\u5bdf\u5c40\u5927\u697c\u7684\u67dc\u53f0\u4e0a\u3002",
+          "imageCacheId": "f1ae809b165208469a27cd4a",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/30.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u4e0a\u9501\u522b\u5885\u623f\u5916\u7684\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "5746363eaa37997c5337f9cb",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/31.png",
+          "keys": [
+            {
+              "id": "5a0eb6ac86f7743124037a28",
+              "name": "Cottage back door key",
+              "localizedName": "\u522b\u5885\u540e\u95e8\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u7597\u517b\u9662\u897f\u697c316\u623f\u95f4\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "3476ef5d6130682eb7a88f1f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/32.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u7597\u517b\u9662\u4e1c\u697c212\u623f\u95f4\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "a87e04717ae1cfa144f36652",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/55.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u7597\u517b\u9662\u4e1c\u697c3\u697c\u7684\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "2b10011b0cbdf54527f8ad74",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/56.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u884c\u653f\u5927\u697c\uff08\u4e2d\u697c\uff09\u4e1c\u529e\u516c\u5ba4\u5185\u3002",
+          "imageCacheId": "bac427794095cd75fe36a293",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/57.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u5728\u8f7d\u5177\u64a4\u79bb\u70b9\u65c1\u8fb9\u7684\u5c0f\u5c4b\u91cc",
+          "imageCacheId": "bea26146d4f5368cfe7abb88",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/58.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u5730\u56fe\u4e1c\u4fa7\u7ea2\u767d\u94c1\u5854\u4e0b\u7684\u5c0f\u94c1\u76ae\u623f\u7684\u5730\u677f\u4e0a\u3002",
+          "imageCacheId": "a056b50bc293e46f62fde9b5",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/59.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u7597\u517b\u9662\u897f\u697c206\u623f\u95f4\u7684\u5730\u677f\u4e0a\u3002",
+          "imageCacheId": "1df658d9ed94c43ddc82bb14",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/60.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u52a0\u6cb9\u7ad9\u529e\u516c\u5ba4\u4e2d\u7684\u67b6\u5b50\u4e0a",
+          "imageCacheId": "27cd586558b8798dc6ff5502",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/61.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u5728\u6c14\u8c61\u7ad9\u96f7\u8fbe\u9876\u4e0a\u7684\u623f\u95f4\u91cc\u3002",
+          "imageCacheId": "9ce1307950846cfa8cddf4f9",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/62.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u53d1\u7535\u7ad9\u548c\u7597\u517b\u9662\u4e2d\u95f4\u5e73\u53f0\u4e0a\u7684\u957f\u6905\u4e0a\u3002",
+          "imageCacheId": "cbc697ef6f03f2373be73c1f",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/63.png",
+          "keys": []
+        },
+        {
+          "map": "Shoreline",
+          "mapLocalizedName": "\u6d77\u5cb8\u7ebf",
+          "title": "\u5728\u6751\u91cct-90\u524d\u9762\u7684\u4e00\u5ea7\u7ea2\u767d\u623f\u9876\u7684\u5c4b\u5b50\u91cc\u3002",
+          "imageCacheId": "591857f62452ad3a3fa4614d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/64.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u72d9\u51fb\u5c71\u4e2d\u7684\u4e00\u4e2a\u84dd\u8272\u6cb9\u6876\u4e0a\u3002",
+          "imageCacheId": "f8f288e57a9f1dd67e598e02",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/33.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5760\u6bc1\u98de\u673a\u7684\u9a7e\u9a76\u8231\u5185\u3002",
+          "imageCacheId": "ae9756147600a7fe22d79f7d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/34.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728USEC\u5317\u4fa7\u8425\u5730\u901a\u8fc7\u536b\u661f\u5929\u7ebf\u3002",
+          "imageCacheId": "6336602c05dec9e7ab908172",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/35.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "scav\u5730\u5821\u8425\u5730\u94c1\u5854\u4e0b",
+          "imageCacheId": "dea2d1549323d417e8511046",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/36.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728\u952f\u6728\u5382\u5317\u8fb9\u7684\u8def\u4e0a\u4e00\u8f86\u6467\u6bc1\u7684SUV\u91cc\uff0c",
+          "imageCacheId": "eac2d38d8ce3c5c6f432cf02",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/37.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u952f\u6728\u5382\u91cc\u4e00\u4e2a\u5e26\u5929\u7ebf\u7684\u5c0f\u68da\u5c4b\u65c1\u8fb9",
+          "imageCacheId": "a32d61dbbac606f76279cba2",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/38.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "scav\u5730\u5821\u7684\u4e1c\u4fa7\u8425\u5730\u7684\u96c6\u88c5\u7bb1\u4e2d\u3002",
+          "imageCacheId": "2d213ab5fc6f5b8fbdb8e707",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/39.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u90aa\u6559\u5730\u5821\u4e2d",
+          "imageCacheId": "ed7bebcdeed0b232642cb766",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/40.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "scav\u5c0f\u5c4b\u80cc\u6807\u9a6c\u8def\u4e0a\u7684\u8f66\u540e\u9762",
+          "imageCacheId": "3d81cf518eaf536ab0ba681c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/41.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728\u952f\u6728\u53823\u53f7\u68da\u5c4b\u7684\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "2a52cb26c10f19b62e6c99ef",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/42.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728\u706b\u8f66\u7ad9\u7684\u96c6\u88c5\u7bb1\u91cc\u3002",
+          "imageCacheId": "2b48258c59995f73ad0588fe",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/65.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u533b\u7597\u8425\u5730\u7684\u6728\u7bb1\u4e0a\u3002",
+          "imageCacheId": "9fa11b24094fb48631a88b44",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/66.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728scav\u6751\u7684\u4e00\u6240\u623f\u5b50\u91cc\u3002",
+          "imageCacheId": "c5ab5d564dae401e4f8d37b6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/67.png",
+          "keys": []
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u5728\u5893\u5730\uff0c\u79d1\u8428\u65e0\u4eba\u673a\u7535\u5b50\u5e72\u6270\u88c5\u7f6e\u5237\u65b0\u3002",
+          "imageCacheId": "3c9f9cffbcd0196d2da155cf",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/68.png",
+          "keys": [
+            {
+              "id": "66d9f7e7099cf6adcc07a369",
+              "name": "KOSA UAV electronic jamming device",
+              "localizedName": "KOSA\u65e0\u4eba\u673a\u7535\u5b50\u53cd\u5236\u88c5\u7f6e"
+            }
+          ]
+        },
+        {
+          "map": "Woods",
+          "mapLocalizedName": "\u68ee\u6797",
+          "title": "\u6c89\u6ca1\u6751\u843d\uff0c\u90aa\u6559\u5f92\u7684\u5c4b\u5b50\u5185\u3002",
+          "imageCacheId": "d9fc3090ca5881a48fb7bbcb",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/69.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c61\u6c34\u5382\u5357\u90e8\u5706\u76d8\u4e2d\u7684\u4e00\u4e2a\u5e10\u7bf7\u5185\u3002",
+          "imageCacheId": "3a2961fecd8844109206d760",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/43.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c61\u6c34\u53822\u53f7\u697c\u697c\u9876\u7684\u5e10\u7bf7\u4e2d\u91cc\u3002",
+          "imageCacheId": "133040e28485e5419aeae8a6",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/44.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6751\u5b50\u91cc\u4e00\u680b\u7ea2\u7816\u4e8c\u5c42\u7684\u623f\u5b50\u91cc\uff0c\u4e00\u697c\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "7612779b42cd6365d42c054d",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/45.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u7801\u5934\u5317\u4fa7\u623f\u5b502\u697c\u7684\u5367\u5ba4\u3002",
+          "imageCacheId": "1fd474a34e7ca7e3e56a3c7c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/46.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u7801\u5934\u5357\u4fa7\u7684\u623f\u5b502\u697c\u5367\u5ba4\u7535\u89c6\u67dc",
+          "imageCacheId": "8ac66034d2a5239d7ba948aa",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/47.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u84dd\u9876\u5ea6\u5047\u6751\uff0c\u4ece\u5317\u95e8\u8fdb\u5165\u540e\u7684\u7b2c\u4e00\u4e2a\u623f\u95f4\u3002",
+          "imageCacheId": "8344789c78769eecb677baea",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/48.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u84dd\u9876\u5ea6\u5047\u6751\uff0c\u5317\u65b9\u5c0f\u5c4b\u65c1\u51c9\u4ead\u4e0b\u7684\u6905\u5b50\u4e0a\u3002",
+          "imageCacheId": "61a9ccdd498a4787c3a32192",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/49.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u706b\u8f66\u7ad9\u4ed3\u5e93\u7684\u4e00\u4e2a\u67b6\u5b50\u91cc\u3002",
+          "imageCacheId": "b2e77a839ccf07716c8eeb21",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/50.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c34\u5904\u7406\u53823\u53f7\u5385\u529e\u516c\u5ba4\u7684\u67b6\u5b50\u4e0a\u3002",
+          "imageCacheId": "f5b965b807a90b781348253e",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/51.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "USEC\u57fa\u57303\u697c\u7684\u5ba2\u5385\u91cc\uff0c\u6905\u5b50\u65c1\u8fb9\u3002",
+          "imageCacheId": "4246e4589016b9c4130b985c",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/52.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u84dd\u9876\u5ea6\u5047\u6751\uff0c3\u697c\u3002",
+          "imageCacheId": "8f28987fcbc259cfbd41b806",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/53.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "usec\u57fa\u5730\u897f\u4fa7\u7f51\u7403\u573a\u7684\u5e10\u7bf7\u5185\u3002",
+          "imageCacheId": "c27cb295d8f028ac0ce0be6b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/54.png",
+          "keys": []
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6c61\u6c34\u53821\u5382\u5916\u7684USEC\u4ed3\u5e93\u95e8\u53e3\u7684\u7535\u89c6\u5267\u4e0a",
+          "imageCacheId": "afeb4eb813a447cc3d3d0e55",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/72.png",
+          "keys": [
+            {
+              "id": "61a64492ba05ef10d62adcc1",
+              "name": "Rogue USEC stash key",
+              "localizedName": "\u53db\u4e71USEC\u4ed3\u5e93\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u5728Rogue USEC\u8f66\u95f4\u94a5\u5319\u95e8\u540e\u9762\u3002",
+          "imageCacheId": "99a8b342439486a0f5c897b7",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/73.png",
+          "keys": [
+            {
+              "id": "61aa81fcb225ac1ead7957c3",
+              "name": "Rogue USEC workshop key",
+              "localizedName": "\u53db\u4e71USEC\u5de5\u4f5c\u95f4\u94a5\u5319"
+            }
+          ]
+        },
+        {
+          "map": "Lighthouse",
+          "mapLocalizedName": "\u706f\u5854",
+          "title": "\u6751\u957f\u4e4b\u5bb6\u4e8c\u697c\u5de6\u4fa7\u6700\u91cc\u9762\u623f\u95f4\u7684\u67dc\u5b50\u4e0a",
+          "imageCacheId": "a8ab0317b3ebbf065c3c8e7b",
+          "imageUrl": "https://www.optarkov.com/images/season/docuuments/Technical_documentation/74.png",
+          "keys": []
+        }
+      ]
+    }
+  ]
+}

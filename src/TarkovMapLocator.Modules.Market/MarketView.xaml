@@ -1,0 +1,114 @@
+<UserControl x:Class="TarkovMapLocator.Modules.Market.MarketView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TarkovMapLocator.Modules.Market"
+             Background="#101514"
+             UseLayoutRounding="True"
+             SnapsToDevicePixels="True">
+  <Grid Background="#101514">
+      <Grid.RowDefinitions><RowDefinition Height="88" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+      <Grid Margin="24,20,24,16">
+        <StackPanel VerticalAlignment="Bottom"><TextBlock Text="MARKET" Style="{StaticResource SectionLabel}" /><TextBlock Text="物品查价" Style="{StaticResource PageTitle}" /></StackPanel>
+      </Grid>
+      <Grid Grid.Row="1" Height="36" Margin="24,0,24,0">
+        <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+        <Border Height="36" Margin="0,0,16,0" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" Background="#111715" CornerRadius="7" SnapsToDevicePixels="True"><Grid Margin="10,0"><Grid.ColumnDefinitions><ColumnDefinition Width="19" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><TextBlock Text="⌕" Foreground="{StaticResource TextFaintBrush}" FontSize="15" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="MarketSearchBox" TextChanged="MarketSearchBox_TextChanged" Background="Transparent" BorderThickness="0" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontSize="12" Padding="0" VerticalContentAlignment="Center" ToolTip="输入物品中文名、简称或英文名" /></Grid></Border>
+        <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center"><Button x:Name="MarketPvpButton" Style="{StaticResource PageToolbarButton}" Click="MarketPvp_Click">PVP</Button><Button x:Name="MarketPveButton" Style="{StaticResource PageToolbarButton}" Margin="7,0,0,0" Click="MarketPve_Click">PVE</Button><Button x:Name="MarketPvpSeasonButton" Style="{StaticResource PageToolbarButton}" Margin="7,0,0,0" Click="MarketPvpSeason_Click">赛季服</Button><Button x:Name="MarketRefreshButton" Style="{StaticResource PageToolbarButton}" MinWidth="86" Margin="12,0,0,0" Click="MarketRefresh_Click">刷新价格</Button></StackPanel>
+      </Grid>
+      <TextBlock Grid.Row="2" x:Name="MarketStatusText" Foreground="{StaticResource TextFaintBrush}" FontSize="11" MinHeight="17" Margin="24,11,24,10" VerticalAlignment="Center" TextWrapping="Wrap" />
+      <Grid Grid.Row="3" x:Name="MarketRefreshProgressHost" Height="0" Margin="24,0,24,0"
+            Opacity="0" Visibility="Collapsed" ClipToBounds="True" IsHitTestVisible="False">
+        <Grid.Style>
+          <Style TargetType="Grid">
+            <Style.Triggers>
+              <DataTrigger Binding="{Binding IsEnabled, ElementName=MarketRefreshButton}" Value="False">
+                <DataTrigger.EnterActions>
+                  <BeginStoryboard>
+                    <Storyboard>
+                      <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility">
+                        <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}" />
+                      </ObjectAnimationUsingKeyFrames>
+                      <DoubleAnimation Storyboard.TargetProperty="Height" To="12" Duration="0:0:0.16">
+                        <DoubleAnimation.EasingFunction><CubicEase EasingMode="EaseOut" /></DoubleAnimation.EasingFunction>
+                      </DoubleAnimation>
+                      <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.14" />
+                    </Storyboard>
+                  </BeginStoryboard>
+                </DataTrigger.EnterActions>
+                <DataTrigger.ExitActions>
+                  <BeginStoryboard>
+                    <Storyboard>
+                      <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility">
+                        <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}" />
+                        <DiscreteObjectKeyFrame KeyTime="0:0:0.14" Value="{x:Static Visibility.Collapsed}" />
+                      </ObjectAnimationUsingKeyFrames>
+                      <DoubleAnimation Storyboard.TargetProperty="Height" To="0" Duration="0:0:0.14">
+                        <DoubleAnimation.EasingFunction><CubicEase EasingMode="EaseIn" /></DoubleAnimation.EasingFunction>
+                      </DoubleAnimation>
+                      <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.12" />
+                    </Storyboard>
+                  </BeginStoryboard>
+                </DataTrigger.ExitActions>
+              </DataTrigger>
+            </Style.Triggers>
+          </Style>
+        </Grid.Style>
+        <ProgressBar x:Name="MarketRefreshProgressBar" Height="4" Margin="0,0,0,8" VerticalAlignment="Top"
+                     IsIndeterminate="True" BorderThickness="0"
+                     Background="{StaticResource RaisedBrush}" Foreground="{StaticResource AmberBrush}"
+                     AutomationProperties.Name="价格刷新进度" />
+      </Grid>
+      <Border Grid.Row="4" Margin="24,0,24,24" Background="#111715" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="10" ClipToBounds="True">
+        <Grid>
+          <ListBox x:Name="MarketResultsList" Background="Transparent" BorderThickness="0" Padding="12" ItemContainerStyle="{StaticResource CardListItem}" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" ScrollViewer.IsDeferredScrollingEnabled="False" ScrollViewer.ScrollChanged="MarketResultsList_ScrollChanged" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" VirtualizingPanel.ScrollUnit="Pixel" VirtualizingPanel.CacheLength="1,1" VirtualizingPanel.CacheLengthUnit="Page">
+            <ListBox.ItemsPanel><ItemsPanelTemplate><VirtualizingStackPanel /></ItemsPanelTemplate></ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+              <DataTemplate>
+                <Border x:Name="MarketCard" CornerRadius="7" Padding="12,9" Margin="0,0,0,7" BorderThickness="1" ClipToBounds="True" SnapsToDevicePixels="True" MouseLeftButtonUp="MarketCard_MouseLeftButtonUp">
+                  <Border.Style>
+                    <Style TargetType="Border">
+                      <Setter Property="Background" Value="#151C19" />
+                      <Setter Property="BorderBrush" Value="{StaticResource LineBrush}" />
+                      <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsMouseOver, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True"><Setter Property="Background" Value="#18201D" /><Setter Property="BorderBrush" Value="{StaticResource LineBrightBrush}" /></DataTrigger>
+                        <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True"><Setter Property="Background" Value="#1A2420" /><Setter Property="BorderBrush" Value="#4C665B" /></DataTrigger>
+                        <DataTrigger Binding="{Binding IsExpanded}" Value="True"><Setter Property="Background" Value="#1A2420" /><Setter Property="BorderBrush" Value="#4C665B" /></DataTrigger>
+                      </Style.Triggers>
+                    </Style>
+                  </Border.Style>
+                  <StackPanel>
+                    <Grid>
+                      <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                      <local:AsyncItemIcon ItemId="{Binding Id}" IconLink="{Binding EffectiveIconLink}" FallbackIconLink="{Binding FallbackIconLink}" Margin="0,0,10,0" />
+                      <StackPanel Grid.Column="1">
+                        <TextBlock Text="{Binding DisplayName}" Foreground="White" FontSize="13" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                        <TextBlock Text="{Binding Aliases}" Foreground="{StaticResource TextFaintBrush}" FontSize="11" Margin="0,4,0,0" TextTrimming="CharacterEllipsis" />
+                      </StackPanel>
+                      <StackPanel Grid.Column="2" HorizontalAlignment="Right">
+                        <TextBlock Text="{Binding PrimaryPrice}" Foreground="{StaticResource AmberBrush}" FontFamily="Cascadia Mono" FontSize="15" FontWeight="Bold" HorizontalAlignment="Right" />
+                        <TextBlock Text="{Binding PriceCaption}" Foreground="{StaticResource TextFaintBrush}" FontSize="10" HorizontalAlignment="Right" Margin="0,4,0,0" />
+                      </StackPanel>
+                    </Grid>
+                    <Expander Style="{StaticResource AnimatedDetailExpander}" IsExpanded="{Binding IsExpanded, Mode=TwoWay}" Margin="0,7,0,0" Expanded="MarketDetailExpander_Expanded" Collapsed="MarketDetailExpander_Collapsed">
+                      <Expander.Header><TextBlock Text="报价明细" Foreground="{StaticResource TextDimBrush}" FontSize="11" /></Expander.Header>
+                      <StackPanel>
+                        <Border Height="1" Background="{StaticResource LineBrush}" Margin="0,5,0,8" />
+                        <TextBlock Text="{Binding PriceSummary}" Foreground="{StaticResource TextDimBrush}" FontFamily="Cascadia Mono" FontSize="11" LineHeight="17" TextWrapping="Wrap" />
+                        <TextBlock Text="{Binding BestTraderText}" Foreground="{StaticResource TextDimBrush}" FontSize="11" Margin="0,5,0,0" LineHeight="17" TextWrapping="Wrap"><TextBlock.Style><Style TargetType="TextBlock"><Style.Triggers><Trigger Property="Text" Value=""><Setter Property="Visibility" Value="Collapsed" /></Trigger></Style.Triggers></Style></TextBlock.Style></TextBlock>
+                        <TextBlock Text="{Binding TypesText}" Foreground="{StaticResource TextFaintBrush}" FontSize="11" Margin="0,5,0,0" LineHeight="17" TextWrapping="Wrap"><TextBlock.Style><Style TargetType="TextBlock"><Style.Triggers><Trigger Property="Text" Value=""><Setter Property="Visibility" Value="Collapsed" /></Trigger></Style.Triggers></Style></TextBlock.Style></TextBlock>
+                        <ItemsControl ItemsSource="{Binding Offers}" Margin="0,7,0,0">
+                          <ItemsControl.ItemTemplate><DataTemplate><Grid Margin="0,3,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><TextBlock Text="{Binding Source}" Foreground="{StaticResource TextDimBrush}" FontSize="11" /><TextBlock Grid.Column="1" Text="{Binding Price}" Foreground="{StaticResource TextBrush}" FontFamily="Cascadia Mono" FontSize="11" /></Grid></DataTemplate></ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <TextBlock Text="{Binding EmptyOffersText}" Foreground="{StaticResource TextFaintBrush}" FontSize="11" Margin="0,7,0,0"><TextBlock.Style><Style TargetType="TextBlock"><Style.Triggers><Trigger Property="Text" Value=""><Setter Property="Visibility" Value="Collapsed" /></Trigger></Style.Triggers></Style></TextBlock.Style></TextBlock>
+                      </StackPanel>
+                    </Expander>
+                  </StackPanel>
+                </Border>
+              </DataTemplate>
+            </ListBox.ItemTemplate>
+          </ListBox>
+          <TextBlock x:Name="MarketEmptyText" Visibility="Collapsed" Foreground="{StaticResource TextFaintBrush}" FontSize="12" TextWrapping="Wrap" Margin="16" VerticalAlignment="Top" />
+        </Grid>
+      </Border>
+    </Grid>
+</UserControl>

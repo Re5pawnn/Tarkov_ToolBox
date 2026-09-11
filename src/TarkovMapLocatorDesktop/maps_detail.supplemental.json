@@ -1,0 +1,50 @@
+{
+  "69af492a4819ea4ba10a69c5": {
+    "name": "破冰船",
+    "raw": {
+      "data": {
+        "key": "icebreaker",
+        "projection": "interactive",
+        "tileSize": 256,
+        "minZoom": 1,
+        "maxZoom": 5,
+        "transform": [2, 125, 3.5, 91],
+        "coordinateRotation": 180,
+        "bounds": [[20, -28], [-23, 52]],
+        "heightRange": [18.92, 19.56],
+        "id": "69af492a4819ea4ba10a69c5",
+        "name": "破冰船",
+        "normalizedName": "icebreaker",
+        "nameId": "Icebreaker",
+        "raidDuration": 50,
+        "players": "1-3",
+        "extracts": [],
+        "transits": [],
+        "locks": []
+      }
+    }
+  },
+  "65cc8f81a9aac3e77d0cfd3e": {
+    "name": "码头",
+    "raw": {
+      "data": {
+        "key": "terminal",
+        "projection": "interactive",
+        "minZoom": 2,
+        "maxZoom": 6,
+        "transform": [0.2, 0, 0.2, 0],
+        "coordinateRotation": 180,
+        "bounds": [[463, -580], [-433, 475]],
+        "id": "65cc8f81a9aac3e77d0cfd3e",
+        "name": "码头",
+        "normalizedName": "terminal",
+        "nameId": "Terminal",
+        "raidDuration": 50,
+        "players": "1-5",
+        "extracts": [],
+        "transits": [],
+        "locks": []
+      }
+    }
+  }
+}

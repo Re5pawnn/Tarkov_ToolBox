@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <meta name="theme-color" content="#0d1412">
+  <title>手机地图</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="top-rail">
+      <div class="title-group">
+        <h1>手机地图</h1>
+        <div class="title-status-row">
+          <div id="connection" class="connection"><span class="status-dot"></span><span>正在连接</span></div>
+          <div id="map-load" class="map-load" data-state="idle" hidden aria-live="polite">
+            <span class="map-load-track" aria-hidden="true"><span id="map-load-bar"></span></span>
+            <span id="map-load-percent">0%</span>
+          </div>
+        </div>
+      </div>
+      <div class="map-meta">
+        <strong id="map-name">等待地图</strong>
+        <span id="layer-name">地面</span>
+      </div>
+      <div class="top-actions">
+        <button id="recenter" class="icon-button" type="button" aria-label="回到当前位置" title="回到当前位置">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v4m0 12v4M2 12h4m12 0h4"></path></svg>
+        </button>
+        <button id="filter-toggle" class="icon-button" type="button" aria-label="点位筛选" title="点位筛选">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"></path></svg>
+        </button>
+      </div>
+    </header>
+
+    <section id="viewport" class="map-viewport" aria-label="实时地图">
+      <div id="scene" class="map-scene">
+        <img id="base-map" class="map-image" alt="当前地图">
+        <img id="layer-map" class="map-image layer-image" alt="当前楼层">
+        <div id="markers" class="marker-layer"></div>
+      </div>
+      <div id="empty-state" class="empty-state">等待电脑端地图数据</div>
+      <div class="zoom-controls" aria-label="地图缩放">
+        <button id="zoom-in" type="button" aria-label="放大">+</button>
+        <button id="zoom-out" type="button" aria-label="缩小">−</button>
+      </div>
+    </section>
+
+    <footer id="bottom-rail" class="bottom-rail">
+      <div class="update-state"><span class="status-dot"></span><span id="update-text">等待坐标</span></div>
+      <div class="filters" aria-label="点位筛选">
+        <label><input type="checkbox" data-filter="extract" checked><span class="filter-dot extract"></span>撤离点</label>
+        <label><input type="checkbox" data-filter="task" checked><span class="filter-dot task"></span>任务点</label>
+        <label><input type="checkbox" data-filter="player" checked><span class="filter-dot player"></span>当前定位</label>
+        <label><input type="checkbox" data-filter="peer" checked><span class="filter-dot peer"></span>队友</label>
+      </div>
+    </footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

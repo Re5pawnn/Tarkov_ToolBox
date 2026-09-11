@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "id": "task-items",
+  "assembly": "TarkovMapLocator.Modules.TaskItems.dll",
+  "entryType": "TarkovMapLocator.Modules.TaskItems.TaskItemsFeatureModule"
+}

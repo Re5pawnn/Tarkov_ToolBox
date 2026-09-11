@@ -1,0 +1,28 @@
+name: Modular Desktop CI
+
+on:
+  push:
+    paths:
+      - "src/**"
+      - "TarkovMapLocator.sln"
+      - ".github/workflows/desktop-ci.yml"
+  pull_request:
+    paths:
+      - "src/**"
+      - "TarkovMapLocator.sln"
+      - ".github/workflows/desktop-ci.yml"
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: src/TarkovMapLocatorDesktop
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+      - run: dotnet restore TarkovMapLocatorDesktop.csproj
+      - run: dotnet build TarkovMapLocatorDesktop.csproj -c Release --no-restore
+      - run: dotnet run --project tests/TarkovMapLocatorDesktop.RegressionTests/TarkovMapLocatorDesktop.RegressionTests.csproj -c Release

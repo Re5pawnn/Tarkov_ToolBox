@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.08.14",
+  "source": "https://kaedeori.com/app/interactive",
+  "sourceCheckedAt": "2026-08-14",
+  "maps": [
+    { "id": "customs", "name": "海关", "subtitle": "工业区 · PMC / SCAV", "image": "customs.png", "players": "10–12", "extracts": "26 / 4", "duration": "35 分钟" },
+    { "id": "streets-of-tarkov", "name": "塔科夫街区", "subtitle": "城区 · PMC / SCAV", "image": "streets-of-tarkov.png", "players": "12–16", "extracts": "17 / 3", "duration": "40 分钟" },
+    { "id": "interchange", "name": "立交桥", "subtitle": "购物中心 · PMC / SCAV", "image": "interchange.png", "players": "11–15", "extracts": "7 / 2", "duration": "40 分钟" },
+    { "id": "lighthouse", "name": "灯塔", "subtitle": "沿海 · PMC / SCAV", "image": "lighthouse.png", "players": "10–12", "extracts": "12 / 3", "duration": "40 分钟" },
+    { "id": "shoreline", "name": "海岸线", "subtitle": "度假区 · PMC / SCAV", "image": "shoreline.png", "players": "10–14", "extracts": "13 / 4", "duration": "45 分钟" },
+    { "id": "reserve", "name": "储备站", "subtitle": "军事基地 · PMC / SCAV", "image": "reserve.png", "players": "9–11", "extracts": "11 / 3", "duration": "40 分钟" },
+    { "id": "woods", "name": "森林", "subtitle": "林地 · PMC / SCAV", "image": "woods.png", "players": "10–14", "extracts": "18 / 4", "duration": "35 分钟" },
+    { "id": "ground-zero", "name": "中心区", "subtitle": "城区 · 新手区域", "image": "ground-zero.png", "players": "9–10 / 9–12", "extracts": "6 / 1", "duration": "30 分钟", "note": "PMC 人数依次为 21 级以下 / 21 级及以上匹配池。" },
+    { "id": "factory", "name": "工厂", "subtitle": "室内 · PMC / SCAV", "image": "factory.png", "players": "7–8", "extracts": "8 / 3", "duration": "20 / 25 分钟", "note": "时长依次为白天 / 夜间。" },
+    { "id": "the-lab", "name": "实验室", "subtitle": "地下设施 · PMC", "image": "the-lab.jpg", "players": "8–10", "extracts": "7 / 1", "duration": "30 分钟" },
+    { "id": "the-labyrinth", "name": "迷宫", "subtitle": "竞技场区域", "image": "the-labyrinth.png", "players": "1–5", "extracts": "2 / 0", "duration": "30 分钟" },
+    { "id": "icebreaker", "name": "破冰船", "subtitle": "核动力破冰船 · PMC", "image": "icebreaker.png", "players": "1–3", "extracts": "暂无资料", "duration": "50 分钟" },
+    { "id": "terminal", "name": "码头", "subtitle": "港口区域 · PMC", "image": "terminal.png", "players": "1–5", "extracts": "暂无资料", "duration": "50 分钟" }
+  ]
+}

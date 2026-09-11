@@ -1,0 +1,98 @@
+<UserControl x:Class="TarkovMapLocator.Modules.Utilities.HideoutProfit.HideoutProfitView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="clr-namespace:TarkovMapLocator.Modules.Utilities.Controls"
+             Background="#101514" FontFamily="Microsoft YaHei UI">
+  <Grid>
+    <Grid.RowDefinitions><RowDefinition Height="88" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+    <Grid Margin="24,20,24,16">
+      <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="16" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+      <Button Style="{StaticResource PageToolbarButton}" Width="72" Height="34" VerticalAlignment="Bottom" Click="Back_Click">← 返回</Button>
+      <StackPanel Grid.Column="2" VerticalAlignment="Bottom"><TextBlock Text="UTILITY HUB" Style="{StaticResource SectionLabel}" /><TextBlock Text="藏身处利润" Style="{StaticResource PageTitle}" /></StackPanel>
+    </Grid>
+    <WrapPanel Grid.Row="1" Margin="24,0,24,0">
+      <StackPanel Orientation="Horizontal" Margin="0,0,12,8" VerticalAlignment="Center"><Button x:Name="PvpButton" Style="{StaticResource PageToolbarButton}" Click="Pvp_Click">PVP</Button><Button x:Name="PveButton" Style="{StaticResource PageToolbarButton}" Margin="7,0,0,0" Click="Pve_Click">PVE</Button><Button x:Name="SeasonButton" Style="{StaticResource PageToolbarButton}" Margin="7,0,0,0" Click="Season_Click">赛季服</Button></StackPanel>
+      <ComboBox x:Name="StationSelector" Width="180" Height="36" Margin="0,0,12,8" Style="{StaticResource FormComboBox}" DisplayMemberPath="Name" SelectedValuePath="Id" SelectionChanged="StationSelector_SelectionChanged" />
+      <Border Width="260" Height="36" Margin="0,0,12,8" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" Background="#111715" CornerRadius="7">
+        <Grid Margin="10,0"><Grid.ColumnDefinitions><ColumnDefinition Width="19" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><TextBlock Text="⌕" Foreground="{StaticResource TextFaintBrush}" FontSize="15" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="SearchBox" TextChanged="SearchBox_TextChanged" Background="Transparent" BorderThickness="0" Foreground="{StaticResource TextBrush}" CaretBrush="{StaticResource AmberBrush}" FontSize="12" Padding="0" VerticalContentAlignment="Center" ToolTip="搜索设施、原料或产物" /></Grid>
+      </Border>
+      <Button x:Name="RefreshButton" Style="{StaticResource PageToolbarButton}" MinWidth="86" Margin="0,0,0,8" Click="Refresh_Click">刷新数据</Button>
+    </WrapPanel>
+    <TextBlock Grid.Row="2" x:Name="StatusText" Foreground="{StaticResource TextFaintBrush}" FontSize="11" Margin="24,10,24,9" />
+    <Grid Grid.Row="3" x:Name="HideoutRefreshProgressHost" Height="0" Margin="24,0,24,0"
+          Opacity="0" Visibility="Collapsed" ClipToBounds="True" IsHitTestVisible="False">
+      <Grid.Style>
+        <Style TargetType="Grid">
+          <Style.Triggers>
+            <DataTrigger Binding="{Binding IsEnabled, ElementName=RefreshButton}" Value="False">
+              <DataTrigger.EnterActions>
+                <BeginStoryboard>
+                  <Storyboard>
+                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility">
+                      <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}" />
+                    </ObjectAnimationUsingKeyFrames>
+                    <DoubleAnimation Storyboard.TargetProperty="Height" To="12" Duration="0:0:0.16">
+                      <DoubleAnimation.EasingFunction><CubicEase EasingMode="EaseOut" /></DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.14" />
+                  </Storyboard>
+                </BeginStoryboard>
+              </DataTrigger.EnterActions>
+              <DataTrigger.ExitActions>
+                <BeginStoryboard>
+                  <Storyboard>
+                    <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility">
+                      <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}" />
+                      <DiscreteObjectKeyFrame KeyTime="0:0:0.14" Value="{x:Static Visibility.Collapsed}" />
+                    </ObjectAnimationUsingKeyFrames>
+                    <DoubleAnimation Storyboard.TargetProperty="Height" To="0" Duration="0:0:0.14">
+                      <DoubleAnimation.EasingFunction><CubicEase EasingMode="EaseIn" /></DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.12" />
+                  </Storyboard>
+                </BeginStoryboard>
+              </DataTrigger.ExitActions>
+            </DataTrigger>
+          </Style.Triggers>
+        </Style>
+      </Grid.Style>
+      <ProgressBar x:Name="HideoutRefreshProgressBar" Height="4" Margin="0,0,0,8" VerticalAlignment="Top"
+                   IsIndeterminate="True" BorderThickness="0"
+                   Background="{StaticResource RaisedBrush}" Foreground="{StaticResource AmberBrush}"
+                   AutomationProperties.Name="藏身处利润刷新进度" />
+    </Grid>
+    <Border Grid.Row="4" Margin="24,0,24,24" Background="#111715" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="10" ClipToBounds="True">
+      <Grid MinWidth="760">
+        <Grid.RowDefinitions><RowDefinition Height="38" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+        <Grid Background="#151C19" Margin="1,1,1,0">
+          <Grid.ColumnDefinitions><ColumnDefinition Width="130" /><ColumnDefinition Width="2*" /><ColumnDefinition Width="1.4*" /><ColumnDefinition Width="88" /><ColumnDefinition Width="112" /><ColumnDefinition Width="122" /></Grid.ColumnDefinitions>
+          <TextBlock Text="设施" Foreground="{StaticResource TextDimBrush}" FontSize="10" FontWeight="SemiBold" Margin="12,0" VerticalAlignment="Center" />
+          <TextBlock Grid.Column="1" Text="需求物品" Foreground="{StaticResource TextDimBrush}" FontSize="10" FontWeight="SemiBold" Margin="10,0" VerticalAlignment="Center" />
+          <TextBlock Grid.Column="2" Text="获得物品" Foreground="{StaticResource TextDimBrush}" FontSize="10" FontWeight="SemiBold" Margin="10,0" VerticalAlignment="Center" />
+          <Button Grid.Column="3" x:Name="DurationSortButton" Height="28" Padding="6,0" Style="{StaticResource TacticalButton}" Background="Transparent" BorderBrush="Transparent" FontSize="10" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center" Click="DurationSort_Click">制造时间 ↕</Button>
+          <Button Grid.Column="4" x:Name="ValueSortButton" Height="28" Padding="6,0" Style="{StaticResource TacticalButton}" Background="Transparent" BorderBrush="Transparent" FontSize="10" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center" Click="ValueSort_Click">利润 ↕</Button>
+          <Button Grid.Column="5" x:Name="HourlySortButton" Height="28" Padding="6,0" Style="{StaticResource TacticalButton}" Background="Transparent" BorderBrush="Transparent" FontSize="10" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center" Click="HourlySort_Click">利润每小时 ↓</Button>
+        </Grid>
+        <ListBox Grid.Row="1" x:Name="ResultsList" Background="Transparent" BorderThickness="0" Padding="0,4,0,6" ItemContainerStyle="{StaticResource CardListItem}" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" VirtualizingPanel.ScrollUnit="Pixel">
+          <ListBox.ItemsPanel><ItemsPanelTemplate><VirtualizingStackPanel /></ItemsPanelTemplate></ListBox.ItemsPanel>
+          <ListBox.ItemTemplate>
+            <DataTemplate>
+              <Border BorderBrush="{StaticResource LineBrush}" BorderThickness="0,0,0,1" Padding="0,10" Margin="8,0">
+                <Grid MinWidth="740">
+                  <Grid.ColumnDefinitions><ColumnDefinition Width="122" /><ColumnDefinition Width="2*" /><ColumnDefinition Width="1.4*" /><ColumnDefinition Width="88" /><ColumnDefinition Width="112" /><ColumnDefinition Width="122" /></Grid.ColumnDefinitions>
+                  <StackPanel Margin="10,0" VerticalAlignment="Center"><TextBlock Text="{Binding StationText}" Foreground="{StaticResource AmberBrush}" FontSize="11" FontWeight="SemiBold" TextWrapping="Wrap" /><TextBlock Text="{Binding InputCostText}" Foreground="{StaticResource TextFaintBrush}" FontSize="9" Margin="0,4,0,0" TextWrapping="Wrap" /></StackPanel>
+                  <TextBlock Grid.Column="1" Text="{Binding InputSummary}" Foreground="{StaticResource TextBrush}" FontSize="10" LineHeight="18" TextWrapping="Wrap" Margin="10,0" VerticalAlignment="Center" />
+                  <Grid Grid.Column="2" Margin="10,0"><Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions><controls:ModuleItemIcon ItemId="{Binding Output.Id}" IconLink="{Binding OutputIconLink}" Width="42" Height="42" Margin="0,0,8,0" /><StackPanel Grid.Column="1" VerticalAlignment="Center"><TextBlock Text="{Binding OutputSummary}" Foreground="{StaticResource TextBrush}" FontSize="10" LineHeight="17" TextWrapping="Wrap" /><TextBlock Text="{Binding OutputGrossText}" Foreground="{StaticResource TextFaintBrush}" FontSize="9" Margin="0,3,0,0" /></StackPanel></Grid>
+                  <TextBlock Grid.Column="3" Text="{Binding DurationText}" Foreground="{StaticResource TextDimBrush}" FontFamily="Cascadia Mono" FontSize="10" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                  <StackPanel Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center"><TextBlock Text="{Binding ProfitText}" FontFamily="Cascadia Mono" FontSize="11" FontWeight="Bold" TextAlignment="Center"><TextBlock.Style><Style TargetType="TextBlock"><Setter Property="Foreground" Value="{StaticResource TextDimBrush}" /><Style.Triggers><DataTrigger Binding="{Binding IsProfitable}" Value="True"><Setter Property="Foreground" Value="{StaticResource GreenBrush}" /></DataTrigger><DataTrigger Binding="{Binding IsLoss}" Value="True"><Setter Property="Foreground" Value="{StaticResource DangerBrush}" /></DataTrigger></Style.Triggers></Style></TextBlock.Style></TextBlock><TextBlock Text="{Binding FeeText}" Foreground="{StaticResource TextFaintBrush}" FontSize="8" Margin="0,4,0,0" TextAlignment="Center" TextWrapping="Wrap" /></StackPanel>
+                  <TextBlock Grid.Column="5" Text="{Binding ProfitPerHourText}" FontFamily="Cascadia Mono" FontSize="11" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"><TextBlock.Style><Style TargetType="TextBlock"><Setter Property="Foreground" Value="{StaticResource TextDimBrush}" /><Style.Triggers><DataTrigger Binding="{Binding IsProfitable}" Value="True"><Setter Property="Foreground" Value="{StaticResource GreenBrush}" /></DataTrigger><DataTrigger Binding="{Binding IsLoss}" Value="True"><Setter Property="Foreground" Value="{StaticResource DangerBrush}" /></DataTrigger></Style.Triggers></Style></TextBlock.Style></TextBlock>
+                </Grid>
+              </Border>
+            </DataTemplate>
+          </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock Grid.Row="1" x:Name="EmptyText" Text="没有符合条件的制造配方。" Visibility="Collapsed" Foreground="{StaticResource TextFaintBrush}" FontSize="12" Margin="16" />
+      </Grid>
+    </Border>
+  </Grid>
+</UserControl>

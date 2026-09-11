@@ -1,0 +1,207 @@
+<UserControl x:Class="TarkovMapLocator.Modules.ScreenFilter.ScreenFilterView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:primitives="clr-namespace:System.Windows.Controls.Primitives;assembly=PresentationFramework"
+    Background="#101514">
+      <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <Grid Margin="24,22,24,24">
+          <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+          <StackPanel>
+            <TextBlock Text="DISPLAY FILTER" Style="{StaticResource SectionLabel}" />
+            <TextBlock Text="屏幕调色" Style="{StaticResource PageTitle}" />
+          </StackPanel>
+
+          <Border Grid.Row="1" Margin="0,20,0,0" Padding="16" Background="#111715" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="10">
+            <Grid>
+              <Grid.ColumnDefinitions><ColumnDefinition Width="190" /><ColumnDefinition Width="16" /><ColumnDefinition Width="*" /><ColumnDefinition Width="16" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+              <StackPanel>
+                <TextBlock Text="滤镜" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,0,0,5" />
+                <ComboBox x:Name="ScreenFilterModeComboBox" Style="{StaticResource FormComboBox}" SelectionChanged="ScreenFilterModeComboBox_SelectionChanged">
+                  <ComboBoxItem Content="Gamma Panel" Tag="GammaPanel" />
+                  <ComboBoxItem Content="自动滤镜" Tag="AutoShade" />
+                </ComboBox>
+              </StackPanel>
+              <StackPanel Grid.Column="2">
+                <TextBlock Text="屏幕" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,0,0,5" />
+                <ComboBox x:Name="ScreenFilterDisplayComboBox" Style="{StaticResource FormComboBox}" DisplayMemberPath="Label" SelectionChanged="ScreenFilterDisplayComboBox_SelectionChanged" />
+              </StackPanel>
+              <TextBlock Grid.Column="4" Text="开关热键" Foreground="{StaticResource TextFaintBrush}" FontSize="10" VerticalAlignment="Center" Margin="0,15,10,0" />
+              <Button Grid.Column="5" x:Name="ScreenFilterHotkeyCaptureButton" Style="{StaticResource PageActionButton}" MinWidth="136" Content="未设置" Margin="0,15,0,0" Click="ScreenFilterHotkeyCaptureButton_Click" PreviewKeyDown="ScreenFilterHotkeyCaptureButton_PreviewKeyDown" PreviewMouseDown="ScreenFilterHotkeyCaptureButton_PreviewMouseDown" LostKeyboardFocus="ScreenFilterHotkeyCaptureButton_LostKeyboardFocus" />
+              <StackPanel Grid.Column="6" Orientation="Horizontal" HorizontalAlignment="Right" Margin="8,15,0,0">
+                <Button x:Name="ScreenFilterHotkeyClearButton" Style="{StaticResource PageActionButton}" Content="清除" Click="ScreenFilterHotkeyClearButton_Click" />
+                <TextBlock x:Name="ScreenFilterHotkeyStateText" Text="滤镜已关闭" Foreground="{StaticResource TextDimBrush}" FontSize="10" VerticalAlignment="Center" Margin="12,0,0,0" />
+              </StackPanel>
+            </Grid>
+          </Border>
+
+          <Border x:Name="ScreenFilterManualPanel" Grid.Row="2" Margin="0,12,0,0" Padding="20" Background="#111715" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="10">
+            <StackPanel>
+              <TextBlock Text="预设" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,0,0,5" />
+              <ComboBox x:Name="ScreenFilterPresetComboBox" Style="{StaticResource FormComboBox}" DisplayMemberPath="Label" SelectionChanged="ScreenFilterPresetComboBox_SelectionChanged" />
+
+              <Grid Margin="0,14,0,0">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="12" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                  <TextBlock Text="已保存配置" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,0,0,5" />
+                  <ComboBox x:Name="ScreenFilterSavedPresetComboBox" Style="{StaticResource FormComboBox}" IsTextSearchEnabled="True" DisplayMemberPath="Name" SelectionChanged="ScreenFilterSavedPresetComboBox_SelectionChanged" />
+                </StackPanel>
+                <StackPanel Grid.Column="2">
+                  <TextBlock Text="配置名称" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,0,0,5" />
+                  <TextBox x:Name="ScreenFilterSavedPresetNameBox" Style="{StaticResource FormTextBox}" MaxLength="40" />
+                </StackPanel>
+                <Button Grid.Column="3" x:Name="ScreenFilterSavedPresetSaveButton" Style="{StaticResource PageActionButton}" Content="保存" Margin="10,15,0,0" Click="ScreenFilterSavedPresetSaveButton_Click" />
+                <Button Grid.Column="4" x:Name="ScreenFilterSavedPresetLoadButton" Style="{StaticResource PageActionButton}" Content="载入" Margin="8,15,0,0" Click="ScreenFilterSavedPresetLoadButton_Click" />
+                <Button Grid.Column="5" x:Name="ScreenFilterSavedPresetDeleteButton" Style="{StaticResource PageActionButton}" Content="删除" Margin="8,15,0,0" Click="ScreenFilterSavedPresetDeleteButton_Click" />
+              </Grid>
+
+              <Grid Margin="0,16,0,13">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                <StackPanel>
+                  <TextBlock x:Name="ScreenFilterCurveTitleText" Text="总体曲线" Foreground="{StaticResource TextBrush}" FontSize="14" FontWeight="SemiBold" />
+                </StackPanel>
+                <CheckBox Grid.Column="1" x:Name="ScreenFilterLinkChannelsCheckBox" Content="联动 RGB" Foreground="{StaticResource TextDimBrush}" FontSize="11" VerticalAlignment="Center" Margin="16,0,0,0" Checked="ScreenFilterLinkChannelsCheckBox_Changed" Unchecked="ScreenFilterLinkChannelsCheckBox_Changed" />
+              </Grid>
+
+              <Border x:Name="ScreenFilterLinkedControlPanel" Padding="16" Background="#151C19" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="8">
+                <StackPanel>
+                  <TextBlock Text="总体控制" Foreground="{StaticResource AmberBrush}" FontSize="12" FontWeight="SemiBold" Margin="0,0,0,12" />
+                  <Grid>
+                    <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="18" /><ColumnDefinition Width="*" /><ColumnDefinition Width="18" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+                    <StackPanel>
+                      <DockPanel Margin="0,0,0,5"><TextBlock Text="Gamma" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterLinkedGammaValueBox" Tag="linked-gamma" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                      <Slider x:Name="ScreenFilterLinkedGammaSlider" Tag="linked-gamma" Minimum="10" Maximum="400" SmallChange="1" LargeChange="10" Foreground="{StaticResource AmberBrush}" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="2">
+                      <DockPanel Margin="0,0,0,5"><TextBlock Text="亮度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterLinkedBrightnessValueBox" Tag="linked-brightness" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                      <Slider x:Name="ScreenFilterLinkedBrightnessSlider" Tag="linked-brightness" Minimum="-100" Maximum="100" SmallChange="1" LargeChange="10" Foreground="{StaticResource AmberBrush}" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="4">
+                      <DockPanel Margin="0,0,0,5"><TextBlock Text="对比度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterLinkedContrastValueBox" Tag="linked-contrast" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                      <Slider x:Name="ScreenFilterLinkedContrastSlider" Tag="linked-contrast" Minimum="0" Maximum="200" SmallChange="1" LargeChange="10" Foreground="{StaticResource AmberBrush}" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    </StackPanel>
+                  </Grid>
+                </StackPanel>
+              </Border>
+
+              <Grid x:Name="ScreenFilterIndependentControlPanel" Visibility="Collapsed">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="12" /><ColumnDefinition Width="*" /><ColumnDefinition Width="12" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+
+                <Border Padding="14" Background="#151C19" BorderBrush="#59413D" BorderThickness="1" CornerRadius="8">
+                  <StackPanel>
+                    <TextBlock Text="红色通道" Foreground="#E58484" FontSize="12" FontWeight="SemiBold" Margin="0,0,0,12" />
+                    <DockPanel Margin="0,0,0,5"><TextBlock Text="Gamma" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterRedGammaValueBox" Tag="red-gamma" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterRedGammaSlider" Tag="red-gamma" Minimum="10" Maximum="400" SmallChange="1" LargeChange="10" Foreground="#E58484" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    <DockPanel Margin="0,12,0,5"><TextBlock Text="亮度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterRedBrightnessValueBox" Tag="red-brightness" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterRedBrightnessSlider" Tag="red-brightness" Minimum="-100" Maximum="100" SmallChange="1" LargeChange="10" Foreground="#E58484" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    <DockPanel Margin="0,12,0,5"><TextBlock Text="对比度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterRedContrastValueBox" Tag="red-contrast" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterRedContrastSlider" Tag="red-contrast" Minimum="0" Maximum="200" SmallChange="1" LargeChange="10" Foreground="#E58484" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                  </StackPanel>
+                </Border>
+
+                <Border Grid.Column="2" Padding="14" Background="#151C19" BorderBrush="#315445" BorderThickness="1" CornerRadius="8">
+                  <StackPanel>
+                    <TextBlock Text="绿色通道" Foreground="#78CFA0" FontSize="12" FontWeight="SemiBold" Margin="0,0,0,12" />
+                    <DockPanel Margin="0,0,0,5"><TextBlock Text="Gamma" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterGreenGammaValueBox" Tag="green-gamma" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterGreenGammaSlider" Tag="green-gamma" Minimum="10" Maximum="400" SmallChange="1" LargeChange="10" Foreground="#78CFA0" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    <DockPanel Margin="0,12,0,5"><TextBlock Text="亮度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterGreenBrightnessValueBox" Tag="green-brightness" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterGreenBrightnessSlider" Tag="green-brightness" Minimum="-100" Maximum="100" SmallChange="1" LargeChange="10" Foreground="#78CFA0" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    <DockPanel Margin="0,12,0,5"><TextBlock Text="对比度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterGreenContrastValueBox" Tag="green-contrast" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterGreenContrastSlider" Tag="green-contrast" Minimum="0" Maximum="200" SmallChange="1" LargeChange="10" Foreground="#78CFA0" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                  </StackPanel>
+                </Border>
+
+                <Border Grid.Column="4" Padding="14" Background="#151C19" BorderBrush="#334D5D" BorderThickness="1" CornerRadius="8">
+                  <StackPanel>
+                    <TextBlock Text="蓝色通道" Foreground="#79BDE8" FontSize="12" FontWeight="SemiBold" Margin="0,0,0,12" />
+                    <DockPanel Margin="0,0,0,5"><TextBlock Text="Gamma" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterBlueGammaValueBox" Tag="blue-gamma" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterBlueGammaSlider" Tag="blue-gamma" Minimum="10" Maximum="400" SmallChange="1" LargeChange="10" Foreground="#79BDE8" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    <DockPanel Margin="0,12,0,5"><TextBlock Text="亮度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterBlueBrightnessValueBox" Tag="blue-brightness" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterBlueBrightnessSlider" Tag="blue-brightness" Minimum="-100" Maximum="100" SmallChange="1" LargeChange="10" Foreground="#79BDE8" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                    <DockPanel Margin="0,12,0,5"><TextBlock Text="对比度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBox x:Name="ScreenFilterBlueContrastValueBox" Tag="blue-contrast" DockPanel.Dock="Right" Style="{StaticResource CurveValueBox}" LostFocus="ScreenFilterValueBox_LostFocus" KeyDown="ScreenFilterValueBox_KeyDown" /></DockPanel>
+                    <Slider x:Name="ScreenFilterBlueContrastSlider" Tag="blue-contrast" Minimum="0" Maximum="200" SmallChange="1" LargeChange="10" Foreground="#79BDE8" Background="{StaticResource LineBrush}" ValueChanged="ScreenFilterSlider_ValueChanged" />
+                  </StackPanel>
+                </Border>
+              </Grid>
+
+              <Border Height="1" Background="{StaticResource LineBrush}" Margin="0,18,0,14" />
+              <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal">
+                  <Button x:Name="ScreenFilterApplyButton" Style="{StaticResource PageActionButton}" Content="立即应用" Click="ScreenFilterApplyButton_Click" />
+                  <Button x:Name="ScreenFilterResetButton" Style="{StaticResource PageActionButton}" Content="恢复系统颜色" Margin="8,0,0,0" Click="ScreenFilterResetButton_Click" />
+                </StackPanel>
+                <TextBlock Grid.Column="1" x:Name="ScreenFilterStatusText" Text="屏幕调色: 参数变化后实时生效" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="14,0,0,0" VerticalAlignment="Center" TextAlignment="Right" TextWrapping="Wrap" />
+              </Grid>
+            </StackPanel>
+          </Border>
+
+          <Border x:Name="AutoShadePanel" Grid.Row="2" Margin="0,12,0,0" Padding="20" Background="#111715" BorderBrush="{StaticResource LineBrightBrush}" BorderThickness="1" CornerRadius="10" Visibility="Collapsed">
+            <StackPanel>
+              <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="16" /><ColumnDefinition Width="2*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                <StackPanel>
+                  <TextBlock Text="预设" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,0,0,5" />
+                  <ComboBox x:Name="AutoShadePresetComboBox" Style="{StaticResource FormComboBox}" SelectionChanged="AutoShadePresetComboBox_SelectionChanged">
+                    <ComboBoxItem Content="自动分析" />
+                    <ComboBoxItem Content="自然中性" />
+                    <ComboBoxItem Content="室内柔和" />
+                    <ComboBoxItem Content="夜视护眼" />
+                    <ComboBoxItem Content="高光保护" />
+                    <ComboBoxItem Content="自定义" />
+                  </ComboBox>
+                </StackPanel>
+                <StackPanel Grid.Column="2">
+                  <TextBlock Text="截图目录" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="0,0,0,5" />
+                  <TextBox x:Name="AutoShadeScreenshotFolderBox" Style="{StaticResource FormTextBox}" IsReadOnly="True" />
+                </StackPanel>
+                <Button Grid.Column="3" Style="{StaticResource PageActionButton}" Content="选择" Margin="10,15,0,0" Click="AutoShadeChooseFolderButton_Click" />
+              </Grid>
+
+              <Grid Margin="0,14,0,0">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+                <TextBlock Text="截图分析热键" Foreground="{StaticResource TextFaintBrush}" FontSize="10" VerticalAlignment="Center" Margin="0,0,10,0" />
+                <Button Grid.Column="1" x:Name="AutoShadeAnalysisHotkeyCaptureButton" Style="{StaticResource PageActionButton}" MinWidth="136" Content="未设置" Click="AutoShadeAnalysisHotkeyCaptureButton_Click" PreviewKeyDown="AutoShadeAnalysisHotkeyCaptureButton_PreviewKeyDown" PreviewMouseDown="AutoShadeAnalysisHotkeyCaptureButton_PreviewMouseDown" LostKeyboardFocus="AutoShadeAnalysisHotkeyCaptureButton_LostKeyboardFocus" />
+                <Button Grid.Column="2" x:Name="AutoShadeAnalysisHotkeyClearButton" Style="{StaticResource PageActionButton}" Content="清除" Margin="8,0,0,0" Click="AutoShadeAnalysisHotkeyClearButton_Click" />
+              </Grid>
+
+              <Grid Margin="0,10,0,0">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+                <TextBlock Text="游戏截图键" Foreground="{StaticResource TextFaintBrush}" FontSize="10" VerticalAlignment="Center" Margin="0,0,10,0" />
+                <Button Grid.Column="1" x:Name="AutoShadeScreenshotHotkeyCaptureButton" Style="{StaticResource PageActionButton}" MinWidth="136" Content="未设置" Click="AutoShadeScreenshotHotkeyCaptureButton_Click" PreviewKeyDown="AutoShadeScreenshotHotkeyCaptureButton_PreviewKeyDown" PreviewMouseDown="AutoShadeScreenshotHotkeyCaptureButton_PreviewMouseDown" LostKeyboardFocus="AutoShadeScreenshotHotkeyCaptureButton_LostKeyboardFocus" />
+                <Button Grid.Column="2" x:Name="AutoShadeScreenshotHotkeyClearButton" Style="{StaticResource PageActionButton}" Content="清除" Margin="8,0,0,0" Click="AutoShadeScreenshotHotkeyClearButton_Click" />
+              </Grid>
+
+              <WrapPanel Margin="0,14,0,0">
+                <CheckBox x:Name="AutoShadeSmoothCheckBox" Content="平滑切换" Foreground="{StaticResource TextDimBrush}" FontSize="11" Margin="0,0,20,8" Checked="AutoShadeOptionCheckBox_Changed" Unchecked="AutoShadeOptionCheckBox_Changed" />
+                <CheckBox x:Name="AutoShadeProcessWatchCheckBox" Content="仅游戏前台生效" Foreground="{StaticResource TextDimBrush}" FontSize="11" Margin="0,0,20,8" Checked="AutoShadeOptionCheckBox_Changed" Unchecked="AutoShadeOptionCheckBox_Changed" />
+              </WrapPanel>
+
+              <primitives:UniformGrid Columns="2" Margin="0,8,0,0">
+                <StackPanel Margin="0,0,12,10"><DockPanel><TextBlock Text="暗部目标" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeShadowValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeShadowSlider" Tag="shadow" Minimum="0" Maximum="100" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="12,0,0,10"><DockPanel><TextBlock Text="高光保护" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeHighlightValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeHighlightSlider" Tag="highlight" Minimum="0" Maximum="100" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="0,0,12,10"><DockPanel><TextBlock Text="颜色校正" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeColorValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeColorSlider" Tag="color" Minimum="0" Maximum="100" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="12,0,0,10"><DockPanel><TextBlock Text="室内舒适度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeIndoorValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeIndoorSlider" Tag="indoor" Minimum="0" Maximum="100" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="0,0,12,10"><DockPanel><TextBlock Text="场景保护" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeGuardValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeGuardSlider" Tag="guard" Minimum="0" Maximum="100" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="12,0,0,10"><DockPanel><TextBlock Text="黑位恢复" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeBlackValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeBlackSlider" Tag="black" Minimum="0" Maximum="100" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="0,0,12,10"><DockPanel><TextBlock Text="最大强度" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeStrengthValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeStrengthSlider" Tag="strength" Minimum="0" Maximum="100" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="12,0,0,10"><DockPanel><TextBlock Text="曝光偏移" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeExposureValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeExposureSlider" Tag="exposure" Minimum="-20" Maximum="20" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="0,0,12,10"><DockPanel><TextBlock Text="对比偏移" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeContrastValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeContrastSlider" Tag="contrast" Minimum="-20" Maximum="20" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="12,0,0,10"><DockPanel><TextBlock Text="色温" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeWarmthValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeWarmthSlider" Tag="warmth" Minimum="-20" Maximum="20" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+                <StackPanel Margin="0,0,12,0"><DockPanel><TextBlock Text="饱和偏移" Foreground="{StaticResource TextDimBrush}" FontSize="10" /><TextBlock x:Name="AutoShadeSaturationValue" DockPanel.Dock="Right" Foreground="{StaticResource AmberBrush}" FontSize="10" /></DockPanel><Slider x:Name="AutoShadeSaturationSlider" Tag="saturation" Minimum="-20" Maximum="20" ValueChanged="AutoShadeSlider_ValueChanged" /></StackPanel>
+              </primitives:UniformGrid>
+
+              <Border Height="1" Background="{StaticResource LineBrush}" Margin="0,18,0,14" />
+              <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /></Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal">
+                  <Button x:Name="AutoShadeAnalyzeButton" Style="{StaticResource PageActionButton}" Content="截图并分析" Click="AutoShadeAnalyzeButton_Click" />
+                  <Button x:Name="AutoShadeToggleButton" Style="{StaticResource PageActionButton}" Content="启用自动滤镜" Margin="8,0,0,0" Click="AutoShadeToggleButton_Click" />
+                  <Button Style="{StaticResource PageActionButton}" Content="恢复系统颜色" Margin="8,0,0,0" Click="AutoShadeResetButton_Click" />
+                </StackPanel>
+                <TextBlock Grid.Column="1" x:Name="AutoShadeStatusText" Text="等待分析" Foreground="{StaticResource TextFaintBrush}" FontSize="10" Margin="14,0,0,0" VerticalAlignment="Center" TextAlignment="Right" TextWrapping="Wrap" />
+              </Grid>
+            </StackPanel>
+          </Border>
+        </Grid>
+      </ScrollViewer>
+</UserControl>
